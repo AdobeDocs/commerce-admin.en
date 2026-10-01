@@ -3,6 +3,36 @@ title: Coupon codes
 description: Learn how to use coupons codes with cart price rules to apply a discount when a set of conditions is met.
 exl-id: 4f2e6203-0de2-44eb-a5f7-edd7b5f714d1
 feature: Merchandising, Price Rules, Shopping Cart
+TQID: https://experienceleague.adobe.com/axmELQfcYT3VH7GBKMh-Z3xdN1v6eROpIp9FDYb6zBg
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+    internal-label: Reporting
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Coupon codes
 
@@ -67,7 +97,7 @@ The length and format of automatically generated coupon codes is controlled by t
 
 >[!NOTE]
 >
->[!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."} Before you create coupons, use the `bin/magento cron:run` command to verify that cron is running. See [Run cron from the command line](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html#run-cron-from-the-command-line) in the _Configuration Guide_ for more information.
+>[!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."} Before you create coupons, use the `bin/magento cron:run` command to verify that cron is running. See [Run cron from the command line](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs#run-cron-from-the-command-line) in the _Configuration Guide_ for more information.
 
 ### Method 1: Create a specific coupon
 
@@ -174,6 +204,69 @@ The generation of discount coupons is an asynchronous operation, which executes 
 You can export coupon codes to a CSV or Excel XML file by selecting the file format and clicking **[!UICONTROL Export]**.
 
 To delete coupon codes, select one or more codes from the list. Select `Delete` from the **[!UICONTROL Actions]**  selector, and then click **[!UICONTROL Submit]**.
+
+### Method 3: Custom coupon codes
+
+[!BADGE SaaS only]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service and Adobe Commerce Optimizer projects only (Adobe-managed SaaS infrastructure)."}
+
+After creating a [cart price rule](price-rules-cart.md), you can manually add custom coupon codes to the rule.
+
+1. On the _Admin_ sidebar, go to **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_ > **[!UICONTROL Cart Price Rules]** and select the rule you want to add custom coupon codes to.
+
+1. Expand the **[!UICONTROL Manage Coupon Codes]** section, and click **[!UICONTROL Add Coupon Code]**.
+
+   ![custom coupon codes](./assets/custom-coupon-codes.png){width="600" zoomable="yes"}
+
+1. In the **[!UICONTROL Add Custom Coupon]** dialog, enter the coupon code you want to use for the cart price rule and click **[!UICONTROL Save]**.
+
+   ![add coupon codes](./assets/add-custom-coupon.png){width="600" zoomable="yes"}
+
+1. Click **[!UICONTROL Save]** to update the cart price rule.
+
+To delete custom coupon codes, select the codes to delete in the grid and then select **[!UICONTROL Delete]** from the **[!UICONTROL Actions]** selector.
+
+To edit custom coupon codes or see usage details, click **[!UICONTROL Edit]** in the **[!UICONTROL Actions]** column.
+
+<InlineAlert variant="info" slots="text"/>
+
+The main coupon code that belongs to the cart price rule cannot be edited or deleted.
+
+![edit coupon codes](./assets/edit-coupon-code.png){width="600" zoomable="yes"}
+
+#### Bulk import custom coupon codes
+
+If you have a list of pre-defined coupon codes, you can attach them to the cart price rule from a CSV file instead of adding each code individually. The CSV file should consist of a single column with the coupon codes.
+
+1. On the _Admin_ sidebar, go to **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_ > **[!UICONTROL Cart Price Rules]** and select the rule you want to import custom coupon codes into.
+
+1. Expand the **[!UICONTROL Manage Coupon Codes]** section, and click **[!UICONTROL Import]**.
+
+   >[!NOTE]
+   >
+   >The **[!UICONTROL Import]** button is available on saved cart price rules with **[!UICONTROL Coupon]** set to `Specific Coupon` and **[!UICONTROL Use Auto Generation]** turned off.
+
+1. In the **[!UICONTROL Import Coupons]** dialog, click **[!UICONTROL Choose File]** and select the CSV file that contains the coupon codes you want to import.
+
+   The CSV file must meet the following requirements:
+
+   | Requirement | Value |
+   |-------------|-------|
+   | Maximum codes per file | 1,000 |
+   | Maximum file size | 512 KB |
+   | Maximum code length | 255 characters per code |
+   | Duplicate codes | Not allowed within the same file |
+
+   {style="table-layout:auto"}
+
+   After the file is selected, the dialog displays a **[!UICONTROL Preview]** that shows the number of codes ready to import and a sample of the first codes from the file.
+
+   ![Import coupons dialog](./assets/import-custom-coupons.png){width="600" zoomable="yes"}
+
+1. Click **[!UICONTROL Import]**. The dialog displays a summary with the number of codes queued for import and a list of any existing codes that were skipped.
+
+   ![Import coupons result](./assets/import-coupons-result.png){width="600" zoomable="yes"}
+ 
+To monitor the progress and detailed results of the import, click **[!UICONTROL View progress in Bulk Actions Log]**, or go to **[!UICONTROL System]** > _[!UICONTROL Action Log]_ > **[!UICONTROL Bulk Actions]**. Each import appears as a single entry in the **[!UICONTROL Bulk Actions]** and select an entry.
 
 ## Coupons report
 

@@ -3,6 +3,39 @@ title: Payments overview
 description: Learn about the payment methods and services that are supported natively in Adobe Commerce and Magento Open Source.
 exl-id: 474bf6df-96e2-4db3-ad3c-1804b5de33b0
 feature: Payments
+TQID: https://experienceleague.adobe.com/nu9qbRkc1OWOxkg-eERyZKuGwj0oc8wXDdSCMqGxe1I
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: b5f00040-57a0-4a6d-a39e-383b1936c2c9
+    internal-label: Compliance
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
+  - id: c32adafa-ed01-4b31-997e-2413013911b0
+    internal-label: Integrations
+subfeature_v2:
+  - id: f2261633-201d-46c5-8a66-999e70527a83
+    internal-label: PCI
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Payments overview
 
@@ -10,7 +43,7 @@ Adobe Commerce and Magento Open Source support a wide variety of payment methods
 
 >[!TIP]
 >
->Payment Services for Adobe Commerce and Magento Open Source provides a turnkey self-service solution, including sandbox testing and a simple setup, for providing robust and secure payment processing. To learn more about this powerful tool set and how it can give you the insight and control you need to create the best experience for your buyers, see the [Payment Services User Guide](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html). This is the default payments solution in [Adobe Commerce as a Cloud Service](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/overview).
+>Payment Services for Adobe Commerce and Magento Open Source provides a turnkey self-service solution, including sandbox testing and a simple setup, for providing robust and secure payment processing. To learn more about this powerful tool set and how it can give you the insight and control you need to create the best experience for your buyers, see the [Payment Services User Guide](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview). This is the default payments solution in [Adobe Commerce as a Cloud Service](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/overview).
 
 >[!NOTE]
 >
@@ -24,9 +57,7 @@ Some payment integrations and bundled extensions have been removed in 2.4.x rele
 
 - **Amazon Pay** and **Klarna**: Adobe Commerce and Magento Open Source releases 2.4.0 through 2.4.3 included these vendor-developed extensions. Starting with the 2.4.4 release, these extensions are no longer bundled with the core release and must be installed and updated from the Commerce Marketplace. The Marketplace also provides access to current documentation provided by the extension developer.
 
-   If you have either of these bundled extension enabled and configured, you must update your composer.json file as part of the 2.4.4 upgrade process and to manage extension updates going forward. See [Upgrade modules](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) in the _Upgrade Guide_ for more information.
-
-- **Worldpay**, **Eway**, **CyberSource**, and **Authorize.Net**: For details about making a secure transition from these payment integrations, see the [DevBlog](https://community.magento.com/t5/Magento-DevBlog/Deprecation-of-Magento-core-payment-integrations/ba-p/426445){:target="_blank"}.
+   If you have either of these bundled extension enabled and configured, you must update your composer.json file as part of the 2.4.4 upgrade process and to manage extension updates going forward. See [Upgrade modules](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/modules/upgrade) in the _Upgrade Guide_ for more information.
 
 ## Offline payment methods
 
@@ -45,7 +76,7 @@ Adobe Commerce and Magento Open Source support numerous payment solutions that o
 
 ### Recommended solutions
 
-- [Payment Services](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html)
+- [Payment Services](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview)
 - [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."} [PayPal Express Checkout](paypal-express-checkout.md)
 - [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."} [Braintree](braintree.md)
 
@@ -88,4 +119,4 @@ Fraud protection services and filters examine submitted orders before the transa
 
 [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."}
 
-For help with troubleshooting payment issues, see the [Support Knowledgebase](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/overview.html).
+For help with troubleshooting payment issues, see the [Support Knowledgebase](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview).

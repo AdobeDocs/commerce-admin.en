@@ -1,9 +1,10 @@
 ---
 user-guide-title: "[!DNL Inventory Management] User Guide"
-user-guide-description: Learn how to use [!DNL Inventory Management] features to maintain quantities for sales and handle shipments to complete [!DNL Commerce] orders.
+user-guide-description: Learn how to use [!DNL Inventory Management] to manage stocks, sources, and quantities; configure settings in the Admin or command-line interface; and handle orders and shipments for your [!DNL Commerce] store.
 breadcrumb-title: "[!DNL Inventory Management]"
 role: Admin, Leader, User
 feature: Inventory
+nudge: true
 ---
 
 # [!DNL Inventory Management] User Guide {#inventory}
@@ -52,4 +53,4 @@ feature: Inventory
   - [Overview](shipments.md)
   - [Create shipments](shipments-create.md)
 - [CLI reference](cli.md)
-- [Return to Admin User Guides](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
+- [Return to Admin User Guides](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)

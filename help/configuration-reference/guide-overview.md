@@ -2,6 +2,38 @@
 title: Configuration Reference Guide
 description: Review descriptive information for all Commerce Admin store configuration settings organized by the configuration tabs, pages, and sections.
 exl-id: b0359ba4-3643-4355-9154-adfedb369ec3
+TQID: https://experienceleague.adobe.com/nxl3Dlf3sQp4YOH-BLpVS0ny4TY8op2TIelYOTGkQ-M
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
+  - id: cc250cf1-34eb-4863-80d0-d170d45ea067
+    internal-label: Developer tools
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+    internal-label: Reporting
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Configuration Reference Guide
 
@@ -19,8 +51,8 @@ This guide is organized according to the configuration left navigation:
 | **[!UICONTROL Customers]** <br/><br/>The _[!UICONTROL Customers]_ configuration settings establish basic customer account and login options, newsletter settings, wish list, and the format of auto-generated coupon codes.| - [[!UICONTROL Login as Customer]](./customers/login-as-customer.md)<br>- [[!UICONTROL Newsletter]](./customers/newsletter.md)<br>- [[!UICONTROL Company Configuration]](./customers/company-configuration.md)<br>- [[!UICONTROL Customer Configuration]](./customers/customer-configuration.md)<br>- [[!UICONTROL Requisition Lists]](./customers/requisition-lists.md)<br>- [[!UICONTROL Wish List]](./customers/wishlist.md)<br>- [[!UICONTROL Invitations]](./customers/invitations.md)<br>- [[!UICONTROL Reward Points]](./customers/reward-points.md)<br>- [[!UICONTROL Promotions]](./customers/promotions.md)<br>- [[!UICONTROL Gift Registry]](./customers/gift-registry.md)<br>- [[!UICONTROL Persistent Shopping Cart]](./customers/persistent-shopping-cart.md)|
 | **[!UICONTROL Sales]** <br/><br/>The _[!UICONTROL Sales]_ configuration settings determine checkout and tax settings, payment and shipping options, sales email and PDF print-outs, and Google API settings.|- [[!UICONTROL Sales]](./sales/sales.md)<br>- [[!UICONTROL Sales Emails]](./sales/sales-emails.md)<br>- [[!UICONTROL Quotes]](./sales/quotes.md)<br>- [[!UICONTROL PDF Print-outs]](./sales/pdf-print-outs.md)<br>- [[!UICONTROL Tax]](./sales/tax.md)<br>- [[!UICONTROL Checkout]](./sales/checkout.md)<br>- [[!UICONTROL Shipping Settings]](./sales/shipping-settings.md)<br>- [[!UICONTROL Multishipping Settings]](./sales/multishipping-settings.md)<br>- [[!UICONTROL Delivery Methods]](./sales/delivery-methods.md)<br>- [[!UICONTROL Google API]](./sales/google-api.md)<br>- [[!UICONTROL 3D Secure]](./sales/3d-secure.md)<br>- [[!UICONTROL Gift Cards]](./sales/gift-cards.md)<br>- [[!UICONTROL Payment Methods]](./sales/payment-methods.md)|
 |**[!UICONTROL Sales Channels]** <br/><br/>When the [!DNL Amazon Sales Channel] extension is installed, the _[!UICONTROL Sales Channels]_ settings control automated integration operations with your Amazon store.|- [[!UICONTROL Global Settings]](sales-channels.md)|
-| **[!UICONTROL Services]** <br/><br/>The _[!UICONTROL Services]_ configuration settings determine Commerce API integration settings, including SOAP and OAuth.|- [[!UICONTROL Web API]](./services/magento-web-api.md)<br>- [[!UICONTROL Commerce Services]](./services/saas.md)<br>- [[!UICONTROL OAuth]](./services/oauth.md)|
-| **[!UICONTROL Advanced]** <br/><br/>The _[!UICONTROL Advanced]_ configuration settings determine default Admin settings, various system configuration settings, advanced module controls, and developer tools. |- [[!UICONTROL Admin]](./advanced/admin.md)<br>- [[!UICONTROL System]](./advanced/system.md)<br>- [[!UICONTROL Developer]](./advanced/developer.md)|
+| **[!UICONTROL Services]** <br/><br/>The _[!UICONTROL Services]_ configuration settings determine Commerce API integration settings, including SOAP and OAuth, plus Adobe-managed email suppression and Adobe Commerce Optimizer Connector for B2B sync and key settings.|- [[!UICONTROL Web API]](./services/magento-web-api.md)<br>- [[!UICONTROL Commerce Services Connector]](./services/saas.md)<br>- [[!UICONTROL OAuth]](./services/oauth.md)<br>- [[!UICONTROL Email Suppression]](./services/email-suppression.md)<br>- [[!UICONTROL ACO Catalog View]](./services/aco-catalog-view.md)<br>- [[!UICONTROL ACO Catalog View Sync]](./services/aco-catalog-view-sync.md)<br>- [[!UICONTROL ACO Restricted Access Keys]](./services/aco-restricted-access-keys.md)|
+| **[!UICONTROL Advanced]** <br/><br/>The _[!UICONTROL Advanced]_ configuration settings determine default Admin settings, various system configuration settings, advanced module controls, and developer tools. |- [[!UICONTROL Admin]](./advanced/admin.md) [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."}<br>- [[!UICONTROL System]](./advanced/system.md) [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."}<br>- [[!UICONTROL Developer]](./advanced/developer.md)|
 
 {style="table-layout:auto"}
 

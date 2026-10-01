@@ -3,6 +3,28 @@ title: Taxes
 description: Learn how to configure your store to calculate taxes according to the requirements of your locale.
 exl-id: bf807132-416f-497a-82c4-b00dba4d3092
 feature: Taxes
+TQID: https://experienceleague.adobe.com/qHEJDNo0hUjdWLJjQpXeB7cwzmtCz1t2xnlubLmC3fk
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Taxes
 
@@ -12,7 +34,7 @@ Configure your store to calculate taxes according to the requirements of your lo
 >
 >Adobe Commerce and Magento Open Source releases 2.4.0 through 2.4.3 included the Vertex vendor-developed extension used to integrate with the Vertex Cloud to provide tax management and address cleansing. Starting with the 2.4.4 release, this extension is no longer bundled with the core release and must be installed and updated from the Commerce Marketplace or directly from the vendor. [Contact Vertex](https://marketplace.magento.com/partner/vertex_inc) for information about the extension and documentation.<br><br>
 >
->If you have the bundled extension enabled and configured, you must update your composer.json file as part of the 2.4.4 upgrade process and to manage extension updates going forward. See [Upgrade modules](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) in the _Upgrade Guide_.
+>If you have the bundled extension enabled and configured, you must update your composer.json file as part of the 2.4.4 upgrade process and to manage extension updates going forward. See [Upgrade modules](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/modules/upgrade) in the _Upgrade Guide_.
 
 ## Quick reference
 

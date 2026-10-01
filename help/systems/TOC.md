@@ -4,6 +4,7 @@ user-guide-description: This guide provides detailed information about Admin sec
 breadcrumb-title: Admin Systems Guide
 role: Admin, Leader
 feature: System
+nudge: true
 ---
 
 # Admin Systems Guide {#systems}
@@ -44,6 +45,9 @@ feature: System
   - Data synchronization for Commerce services {#data-sync}
     - [Data Management Dashboard](data-dashboard.md)
     - [Data Feed Sync Status](data-feed-sync-status.md)
+    - Catalog view sync and access keys {#catalog-view-sync}
+      - [Catalog View Sync Status](catalog-view-sync-status.md)
+      - [Restricted Access Keys](restricted-access-keys.md)
 - Action logs {#action-logs}
   - [Overview](action-log.md)
   - [Action logs report](action-log-report.md)
@@ -73,4 +77,4 @@ feature: System
   - [Session management](security-session-management.md)
   - [Browser capabilities detection](security-browser-capabilities-detection.md)
   - [Security issue reporting](security-issue-reporting.md)
-- [Return to Admin User Guides](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
+- [Return to Admin User Guides](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)

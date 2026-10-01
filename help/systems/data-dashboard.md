@@ -3,6 +3,36 @@ title: Data Management Dashboard
 description: Learn how to access insights about data streams for [!DNL Catalog Service], [!DNL Live Search], and [!DNL Product Recommendation]s.
 feature: Products, Customers, Data Import/Export
 exl-id: 63c261c1-1a52-46f7-93f8-81055edf1f7b
+TQID: https://experienceleague.adobe.com/5WxRmKbBDfWM4JHypuXKCmrUTn5VjQeAUdLRJUWQXtc
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
+  - id: c32adafa-ed01-4b31-997e-2413013911b0
+    internal-label: Integrations
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Data Management Dashboard
 
@@ -25,8 +55,8 @@ The dashboard contains the following fields:
 |Field|Description|
 |--- |--- |
 | Scope | Specific website for the synced data.|
-|[!DNL Product Recommendations]|Displays sync status, number of products synced, and a table of the [displayable](https://experienceleague.adobe.com/en/docs/commerce-admin/config/catalog/inventory#stock-options) synced products for [!DNL Product Recommendations].|
-|[!DNL Live Search]|Displays sync status, number of products synced, and a table of the [displayable](https://experienceleague.adobe.com/en/docs/commerce-admin/config/catalog/inventory#stock-options) synced products for [!DNL Live Search].|
+|[!DNL Product Recommendations]|Displays sync status, number of products synced, and a table of the [displayable](/help/configuration-reference/catalog/inventory.md#stock-options) synced products for [!DNL Product Recommendations].|
+|[!DNL Live Search]|Displays sync status, number of products synced, and a table of the [displayable](/help/configuration-reference/catalog/inventory.md#stock-options) synced products for [!DNL Live Search].|
 |[!DNL Catalog Service]|Displays sync status, number of products synced, and a table of the synced products for [!DNL Catalog Service].|
 |Settings| Opens a dialog where you can [manually resync the catalog data](#resync-catalog-data).|
 |Sync status|Displays the number of products that have been transferred from the Commerce database to any of the SaaS services within the last three hours. If you make infrequent updates to your catalog, this value is frequently zero. If a sync is in progress, click **[!UICONTROL Refresh]** to get an updated count.|

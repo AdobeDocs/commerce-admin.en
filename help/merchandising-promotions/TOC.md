@@ -4,6 +4,7 @@ user-guide-description: Adobe Commerce and Magento Open Source include many tool
 breadcrumb-title: Merchandising and Promotions
 role: Admin, Leader, User
 feature: Merchandising, Promotions/Events
+nudge: true
 ---
 
 # Adobe Commerce Merchandising and Promotions Guide {#marketing}
@@ -45,6 +46,7 @@ feature: Merchandising, Promotions/Events
     - [Cart price rules overview](price-rules-cart.md)
     - [Create a cart price rule](price-rules-cart-create.md)
     - [Coupon codes](price-rules-cart-coupon.md)
+    - [Free Gift promotions](price-rules-cart-free-gift.md)
     - [Scheduled changes for cart price rules](price-rule-cart-scheduled-changes.md)
     - [Example: free shipping promotion](price-rules-cart-free-shipping.md)
     - [Example: buy this get that free](price-rules-cart-buy-this-get-that.md)
@@ -66,6 +68,7 @@ feature: Merchandising, Promotions/Events
     - [Create email reminders](email-reminder-rules-create.md)
 - Search engine optimization {#seo}
   - [SEO overview and best practices](seo-overview.md)
+  - [Search-term redirects and storefront routing](search-term-redirects.md)
   - [Meta data](meta-data.md)
   - [Site maps](sitemap-xml.md)
   - URL rewrites {#url-rewrites}
@@ -80,4 +83,4 @@ feature: Merchandising, Promotions/Events
   - [Google Analytics](google-analytics.md)
   - [Google Tag Manager](google-tag-manager.md)
   - [Google Adwords](google-adwords.md)
-- [Return to Admin User Guides](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
+- [Return to Admin User Guides](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)

@@ -3,6 +3,7 @@ user-guide-title: Customer Management Guide
 user-guide-description: Comprehensive information about customer account, group, and segment management features for Adobe Commerce and Magento Open Source administrators.
 breadcrumb-title: Customer Management
 feature: Customers
+nudge: true
 ---
 
 # Customer Management Guide {#customers}
@@ -50,4 +51,4 @@ feature: Customers
   + [Create and delete customer segments](customer-segment-create.md)
   + [Customer segments in price rules](customer-segment-price-rule.md)
   + [Customer segment report](customer-segment-reports.md)
-+ [Return to Admin User Guides](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
++ [Return to Admin User Guides](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)

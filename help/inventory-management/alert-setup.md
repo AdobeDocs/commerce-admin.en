@@ -1,8 +1,32 @@
 ---
 title: Product alerts
-description: Learn about product alerts and how to use them to notify customers about stock status and price changes for products.
+description: Set up in-stock and price-change product alerts, email templates, and run settings in the [!DNL Inventory Management] catalog configuration.
 exl-id: c9f736c5-7bba-4e3e-804d-5b0fe52c8f9b
 feature: Inventory, Configuration
+TQID: https://experienceleague.adobe.com/n1n2tqb97EiM-vXZqifVgMOdBqNRdwNM-pjDI-D-b8M
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Product alerts
 
@@ -14,7 +38,7 @@ Customers can subscribe to two types of alerts by email - price change alerts an
 
 When price change alerts are enabled, a _Notify me when the price drops_ link appears on every product page. Customers can click the link to subscribe to alerts related to the product. Guests are prompted to open an account with your store. Whenever the price changes or the product goes on special, everyone who has subscribed to the alert receives an email alert.
 
-## In-Stock alerts
+## In-stock alerts
 
 The in-stock alert creates a link called _Notify me when this product is in stock_ for every product that is out of stock. Customers can click the link to subscribe to the alert. When the product is back in stock, customers receive an email notification that the product is available. Products with alerts have a _Product Alerts_ tab in the Product Information panel that lists the customers who have subscribed to an alert.
 
@@ -77,7 +101,7 @@ For more detailed information about using email messaging, see [Message Template
 
 1. Click **[!UICONTROL Save Template]**.
 
-## Product Alert Run Settings
+## Product alert run settings
 
 These settings allow you to select how often [!DNL Commerce] checks for changes that require alerts to be sent. You can also select the recipient, sender, and template for emails that are sent if the sending of alerts fails.
 

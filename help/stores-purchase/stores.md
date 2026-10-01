@@ -3,6 +3,30 @@ title: Store and site structure
 description: Learn about the website, store, and store view hierarchy.
 exl-id: d745cbd0-151b-4f82-bb6c-fb6b9565a014
 feature: Site Management, System
+TQID: https://experienceleague.adobe.com/Qx4MO7bO5PoWmt4XxYeqsHeCq4Ov2mPp5Q0JAIDeaY4
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Store and site structure
 
@@ -27,7 +51,7 @@ Here are some examples of how URLs can be configured for multiple stores:
 | `yourdomain.com/store1`<br>`yourdomain.com/store2` | Each store has a different path, but shares a domain. |
 | `store1.yourdomain.com`<br>`store2.yourdomain.com` | Each store has a different subdomain of the primary domain. |
 
-Multi-store installations of Adobe Commerce must be configured from the Admin and also from the command line of the server. The Adobe Commerce [Configuration Guide](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html) provides detailed instructions for configuring the server environment.
+Multi-store installations of Adobe Commerce must be configured from the Admin and also from the command line of the server. The Adobe Commerce [Configuration Guide](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/multi-sites/ms-overview) provides detailed instructions for configuring the server environment.
 
 ### Step 1: Choose the store domain
 
@@ -99,20 +123,20 @@ The first step is to choose how you want to position the store. Should the store
 
 ### Step 5: Configure the server
 
-To configure your server to support multiple websites, see [Multiple websites or stores](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html) in the _Configuration Guide_.
+To configure your server to support multiple websites, see [Multiple websites or stores](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/multi-sites/ms-overview) in the _Configuration Guide_.
 
 For help with configuring your web server, see the following resources:
 
-- [Set up multiple websites with NGNX](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-nginx.html)
-- [Set up multiple websites with Apache](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-apache.html)
+- [Set up multiple websites with NGNX](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/multi-sites/ms-nginx)
+- [Set up multiple websites with Apache](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/multi-sites/ms-apache)
 
-For Adobe Commerce on cloud infrastructure, see [Set up multiple websites or stores](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html).
+For Adobe Commerce on cloud infrastructure, see [Set up multiple websites or stores](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure-store/multiple-sites).
 
 ## Add websites
 
 Multiple websites can be set up from a single Adobe Commerce or Magento Open Source installation with the same domain or different domains. By default, stores that are under the same website have the same IP address and domain, use the same security certificate, and share a single checkout process. If you want each store to have a dedicated checkout process under its own domain, each store must have a distinct IP address and separate security certificate.
 
-Multi-site installations of Adobe Commerce or Magento Open Source must be configured from the Admin and also from the command line of the server. The Commerce [Configuration Guide](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html) provides detailed instructions for configuring the server environment.
+Multi-site installations of Adobe Commerce or Magento Open Source must be configured from the Admin and also from the command line of the server. The Commerce [Configuration Guide](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/multi-sites/ms-overview) provides detailed instructions for configuring the server environment.
 
 ![Scope - websites](./assets/scope-multisite.svg){width="550"}
 
@@ -134,6 +158,12 @@ Multi-site installations of Adobe Commerce or Magento Open Source must be config
 
    - **[!UICONTROL Sort Order]** — _(Optional)_ Enter a number to determine the sequence in which this site is listed with other sites. To make this site appear at the top of the list, enter a zero (`0`).
 
+   - **[!UICONTROL Sync prices and price books]** — _(Optional)_ If the [!DNL Adobe Commerce Optimizer Connector] is installed, select this option in the **[!UICONTROL Adobe Commerce Optimizer exporter settings]** section to synchronize this website's prices and price books to [!DNL Adobe Commerce Optimizer]. If the [!DNL Adobe Commerce Optimizer Connector for B2B] is installed, data is also synchronized for available B2B shared catalogs. See [Manage catalog views](../b2b/catalog-views-manage.md).
+
+      ![Create website - Adobe Commerce Optimizer exporter settings](./assets/website-optimizer-export-settings.png){width="600" zoomable="yes"}
+
+      Changing this setting after the initial sync triggers a full re-indexation. See [Customize the Commerce scopes export configuration](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/get-started#customize-the-commerce-scopes-export-configuration) in the *Adobe Commerce Optimizer Connector Guide*.
+
 1. Click **[!UICONTROL Save Web Site]**.
 
 1. Set up each [store](#add-stores) and [store view](store-views.md) that is needed for the new website.
@@ -146,11 +176,11 @@ To configure the [store URLs](store-urls.md), follow the instructions.
 
 ### Step 3: Configure the server
 
-To configure your server to support multiple websites, see [Multiple websites or stores](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html) in the _Configuration Guide_.
+To configure your server to support multiple websites, see [Multiple websites or stores](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/multi-sites/ms-overview) in the _Configuration Guide_.
 
 For help with configuring your web server, see the following tutorials:
 
-- [Set up multiple websites with NGNX](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-nginx.html)
-- [Set up multiple websites with Apache](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-apache.html)
+- [Set up multiple websites with NGNX](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/multi-sites/ms-nginx)
+- [Set up multiple websites with Apache](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/multi-sites/ms-apache)
 
-For Adobe Commerce on cloud infrastructure, see [Set up multiple websites or stores](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html).
+For Adobe Commerce on cloud infrastructure, see [Set up multiple websites or stores](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure-store/multiple-sites).

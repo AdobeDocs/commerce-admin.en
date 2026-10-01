@@ -1,8 +1,28 @@
 ---
 title: Store localization
-description: Learn how to localize a store or store view.
+description: Learn how to localize a store or store view by changing its locale, which swaps the translation table used for navigation, labels, buttons, and links.
 exl-id: 64e1b431-f599-444c-9d39-207bb95f0400
 topic: Commerce, Localization
+TQID: https://experienceleague.adobe.com/nSFO5Er6Qj--sCbOzjSAhAsAXBxPpwwSinJhpsVNggc
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
 ---
 # Store localization
 
@@ -12,7 +32,7 @@ Language packs can be found under [Translations & Localization](https://marketpl
 
 ## Step 1: Install a language pack
 
-Follow the standard instructions for installing the language pack extension. For detailed information about installing an extension, see [General CLI installation](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html) in the _Extensions Guide_.
+Follow the standard instructions for installing the language pack extension. For detailed information about installing an extension, see [General CLI installation](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/extensions) in the _Extensions Guide_.
 
 ## Step 2: Create a store view for the language
 
@@ -49,6 +69,8 @@ Follow the standard instructions for installing the language pack extension. For
    If there are several variations of the language available, make sure to choose the one for the specific region or dialect.
 
 1. When complete, click **[!UICONTROL Save Config]**.
+
+   If the [!DNL Adobe Commerce Optimizer Connector for B2B] is installed, saving a display-locale change invalidates the Catalog View sync indexer. The scheduled indexer re-projects the affected catalog views in [!DNL Adobe Commerce Optimizer] later. The Catalog View payload always uses the Store View code for `sources[].locale`, not the display locale configured in `general/locale/code`. See [Manage catalog views](../b2b/catalog-views-manage.md).
 
    After you change the language of the locale, the remaining content that you have created, including product names and descriptions, categories, [CMS](../content-design/page-translate.md) pages, and blocks must be translated separately for each store view.
 

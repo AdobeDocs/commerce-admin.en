@@ -6,7 +6,7 @@ description: Reused note about backups
 
 >[!IMPORTANT]
 >
->**Disabled feature:** Backup is disabled by default. Enabling this function may require developer assistance. See the following _Installation Guide_ topic to enable backups: [Back up and roll back the file system, media, and database](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/backup.html).
+>**Disabled feature:** Backup is disabled by default. Enabling this function may require developer assistance. See the following _Installation Guide_ topic to enable backups: [Back up and roll back the file system, media, and database](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/backup).
 
 >[!NOTE]
 >

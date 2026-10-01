@@ -3,6 +3,32 @@ title: Create and delete product attributes
 description: Learn about creating and removing product attributes, which are used to describe specific characteristics of the products in your catalog.
 exl-id: fd0e5d5b-a917-4e55-8ec2-7ebb040d3d06
 feature: Catalog Management, Products
+TQID: https://experienceleague.adobe.com/6N9gBrz24wtV4ljexgluyonOcjVbP8p2fQUQaLyJo3Q
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Create and delete product attributes
 
@@ -18,25 +44,9 @@ You can create attributes while working on a product or from the _[!UICONTROL Pr
 
 1. For **[!UICONTROL Default Label]**, enter a label that identifies the attribute.
 
-1. To determine the type of input control that is used for data entry, set **[!UICONTROL Catalog Input Type for Store Owner]** to one of the following:
+1. Set **[!UICONTROL Catalog Input Type for Store Owner]** to the type of [input control](attributes-input-types.md) to be used for data entry.
 
-   |Property|Description|
-   |--- |--- |
-   |`Text Field`|A single-line input field for text.|
-   |`Text Area`|A multiple-line input field for entering paragraphs of text, such as a product description. You can use the WYSIWYG Editor to format the text with HTML tags, or enter the tags directly into the text.|
-   |`Text Editor`|A fully functioning text editor at the attribute location.|
-   |Date|Displays a date value in the [preferred format](attributes-input-types.md#date-and-time-options) and [time zone](../getting-started/store-details.md#locale-options). Date values can be selected from a list or a calendar ( ![Calendar icon](../assets/icon-calendar.png) ). <br/><br/>**_Note:_** Depending on your system configuration, _Admin_ users can enter dates directly into a field or select a date from the calendar or list. For information about specifying date and time values, see [Date and time options](attributes-input-types.md#date-and-time-options).|
-   |`Yes/No`|Displays a drop-down list with pre-defined options of `Yes` and `No`.|
-   |`Dropdown`|Displays a drop-down list of values that accepts only a single selection. The Dropdown input type is a key component of [configurable products](product-create-configurable.md).|
-   |`Multiple Select`|Displays a drop-down list of values that accepts multiple selections.|
-   |`Price`|This input type is used to create price fields that are in addition to the predefined attributes: Price, Special Price, Tier Price, and Cost. The currency used is determined by your system configuration.|
-   |`Media Image`|Associates an extra image with a product, such as a product logo, care instructions, or ingredients from a food label. When you add a media image attribute to the attribute set of a product, it becomes an extra image type, along with Base, Small, and Thumbnail. The media image attribute can be excluded from the [storefront media browser](catalog-images-video.md#storefront-media-browser).|
-   |`Fixed Product Tax`|Lets you define [FPT rates](../stores-purchase/fixed-product-tax.md) based on the requirements of your locale.|
-   |`Visual Swatch`|Displays a swatch that depicts the color, texture, or pattern of a configurable product. A [visual swatch](swatches.md) can be filled with a hexadecimal color value, or display an uploaded image that represents the color, material, texture, or pattern of the option.|
-   |`Text Swatch`|A text-based representation of a configurable product option that is frequently used for size. [Text swatches](swatches.md#text-based-swatches) can also include hexadecimal color values.|
-   |`Page Builder`|A fully functioning [Page Builder](../page-builder/introduction.md) workspace at the attribute location that makes it easy to add engaging content to the product page.|
-
-   {style="table-layout:auto"}
+   If the attribute is used for a [configurable product](product-create-configurable.md), choose `Dropdown`. Then, set **[!UICONTROL Required]** to `Yes`.
 
 1. If you want to require an option selection before the customer can purchase the product, set **[!UICONTROL Values Required]** to `Yes`.
 
@@ -66,7 +76,7 @@ You can create attributes while working on a product or from the _[!UICONTROL Pr
 
    The available options depend on the _[!UICONTROL Catalog Input Type for Store Owner]_ setting.
 
-1. Set **[!UICONTROL Scope]** to indicate where in your [store hierarchy](../getting-started/websites-stores-views.md) that the attribute can be used.
+1. To indicate where in your [store hierarchy](../getting-started/websites-stores-views.md) the attribute can be used, set **[!UICONTROL Scope]**.
 
 1. If you want to prevent any duplicate value entry, set **[!UICONTROL Unique Value]** to `Yes`.
 
@@ -112,7 +122,7 @@ You can create attributes while working on a product or from the _[!UICONTROL Pr
 
 1. If the attribute is to be available for search, set **[!UICONTROL Use in Search]** to `Yes`.
 
-   - Set the **[!UICONTROL Search Weight]** value to control where the item appears in search results: 1 (lowest weight) to 10 (highest weight).
+   - To control where the item appears in search results, set the **[!UICONTROL Search Weight]** value: 1 (lowest weight) to 10 (highest weight).
 
    - Set the **[!UICONTROL Visible in Advanced Search]** as needed. Learn more in [Advanced Search](search.md#advanced-search).
 
@@ -138,7 +148,7 @@ You can create attributes while working on a product or from the _[!UICONTROL Pr
 
    - To include the attribute in product listings, set **[!UICONTROL Used in Product Listing]** to `Yes`.
 
-   - To use attribute as a sort parameter for product listings, set **[!UICONTROL Used for Sorting in Product Listing]** to `Yes`.
+   - To use the attribute as a sort parameter for product listings, set **[!UICONTROL Used for Sorting in Product Listing]** to `Yes`.
 
 1. When complete, click **[!UICONTROL Save Attribute]**.
 
@@ -169,7 +179,7 @@ Any attribute that is used as a drop-down list of options for a [configurable pr
 
 When an attribute is deleted, it is removed from any related products and attribute sets. System attributes are part of the core functionality of your store and cannot be deleted.
 
-Before deleting an attribute, make sure that it is not currently used by any product in your catalog. An easy way to determine if an attribute is in use is to use the [Export](../systems/data-export.md) tool to check the list of product Entity Attributes. If the attribute is not included in the list, then it is not used by any products in the catalog.
+Before deleting an attribute, make sure that no product in your catalog currently uses it. An easy way to determine if an attribute is in use is to use the [Export](../systems/data-export.md) tool to check the list of product Entity Attributes. If the list does not include the attribute, then no products in the catalog use it.
 
 **_To delete an attribute:_**
 
@@ -182,3 +192,4 @@ Before deleting an attribute, make sure that it is not currently used by any pro
    ![Delete attribute](./assets/attribute-delete.png){width="600" zoomable="yes"}
 
 1. When prompted to confirm, click **[!UICONTROL OK]**.
+

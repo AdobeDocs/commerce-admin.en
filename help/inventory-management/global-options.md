@@ -1,10 +1,36 @@
 ---
 title: "Configure [!DNL Inventory Management] global options"
-description: Learn how to configure the default [!DNL Inventory Management] configuration options for product and stock for your websites.
+description: Configure global [!DNL Inventory Management] catalog settings for product stock options, thresholds, and storefront display across all websites.
 exl-id: 1a8c9605-ae61-4d45-b549-64911b329203
 feature: Inventory, Configuration
+TQID: https://experienceleague.adobe.com/X4jFdmL4uXR6J5NY9z7b-swhmrVYWLTgOZVdNebJtXY
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Configure [!DNL Inventory Management] global options
+
+These global settings apply to your entire catalog under **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]** > **[!UICONTROL Catalog]** > **[!UICONTROL Inventory]**.
 
 Configure the default configuration options for product and stock for your websites. Some of these settings can be overridden per product through [Configuring Product Options](product-options.md). To configure Distance Priority settings, see [Configuring Distance Priority Algorithm](distance-priority-algorithm.md).
 
@@ -70,6 +96,13 @@ Configure the default configuration options for product and stock for your websi
 
     - For [!DNL Inventory Management], **[!UICONTROL Automatically Return Credit Memo Item to Stock]** is set to `No`. When submitting a credit memo, you enter and select to return stock to sources.
 
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Per-Source Availability (Storefront)]** section and set **[!UICONTROL Enable sourceAvailability GraphQL Query]** to `Yes` to let the storefront query per-source stock data using the [`sourceAvailability`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/queries/source-availability){target="_blank"} GraphQL query. This setting is scoped per store view.
+
+   >[!NOTE]
+   >
+   >The `sourceAvailability` query is disabled by default because it discloses which sources stock a SKU. Exact quantities remain masked until the source quantity reaches the **[!UICONTROL Only X left Threshold]** set in the _[!UICONTROL Stock Options]_ section. Each inventory source has a **[!UICONTROL Visible on Storefront]** flag that is off by default. A source's stock is never returned until a merchant enables it. To set it, go to **[!UICONTROL Stores]** > _[!UICONTROL Inventory]_ > **[!UICONTROL Sources]**, edit a source, and turn on **[!UICONTROL Visible on Storefront]**.
+
+
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Admin bulk operations]** section and set the options:
 
    ![Admin Bulk Operations](assets/config-catalog-inventory-admin-bulk-operations.png){width="600" zoomable="yes"}
@@ -80,7 +113,7 @@ Configure the default configuration options for product and stock for your websi
 
       >[!NOTE]
       >
-      >To configure and support _asynchronous queue managers_, you must issue a command using the command line. This step may require developer assistance. See [Start message queue consumers](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html) in the _Configuration Guide_.
+      >To configure and support _asynchronous queue managers_, you must issue a command using the command line. This step may require developer assistance. See [Start message queue consumers](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/start-message-queues) in the _Configuration Guide_.
 
     - If enabled, set the **[!UICONTROL Asynchronous batch size]**. The default batch size is 100. When bulk processes reach this amount, the system triggers it.
 

@@ -2,8 +2,101 @@
 title: What's new
 description: This section contains the changes made in the last 60 days. We exclude
   all minor updates, such as copy editing, from this list.
-updated: Fri May 15 15:20:15 2026
+updated: Mon Sep 28 10:52:05 2026
 entries:
+- description: Updated [Add a source](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/sources/sources-add)
+    to include the new Visible on Storefront toggle for Adobe Commerce as a Cloud
+    Service. Each inventory source can now be individually flagged for storefront
+    visibility. Sources are hidden by default.
+  versions: ''
+  type: major-update
+  date: September 23, 2026
+  link: enterprise:Adobe-Enterprise-Docs/commerce-admin.en/pull/905
+  merge_commit: 1b3beb5c914dae4c07dd591e9b975c0f35bb23cd
+  contributor: jhoover_adobe
+  labels:
+  - major-update
+- description: Removed Adobe Commerce 2.4.8-p5 from the list of supported versions
+    for [B2B 1.5.2-p5](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/release-notes#b2b-v152-p5).
+    2.4.8 customers should use B2B version 1.5.3 instead.
+  versions: ''
+  type: technical
+  date: August 31, 2026
+  link: enterprise:Adobe-Enterprise-Docs/commerce-admin.en/pull/882
+  merge_commit: fab7dc8f780fa68c147a06752dc96bd7b03444a2
+  contributor: chernenk_adobe
+  labels:
+  - release notes
+  - technical
+- description: Refreshed the [Data Feed Sync Status](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status)
+    topic to match the current Admin experience, clarify that the page reports export
+    status only, and document when the feature is available across Commerce service
+    licenses.
+  versions: ''
+  type: major-update
+  date: August 4, 2026
+  link: enterprise:Adobe-Enterprise-Docs/commerce-admin.en/pull/838
+  merge_commit: 9d7ecab0454b1a1041f1bcd8b4fbda8032ebaac5
+  contributor: meker_adobe
+  labels:
+  - major-update
+- description: Learn how to suppress specific categories of automated system email,
+    such as order or marketing notifications, directly from the Admin in [Email Suppression](https://experienceleague.adobe.com/en/docs/commerce-admin/config/services/email-suppression).
+  versions: ''
+  type: major-update, new-topic
+  date: July 29, 2026
+  link: enterprise:Adobe-Enterprise-Docs/commerce-admin.en/pull/866
+  merge_commit: a5d95844e8e81ea4d401e79ebc1f236aab977dcd
+  contributor: jhoover_adobe
+  labels:
+  - major-update
+  - new-topic
+- description: Added [Catalog enrichment](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/catalog-enrichment)
+    with guidance for reviewing and applying AI-suggested product name and description
+    updates in the Admin, and linked the topic from the [Catalog menu](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog-menu),
+    [guide overview](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/guide-overview),
+    and related product settings topics.
+  versions: ''
+  type: new-topic
+  date: July 9, 2026
+  link: enterprise:Adobe-Enterprise-Docs/commerce-admin.en/pull/841
+  merge_commit: 6cd9281329fd909e38e4bbf41159eadfed2f9ad3
+  contributor: emarr_adobe
+  labels:
+  - new-topic
+- description: Added [Update System Administrator access](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-system-admin-account)
+    with guidance for managing System Administrator assignments in Adobe Admin Console.
+  versions: ''
+  type: feedback
+  date: June 30, 2026
+  link: enterprise:Adobe-Enterprise-Docs/commerce-admin.en/pull/852
+  merge_commit: 927b633eaa9af471440cfb950b429a60b3df94a8
+  contributor: meker_adobe
+  labels:
+  - feedback
+- description: Added the ability to [create custom coupon](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon#method-3-custom-coupon-codes)
+    codes in Adobe Commerce as a Cloud Service.
+  versions: ''
+  type: major-update
+  date: June 3, 2026
+  link: enterprise:Adobe-Enterprise-Docs/commerce-admin.en/pull/829
+  merge_commit: 4b59525dc5d2d9a8ec1fe4271bf4c9dee8e02c15
+  contributor: jhoover_adobe
+  labels:
+  - hold for release
+  - major-update
+- description: Updated the Commerce [data import](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/import/data-import)
+    documentation with guidance about how to avoid unnecessary URL-rewrite generation
+    during import operations.
+  versions: ''
+  type: feedback, technical
+  date: June 2, 2026
+  link: enterprise:Adobe-Enterprise-Docs/commerce-admin.en/pull/826
+  merge_commit: b224cff0c5db4c1b318d3e7165aa34f4662f7e3e
+  contributor: abukatar_adobe
+  labels:
+  - feedback
+  - technical
 - description: Updated [USPS](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps)
     and related shipping carrier pages to reflect that the USPS Web Tools API was
     retired on January 25, 2026, and that USPS REST APIs are now the only supported

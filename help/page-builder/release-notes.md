@@ -3,6 +3,32 @@ title: Release Notes for [!DNL Page Builder]
 description: Review the release notes for information about all [!DNL Page Builder] releases.
 exl-id: 81abe2f9-ed48-49fe-bbf0-70699d7106b2
 feature: Page Builder, Release Notes
+TQID: https://experienceleague.adobe.com/gw4-6vCpburzac-VmejAMajwHjHNCTPmVkBUi5qOsuk
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 ---
 # Release notes for [!DNL Page Builder]
 
@@ -173,11 +199,11 @@ This version of [!DNL Page Builder] is just a version-number update for Adobe Co
 
 ![New](../assets/new.svg) **Content type upgrade library** - Developers can now create versions of [!DNL Page Builder] content types without introducing backward-incompatible issues with previous versions. Before this release, significant changes to content type configurations would create display and data-loss issues with previously saved [!DNL Page Builder] content types. The new upgrade library eliminates these issues. The library is designed to upgrade previous versions of content types saved to the database so that they match the configuration changes in the new versions. [!DNL Page Builder] runs the upgrade library on native content types as needed for a new release. This change ensures that the built-in [!DNL Page Builder] content types are always upgraded to match any changes made to content types for a newer release.
 
-   >[!IMPORTANT]
-   >
-   >If you have created additional database entities for storing [!DNL Page Builder] content, you _must_ add those entities to your `etc/di.xml`. If you do not, the [!DNL Page Builder] content stored in your entity is not updated, causing potential data-loss and display issues. For example, if you have created a blog entity that stores [!DNL Page Builder] content, you must add your blog entity to your `etc/di.xml` file as an `UpgradableEntitiesPool` type so that the upgrade library can update the [!DNL Page Builder] content types used in your blog. For more information and instructions on using the upgrade library, see [Upgrade content types](https://developer.adobe.com/commerce/frontend-core/page-builder/upgrade-content-types/) in the _Page Builder Developer Guide_.
+>[!IMPORTANT]
+>
+>If you have created additional database entities for storing [!DNL Page Builder] content, you _must_ add those entities to your `etc/di.xml`. If you do not, the [!DNL Page Builder] content stored in your entity is not updated, causing potential data-loss and display issues. For example, if you have created a blog entity that stores [!DNL Page Builder] content, you must add your blog entity to your `etc/di.xml` file as an `UpgradableEntitiesPool` type so that the upgrade library can update the [!DNL Page Builder] content types used in your blog. For more information and instructions on using the upgrade library, see [Upgrade content types](https://developer.adobe.com/commerce/frontend-core/page-builder/upgrade-content-types) in the _Page Builder Developer Guide_.
 
-![New](../assets/new.svg) **Documentation for adding new appearances** - Developer information now published about [adding appearances](https://developer.adobe.com/commerce/frontend-core/page-builder/content-types/extend/add-appearances/) for existing or custom content types.
+![New](../assets/new.svg) **Documentation for adding new appearances** - Developer information now published about [adding appearances](https://developer.adobe.com/commerce/frontend-core/page-builder/content-types/extend/add-appearances) for existing or custom content types.
 
 ![Fixed issue](../assets/fix.svg) **Various fixes**
 

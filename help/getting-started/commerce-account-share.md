@@ -3,6 +3,34 @@ title: Share a [!DNL Commerce] account
 description: Learn how to grant limited access to your [!DNL Commerce] account for other [!DNL Commerce] account holders.
 exl-id: adc4fed4-89f4-4b0c-811c-fcf6f94dbc22
 feature: User Account
+TQID: https://experienceleague.adobe.com/A98obp-6T8JgE0yCm0TmxpRslEq2Cb-5m53rBfxzfhg
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Share a [!DNL Commerce] account
 
@@ -10,12 +38,12 @@ Your [!DNL Commerce] account contains information that you can make available to
 
 The primary account holder has the authority to grant limited access to other [!DNL Commerce] account holders. Shared access can be revoked, but not transferred. For ``Cloud Shared Access from MAG[XYZ]`` entries, the user record **cannot be deleted here**, but access **can still be revoked**.
 
-Only the primary account holder with the appropriate permissions can formally grant shared access. If the primary account holder no longer has access or has left the company, the customer should use the [Commerce account transfer process](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-transfer) to move ownership to a new contact. Although the Commerce Support team may be able to impersonate the customer in limited scenarios, shared access should be configured by the customer to reduce security and liability risk.
+Only the primary account holder with the appropriate permissions can formally grant shared access. If the primary account holder no longer has access or has left the company, the customer should use the [Commerce account transfer process](/help/getting-started/commerce-account-transfer.md) to move ownership to a new contact. Although the Commerce Support team may be able to impersonate the customer in limited scenarios, shared access should be configured by the customer to reduce security and liability risk.
 
 
 ![Shared access settings](./assets/shared-access.png){width="600" zoomable="yes"}
 
-The Billing History section shows only older invoices that were created before a change to our billing system. If you don’t see any newer invoices listed, those invoices have been transitioned to the new system and are not accessible from this view.
+The Billing History section shows only older invoices that were created before a change to our billing system. If you don't see any newer invoices listed, those invoices have been transitioned to the new system and are not accessible from this view.
 
 >[!IMPORTANT]
 >
@@ -25,7 +53,7 @@ The Billing History section shows only older invoices that were created before a
 
 1. Before you begin, get the following information from the [!DNL Commerce] account of the **new shared access grantee**:
 
-   - The user must have already registered for an account at account.adobe.com and be logged in through account.magento.com. See [Create a Commerce account](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-create#create-a-commerce-account) for more details.
+   - The user must have already registered for an account at account.adobe.com and be logged in through account.magento.com. See [Create a Commerce account](/help/getting-started/commerce-account-create.md#create-a-commerce-account) for more details.
    - The `MAGE ID/Account ID (MAG00XXXXXXX)` is displayed in the upper-left corner of the _[!UICONTROL Magento]_ tab, just above the **Log Out** link.
    - The `Email` address that is associated with the account.
 
@@ -63,7 +91,7 @@ The Billing History section shows only older invoices that were created before a
 
 >[!NOTE]
 >
->It is not necessary to share access to the _[!UICONTROL Security Tool]_ - Any user with a MAGE ID can set up the Security Scan Tool with their own account. They just need the necessary privileges to make changes to the site and to verify ownership of the domain using one of the [required methods](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-scan)).
+>It is not necessary to share access to the _[!UICONTROL Security Tool]_ - Any user with a MAGE ID can set up the Security Scan Tool with their own account. They just need the necessary privileges to make changes to the site and to verify ownership of the domain using one of the [required methods](/help/systems/security-scan.md)).
 
 ## Access a shared account
 
@@ -94,7 +122,7 @@ The following instructions are written from the perspective of a shared user who
 
    >[!NOTE]
    >
-   >After receiving shared access, to [submit a Support case](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case) on Experience League, make sure that you first select the Organization name that ends in "([!DNL Commerce])" in the left column.
+   >After receiving shared access, to [submit a Support case](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case) on Experience League, make sure that you first select the Organization name that ends in "([!DNL Commerce])" in the left column.
 
 1. To return to your own account, click **Back** in your browser controls and set **[!UICONTROL Switch Accounts]** to `My Account`.
 
@@ -108,8 +136,8 @@ The following instructions are written from the perspective of a shared user who
 
    >[!NOTE]
    >
-   > If  **[!UICONTROL Delete]** is not displayed, check whether the **[!UICONTROL Share Name]** contains the naming pattern  `Cloud Shared Access from MAG0XYZ`. If the account has that [naming pattern and cannot be deleted](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#remove-cloud-shared-access-users), this is because the Shared Access was created by an API, and not directly from the [Commerce account](https://account.magento.com/).
-   > 
+   > If  **[!UICONTROL Delete]** is not displayed, check whether the **[!UICONTROL Share Name]** contains the naming pattern  `Cloud Shared Access from MAG0XYZ`. If the account has that [naming pattern and cannot be deleted](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#remove-cloud-shared-access-users), this is because the Shared Access was created by an API, and not directly from the [Commerce account](https://account.magento.com/).
+   >
    > If it cannot be deleted, simply have the Account Owner modify the Shared Access account and under Grant Account Permissions, uncheck every item. After that update, the user will no longer be able to access any account resources.
    > ![image](https://git.corp.adobe.com/AdobeDocs/commerce-admin.en/assets/38345/55f383e5-89c7-4832-bada-f765b522f4b5)
    >
@@ -118,11 +146,10 @@ The following instructions are written from the perspective of a shared user who
 
 1. When prompted to confirm, click **[!UICONTROL Delete User]**.
 
- >[!NOTE]
- >
- >You cannot delete users with the Share Name of _Cloud Shared Access from MAG[XYZ]_ in this interface. See [How to delete users who were granted shared access via a Cloud project?](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#remove-cloud-shared-access-users).
+   >[!NOTE]
+   >
+   >You cannot delete users with the Share Name of _Cloud Shared Access from MAG[XYZ]_ in this interface. See [How to delete users who were granted shared access via a Cloud project?](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#remove-cloud-shared-access-users).
 
 ## Related Reading
 
 [Shared Access troubleshooting](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/shared-access-troubleshooting)
-

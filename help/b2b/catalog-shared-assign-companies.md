@@ -4,6 +4,24 @@ description: Learn about assigning companies to shared catalogs.
 exl-id: b1d05684-8522-49ec-b5ed-87b35d4e2b6d
 feature: B2B, Companies, Catalog Management
 role: Admin
+TQID: https://experienceleague.adobe.com/yq1o0zz8vY-2D-cVOp5aFJ9Ksp4FxfOAdR-n1blwwnY
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Assign companies to a shared catalog
 

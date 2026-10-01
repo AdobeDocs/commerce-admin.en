@@ -3,6 +3,7 @@ user-guide-title: Content and Design Guide
 user-guide-description: Comprehensive information about content and design features for Adobe Commerce and Magento Open Source administrators and eCommerce marketers.
 breadcrumb-title: Content and Design
 feature: CMS, Page Content
+nudge: true
 ---
 
 # Content and Design Guide {#content-design}
@@ -84,7 +85,7 @@ feature: CMS, Page Content
   - [Staging dashboard](content-staging-dashboard.md)
   - [Add a campaign item](content-staging-add-item.md)
   - [Preview a campaign](content-staging-preview.md)
-- [Return to Admin User Guides](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
+- [Return to Admin User Guides](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 
 <!--
 Add above "Content staging" when articles are available?

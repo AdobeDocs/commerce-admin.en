@@ -2,6 +2,34 @@
 title: Introduction to Commerce merchandising and promotions
 description: Learn Commerce tools for creating targeted promotions and opportunities for customer engagement.
 exl-id: 8e55ac42-aeef-4f97-b1e8-9b2db354e5e6
+TQID: https://experienceleague.adobe.com/2ZEsUmKW8TQM53KFXWxyQGb9h4yFXHsjnFu8q25PCT8
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Introduction to Commerce merchandising and promotions
 
@@ -21,7 +49,7 @@ _Merchandising_ is a term used in retail to describe the art and science of floo
 
 >[!TIP]
 >
->To learn about Product Recommendations and how they can give you the insight and control you need to create the best experience for your buyers, see the [Product Recommendations User Guide](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html).
+>To learn about Product Recommendations and how they can give you the insight and control you need to create the best experience for your buyers, see the [Product Recommendations User Guide](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/guide-overview).
 
 ## Promotions
 
@@ -62,7 +90,7 @@ One of the tasks to complete before launching your store is to review the email 
 >
 >Adobe Commerce and Magento Open Source releases 2.4.0 through 2.4.3 included the dotdigital vendor-developed extension used to integrate with the dotdigital Engagement Cloud. Starting with the 2.4.4 release, this extension is no longer bundled with the core release and must be installed and updated from the Commerce Marketplace. The Marketplace also provides access to current documentation provided by the extension developer.
 ><br><br>
->If you have the bundled extension enabled and configured, you must update your composer.json file as part of the 2.4.4 upgrade process and to manage extension updates going forward. See [Upgrade modules](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) in the _Upgrade Guide_ for more information.
+>If you have the bundled extension enabled and configured, you must update your composer.json file as part of the 2.4.4 upgrade process and to manage extension updates going forward. See [Upgrade modules](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/modules/upgrade) in the _Upgrade Guide_ for more information.
 
 - [Newsletters](newsletters.md) - Produce newsletters, manage your list of subscribers, develop content, and drive traffic to your store.
 

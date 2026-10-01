@@ -4,6 +4,32 @@ description: Learn how to create rule to dynamically change the product selectio
 exl-id: 765b863a-bb83-418b-9fca-ef0a148b09eb
 feature: Categories, Merchandising
 badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
+TQID: https://experienceleague.adobe.com/Be3PacClITSThEtPIbG7NcxdrmZj7hoCTxTDAqRYN1E
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Category rules for merchandising
 
@@ -135,6 +161,10 @@ Category product rules can speed up the process of assigning specific products t
    >The quantity of a configurable product with child options is calculated by combining all the salable child product quantities. Consider an example where you have a configurable product _Basic Fitness Tank_ with purple, red, and yellow color options and different quantities of each. In this case, the parent product (Basic Fitness Tank) quantity is the combined salable quantity of the purple, red, and yellow color child products.
 
 - **[!UICONTROL Operator]** - Specifies the operator that is applied to the attribute value to meet the  condition. Unless an operator is specified, `Equal` is used as the default. Options: `Equal`, `Not equal`, `Greater than`, `Greater than or equal to`, `Less than`, `Less than or equal to`, and `Contains`
+
+   The **[!UICONTROL Contains]** operator accepts multiple comma-separated values and matches if the attribute value contains at least one of them, similar to a logical OR operation. For example, **[!UICONTROL Contains]**: `casual, party` matches any value that contains `casual` or `party`.
+
+   Use this operator to combine several terms into one rule row instead of creating a separate row for each term.
 
 - **[!UICONTROL Value]** - Specifies the value that the attribute must have to meet the condition.
 

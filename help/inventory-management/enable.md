@@ -1,14 +1,47 @@
 ---
 title: "Enable [!DNL Inventory Management]"
-description: Learn how to enable [!DNL Inventory Management] at the global store or product level.
+description: Enable or disable [!DNL Inventory Management] and manage stock at the store or product level to control salable quantity and fulfillment tracking.
 exl-id: 89bd2f8b-b9e4-4b9a-b729-f7bd71f764c9
 feature: Inventory, Configuration
+TQID: https://experienceleague.adobe.com/evCX34nY-m7WQnZt3xw7ng6-It7Xlf5DTanjKbP1fCk
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+    internal-label: Reporting
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Enable [!DNL Inventory Management]
 
 To manage your product inventory, enable [!DNL Inventory Management] at the global store or product level. When the _Manage Stock_ option is enabled, [!DNL Inventory Management] automatically tracks product quantities available for the site through configured stocks and sources. Every feature and option begins tracking and reporting when enabled, without additional configuration.
 
-Your business runs and inventory updates at the speed of sales. As customers shop, you receive exact, updated information for available stock per sales channel and source. Available Salable Quantities update per stock when customers add products to cart and complete purchases and when and you manage orders, create shipments, and issue refunds. Arrivals of new or transferred stock update to your sources, immediately available for online sales. Backorders complete up to specified thresholds without infinite orders or additional configurations. And you enter and complete partial or full shipments across one or more sources with recommendations, giving you complete control over order fulfillment and on-hand inventory.
+When [!DNL Inventory Management] is enabled, inventory updates with your sales activity:
+
+- Salable quantities update per stock when customers add products to carts, complete checkout, and when you ship or refund orders.
+- New or transferred stock at a source becomes available for online sales after you update quantities.
+- Backorders honor configured thresholds without extra setup.
+- You can create partial or full shipments from one or more sources using algorithm recommendations or manual source selection.
 
 >[!NOTE]
 >

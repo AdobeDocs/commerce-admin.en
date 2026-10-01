@@ -1,8 +1,32 @@
 ---
-title: '[!UICONTROL Catalog] &gt; [!UICONTROL Inventory]'
+title: "[!UICONTROL Catalog] &gt; [!UICONTROL Inventory]"
 description: Review the configurations settings on the [!UICONTROL Catalog] &gt; [!UICONTROL Inventory] page of the Commerce Admin.
 exl-id: 80113a31-3585-4ee1-95af-31efc09389eb
 feature: Configuration, Inventory
+TQID: https://experienceleague.adobe.com/kxlKhWRjFDUH97FDenycl4nU1QdBWzceDCKfhZ0MTAc
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # [!UICONTROL Catalog] > [!UICONTROL Inventory]
 
@@ -10,7 +34,7 @@ feature: Configuration, Inventory
 
 >[!NOTE]
 >
->[!DNL Inventory Management] for Adobe Commerce and Magento Open Source gives you the tools to manage your product inventory. Merchants with a single store to multiple warehouses, stores, pickup locations, drop shippers, and more can use these features to maintain quantities for sales and handle shipments to complete orders. For more information about these features and how you can use them to manage stock in multiple locations, see the [_[!DNL Inventory Management] User Guide_](https://experienceleague.adobe.com/docs/commerce-admin/inventory/introduction.html).
+>[!DNL Inventory Management] for Adobe Commerce and Magento Open Source gives you the tools to manage your product inventory. Merchants with a single store to multiple warehouses, stores, pickup locations, drop shippers, and more can use these features to maintain quantities for sales and handle shipments to complete orders. For more information about these features and how you can use them to manage stock in multiple locations, see the [_[!DNL Inventory Management] User Guide_](/help/inventory-management/introduction.md).
 
 ## [!UICONTROL Stock Options]
 
@@ -40,7 +64,7 @@ feature: Configuration, Inventory
 |--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |[!UICONTROL Manage Stock]|Global| Determines if you use full inventory control to manage the items in your catalog. Options: <br/>**Yes** - Activates full inventory control to track the number of items currently in stock. <br/>**No** - Does not track the number of items currently in stock.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |[!UICONTROL Backorders]|Global| Determines how your store manages backorders. A backorder does not change the processing status of the order. Funds are still authorized or captured immediately when the order is placed, regardless of whether the product is in stock. When the product becomes available, it is shipped. Options: <br/>**No Backorders** - Does not accept backorders when product is out of stock. <br/>**Allow Qty Below 0** - Accepts backorders when the quantity falls below zero. <br/>**Allow Qty Below 0 and Notify Customer** - Accepts backorders when the quantity falls below zero, but notifies customers that orders can still be placed.                                                                                                                                      |
-|[!UICONTROL Use deferred Stock update]|Global| ![Adobe Commerce](../../assets/adobe-logo.svg) (Adobe Commerce only) Determines whether to defer stock update if backorders are allowed (the _Back orders_ option is set to anything besides the `No backorders` default value). It works for a single product or an entire website, and uses the _Job Queue_ mechanism to allow the inventory quantity indicators to update asynchronously after the orders are placed. This option also works with [Asynchronous order placement](https://experienceleague.adobe.com/docs/commerce-operations/performance-best-practices/high-throughput-order-processing.html#asynchronous-order-placement) in combination with [Inventory Management](../../inventory-management/introduction.md). |
+|[!UICONTROL Use deferred Stock update]|Global| ![Adobe Commerce](../../assets/adobe-logo.svg) (Adobe Commerce only) Determines whether to defer stock update if backorders are allowed (the _Back orders_ option is set to anything besides the `No backorders` default value). It works for a single product or an entire website, and uses the _Job Queue_ mechanism to allow the inventory quantity indicators to update asynchronously after the orders are placed. This option also works with [Asynchronous order placement](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/high-throughput-order-processing#asynchronous-order-placement) in combination with [Inventory Management](../../inventory-management/introduction.md). |
 |Maximum Qty Allowed in Shopping Cart|Global| Determines the maximum number of a product that can be purchased in a single order. By default, the maximum quantity is set to 10,000.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 |[!UICONTROL Out-of-Stock Threshold]|Global| Determines the stock level at which a product is considered to be out of stock. Options: <br/>**Positive amount** - With _Backorders_ disabled, enter a positive amount. With Backorders enabled, this amount is ignored. <br/>**Zero** - With _Backorders_ enabled, entering `0` allows for infinite backorders. <br/>**Negative amount** - With _Backorders_ enabled, we recommend entering a negative amount. The amount is added to the Salable Quantity. For example, enter -50 to allow orders up to this amount.                                                                                                                                                                                                                                                          |
 |[!UICONTROL Minimum Qty Allowed in Shopping Cart]|Global| Determines the minimum amount of an item that is available for purchase according to customer group. By default, the minimum quantity is set to 1. Click **[!UICONTROL Add Minimum Qty]** to enter a different value for a specific customer group.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
@@ -48,6 +72,18 @@ feature: Configuration, Inventory
 |[!UICONTROL Enable Qty Increments]|Global| Determines if items can be sold in quantity increments. Options: `Yes` / `No`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 |[!UICONTROL Qty Increments]|Global| Establishes the number of products that make up a quantity increment.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 |[!UICONTROL Automatically Return Credit Memo Item to Stock]|Global| Determines if items included on credit memos are automatically returned to inventory. Options: `Yes` / `No`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+
+{style="table-layout:auto"}
+
+## [!UICONTROL Per-Source Availability (Storefront)]
+
+![Per-Source Availability (Storefront)](./assets/catalog-inventory-per-source-availability.png)<!-- zoom -->
+
+<!-- [Per-Source Availability (Storefront)](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/global-options) -->
+
+|Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
+|--- |--- |--- |
+|[!UICONTROL Enable sourceAvailability GraphQL Query]|Store View|If set to `Yes`, the storefront [`sourceAvailability`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/queries/source-availability){target="_blank"} query returns per-source stock for the store's sales channel. Options: `Yes` / `No`. Default: `No`, because the query discloses which sources stock a SKU. While disabled, the query returns an error. Exact quantities returned by the query remain masked until the source quantity reaches the **[!UICONTROL Only X left Threshold]** set in the [Stock Options](#stock-options) section.|
 
 {style="table-layout:auto"}
 
@@ -59,7 +95,7 @@ feature: Configuration, Inventory
 
 >[!NOTE]
 >
->To configure and support **asynchronous queue managers**, you must use the command line. This may require developer assistance. See [Start message queue consumers](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html) in the _Configuration Guide_.
+>To configure and support **asynchronous queue managers**, you must use the command line. This may require developer assistance. See [Start message queue consumers](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/start-message-queues) in the _Configuration Guide_.
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |

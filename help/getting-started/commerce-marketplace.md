@@ -1,8 +1,41 @@
 ---
-title: '[!DNL Adobe Commerce Marketplace]'
+title: "[!DNL Adobe Commerce Marketplace]"
 description: Learn about the [!DNL Commerce Marketplace], which offers merchants a curated selection of solutions, and provides qualified developers the tools, platform, and prime location to build a thriving business.
 exl-id: e04e48f2-3b1d-45bf-b0f6-3a1ed43e78c5
 feature: Extensions
+TQID: https://experienceleague.adobe.com/iWL-VJ99oPBafRQOK16YYTeEUvAoYGK-6bFxPHroYkk
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
+  - id: c32adafa-ed01-4b31-997e-2413013911b0
+    internal-label: Integrations
+  - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+    internal-label: Architecture
+subfeature_v2:
+  - id: f8ddfd3b-6194-46e8-a176-0e918039be56
+    internal-label: Cloud architecture
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Adobe Commerce Marketplace
 
@@ -21,19 +54,19 @@ The following resources provide a starting point for new adopters to familiarize
 ### Commerce resources
 
 -  [Setting up I/O Events for Adobe Commerce](https://developer.adobe.com/commerce/extensibility/events/)
--  [Configuring Events for Adobe Commerce](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/)
+-  [Configuring Events for Adobe Commerce](https://developer.adobe.com/commerce/extensibility/events/configure-commerce)
 -  [Setting up Admin UI SDK](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/)
 -  [Converting an extension to an app](https://developer.adobe.com/commerce/extensibility/app-development/#how-do-i-port-an-extension-into-an-app)
 
 ### App Builder resources
 
 -  [Commerce App Builder Overview](https://developer.adobe.com/commerce/extensibility/app-development/)
--  [Setting up API Mesh for Adobe Developer App Builder](https://developer.adobe.com/graphql-mesh-gateway/gateway/getting-started/)
--  [Deploying App Builder apps](https://developer.adobe.com/app-builder/docs/guides/deployment/)
--  [CI/CD for App Builder apps](https://developer.adobe.com/app-builder/docs/guides/deployment/ci_cd_for_firefly_apps/)
+-  [Setting up API Mesh for Adobe Developer App Builder](https://developer.adobe.com/graphql-mesh-gateway/mesh/basic/)
+-  [Deploying App Builder apps](https://developer.adobe.com/app-builder/docs/guides/app_builder_guides/deployment/deployment)
+-  [CI/CD for App Builder apps](https://developer.adobe.com/app-builder/docs/guides/app_builder_guides/deployment/cicd-for-app-builder-apps)
 -  Getting Started with App Builder/Developer Console
-   -  [Getting started with App Builder](https://developer.adobe.com/app-builder/docs/getting_started/)
-   -  [Understanding Projects and Workspaces](https://developer.adobe.com/app-builder/docs/resources/videos/exploring/projects-and-workspaces/)
+   -  [Getting started with App Builder](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app)
+   -  [Understanding Projects and Workspaces](https://developer.adobe.com/app-builder/docs/resources/videos/exploring/projects-and-workspaces)
 
 ## [!DNL Marketplace] credentials
 
@@ -71,7 +104,7 @@ You can create multiple access keys for different purposes and enable or disable
 
 >[!IMPORTANT]
 >
->Starting with Adobe Commerce and Magento Open Source 2.4.0, the Web Setup Wizard is removed, and you must use the command line to [install](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html) or [upgrade](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html) your instance. This requirement also includes [modules](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) and [extensions](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html).
+>Starting with Adobe Commerce and Magento Open Source 2.4.0, the Web Setup Wizard is removed, and you must use the command line to [install](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/advanced) or [upgrade](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade) your instance. This requirement also includes [modules](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/modules/upgrade) and [extensions](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/extensions).
 
 The installation process for [!DNL Marketplace] purchases is different for _on-premise_ installations of Commerce than for installations hosted on [the Adobe Cloud Architecture](https://www.adobe.com/commerce/magento/enterprise.html).
 
@@ -103,7 +136,7 @@ Log in issues are typically related to a mismatch between your MAGEID and email 
 
 ### Open source questions
 
-The Marketplace Support team resolves issues related to the [commercemarketplace.adobe.com/](https://commercemarketplace.adobe.com/) and [commercedeveloper.adobe.com/](https://commercedeveloper.adobe.com/) sites only. Please direct questions about Magento Open Source to the [Community Forum](https://community.magento.com/) or [contact a partner](https://business.adobe.com/products/magento/partners.html) who can assist with Magento Open Source.
+The Marketplace Support team resolves issues related to the [commercemarketplace.adobe.com/](https://commercemarketplace.adobe.com/) and [commercedeveloper.adobe.com/](https://commercedeveloper.adobe.com/) sites only. Please direct questions about Magento Open Source to a [partner](https://business.adobe.com/products/magento/partners.html) who can assist with Magento Open Source.
 
 ### Refund requests
 

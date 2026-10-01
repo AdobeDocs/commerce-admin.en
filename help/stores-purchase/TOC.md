@@ -5,6 +5,7 @@ breadcrumb-title: Stores and Purchase Experience
 role: Admin, User
 feature: Storefront
 recommendations: noDisplay
+nudge: true
 ---
 
 # Stores and Purchase Experience Guide {#stores-sales}
@@ -125,4 +126,4 @@ recommendations: noDisplay
     + [Shipping label overview](shipping-labels.md)
     + [Configure shipping labels](shipping-label-configure.md)
     + [Create shipping labels](shipping-label-create.md)
-+ [Return to Admin User Guides](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
++ [Return to Admin User Guides](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)

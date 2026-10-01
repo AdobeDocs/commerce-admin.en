@@ -3,6 +3,28 @@ title: Import data
 description: Learn about data import guidelines and how to use the data import operations.
 exl-id: caae8811-445e-49d4-aa90-226a355732bc
 feature: Products, Customers, Data Import/Export
+TQID: https://experienceleague.adobe.com/LZ44VOhB95b8bwSgBoDOYYt4DBF5tA7Uz5aTR7QfnUk
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Import data
 
@@ -26,6 +48,10 @@ Data for all product types can be imported into the store. In addition, you can 
 - For attributes that are not complex data, the values from the import file, including the empty values for the non-required attributes, replace the existing values.
 - If there is no value, or there is a non-valid value, for a required attribute, then the existing value is not replaced.
 - If the complex data for the entity is invalid, the entity (the corresponding row or rows) cannot be imported, except the case, when Delete Entities was selected in the Import Behavior drop-down menu.
+
+>[!NOTE]
+>
+>For large catalogs, omit the `categories` and `url_key` columns from the import file if you are not changing category assignments or URL keys. If either column is present, Adobe Commerce regenerates URL rewrites for every product in the file. That extra work lengthens the import and can cause timeout errors on Adobe Commerce on Cloud.
 
 ### Complex data
 

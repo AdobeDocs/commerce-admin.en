@@ -1,8 +1,36 @@
 ---
 title: '[!DNL Inventory Management] release notes'
-description: Review the release notes for information about all [!DNL Inventory Management] releases.
+description: Review [!DNL Inventory Management] release notes for new features, fixes, and known issues in each Community Engineering module version.
 exl-id: 856b9503-7621-4beb-ac2f-3eb1a240cebc
 feature: Inventory, Release Notes
+TQID: https://experienceleague.adobe.com/UaHQorWcNwDPzAMuV-e27DDH-G5D0k5qENPTINNfiTk
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # [!DNL Inventory Management] release notes
 
@@ -14,7 +42,7 @@ These release notes describe releases of [!DNL Inventory Management] and include
 
 [!DNL Inventory Management] is a Magento Open Source Community Engineering special project open to contributors. To take part and contribute, see the [GitHub project](https://github.com/magento/inventory) repository and [wiki](https://github.com/magento/inventory/wiki) to get started. To discuss the project, join the [Slack](https://magentocommeng.slack.com/?redir=%2Farchives%2FC5FU5E2HY) channel ([self-signup](https://opensource.magento.com/slack)).
 
-[Release schedule](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html){target="_blank"} for supported and compatible releases.
+[Release schedule](https://experienceleague.adobe.com/en/docs/commerce-operations/release/planning/schedule){target="_blank"} for supported and compatible releases.
 
 ## v1.2.7
 
@@ -255,13 +283,13 @@ New modules for [!DNL Inventory Management] 1.1.2 Beta include:
         'Magento_InventoryExportStockApi' => 0,
 ```
 
-![New](../assets/new.svg) **Added a Bulk Partial Stock Transfer Endpoint** - Current bulk transfer endpoints move all assigned quantity from an origin to a destination source. The new `/rest/V1/inventory/bulk-partial-source-transfer` endpoint allows merchants to transfer partial stock from source to source as a bulk operation. To transfer a specific amount of quantity, enter a request to the endpoint with the `sku`, `qty`, `origin_source_code`, and `destination_source_code`. Transfers verify that the source is assigned to the `sku`, enough quantity exists to transfer, and so on. See [Inventory mass actions](https://developer.adobe.com/commerce/webapi/rest/inventory/bulk-inventory/){target="_blank"} in the REST API documentation. <!-- https://github.com/magento/inventory/pull/2117 -->
+![New](../assets/new.svg) **Added a Bulk Partial Stock Transfer Endpoint** - Current bulk transfer endpoints move all assigned quantity from an origin to a destination source. The new `/rest/V1/inventory/bulk-partial-source-transfer` endpoint allows merchants to transfer partial stock from source to source as a bulk operation. To transfer a specific amount of quantity, enter a request to the endpoint with the `sku`, `qty`, `origin_source_code`, and `destination_source_code`. Transfers verify that the source is assigned to the `sku`, enough quantity exists to transfer, and so on. See [Inventory mass actions](https://developer.adobe.com/commerce/webapi/rest/inventory/bulk-inventory){target="_blank"} in the REST API documentation. <!-- https://github.com/magento/inventory/pull/2117 -->
 
 ![New](../assets/new.svg) **Added Reservation CLI** - New commands give you options to detect and resolve reservation inconsistencies. As orders submit and change status, [!DNL Inventory Management] generates initial reservations and updates through compensation reservations. These commands return a list of detected inconsistencies by Order ID, SKU, and Stock ID and create reservations to resolve. See the [CLI reference](cli.md) for more information. <!-- https://github.com/magento/inventory/pull/2199 https://github.com/magento/inventory/pull/2184 https://github.com/magento/inventory/pull/2171 https://github.com/magento/inventory/pull/2148  -->
 
 ![New](../assets/new.svg) **Performance improvements for sources and SSA options** -  Sorting and selecting sources during shipment caused performance degradation for stocks with high numbers of sources. This release provides significant performance improvements to list and sort available sources when reviewing and selecting SSA options in shipments. <!-- https://github.com/magento/inventory/pull/2056 https://github.com/magento/inventory/pull/2090 -->
 
-![New](../assets/new.svg) **Added GraphQL support for Inventory Management** - This release installs a new `magento/module-inventory-graph-ql` module. The GraphQL [ProductInterface attributes](https://developer.adobe.com/commerce/webapi/graphql/schema/products/interfaces/attributes/){target="_blank"} now includes the `only_x_left_in_stock` and `stock_status` attributes for [!DNL Inventory Management] support. <!-- https://github.com/magento/inventory/pull/2124 -->
+![New](../assets/new.svg) **Added GraphQL support for Inventory Management** - This release installs a new `magento/module-inventory-graph-ql` module. The GraphQL [ProductInterface attributes](https://developer.adobe.com/commerce/webapi/graphql/schema/products/interfaces/attributes){target="_blank"} now includes the `only_x_left_in_stock` and `stock_status` attributes for [!DNL Inventory Management] support. <!-- https://github.com/magento/inventory/pull/2124 -->
 
 ![New](../assets/new.svg) **Simplified UI for Assigned Sources** - The Assigned Sources table in product pages has simplified content for easier updates and increased performance when displaying many sources. All sources list by source name (hover over for `source_code`).
 
@@ -271,7 +299,7 @@ New modules for [!DNL Inventory Management] 1.1.2 Beta include:
 
 [!DNL Inventory Management] 1.1.0 (module version: `inventory-composer-metapackage = 1.1.0`)  is supported and compatible with version 2.3.0 of Adobe Commerce, Adobe Commerce on cloud infrastructure, and the Magento Open Source code base. [!DNL Inventory Management] 1.1.1 is released only as a package name update, supported for version 2.3.1 and compatible with version 2.3.0 of Adobe Commerce, Adobe Commerce on cloud infrastructure, and the Magento Open Source code base.
 
-![Fixed issue](../assets/fix.svg) **Added support for Elasticsearch for single and multi-source modes** — You can now configure and use Elasticsearch with custom stocks. See [Set up Elasticsearch service](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch.html){target="_blank"} for installation information. <!-- PR https://github.com/magento/inventory/pull/1943 -->
+![Fixed issue](../assets/fix.svg) **Added support for Elasticsearch for single and multi-source modes** — You can now configure and use Elasticsearch with custom stocks. See [Set up Elasticsearch service](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure/service/elasticsearch){target="_blank"} for installation information. <!-- PR https://github.com/magento/inventory/pull/1943 -->
 
 ![Fixed issue](../assets/fix.svg) Resolved performance issues with Default Stock to drastically increase performance with numerous operations. Improvements increase performance for single-source mode, Transfer Inventory to Source, Storefront Category pages, and Salable Quantity calculations.
 

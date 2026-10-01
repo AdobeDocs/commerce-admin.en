@@ -5,18 +5,42 @@ exl-id: 78190afb-3ca6-4bed-9efb-8caba0d62078
 role: Admin
 feature: System, Security
 badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
+TQID: https://experienceleague.adobe.com/jC0eV49rzff4ZZ0idMG4ChWZh80Yz43ZTmZ9CjYFhnk
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Encryption key
 
 >[!NOTE]
 >
->If you have attempted to complete these steps and are having issues, see the [Troubleshooting Encryption Key Rotation: CVE-2024-34102](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/troubleshooting-encryption-key-rotation-cve-2024-34102) Knowledge Base article.
+>If you have attempted to complete these steps and are having issues, see the [Troubleshooting Encryption Key Rotation: CVE-2024-34102](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27134) Knowledge Base article.
 
 Adobe Commerce and Magento Open Source use an encryption key to protect passwords and other sensitive data. An industry-standard [!DNL ChaCha20-Poly1305] algorithm is used with a 256-bit key to encrypt all data that requires encryption. This includes credit card data and integration (payment and shipping module) passwords. In addition, a strong Secure Hash Algorithm (SHA-256) is used to hash all data that does not require decryption.
 
 During the initial installation, you are prompted to either let Commerce generate an encryption key, or enter one of your own. The encryption key tool allows you to change the key as needed. The encryption key should be changed regularly to improve security, and at any time the original key might be compromised.
 
-For technical information, see [Advanced on-premises installation](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html) in the _Installation Guide_ and [Data re-encryption](https://developer.adobe.com/commerce/php/development/security/data-encryption/) in the _PHP Developer Guide_.
+For technical information, see [Advanced on-premises installation](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/advanced) in the _Installation Guide_ and [Data re-encryption](https://developer.adobe.com/commerce/php/development/security/data-encryption) in the _PHP Developer Guide_.
 
 >[!IMPORTANT]
 >
@@ -64,7 +88,7 @@ The following instructions require access to a terminal.
    encryption:key:change Change the encryption key inside the env.php file.
    ```
 
-   If you see this output, run the following CLI command and make sure that it completes with no errors. If you need to re-encrypt certain system config values or payment fields, see the detailed [guide on re-encryption](https://developer.adobe.com/commerce/php/development/security/data-encryption/) in the _PHP Develop Guide_.
+   If you see this output, run the following CLI command and make sure that it completes with no errors. If you need to re-encrypt certain system config values or payment fields, see the detailed [guide on re-encryption](https://developer.adobe.com/commerce/php/development/security/data-encryption) in the _PHP Develop Guide_.
 
    ```bash
    bin/magento encryption:key:change

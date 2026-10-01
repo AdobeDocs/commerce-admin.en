@@ -4,6 +4,36 @@ description: Learn about the advanced developer tools that are available to supp
 exl-id: 34529aa9-201f-4817-b53b-a15b6a78a923
 role: Admin, Developer
 badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
+TQID: https://experienceleague.adobe.com/l7Ub5CCeiR6ec3PiRkVXXaVyPaqDMJLf5TqKpIvL7T8
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
+  - id: cc250cf1-34eb-4863-80d0-d170d45ea067
+    internal-label: Developer tools
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Developer tools
 
@@ -21,14 +51,14 @@ Use the advanced developer tools to determine the compilation mode during fronte
 
 Your Adobe Commerce or Magento Open Source instance can be deployed to run in either _production_ or _developer mode_. The tools and configuration settings that are designed specifically for developers can be accessed only while the store is running in _developer mode_.
 
-The operation mode can be changed only from the command line of the server by a user with appropriate permissions. See [Set the operation mode](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html) in the _Configuration Guide_ for more information.
+The operation mode can be changed only from the command line of the server by a user with appropriate permissions. See [Set the operation mode](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/set-mode) in the _Configuration Guide_ for more information.
 
 Most topics in the merchant documentation apply to a Commerce instance that is running in production mode. However, the following configuration settings and tools can be used only when the installation is running in developer mode.
 
 ## Frontend development workflow
 
 The Frontend Development Workflow type determines if Less compilation takes place on the client- or server side during development. Less is an extension of CSS that has additional features and conventions, and that produces streamlined code. Client-side Less compilation is recommended for theme development. Server-side compilation is the default mode. The development workflow options are not available for stores in production mode.
-See [Client-side LESS compilation vs. server-side](https://developer.adobe.com/commerce/frontend-core/guide/css/quickstart/compilation-mode/){:target="_blank"} in the Commerce developer documentation.
+See [Client-side LESS compilation vs. server-side](https://developer.adobe.com/commerce/frontend-core/guide/css/quickstart/compilation-mode){:target="_blank"} in the Commerce developer documentation.
 
 >[!NOTE]
 >
@@ -53,7 +83,7 @@ See [Client-side LESS compilation vs. server-side](https://developer.adobe.com/
 
 Adding a digital signature to the URL of static files makes it possible for browsers to detect when a newer version of the file is available. Static files that can be tracked with digital signatures include JavaScript, CSS, images, and fonts. The signature is appended to the path directly after the base URL. If a file's signature differs from what is stored in the browser's cache, then the newer version of the file is used.
 
-See [Static content signing](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/static-content-signing.html){:target="_blank"} in the Commerce developer documentation.
+See [Static content signing](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/static-content-signing){:target="_blank"} in the Commerce developer documentation.
 
 >[!NOTE]
 >
@@ -85,7 +115,7 @@ The time it takes to load resource files can be reduced by merging and bundling 
 
 By default, Adobe Commerce and Magento Open Source do not merge, bundle, or minimize files, and the project developer should determine which file optimization methods should be used.
 
-See [Performance best practices](https://experienceleague.adobe.com/docs/commerce-operations/performance-best-practices/overview.html) for more information.
+See [Performance best practices](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/overview) for more information.
 
 >[!NOTE]
 >
@@ -135,7 +165,7 @@ Before using a tool such as [template path hints](#template-path-hints), make su
 >
 >Developer Client Restrictions can be set in [Developer Mode](../systems/developer-tools.md#operation-modes) only.
 
-For technical information, see [Custom VCL for allowing requests](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-allowlist.html) in the _Commerce on Cloud Infrastructure Guide_.
+For technical information, see [Custom VCL for allowing requests](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/cdn/custom-vcl-snippets/fastly-vcl-allowlist) in the _Commerce on Cloud Infrastructure Guide_.
 
 **_To add your IP address to the allowlist:_**
 
@@ -163,7 +193,7 @@ Template path hints are a diagnostic tool that adds notation with the path to ea
 >
 >Template Path Hints can be edited in [developer mode](../systems/developer-tools.md#operation-modes) only.
 
-See [Locate templates, layouts, and styles](https://developer.adobe.com/commerce/frontend-core/guide/themes/debug/){:target="_blank"} in the Commerce developer documentation.
+See [Locate templates, layouts, and styles](https://developer.adobe.com/commerce/frontend-core/guide/themes/debug){:target="_blank"} in the Commerce developer documentation.
 
 ![Example storefront - template path hints](./assets/storefront-template-path-hints.png){width="700" zoomable="yes"}
 

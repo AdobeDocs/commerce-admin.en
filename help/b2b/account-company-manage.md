@@ -3,6 +3,45 @@ title: Manage company accounts
 description: Learn to manage company accounts for your Adobe Commerce store using the Companies page and the tools available in the grid.
 exl-id: 9e125fc2-d20e-463e-a391-582fa0bcb68d
 feature: B2B, Companies, Configuration
+TQID: https://experienceleague.adobe.com/a4IAHlQLzc9pX6V2z8V9nLUaWToWizjdOomV7TfS7to
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+    internal-label: Reporting
+subfeature_v2:
+  - id: b01a71b7-d17a-42b2-a9ac-af4b8d9d2ef5
+    internal-label: 2FA
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Manage company accounts
 
@@ -212,20 +251,32 @@ If a company has been added to a hierarchy, the [!UICONTROL Company Hierarchy] g
 
 See [Manage company hierarchy](manage-company-hierarchy.md) for more information.
 
+## Manage catalog view configuration
+
+With the [!DNL Adobe Commerce Optimizer Connector for B2B] extension installed, the _[!UICONTROL Catalog Views]_ section of a company account lists the [!DNL Adobe Commerce Optimizer] catalog views projected from the shared catalog assigned to the company, and lets you manage the restricted access keys that secure them.
+
+1. On the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
+
+1. Find the company that you want to review, and select **[!UICONTROL Edit]** in the **[!UICONTROL Action]** column.
+
+1. Expand the **[!UICONTROL Catalog Views]** section.
+
+To learn more about catalog views and editing restricted access keys, see [Manage catalog view configuration](catalog-views-manage.md).
+
 ## Company options and columns
 
 The following sections provide a reference for the available actions, options, and displayed information available for managing company accounts.
 
 ### Actions control options
 
-| Option                               | Description                                                                                                                                                                                                                                                                     |
-|--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Set Active]              | Sets the status of all selected company records to `Active`. Company administrators receive instructions to set their passwords so they can access their accounts and manage their companies from the storefront.                                                               |
-| [!UICONTROL Block]                   | Restricts company accounts that are not in good standing, while preserving the account. Company members can log in and access the catalog, but they cannot place orders on behalf of the company.                                                                               |
-| [!UICONTROL Delete]                  | Deletes selected company accounts. The status of user accounts that are associated with a deleted company is set to `Inactive` and the Company ID is removed from the profiles of user accounts. Information about company activity and transactions is retained in the system. |
-| [!UICONTROL Edit]                    | Allows some values of the selected company record to be edited from the grid. By default, the Company Name, Company Email, and Phone Number values are available for a quick edit.                                                                                              |
-| [!UICONTROL Change company settings] | Opens the *Change company settings* form to update the [Advanced settings](account-company-create.md#advanced-settings) configuration and apply the changes to the selected companies.                                                                                          |
-| [!UICONTROL Convert Credit]          | Converts the credit on account for the selected companies according to the rates of the specified currency.                                                                                                                                                                     |
+| Option | Description |
+| --- | --- |
+| [!UICONTROL Set Active] | Sets the status of all selected company records to `Active`. Company administrators receive instructions to set their passwords so they can access their accounts and manage their companies from the storefront. |
+| [!UICONTROL Block] | Restricts company accounts that are not in good standing, while preserving the account. Company members can log in and access the catalog, but they cannot place orders on behalf of the company. |
+| [!UICONTROL Delete] | Deletes selected company accounts. The status of user accounts that are associated with a deleted company is set to `Inactive` and the Company ID is removed from the profiles of user accounts. Information about company activity and transactions is retained in the system. |
+| [!UICONTROL Edit] | Allows some values of the selected company record to be edited from the grid. By default, the Company Name, Company Email, and Phone Number values are available for a quick edit. |
+| [!UICONTROL Change company settings] | Opens the *Change company settings* form to update the [Advanced settings](account-company-create.md#advanced-settings) configuration and apply the changes to the selected companies. |
+| [!UICONTROL Convert Credit] | Converts the credit on account for the selected companies according to the rates of the specified currency. |
 
 {style="table-layout:auto"}
 
@@ -234,25 +285,25 @@ The following sections provide a reference for the available actions, options, a
 
 #### Default column layout
 
-| Column                            | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-|-----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Select]               | Checkboxes used to select company records that are to be subjects of an action or use the selection control in the column header to select/deselect all.                                                                                                                                                                                                                                                                                                                 |
-| [!UICONTROL ID]                   | A unique numeric identifier that is assigned when the request to create a company is submitted.                                                                                                                                                                                                                                                                                                                                                                          |
-| [!UICONTROL Company Name]         | The company name is entered when the company account is first created, and can be a shortened version of the full legal name.                                                                                                                                                                                                                                                                                                                                            |
-| [!UICONTROL Company Type]         | The type of [company](manage-companies.md). Options: <br/>**[!UICONTROL Company]** - By default new companies are created as single companies. <br/>**[!UICONTROL Parent]** - The company is a parent company of other companies. <br/>**[!UICONTROL Child]** - This company is related to a parent company.                                                                                                                                                             |
-| [!UICONTROL Parent]               | Shows the parent company for this specific company line.                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| [!UICONTROL Company Email]        | The email address that is associated with the company account.                                                                                                                                                                                                                                                                                                                                                                                                           |
-| [!UICONTROL Phone Number]         | The primary phone number of the company.                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| [!UICONTROL Country]              | The country where the company is registered to conduct business.                                                                                                                                                                                                                                                                                                                                                                                                         |
-| [!UICONTROL State Province]       | The state or province where the company is registered to conduct business.                                                                                                                                                                                                                                                                                                                                                                                               |
-| [!UICONTROL City]                 | The city where the company is registered to conduct business.                                                                                                                                                                                                                                                                                                                                                                                                            |
+| Column | Description |
+| --- | --- |
+| [!UICONTROL Select] | Checkboxes used to select company records that are to be subjects of an action or use the selection control in the column header to select/deselect all. |
+| [!UICONTROL ID] | A unique numeric identifier that is assigned when the request to create a company is submitted. |
+| [!UICONTROL Company Name] | The company name is entered when the company account is first created, and can be a shortened version of the full legal name. |
+| [!UICONTROL Company Type] | The type of [company](manage-companies.md). Options: <br/>**[!UICONTROL Company]** - By default new companies are created as single companies. <br/>**[!UICONTROL Parent]** - The company is a parent company of other companies. <br/>**[!UICONTROL Child]** - This company is related to a parent company. |
+| [!UICONTROL Parent] | Shows the parent company for this specific company line. |
+| [!UICONTROL Company Email] | The email address that is associated with the company account. |
+| [!UICONTROL Phone Number] | The primary phone number of the company. |
+| [!UICONTROL Country] | The country where the company is registered to conduct business. |
+| [!UICONTROL State Province] | The state or province where the company is registered to conduct business. |
+| [!UICONTROL City] | The city where the company is registered to conduct business. |
 | [!UICONTROL Group/Shared Catalog] | The column name depends on whether Shared Catalog is enabled in the configuration. Options: <br/>**[!UICONTROL Customer Group]** - If Shared Catalog is not enabled in the configuration, specifies the name of the [customer group](../customers/customer-groups.md) to which the company belongs. <br/>**[!UICONTROL Shared Catalog]** - If Shared Catalog is enabled in the configuration, specifies the name of the shared catalog that is assigned to the customer. |
-| [!UICONTROL Outstanding Balance]  | The outstanding balance on the company account. the column is blank if the company does not have a credit history, and its credit limit is zero.                                                                                                                                                                                                                                                                                                                         |
-| [!UICONTROL Company Admin]        | The first and last name of the company administrator.                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| [!UICONTROL Job Title]            | The job title of the company administrator.                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| [!UICONTROL Work Phone Number]    | The work phone number of the company administrator.                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| [!UICONTROL Email]                | The email address of the company administrator.                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| [!UICONTROL Action]               | **[!UICONTROL Edit]** - Opens the company account in edit mode.                                                                                                                                                                                                                                                                                                                                                                                                          |
+| [!UICONTROL Outstanding Balance] | The outstanding balance on the company account. the column is blank if the company does not have a credit history, and its credit limit is zero. |
+| [!UICONTROL Company Admin] | The first and last name of the company administrator. |
+| [!UICONTROL Job Title] | The job title of the company administrator. |
+| [!UICONTROL Work Phone Number] | The work phone number of the company administrator. |
+| [!UICONTROL Email] | The email address of the company administrator. |
+| [!UICONTROL Action] | **[!UICONTROL Edit]** - Opens the company account in edit mode. |
 
 {style="table-layout:auto"}
 
@@ -260,122 +311,126 @@ The following sections provide a reference for the available actions, options, a
 
 The following columns are available by changing the [column layout](../getting-started/admin-grid-controls.md) of the grid.
 
-| Column                          | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-|---------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Company Legal Name] | The full legal name of the company.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| [!UICONTROL Street Address]     | The street address where the company is registered to conduct business.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| [!UICONTROL ZIP]                | The ZIP or postal code where the company  is registered to conduct business.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| [!UICONTROL Reseller ID]        | The resale number that is assigned to the company for tax reporting purposes.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| [!UICONTROL VAT/TAX ID]         | The [value-added tax](../stores-purchase/vat.md) number that is assigned to the company by some jurisdictions for tax reporting purposes. To configure the customer VAT/TAX ID to appear in the storefront, see [Create New Account Options](../configuration-reference/customers/customer-configuration.md).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| [!UICONTROL Credit Limit]       | The credit limit that is extended to the company account.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| [!UICONTROL Credit Currency]    | The currency that is accepted by the store for purchases on company credit.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| [!UICONTROL Status]             | Indicates the [status](account-company-approve.md) of the company account. Options: <br/>**[!UICONTROL Active]** - The company account is approved by the store administrator. The company administrator and associated members can log in the account from the storefront and make purchases. <br/>**[!UICONTROL Pending Approval]** - A request to open a company account has been submitted, but is not yet approved by the store administrator. <br/>**[!UICONTROL Rejected]** - A request to open a company account was submitted, but not approved by the store administrator. The initial login credentials that were used to submit the request are blocked. <br/>**[!UICONTROL Blocked]** - Company members can log in and access the catalog, but cannot make purchases. The store administrator might block a company account that is not in good standing. The block on the account can be removed by the store administrator at any time. |
-| [!UICONTROL Gender]             | The gender of the company administrator. Options: Male / Female / Not Specified                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| [!UICONTROL Comment]            | Notes about the company account for reference and visible only from the Admin.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Column | Description |
+| --- | --- |
+| [!UICONTROL Company Legal Name] | The full legal name of the company. |
+| [!UICONTROL Street Address] | The street address where the company is registered to conduct business. |
+| [!UICONTROL ZIP] | The ZIP or postal code where the company  is registered to conduct business. |
+| [!UICONTROL Reseller ID] | The resale number that is assigned to the company for tax reporting purposes. |
+| [!UICONTROL VAT/TAX ID] | The [value-added tax](../stores-purchase/vat.md) number that is assigned to the company by some jurisdictions for tax reporting purposes. To configure the customer VAT/TAX ID to appear in the storefront, see [Create New Account Options](../configuration-reference/customers/customer-configuration.md). |
+| [!UICONTROL Credit Limit] | The credit limit that is extended to the company account. |
+| [!UICONTROL Credit Currency] | The currency that is accepted by the store for purchases on company credit. |
+| [!UICONTROL Status] | Indicates the [status](account-company-approve.md) of the company account. Options: <br/>**[!UICONTROL Active]** - The company account is approved by the store administrator. The company administrator and associated members can log in the account from the storefront and make purchases. <br/>**[!UICONTROL Pending Approval]** - A request to open a company account has been submitted, but is not yet approved by the store administrator. <br/>**[!UICONTROL Rejected]** - A request to open a company account was submitted, but not approved by the store administrator. The initial login credentials that were used to submit the request are blocked. <br/>**[!UICONTROL Blocked]** - Company members can log in and access the catalog, but cannot make purchases. The store administrator might block a company account that is not in good standing. The block on the account can be removed by the store administrator at any time. |
+| [!UICONTROL Gender] | The gender of the company administrator. Options: Male / Female / Not Specified |
+| [!UICONTROL Comment] | Notes about the company account for reference and visible only from the Admin. |
 
 {style="table-layout:auto"}
 
 ### Button bar
 
-| Button                         | Description                                                                                                                                                                                                                                                         |
-|--------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Back]              | Returns to the Companies page without saving changes.                                                                                                                                                                                                               |
-| [!DNL Delete Company]          | Deletes the company account. The status of user accounts that are associated with the company is set to `Inactive` and the Company ID is removed from the profiles of user accounts. Information about company activity and transactions is retained in the system. |
-| [!DNL Reset]                   | Restores the original values to any fields with unsaved changes.                                                                                                                                                                                                    |
-| [!DNL Reimburse Balance]       | Allows the administrator to reimburse the balance from store credit, referenced by PO number.                                                                                                                                                                       |
-| [!DNL Save]                    | Saves changes to the company and keeps the profile open.                                                                                                                                                                                                            |
-| [!UICONTROL Save & Close]      | Saves changes to the company and closes the profile.                                                                                                                                                                                                                |
+| Button | Description |
+| --- | --- |
+| [!UICONTROL Back] | Returns to the Companies page without saving changes. |
+| [!DNL Delete Company] | Deletes the company account. The status of user accounts that are associated with the company is set to `Inactive` and the Company ID is removed from the profiles of user accounts. Information about company activity and transactions is retained in the system. |
+| [!DNL Reset] | Restores the original values to any fields with unsaved changes. |
+| [!DNL Reimburse Balance] | Allows the administrator to reimburse the balance from store credit, referenced by PO number. |
+| [!DNL Save] | Saves changes to the company and keeps the profile open. |
+| [!UICONTROL Save & Close] | Saves changes to the company and closes the profile. |
 
 {style="table-layout:auto"}
 
 ### Field descriptions
 
-| Field                             | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-|-----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Company Name]         | The company name is entered when the company account is first created, and can be a shortened version of the full legal name.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| [!UICONTROL Status]               | Indicates the [status](account-company-approve.md) of the company account. Options: <br/>**[!UICONTROL Active]** - The company account is approved by the store administrator. The company administrator and associated members can log in the account from the storefront and make purchases. <br/>**[!UICONTROL Pending Approval]** - A request to open a company account has been submitted, but is not yet approved by the store administrator. <br/>**[!UICONTROL Rejected]** - A request to open a company account was submitted, but not approved by the store administrator. The initial login credentials that were used to submit the request are blocked. <br/>**[!UICONTROL Blocked]** - Company members can log in and access the catalog, but cannot make purchases. The store administrator might block a company account that is not in good standing. The block on the account can be removed by the store administrator at any time. |
-| [!UICONTROL Company Email]        | The email address that is associated with the company account.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| [!UICONTROL Sales Representative] | The Admin user who is the primary contact for the company account.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| Field | Description |
+| --- | --- |
+| [!UICONTROL Company Name] | The company name is entered when the company account is first created, and can be a shortened version of the full legal name. |
+| [!UICONTROL Status] | Indicates the [status](account-company-approve.md) of the company account. Options: <br/>**[!UICONTROL Active]** - The company account is approved by the store administrator. The company administrator and associated members can log in the account from the storefront and make purchases. <br/>**[!UICONTROL Pending Approval]** - A request to open a company account has been submitted, but is not yet approved by the store administrator. <br/>**[!UICONTROL Rejected]** - A request to open a company account was submitted, but not approved by the store administrator. The initial login credentials that were used to submit the request are blocked. <br/>**[!UICONTROL Blocked]** - Company members can log in and access the catalog, but cannot make purchases. The store administrator might block a company account that is not in good standing. The block on the account can be removed by the store administrator at any time. |
+| [!UICONTROL Company Email] | The email address that is associated with the company account. |
+| [!UICONTROL Sales Representative] | The Admin user who is the primary contact for the company account. |
 
 {style="table-layout:auto"}
 
 #### [!UICONTROL Account Information]
 
-| Field                           | Description                                                                                                                |
-|---------------------------------|----------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Company Legal Name] | The full legal name of the company.                                                                                        |
-| [!UICONTROL VAT / TAX ID]       | The tax or [value-added tax](../stores-purchase/vat.md) number that is assigned to the company for tax reporting purposes. |
-| [!UICONTROL Reseller ID]        | The resale number that is assigned to the company for tax reporting purposes.                                              |
-| [!UICONTROL Comment]            | These notes about the company account are for reference and visible only from the Admin.                                   |
+| Field | Description |
+| --- | --- |
+| [!UICONTROL Company Legal Name] | The full legal name of the company. |
+| [!UICONTROL VAT / TAX ID] | The tax or [value-added tax](../stores-purchase/vat.md) number that is assigned to the company for tax reporting purposes. |
+| [!UICONTROL Reseller ID] | The resale number that is assigned to the company for tax reporting purposes. |
+| [!UICONTROL Comment] | These notes about the company account are for reference and visible only from the Admin. |
 
 {style="table-layout:auto"}
 
 #### [!UICONTROL Company Hierarchy]
 
-| Columns                     | Description                                                                                                                                          |
-|-----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Company ID]     | The ID number of the company.                                                                                                                        |
-| [!UICONTROL Company Name]   | The full name of the company. <br/>A `current company indicator` appears in the company line being edited.                                           |
-| [!UICONTROL Company Email]  | The email address that is associated with the company account.                                                                                       |
-| [!UICONTROL Phone Number]   | The primary phone number of the company.                                                                                                             |
-| [!UICONTROL State/Province] | The state or province where the company is registered to conduct business.                                                                           |
-| [!UICONTROL City]           | The city where the company is registered to conduct business.                                                                                        |
+| Columns | Description |
+| --- | --- |
+| [!UICONTROL Company ID] | The ID number of the company. |
+| [!UICONTROL Company Name] | The full name of the company. <br/>A `current company indicator` appears in the company line being edited. |
+| [!UICONTROL Company Email] | The email address that is associated with the company account. |
+| [!UICONTROL Phone Number] | The primary phone number of the company. |
+| [!UICONTROL State/Province] | The state or province where the company is registered to conduct business. |
+| [!UICONTROL City] | The city where the company is registered to conduct business. |
 | [!UICONTROL Customer Group] | (Admin Only) Indicates the [customer group](../customers/customer-groups.md) or [shared catalog](catalog-shared.md) that is assigned to the company. |
-| [!UICONTROL Company Admin]  | The full name of the company administrator.                                                                                                          |
-| [!UICONTROL Action]         | The list of possible actions for that company line.                                                                                                  |
+| [!UICONTROL Company Admin] | The full name of the company administrator. |
+| [!UICONTROL Action] | The list of possible actions for that company line. |
 
 {style="table-layout:auto"}
 
+#### [!UICONTROL Catalog Views]
+
+{{$include /help/_includes/catalog-views-reference-table.md}}
+
 #### [!UICONTROL Legal Address]
 
-| Columns                     | Description                                                                                                                                          |
-|-----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Street Address]     | The street address where the company is registered to conduct business.                                                    |
-| [!UICONTROL City]               | The city where the company is registered to conduct business.                                                              |
-| [!UICONTROL Country]            | The country where the company is registered to conduct business.                                                           |
-| [!UICONTROL State/Province]     | The state or province where the company is registered to conduct business.                                                 |
-| [!UICONTROL ZIP/Postal Code]    | The ZIP or postal code where the company is registered to conduct business.                                                |
-| [!UICONTROL Phone Number]       | The primary phone number of the company.                                                                                   |
+| Columns | Description |
+| --- | --- |
+| [!UICONTROL Street Address] | The street address where the company is registered to conduct business. |
+| [!UICONTROL City] | The city where the company is registered to conduct business. |
+| [!UICONTROL Country] | The country where the company is registered to conduct business. |
+| [!UICONTROL State/Province] | The state or province where the company is registered to conduct business. |
+| [!UICONTROL ZIP/Postal Code] | The ZIP or postal code where the company is registered to conduct business. |
+| [!UICONTROL Phone Number] | The primary phone number of the company. |
 
 {style="table-layout:auto"}
 
 #### [!UICONTROL Company Admin]
 
-| Field                                | Description                                                                                                                                                                                                                                      |
-|--------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Website]                 | Set the [website scope](../getting-started/websites-stores-views.md) for the company account. Defaults to the *[!UICONTROL Main Website]*.                                                                                                       |
-| [!UICONTROL Job Title]               | The title of the company administrator who manages the company account.                                                                                                                                                                          |
-| [!UICONTROL Work Phone Number]       | The phone number of the company administrator who manages the company account.                                                                                                                                                                   |
-| [!UICONTROL Email]                   | The email address of the company administrator can be the same as the company email address. If a different email address is entered, a separate individual account is created for the company administrator in addition to the company account. |
-| [!UICONTROL Prefix]                  | If applicable, the prefix that is associated with the name of the company administrator (such as `Mr.`, `Ms.`, `Mrs.`, or `Dr.`). Depending on the configuration, the input field might be a text field or list.                                 |
-| [!UICONTROL First Name]              | The first name of the company administrator.                                                                                                                                                                                                     |
-| [!UICONTROL Middle Name/Initial]     | The middle name or initial of the company administrator.                                                                                                                                                                                         |
-| [!UICONTROL Last Name]               | The last name of the company administrator.                                                                                                                                                                                                      |
-| [!UICONTROL Suffix]                  | If applicable, the suffix that is associated with the name of the company administrator (such as `Jr.`, `Sr.`, or `III`). Depending on the configuration, the input field might be a text field or list.                                         |
-| [!UICONTROL Gender]                  | The gender of the company administrator. Options: `Male` / `Female` / `Not Specified`                                                                                                                                                            |
-| [!UICONTROL Send Welcome Email From] | Set the storeview to use when sending the welcome email to the new company administrator if you do not want to use the *[!UICONTROL Default Store View]*.                                                                                        |
+| Field | Description |
+| --- | --- |
+| [!UICONTROL Website] | Set the [website scope](../getting-started/websites-stores-views.md) for the company account. Defaults to the *[!UICONTROL Main Website]*. |
+| [!UICONTROL Job Title] | The title of the company administrator who manages the company account. |
+| [!UICONTROL Work Phone Number] | The phone number of the company administrator who manages the company account. |
+| [!UICONTROL Email] | The email address of the company administrator can be the same as the company email address. If a different email address is entered, a separate individual account is created for the company administrator in addition to the company account. |
+| [!UICONTROL Prefix] | If applicable, the prefix that is associated with the name of the company administrator (such as `Mr.`, `Ms.`, `Mrs.`, or `Dr.`). Depending on the configuration, the input field might be a text field or list. |
+| [!UICONTROL First Name] | The first name of the company administrator. |
+| [!UICONTROL Middle Name/Initial] | The middle name or initial of the company administrator. |
+| [!UICONTROL Last Name] | The last name of the company administrator. |
+| [!UICONTROL Suffix] | If applicable, the suffix that is associated with the name of the company administrator (such as `Jr.`, `Sr.`, or `III`). Depending on the configuration, the input field might be a text field or list. |
+| [!UICONTROL Gender] | The gender of the company administrator. Options: `Male` / `Female` / `Not Specified` |
+| [!UICONTROL Send Welcome Email From] | Set the storeview to use when sending the welcome email to the new company administrator if you do not want to use the *[!UICONTROL Default Store View]*. |
 
 {style="table-layout:auto"}
 
 #### [!UICONTROL Company Credit]
 
-| Field                                     | Description                                                                                                                                                                    |
-|-------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Credit Currency]              | The currency that is accepted by the store for purchases on company credit.                                                                                                    |
-| [!UICONTROL Credit Limit]                 | The credit limit that is extended to the company account.                                                                                                                      |
-| [!UICONTROL Allow to Exceed Credit Limit] | Indicates if the company has permission to exceed the credit limit. Options: Yes / No                                                                                          |
-| [!UICONTROL Reason for Change]            | A note that explains the circumstances when the company can or cannot exceed the credit limit. This field is active only if the permission to exceed the credit limit changes. |
+| Field | Description |
+| --- | --- |
+| [!UICONTROL Credit Currency] | The currency that is accepted by the store for purchases on company credit. |
+| [!UICONTROL Credit Limit] | The credit limit that is extended to the company account. |
+| [!UICONTROL Allow to Exceed Credit Limit] | Indicates if the company has permission to exceed the credit limit. Options: Yes / No |
+| [!UICONTROL Reason for Change] | A note that explains the circumstances when the company can or cannot exceed the credit limit. This field is active only if the permission to exceed the credit limit changes. |
 
 {style="table-layout:auto"}
 
 #### [!UICONTROL Advanced Settings]
 
-| Field                                   | Description                                                                                                                                                                                          |
-|-----------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Customer Group]             | Indicates the [customer group](../customers/customer-groups.md) or [shared catalog](catalog-shared.md) that is assigned to the company.                                                              |
-| [!UICONTROL Allow Quotes]               | Determines if company members can prepare and submit negotiable quotes on behalf of the company.                                                                                                     |
-| [!UICONTROL Enable Purchase Orders]     | Determines if Purchase Orders are permitted for the company. For purchase orders to function for company member accounts, the company administrator must also enable this feature on the storefront. |
-| [!UICONTROL Applicable Payment Methods] | Indicates the payment methods that are available for company purchases. Options: `B2B Payment Methods` / `All Enabled Payment Methods` / `Specific Payment Methods`                                  |
-| [!UICONTROL Payment Methods]            | (Admin Only) Becomes active if specific payment methods are indicated. To select multiple payment methods, hold down the Ctrl key (PC) or the Command key (Mac) and click each option.               |
+| Field | Description |
+| --- | --- |
+| [!UICONTROL Customer Group] | Indicates the [customer group](../customers/customer-groups.md) or [shared catalog](catalog-shared.md) that is assigned to the company. |
+| [!UICONTROL Allow Quotes] | Determines if company members can prepare and submit negotiable quotes on behalf of the company. |
+| [!UICONTROL Enable Purchase Orders] | Determines if Purchase Orders are permitted for the company. For purchase orders to function for company member accounts, the company administrator must also enable this feature on the storefront. |
+| [!UICONTROL Applicable Payment Methods] | Indicates the payment methods that are available for company purchases. Options: `B2B Payment Methods` / `All Enabled Payment Methods` / `Specific Payment Methods` |
+| [!UICONTROL Payment Methods] | (Admin Only) Becomes active if specific payment methods are indicated. To select multiple payment methods, hold down the Ctrl key (PC) or the Command key (Mac) and click each option. |
 
 {style="table-layout:auto"}

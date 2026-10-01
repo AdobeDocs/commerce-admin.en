@@ -4,6 +4,7 @@ user-guide-description: This guide provides reference information for all store 
 breadcrumb-title: Configuration Reference
 role: Admin, Developer, User
 feature: Configuration
+nudge: true
 ---
 
 # Configuration Reference Guide {#config}
@@ -72,10 +73,14 @@ feature: Configuration
 - [Sales Channels](./sales-channels.md)
 - Services {#services}
   - [Web API](./services/magento-web-api.md)
-  - [Commerce Services](./services/saas.md)
+  - [Commerce Services Connector](./services/saas.md)
   - [OAuth](./services/oauth.md)
+  - [Email Suppression](./services/email-suppression.md)
+  - [ACO Catalog View](./services/aco-catalog-view.md)
+  - [ACO Catalog View Sync](./services/aco-catalog-view-sync.md)
+  - [ACO Restricted Access Keys](./services/aco-restricted-access-keys.md)
 - Advanced {#advanced}
   - [Admin](./advanced/admin.md)
   - [System](./advanced/system.md)
   - [Developer](./advanced/developer.md)
-- [Return to Admin User Guides](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
+- [Return to Admin User Guides](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)

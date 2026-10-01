@@ -1,11 +1,35 @@
 ---
 title: Manage inventory sources
-description: Learn about sources and how they define the physical locations where product inventory is managed and shipped for order fulfillment, or where services are available.
+description: Overview of Admin tasks to add, edit, enable, and disable [!DNL Inventory Management] sources that store and ship product inventory.
 exl-id: 1315a8c9-7791-4c4b-9463-3126b79793c2
+TQID: https://experienceleague.adobe.com/bVWqSGSgW08l7zZ7bLuZIcJUjqmj7Npn55yEdZn-aB0
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Manage sources
 
-Sources are the physical locations where product inventory is managed and shipped for order fulfillment, or where services are available. These locations can include warehouses, brick-and-mortar stores, distribution centers, pickup locations, and drop shippers. You allocate inventory quantities to these sources, and [!DNL Commerce] automatically aggregates the total salable products for your stocks. For large companies, add multiple sources for all of your locations: in different geographic locations by country and continent, locations in a city, based on the type of inventory, even based on services.
+Use this topic to add, edit, enable, and disable sources. For how sources relate to stocks and salable quantity, see [Stocks and sources](sources-stocks.md).
 
 It is recommended that you provide specific physical geographical locations when creating a source. That allows the _Distance Priority Algorithm_ to compare the location of the shipping destination address with the available source locations to determine the closest source to fulfill shipments. You can use Google Maps or offline calculations, which use geocodes. For more information about this _Distance Priority Algorithm_, see [Configure Distance Priority Algorithm](distance-priority-algorithm.md).
 

@@ -1,7 +1,31 @@
 ---
-title: '[!UICONTROL Stores] menu'
+title: "[!UICONTROL Stores] menu"
 description: The Commerce Admin includes the [!UICONTROL Stores] menu, which provides access to tools for setting up the store hierarchy, configuration, inventory, taxes, and attributes.
 exl-id: b9d8ea6b-5b4b-42af-b74d-7afa48ccf2ff
+TQID: https://experienceleague.adobe.com/LEoQUYqvin2UfF55kCMUiEUh8YungghN-VuEwUOu7gY
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # [!UICONTROL Stores] menu
 
@@ -52,3 +76,11 @@ Manage attributes that are used for [customer](../customers/attribute-properties
 ### [!UICONTROL Other Settings]
 
 Manage additional settings for [reward exchange rates](../merchandising-promotions/reward-exchange-rates.md), [gift wrapping](cart-configuration.md#gift-wrap), and [gift registries](../merchandising-promotions/gift-registries.md).
+
+## [!DNL Adobe Commerce Optimizer] integration
+
+When the [!DNL Adobe Commerce Optimizer Connector] is installed, you can synchronize website and store view data to [!DNL Adobe Commerce Optimizer]. Website scope controls [price sync](stores.md#step-1-create-a-website) (prices and price books). Store view scope controls [product sync](store-views.md#add-a-store-view) (products and product attributes).
+
+For the sync status indicators shown on the [!UICONTROL All Stores] grid, see [Adobe Commerce Optimizer sync status](store-views.md#optimizer-sync-status). For connector setup and configuration behavior, see [Customize the Commerce scopes export configuration](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/get-started#customize-the-commerce-scopes-export-configuration) in the *Adobe Commerce Optimizer Connector Guide*.
+
+If the [!DNL Adobe Commerce Optimizer Connector for B2B] is installed, data is also synchronized for available B2B shared catalogs. See [Manage catalog views](../b2b/catalog-views-manage.md).

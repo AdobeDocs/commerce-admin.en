@@ -1,17 +1,41 @@
 ---
 title: Stocks and sources
-description: Learn about the relationships between products, sources, and stocks.
+description: Learn how stocks and sources relate in [!DNL Inventory Management] so salable quantities on your [!DNL Commerce] storefront match physical inventory.
 exl-id: 01bbbd82-898b-4757-ab40-0d8b89ec59bc
+TQID: https://experienceleague.adobe.com/3nQssDNA41zHJH0SCN6VdMqqfbHCeyc6K0B91-BF8Kc
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Stocks and sources
 
-Manage your inventory regardless of warehouse location, type of product or service, or sales channel. Fulfill orders and ship products from multiple warehouses, brick-and-mortar stores, distribution centers, and drop shipping to complete orders with a focus on balanced inventory, shipping costs, and more.
+Manage your inventory regardless of warehouse location, type of product or service, or sales channel. Fulfill orders and ship products from multiple locations to complete orders with a focus on balanced inventory, shipping costs, and more.
 
 These descriptions include products, sources, and stocks for a bicycle company with multiple shipment locations and websites in the United States and Europe.
 
 ## Sources
 
-[Sources](sources-manage.md) are the physical locations where product inventory is managed and shipped for order fulfillment or where services are available. These locations can include warehouses, brick-and-mortar stores, distribution centers, and drop shippers. [!DNL Commerce] uses the quantities and salable quantities per stock and manages inventory amounts automatically for managed products and orders. If you have one source, you are considered in _single-source_ mode. If you have multiple sources, you are considered in _multi-source_ mode.
+A [source](sources-manage.md) is a physical location where product inventory is managed and shipped for order fulfillment or where services are available. [!DNL Commerce] uses the quantities and salable quantities per stock and manages inventory amounts automatically for managed products and orders. If you have one source, you are considered in _single-source_ mode. If you have multiple sources, you are considered in _multi-source_ mode.
 
 A source can have priority in the scope of stock in one warehouse, but not necessarily in all warehouses as the source can be reused in different stocks. The number of stocks and sources adds to the complexity for determining the best warehouse or store to fulfill an order. For example, you may have a limited number of products available from your brick-and-mortar locations with an extensive inventory in your warehouses and services in key locations with limited availability.
 
@@ -55,8 +79,8 @@ The following are important options to understand for [!DNL Inventory Management
 >
 >The Out-of-Stock Threshold value supports negative and positive amounts. If you enable Backorders, set this value to a negative amount for the maximum number of products that can be backordered before the product is truly considered out of stock.
 
-## Inventory Management demo
+## Demo
 
-Watch this video to learn about Inventory Management sources and stocks:
+Watch this video to learn about [!DNL Inventory Management] sources and stocks:
 
 >[!VIDEO](https://video.tv.adobe.com/v/343748?quality=12&learn=on)

@@ -1,15 +1,41 @@
 ---
-title: '[!UICONTROL Security] &gt; [!UICONTROL Google reCAPTCHA Admin Panel]'
+title: "[!UICONTROL Security] &gt; [!UICONTROL Google reCAPTCHA Admin Panel]"
 description: Review the configurations settings on the [!UICONTROL Security] &gt; [!UICONTROL Google reCAPTCHA Admin Panel] page of the Commerce Admin.
 exl-id: e4e6771a-487a-43ee-8b98-6acee4599aaf
 feature: Configuration, Security
 badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
+TQID: https://experienceleague.adobe.com/hUSNxEvyF010uV6Rp4-osf4azLHtOxtTBSR-XW2m1fA
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # [!UICONTROL Security] > [!UICONTROL Google reCAPTCHA Admin Panel]
 
 >[!IMPORTANT]
 >
->Before Google reCAPTCHA can be configured, you must ensure that your `PHP.ini` file includes the following setting: `allow_url_fopen = 1`. This may require developer assistance. See [Required PHP Settings](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html) in the _Installation Guide_.
+>Before Google reCAPTCHA can be configured, you must ensure that your `PHP.ini` file includes the following setting: `allow_url_fopen = 1`. This may require developer assistance. See [Required PHP Settings](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/php-settings) in the _Installation Guide_.
 
 {{config}}
 
@@ -83,7 +109,7 @@ For more information about changing these settings, see [Google reCAPTCHA](../..
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--|--|--|
-|[!UICONTROL Enable for Login]|Global|Determines the type of reCAPTCHA that is enabled for the [Admin login](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html). Options:<br/>**`No`** - (default) Does not validate the Admin login.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Requires the user to select the _I'm not a robot_ checkbox.<br />**`Invisible reCAPTCHA v2`** - Validates user behavior in the background without requiring interactions based on score.<br/>**`Invisible reCAPTCHA v3`** -  (Recommended) Validates user behavior in the background based on interaction score.|
-|[!UICONTROL Enable for Forgot Password]|Global|Determines the type of reCAPTCHA that is enabled to request an [Admin password reset](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html#reset-your-password). Options:<br/>**`No`** - (default) Does not validate the password reset request.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Requires the user to select the _I'm not a robot_ checkbox.<br />**`Invisible reCAPTCHA v2`** - Validates user behavior in the background without requiring interactions based on score.<br/>**`Invisible reCaptcha v3`** -  (Recommended) Validates user behavior in the background based on interaction score.|
+|[!UICONTROL Enable for Login]|Global|Determines the type of reCAPTCHA that is enabled for the [Admin login](/help/getting-started/admin-signin.md). Options:<br/>**`No`** - (default) Does not validate the Admin login.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Requires the user to select the _I'm not a robot_ checkbox.<br />**`Invisible reCAPTCHA v2`** - Validates user behavior in the background without requiring interactions based on score.<br/>**`Invisible reCAPTCHA v3`** -  (Recommended) Validates user behavior in the background based on interaction score.|
+|[!UICONTROL Enable for Forgot Password]|Global|Determines the type of reCAPTCHA that is enabled to request an [Admin password reset](/help/getting-started/admin-signin.md#reset-your-password). Options:<br/>**`No`** - (default) Does not validate the password reset request.<br />**`reCAPTCHA v2 ("I am not a robot")`** - Requires the user to select the _I'm not a robot_ checkbox.<br />**`Invisible reCAPTCHA v2`** - Validates user behavior in the background without requiring interactions based on score.<br/>**`Invisible reCaptcha v3`** -  (Recommended) Validates user behavior in the background based on interaction score.|
 
 {style="table-layout:auto"}

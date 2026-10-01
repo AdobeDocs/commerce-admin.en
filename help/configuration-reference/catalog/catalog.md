@@ -1,8 +1,42 @@
 ---
-title: '[!UICONTROL Catalog] &gt; [!UICONTROL Catalog]'
+title: "[!UICONTROL Catalog] &gt; [!UICONTROL Catalog]"
 description: Review the configurations settings on the [!UICONTROL Catalog] &gt; [!UICONTROL Catalog] page of the Commerce Admin.
 exl-id: fc25ae80-aaa7-42c4-bba2-f03d3caa7970
 feature: Configuration, Catalog Management
+TQID: https://experienceleague.adobe.com/YbozeuP9oPvSfHp1zSajemcBuqgkfrkxbfiJmuD625U
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+    internal-label: Reporting
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # [!UICONTROL Catalog] > [!UICONTROL Catalog]
 
@@ -159,7 +193,7 @@ feature: Configuration, Catalog Management
 
 >[!NOTE]
 >
->The standard search configuration described in this section differs for [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html).
+>The standard search configuration described in this section differs for [Live Search](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview).
 
 <!-- [Layered Navigation - Automatic (equalize price ranges)](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/navigation/navigation-layered#configure-layered-navigation) -->
 
@@ -204,7 +238,7 @@ feature: Configuration, Catalog Management
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)| Description                                                                                                                                                                                                                                                                                                                                                                                              |
 |--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|[!UICONTROL Popular Search Terms]|Store View| Determines if _Popular Search Terms_ is implemented in the store. This setting does not apply to stores that use [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html). Options: `Enable` / `Disable`                                                                                                                                              |
+|[!UICONTROL Popular Search Terms]|Store View| Determines if _Popular Search Terms_ is implemented in the store. This setting does not apply to stores that use [Live Search](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview). Options: `Enable` / `Disable`                                                                                                                                              |
 |[!UICONTROL Product URL Suffix]|Store View| Determines if a suffix, such as html or htm, is applied to product URLs. If used, do not include a period before the suffix, because it is applied automatically.                                                                                                                                                                                                                                        |
 |[!UICONTROL Category URL Suffix]|Store View| Determines if a suffix, such as html or htm, is applied to category URLs. If used, do not include a period before the suffix, because it is applied automatically.                                                                                                                                                                                                                                       |
 |[!UICONTROL Use Categories Path for Product URLs]|Store View| Determines if category paths are included in product URLs on the storefront. Doing so can cause multiple URLs to point to the same page, which might impact search rank. To learn more, see [Canonical meta tag](../../merchandising-promotions/meta-data.md#canonical-meta-tag).                                                                                                                                          |
@@ -231,7 +265,7 @@ feature: Configuration, Catalog Management
 
 ## [!UICONTROL Catalog Search]
 
-You can configure Catalog Search using [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html) or third-party search engine services that Adobe Commerce supports. Follow the instructions for your installation.
+You can configure Catalog Search using [[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) or third-party search engine services that Adobe Commerce supports. Follow the instructions for your installation.
 
 ### Adobe Commerce with [!DNL Live Search]
 
@@ -256,7 +290,7 @@ Adobe Commerce supports OpenSearch and Elasticsearch. Adobe Commerce versions 2.
 
 >[!IMPORTANT]
 >
->- Due to the Elasticsearch 7 end-of-support announcement for August 2023, Adobe recommends that all Adobe Commerce customers migrate to the OpenSearch 2.x search engine. For information about migrating your search engine during an upgrade, see [Migrating to OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html) in the _Upgrade Guide_.
+>- Due to the Elasticsearch 7 end-of-support announcement for August 2023, Adobe recommends that all Adobe Commerce customers migrate to the OpenSearch 2.x search engine. For information about migrating your search engine during an upgrade, see [Migrating to OpenSearch](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration) in the _Upgrade Guide_.
 >- In versions 2.4.4 and 2.4.3-p2, all fields labeled Elasticsearch also apply to OpenSearch. When support for Elasticsearch 8.x was introduced in version 2.4.6, new labels were created to distinguish between Elasticsearch and OpenSearch configurations. However, the configuration options for both are the same.
 
 ![Catalog search configuration options](./assets/catalog-search-opensearch.png){zoomable="yes"}

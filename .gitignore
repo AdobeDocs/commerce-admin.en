@@ -9,3 +9,5 @@ Gemfile.lock
 .cursor
 .claude
 .env
+.scout
+.vscode

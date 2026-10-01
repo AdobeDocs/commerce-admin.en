@@ -1,8 +1,28 @@
 ---
-title: '[!DNL Page Builder] Walkthrough part 3: catalog content'
+title: "[!DNL Page Builder] Walkthrough part 3: catalog content"
 description: Learn how to add a product list to a [!DNL Page Builder] page.
 exl-id: f2a0dc29-6d8f-4b97-a947-72659c01d0cb
 feature: Page Builder, Page Content
+TQID: https://experienceleague.adobe.com/aJlgMXqFCj0Fu-BbZ2e8YcfAKYppBedwfNHaGxvlgT0
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
 ---
 # [!DNL Page Builder] Walkthrough part 3: catalog content
 
@@ -157,7 +177,7 @@ To avoid changes to your live store, create a product using the described proper
    - [!UICONTROL Attribute Set]: Default
    - [!UICONTROL Product Name]: My Product
    - [!UICONTROL SKU]: Tutorial
-   - [!UICONTROL Price]: 75.00 
+   - [!UICONTROL Price]: 75.00
    - [!UICONTROL Quantity]: 100
    - [!UICONTROL Stock Status]: In Stock
    - [!UICONTROL Weight]: 1
@@ -177,7 +197,7 @@ In this step, you create two new custom attributes to show how the [!DNL Page Bu
 
    For this example, use `My Page Builder Attribute` for the label.
 
-1. Set **[!UICONTROL Catalog Input Type for Store Owner]** to `Page Builder`.
+1. Set **[!UICONTROL Catalog Input Type for Store Owner]** to `Page Builder`. [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."}
 
    When creating a custom attribute, you can specify the editor that is most suitable to the application as either `Page Builder` or the standard, WYSIWYG `Text Editor`.
 

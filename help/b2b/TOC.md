@@ -1,10 +1,11 @@
 ---
 user-guide-title: "[!DNL Adobe Commerce B2B] Guide"
-user-guide-description: Learn how to use the integrated B2B features available for Adobe Commerce, 
+user-guide-description: Learn how to use the integrated B2B features for Adobe Commerce, such as company accounts and shared catalog management.
 breadcrumb-title: "[!DNL Adobe Commerce B2B]"
 role: Admin, Leader, User
 feature: B2B
 recommendations: noDisplay
+nudge: true
 ---
 
 # [!DNL Adobe Commerce B2B] Guide {#b2b}
@@ -29,8 +30,8 @@ recommendations: noDisplay
     + [Company roles and permissions](account-company-roles-permissions.md)
     + [Define company structure](account-company-structure.md)
 + Company management {#company-management}
-    + [Overview](manage-companies.md)
-    + [Manage company hierarchies](manage-company-hierarchy.md)
+  + [Overview](manage-companies.md)
+  + [Manage company hierarchies](manage-company-hierarchy.md)
 + Shared catalogs {#shared-catalogs}
   + [Overview](catalog-shared.md)
   + Define shared catalogs {#define}
@@ -39,6 +40,7 @@ recommendations: noDisplay
     + [Set catalog pricing and structure](catalog-shared-pricing-structure.md)
     + [Assign companies to a catalog](catalog-shared-assign-companies.md)
   + [Manage shared catalogs](catalog-shared-manage.md)
+  + [Manage catalog view configuration](catalog-views-manage.md)
 + [Quick orders](quick-order.md)
 + Purchase orders {#purchase-orders}
   + [Purchase orders for companies](purchase-order-flow.md)
@@ -62,4 +64,4 @@ recommendations: noDisplay
 + Reference {#reference}
   + [Backward-incompatible changes](backward-incompatible-changes.md)
   + [Packages](packages.md)
-+ [Return to Admin User Guides](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
++ [Return to Admin User Guides](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)

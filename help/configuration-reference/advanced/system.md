@@ -1,9 +1,37 @@
 ---
-title: '[!UICONTROL Advanced] &gt; [!UICONTROL System]'
-description: Review the configurations settings on the [!UICONTROL Advanced] &gt; [!UICONTROL System] page of the Commerce Admin.
+title: "[!UICONTROL Advanced] &gt; [!UICONTROL System]"
+description: "Review the configurations settings on the [!UICONTROL Advanced] &gt; [!UICONTROL System] page of the Commerce Admin."
 exl-id: ffdaf7b5-c508-4fab-93ec-21f28cff6d3d
 role: Admin, Developer
 feature: Configuration, System
+badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
+TQID: https://experienceleague.adobe.com/9QNzCxuwy1v5xR6YNE4On3woJ4mw-SnWB3m-me-nrb0
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
+last-update: 2026-08-20
 ---
 # [!UICONTROL Advanced] > [!UICONTROL System]
 
@@ -182,7 +210,7 @@ For more information about changing these settings, see [Full-page caching](../.
 |--- |--- |--- |
 |[!UICONTROL Caching Application]|Global|Determines the application that is used to manage the full-page cache. Options: <br/>**`Built-in Application`** - Not recommended for the production environment. <br/>**`Varnish Caching`** - Recommended for the production environment.|
 |[!UICONTROL TTL for public content]|Global|Determines the lifetime of the public content cache in seconds. Default value: `120`|
-|[!UICONTROL Handles param size]| global|Specifies the maximum number of [layout handles](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) to process on the [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html) HTTP endpoint. Restricting the size can improve security and performance. Default value: `100`|
+|[!UICONTROL Handles param size]| global|Specifies the maximum number of [layout handles](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) to process on the [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/varnish/use-varnish-esi) HTTP endpoint. Restricting the size can improve security and performance. Default value: `100`|
 |**[!UICONTROL Varnish Configuration]**|||
 |[!UICONTROL Access list]|Global|Specifies the IP addresses that can purge the Varnish configuration to generate a config file. Separate multiple entries with a comma. Default value: `localhost`|
 |[!UICONTROL Backend host]|Global|Specifies the backend host that generates config files. Default value: `localhost`|

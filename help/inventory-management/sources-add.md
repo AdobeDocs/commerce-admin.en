@@ -1,12 +1,36 @@
 ---
 title: Add an inventory source
-description: Learn how to create a source for a location, such as a warehouse, brick-and-mortar store, distribution center, or drop shipper.
+description: Add a [!DNL Inventory Management] source in the Admin for a warehouse, store, distribution center, or other fulfillment location.
 exl-id: 1bff9986-8722-4fb5-ac83-41de82325f7b
 feature: Inventory, Products
+TQID: https://experienceleague.adobe.com/hDIRVPayqLXgx3nxOSeDf6R7sT9t6d9AFGEeyQpyj6o
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Add a source
 
-Manage inventory and order fulfillment from multiple locations with custom sources. Create a source for each location such as warehouses, brick-and-mortar stores, distribution centers, and drop shippers. Assign sources and update quantities per product
+Manage inventory and order fulfillment from multiple locations with custom sources. Create a source for each location such as warehouses, brick-and-mortar stores, distribution centers, and drop shippers. Assign sources and update quantities per product.
 
 If editing the Default Source, you can edit all configurations except name and code. It is recommended that single-source merchants add information matching their location.
 
@@ -27,6 +51,12 @@ If editing the Default Source, you can edit all configurations except name and c
       The code supports upper and lower case letters, numbers, dashes, and underscores. The code is a unique ID used when assigning to stock and exporting-importing data.
 
     - If this inventory source is ready to use, set **[!UICONTROL Is Enabled]** to `Yes`.
+
+    - To expose the stock of this source to the storefront, set **[!UICONTROL Visible on Storefront]** to `Yes`. [!BADGE SaaS only]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service and Adobe Commerce Optimizer projects only (Adobe-managed SaaS infrastructure)."}
+
+      This option is set to `No` by default. If you set it to `Yes`, the source can take up to the query cache lifetime to appear in results. If you then set this option to `No`, the source is removed from query results immediately.
+
+      The [`sourceAvailability`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/queries/source-availability){target="_blank"} GraphQL query provides access to stock information for sources that are visible on the storefront. You must enable the `sourceAvailability` query for the store view in the [global options](global-options.md).
 
     - Enter a brief **[!UICONTROL Description]** for this location for quick reference or additional details.
 
@@ -100,6 +130,7 @@ If editing the Default Source, you can edit all configurations except name and c
 |[!UICONTROL Name]|(Required) A unique name that identifies the inventory source for Admin users.|
 |[!UICONTROL Code]|(Required) A unique, alphanumeric code that is used by the system to identify the inventory source. Enter the code in upper or lowercase characters and/or numbers, without spaces. If necessary, a hyphen or underscore can be used instead of a space. The code cannot be edited after creating the source. It is a unique ID used when you assign sources to stocks and export and/or import product data.|
 |[!UICONTROL Is Enabled]|Determines if the inventory source is available to be used. Options: Yes / No|
+|[!UICONTROL Visible on Storefront] [!BADGE SaaS only]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service and Adobe Commerce Optimizer projects only (Adobe-managed SaaS infrastructure)."}|Determines if the storefront [`sourceAvailability`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/queries/source-availability){target="_blank"} GraphQL query can return stock information for this inventory source.|
 |[!UICONTROL Description]|A brief description of the inventory source location. Include details helpful to your Admin users.|
 |[!UICONTROL Latitude]|Specifies the latitude coordinate of the inventory source for GPS. Enter the value  as a number, preceded by a plus or minus sign as needed. The degree symbol and letters are not permitted. For example: Latitude 32.7555|
 |[!UICONTROL Longitude]|Specifies the longitude coordinate of the inventory source for GPS. Enter the value  as a number, preceded by a plus or minus sign as needed. The degree symbol and letters are not permitted. For example: `-97.3308`|

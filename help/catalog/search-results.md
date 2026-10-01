@@ -3,12 +3,38 @@ title: Search results
 description: Learn how to configure how your products match the search criteria entered in the Quick Search box or the Advanced Search form.
 exl-id: c721fb3b-ee31-4d2b-b4ea-9ae2c80aa800
 feature: Catalog Management, Search
+TQID: https://experienceleague.adobe.com/66fWLxfEO03dyaOfxN0M-JlUPqupTY4txCRybKxF4n8
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Search results
 
 >[!NOTE]
 >
->This page describes standard search functionality that might differ from [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html).
+>This page describes standard search functionality that might differ from [Live Search](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview).
 
 The _Search Results_ list includes all products that match the search criteria entered in the Quick Search box or the Advanced Search form. Every product list in the catalog has essentially the same controls. The only difference is that one is the result of a search query, and the other difference is the result of [navigation](navigation.md).
 
@@ -24,7 +50,7 @@ With **ElasticSearch**:
 
 >[!IMPORTANT]
 >
->Due to the Elasticsearch 7 end-of-support announcement for August 2023, it is recommended that all Adobe Commerce customers migrate to the OpenSearch 2.x search engine. For information about migrating your search engine during product upgrade, see [Migrating to OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html) in the _Upgrade Guide_.
+>Due to the Elasticsearch 7 end-of-support announcement for August 2023, it is recommended that all Adobe Commerce customers migrate to the OpenSearch 2.x search engine. For information about migrating your search engine during product upgrade, see [Migrating to OpenSearch](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration) in the _Upgrade Guide_.
 
 ## Keyword mapping to extend search results
 
@@ -112,3 +138,4 @@ Product attributes that are enabled for catalog search can be assigned a weight 
    ![Search Weight](./assets/search-weight.png){width="600" zoomable="yes"}
 
 1. When complete, click **[!UICONTROL Save Attribute]**.
+

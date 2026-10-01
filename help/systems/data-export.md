@@ -3,6 +3,32 @@ title: Export data
 description: Learn about data export filters and attributes, and how to export data from your store.
 exl-id: 80e7a2fc-beaa-416e-a00f-a3cad5055975
 feature: Products, Customers, Data Import/Export
+TQID: https://experienceleague.adobe.com/492se11mto54gQuwodcRcALtCf7LJe3GGKQntW9kkWQ
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Export data
 
@@ -74,7 +100,7 @@ The checkbox in the first column is used to exclude attributes from the export f
 
 1. Scroll down and click **[!UICONTROL Continue]** in the lower-right corner of the page.
 
-   Upon completion of the task, the file is processed through a message queue (make sure that your cron job is running). The exported file is saved in the `var/export/ folder`. For more information about the message queue, see [Manage message queues](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) in the _Configuration Guide_.
+   Upon completion of the task, the file is processed through a message queue (make sure that your cron job is running). The exported file is saved in the `var/export/ folder`. For more information about the message queue, see [Manage message queues](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues) in the _Configuration Guide_.
 
    You can save or open the exported CSV file as a spreadsheet, then edit the data and import it back into your store.
 
@@ -86,4 +112,4 @@ The checkbox in the first column is used to exclude attributes from the export f
 
 For help with troubleshooting data export issues, see the following Commerce Support Knowledge Base articles:
 
-- [Exported products .csv file does not appear](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/exported-products-.csv-file-does-not-appear.html)
+- [Exported products .csv file does not appear](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/exported-products-csv-file-does-not-appear)

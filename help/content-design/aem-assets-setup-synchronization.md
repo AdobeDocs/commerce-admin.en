@@ -3,6 +3,30 @@ title: Configure the integration
 description: Learn how to connect your Adobe Commerce and Experience Manager Assets projects to enable asset synchronization between these two systems.
 feature: CMS, Media
 exl-id: cc3ae56b-f1c8-4c96-a284-bcd726ce2bab
+TQID: https://experienceleague.adobe.com/c31KPRTUtXyMBCFiOEMPS7erhR3d-dQoxdB5ScgN1tk
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Configure the integration
 
@@ -24,7 +48,7 @@ For the initial setup, use the default *Match by product sku* rule.
 
 - Create a support ticket to request enablement for the AEM Assets for Commerce Integration. In the ticket, include the **[!UICONTROL Program ID]**, **[!UICONTROL Environment ID]** and **[!UICONTROL IMS Org ID]** for the AEM Assets Authoring environment that you want to connect to Commerce.
 
-- Provide the **[!UICONTROL Asset Selector IMS Client ID]**. See [ImsAuthProps](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/asset-selector-integration/integrate-asset-selector-adobe-app) in the *AEM Assets Selector* documentation.
+- Provide the **[!UICONTROL Asset Selector IMS Client ID]**. See [ImsAuthProps](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-advisor/integrate-adobe-non-adobe-applications) in the *AEM Assets Selector* documentation.
 
 ## Configure the connection
 
@@ -45,7 +69,7 @@ For the initial setup, use the default *Match by product sku* rule.
 
 1. Enter the **[!UICONTROL Asset Selector IMS Client ID]**.
 
-   The [Asset Selector IMS Client ID](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/asset-selector-integration/integrate-asset-selector-adobe-app#ims-auth-props) is required by the [!UICONTROL Assets Selector], an AEM Assets feature that allows users to embed visual assets directly into Commerce product pages.
+   The [Asset Selector IMS Client ID](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-advisor/integrate-adobe-non-adobe-applications) is required by the [!UICONTROL Assets Selector], an AEM Assets feature that allows users to embed visual assets directly into Commerce product pages.
 
 1. Select the [[!UICONTROL Commerce integration]](aem-assets-configure-commerce.md#add-the-integration-to-the-commerce-environment) for authenticating requests between Commerce and the asset matching service.
 
@@ -78,3 +102,4 @@ If a merchant sets a [Custom Domain Name](https://experienceleague.adobe.com/en/
 ## Next step
 
 [Use AEM Assets with Commerce](aem-assets-manage.md)
+
