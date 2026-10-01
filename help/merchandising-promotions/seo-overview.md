@@ -60,6 +60,8 @@ A [site map](sitemap-xml.md) improves the way that your store is indexed by sear
 
 The [URL Rewrite](url-rewrite.md) tool lets you change any URL that is associated with a product, category, or CMS page.
 
+For guidance on choosing between search-term redirects, URL rewrites, [!DNL Live Search] rules, and storefront routing, see [Search-term redirects and storefront routing](search-term-redirects.md).
+
 ## Search engine robots
 
 The Commerce configuration includes settings to generate and manage instructions for web crawlers and bots that index your site. If the request for `robots.txt` reaches Commerce (rather than a physical file), it is dynamically routed to the robots controller. The instructions are directives that are recognized and followed by most search engines.

@@ -2,8 +2,32 @@
 title: What's new
 description: This section contains the changes made in the last 60 days. We exclude
   all minor updates, such as copy editing, from this list.
-updated: Fri Aug 28 15:20:19 2026
+updated: Mon Sep 28 10:52:05 2026
 entries:
+- description: Updated [Add a source](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/sources/sources-add)
+    to include the new Visible on Storefront toggle for Adobe Commerce as a Cloud
+    Service. Each inventory source can now be individually flagged for storefront
+    visibility. Sources are hidden by default.
+  versions: ''
+  type: major-update
+  date: September 23, 2026
+  link: enterprise:Adobe-Enterprise-Docs/commerce-admin.en/pull/905
+  merge_commit: 1b3beb5c914dae4c07dd591e9b975c0f35bb23cd
+  contributor: jhoover_adobe
+  labels:
+  - major-update
+- description: Removed Adobe Commerce 2.4.8-p5 from the list of supported versions
+    for [B2B 1.5.2-p5](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/release-notes#b2b-v152-p5).
+    2.4.8 customers should use B2B version 1.5.3 instead.
+  versions: ''
+  type: technical
+  date: August 31, 2026
+  link: enterprise:Adobe-Enterprise-Docs/commerce-admin.en/pull/882
+  merge_commit: fab7dc8f780fa68c147a06752dc96bd7b03444a2
+  contributor: chernenk_adobe
+  labels:
+  - release notes
+  - technical
 - description: Refreshed the [Data Feed Sync Status](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status)
     topic to match the current Admin experience, clarify that the page reports export
     status only, and document when the feature is available across Commerce service
