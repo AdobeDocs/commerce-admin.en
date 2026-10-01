@@ -45,6 +45,9 @@ nudge: true
   - Data synchronization for Commerce services {#data-sync}
     - [Data Management Dashboard](data-dashboard.md)
     - [Data Feed Sync Status](data-feed-sync-status.md)
+    - Catalog view sync and access keys {#catalog-view-sync}
+      - [Catalog View Sync Status](catalog-view-sync-status.md)
+      - [Restricted Access Keys](restricted-access-keys.md)
 - Action logs {#action-logs}
   - [Overview](action-log.md)
   - [Action logs report](action-log-report.md)

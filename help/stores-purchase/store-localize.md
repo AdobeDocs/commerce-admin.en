@@ -70,6 +70,8 @@ Follow the standard instructions for installing the language pack extension. For
 
 1. When complete, click **[!UICONTROL Save Config]**.
 
+   If the [!DNL Adobe Commerce Optimizer Connector for B2B] is installed, saving a display-locale change invalidates the Catalog View sync indexer. The scheduled indexer re-projects the affected catalog views in [!DNL Adobe Commerce Optimizer] later. The Catalog View payload always uses the Store View code for `sources[].locale`, not the display locale configured in `general/locale/code`. See [Manage catalog views](../b2b/catalog-views-manage.md).
+
    After you change the language of the locale, the remaining content that you have created, including product names and descriptions, categories, [CMS](../content-design/page-translate.md) pages, and blocks must be translated separately for each store view.
 
 ## Localize products
