@@ -25,7 +25,7 @@ topic_v2:
 ---
 # Manage catalog view configuration
 
-With the [!DNL Adobe Commerce Optimizer Connector for B2B] extension installed, the _[!UICONTROL Catalog Views]_ page lists the [!DNL Adobe Commerce Optimizer] (ACO) [catalog view projections]() created for custom shared catalog.  A _projection_ is the catalog view created when the connector synchronizes shared catalog data to [!DNL Adobe Commerce Optimizer]. The connector creates a separate projection for each store view in the shared catalog, so a shared catalog can have multiple catalog views. In storefront experiences, these catalog views are accessible only to companies assigned to the associated shared catalog.
+With the [!DNL Adobe Commerce Optimizer Connector for B2B] extension installed, the Catalog Views page lists the [!DNL Adobe Commerce Optimizer]  [catalog view projections](https://experienceleague-review.adobe.com/en/docs/commerce/aco-optimizer-connector/b2b-shared-catalog-projection){target="_blank"} created for custom shared catalog.  A _projection_ is the catalog view created when the connector synchronizes shared catalog data to [!DNL Adobe Commerce Optimizer]. The connector creates a separate projection for each store view in the shared catalog, so a shared catalog can have multiple catalog views. In storefront experiences, these catalog views are accessible only to companies assigned to the associated shared catalog.
 
 For example, suppose Acme Industrial is assigned to one shared catalog, EU Business, which belongs to the EU Website. That website has two store views:
 
@@ -65,6 +65,7 @@ For additional details, see [Manage restricted access keys](/help/systems/restri
 
 >[!MORELIKETHIS]
 >
+> - [B2B shared catalog projection](https://experienceleague-review.adobe.com/en/docs/commerce/aco-optimizer-connector/b2b-shared-catalog-projection){target="_blank"}
 > - [Services > ACO Catalog View](/help/configuration-reference/services/aco-catalog-view.md)
 > - [Catalog View Sync Status monitoring](/help/systems/catalog-view-sync-status.md)
 > - [Manage your shared catalogs](catalog-shared-manage.md)
