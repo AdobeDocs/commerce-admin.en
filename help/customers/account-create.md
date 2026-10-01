@@ -42,9 +42,9 @@ The following instructions represent the default customer account configuration.
 
 As a store administrator, you can also set the [new account options](../customers/account-options-new.md) to send a confirmation email to new registered customers, which helps to ensure that registered accounts are valid. 
 
-  >[!NOTE]
-  >
-  >Starting from version 2.4.7, customers must reenter their email and password to log in to their account after email confirmation, regardless of the browser.
+>[!NOTE]
+>
+>Starting from version 2.4.7, customers must reenter their email and password to log in to their account after email confirmation, regardless of the browser.
 
 ## Create account from the storefront
 

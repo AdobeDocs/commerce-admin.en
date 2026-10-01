@@ -52,6 +52,12 @@ If editing the Default Source, you can edit all configurations except name and c
 
     - If this inventory source is ready to use, set **[!UICONTROL Is Enabled]** to `Yes`.
 
+    - To expose the stock of this source to the storefront, set **[!UICONTROL Visible on Storefront]** to `Yes`. [!BADGE SaaS only]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service and Adobe Commerce Optimizer projects only (Adobe-managed SaaS infrastructure)."}
+
+      This option is set to `No` by default. If you set it to `Yes`, the source can take up to the query cache lifetime to appear in results. If you then set this option to `No`, the source is removed from query results immediately.
+
+      The [`sourceAvailability`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/queries/source-availability){target="_blank"} GraphQL query provides access to stock information for sources that are visible on the storefront. You must enable the `sourceAvailability` query for the store view in the [global options](global-options.md).
+
     - Enter a brief **[!UICONTROL Description]** for this location for quick reference or additional details.
 
     - For **[!UICONTROL Latitude]** and **[!UICONTROL Longitude]**, enter the Global Positioning System (GPS) coordinates of the facility location.
@@ -124,6 +130,7 @@ If editing the Default Source, you can edit all configurations except name and c
 |[!UICONTROL Name]|(Required) A unique name that identifies the inventory source for Admin users.|
 |[!UICONTROL Code]|(Required) A unique, alphanumeric code that is used by the system to identify the inventory source. Enter the code in upper or lowercase characters and/or numbers, without spaces. If necessary, a hyphen or underscore can be used instead of a space. The code cannot be edited after creating the source. It is a unique ID used when you assign sources to stocks and export and/or import product data.|
 |[!UICONTROL Is Enabled]|Determines if the inventory source is available to be used. Options: Yes / No|
+|[!UICONTROL Visible on Storefront] [!BADGE SaaS only]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service and Adobe Commerce Optimizer projects only (Adobe-managed SaaS infrastructure)."}|Determines if the storefront [`sourceAvailability`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/queries/source-availability){target="_blank"} GraphQL query can return stock information for this inventory source.|
 |[!UICONTROL Description]|A brief description of the inventory source location. Include details helpful to your Admin users.|
 |[!UICONTROL Latitude]|Specifies the latitude coordinate of the inventory source for GPS. Enter the value  as a number, preceded by a plus or minus sign as needed. The degree symbol and letters are not permitted. For example: Latitude 32.7555|
 |[!UICONTROL Longitude]|Specifies the longitude coordinate of the inventory source for GPS. Enter the value  as a number, preceded by a plus or minus sign as needed. The degree symbol and letters are not permitted. For example: `-97.3308`|

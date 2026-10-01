@@ -96,6 +96,13 @@ Configure the default configuration options for product and stock for your websi
 
     - For [!DNL Inventory Management], **[!UICONTROL Automatically Return Credit Memo Item to Stock]** is set to `No`. When submitting a credit memo, you enter and select to return stock to sources.
 
+1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Per-Source Availability (Storefront)]** section and set **[!UICONTROL Enable sourceAvailability GraphQL Query]** to `Yes` to let the storefront query per-source stock data using the [`sourceAvailability`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/queries/source-availability){target="_blank"} GraphQL query. This setting is scoped per store view.
+
+   >[!NOTE]
+   >
+   >The `sourceAvailability` query is disabled by default because it discloses which sources stock a SKU. Exact quantities remain masked until the source quantity reaches the **[!UICONTROL Only X left Threshold]** set in the _[!UICONTROL Stock Options]_ section. Each inventory source has a **[!UICONTROL Visible on Storefront]** flag that is off by default. A source's stock is never returned until a merchant enables it. To set it, go to **[!UICONTROL Stores]** > _[!UICONTROL Inventory]_ > **[!UICONTROL Sources]**, edit a source, and turn on **[!UICONTROL Visible on Storefront]**.
+
+
 1. Expand ![Expansion selector](../assets/icon-display-expand.png) the **[!UICONTROL Admin bulk operations]** section and set the options:
 
    ![Admin Bulk Operations](assets/config-catalog-inventory-admin-bulk-operations.png){width="600" zoomable="yes"}
