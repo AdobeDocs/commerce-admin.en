@@ -66,12 +66,25 @@ Services for Adobe Commerce are hosted services that provide extended capabiliti
 * [Catalog Service](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/guide-overview)
 * [Live Search](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)
 * [Product Recommendations](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/guide-overview)
+* [Adobe Commerce Optimizer Connector](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/overview)
+
+The [!DNL Adobe Commerce Optimizer Connector] synchronizes catalog and pricing data from Adobe Commerce into [!DNL Adobe Commerce Optimizer] to power AI-driven product discovery, recommendations, and headless storefronts, while Adobe Commerce remains the system of record.
+
+>[!NOTE]
+>
+>For B2B merchants, the [!DNL Adobe Commerce Optimizer Connector for B2B] automatically synchronizes your shared catalogs into [!DNL Adobe Commerce Optimizer] as protected catalog views, secured by restricted access keys, so contract-specific product assortment and pricing stay in sync between the two systems.
+
+For more information, see the [[!DNL Adobe Commerce Optimizer Connector] Integration Guide](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/overview).
 
 ## Shared catalogs
 
 Shared catalogs are the pricing levels that allow setting custom prices per product for different companies on one or multiple websites. By using shared catalogs, you can sell products by applying different pricing levels for different customer groups. Support for Shared catalogs is available only for Commerce stores configured to support Company accounts.
 
 For more information, see [Working with Shared Catalogs](catalog-shared.md).
+
+>[!NOTE]
+>
+>If the [!DNL Adobe Commerce Optimizer Connector for B2B] extension is installed, each custom shared catalog is also projected into [!DNL Adobe Commerce Optimizer] as one or more catalog views—one per store view in the shared catalog. For more information, see [Manage catalog view configuration](catalog-views-manage.md) and [Catalog view sync status monitoring](/help/systems/catalog-view-sync-status.md).
 
 ## Quick Order
 

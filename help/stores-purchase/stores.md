@@ -158,6 +158,12 @@ Multi-site installations of Adobe Commerce or Magento Open Source must be config
 
    - **[!UICONTROL Sort Order]** — _(Optional)_ Enter a number to determine the sequence in which this site is listed with other sites. To make this site appear at the top of the list, enter a zero (`0`).
 
+   - **[!UICONTROL Sync prices and price books]** — _(Optional)_ If the [!DNL Adobe Commerce Optimizer Connector] is installed, select this option in the **[!UICONTROL Adobe Commerce Optimizer exporter settings]** section to synchronize this website's prices and price books to [!DNL Adobe Commerce Optimizer]. If the [!DNL Adobe Commerce Optimizer Connector for B2B] is installed, data is also synchronized for available B2B shared catalogs. See [Manage catalog views](../b2b/catalog-views-manage.md).
+
+      ![Create website - Adobe Commerce Optimizer exporter settings](./assets/website-optimizer-export-settings.png){width="600" zoomable="yes"}
+
+      Changing this setting after the initial sync triggers a full re-indexation. See [Customize the Commerce scopes export configuration](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/get-started#customize-the-commerce-scopes-export-configuration) in the *Adobe Commerce Optimizer Connector Guide*.
+
 1. Click **[!UICONTROL Save Web Site]**.
 
 1. Set up each [store](#add-stores) and [store view](store-views.md) that is needed for the new website.

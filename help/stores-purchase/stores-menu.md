@@ -76,3 +76,11 @@ Manage attributes that are used for [customer](../customers/attribute-properties
 ### [!UICONTROL Other Settings]
 
 Manage additional settings for [reward exchange rates](../merchandising-promotions/reward-exchange-rates.md), [gift wrapping](cart-configuration.md#gift-wrap), and [gift registries](../merchandising-promotions/gift-registries.md).
+
+## [!DNL Adobe Commerce Optimizer] integration
+
+When the [!DNL Adobe Commerce Optimizer Connector] is installed, you can synchronize website and store view data to [!DNL Adobe Commerce Optimizer]. Website scope controls [price sync](stores.md#step-1-create-a-website) (prices and price books). Store view scope controls [product sync](store-views.md#add-a-store-view) (products and product attributes).
+
+For the sync status indicators shown on the [!UICONTROL All Stores] grid, see [Adobe Commerce Optimizer sync status](store-views.md#optimizer-sync-status). For connector setup and configuration behavior, see [Customize the Commerce scopes export configuration](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/get-started#customize-the-commerce-scopes-export-configuration) in the *Adobe Commerce Optimizer Connector Guide*.
+
+If the [!DNL Adobe Commerce Optimizer Connector for B2B] is installed, data is also synchronized for available B2B shared catalogs. See [Manage catalog views](../b2b/catalog-views-manage.md).

@@ -27,6 +27,19 @@ Store views are typically used to make the store available in different locales.
 
 ![Scope - multiple store views](./assets/scope-multiview.svg){width="550"}
 
+## [!DNL Adobe Commerce Optimizer] sync status {#optimizer-sync-status}
+
+If the [!DNL Adobe Commerce Optimizer Connector] is installed and enabled for a website or store view, the [!UICONTROL All Stores] grid shows a sync status indicator. If the [!DNL Adobe Commerce Optimizer Connector for B2B] is installed, data is also synchronized for available B2B shared catalogs. See [Manage catalog views](../b2b/catalog-views-manage.md).
+
+| Column | Indicator | Description |
+| ----- | ----- | ----- |
+| [!UICONTROL Web Site] | [!UICONTROL Price sync enabled for Commerce Optimizer] | This website's prices and price books are synchronized to [!DNL Adobe Commerce Optimizer]. |
+| [!UICONTROL Store View] | [!UICONTROL Product sync enabled for Commerce Optimizer] | This store view's products and attributes are synchronized to [!DNL Adobe Commerce Optimizer]. |
+
+![All Stores grid with Adobe Commerce Optimizer sync indicators](./assets/stores-all-optimizer-sync.png){width="700" zoomable="yes"}
+
+To enable or disable synchronization, edit the **[!UICONTROL Adobe Commerce Optimizer exporter settings]** when you [create a website](stores.md#step-1-create-a-website) or [add a store view](#add-a-store-view), or when you update an existing website or store view.
+
 ## Add a store view
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL All Stores]**.
@@ -50,6 +63,12 @@ Store views are typically used to make the store available in different locales.
 1. To activate the view, set **[!UICONTROL Status]** to `Enabled`.
 
 1. (Optional) Enter a **[!UICONTROL Sort Order]** number to determine the sequence in which this view is listed with other views.
+
+1. (Optional) If the [!DNL Adobe Commerce Optimizer Connector] is installed, select **[!UICONTROL Sync products and attributes]** in the **[!UICONTROL Adobe Commerce Optimizer exporter settings]** section to synchronize this store view's products and attributes to [!DNL Adobe Commerce Optimizer]. If the [!DNL Adobe Commerce Optimizer Connector for B2B] is also installed, this setting also synchronizes B2B shared catalog data to [!DNL Adobe Commerce Optimizer]. See [Manage catalog views](../b2b/catalog-views-manage.md).
+
+   ![Create store view - Adobe Commerce Optimizer exporter settings](./assets/stores-optimizer-export-settings.png){width="600" zoomable="yes"}
+
+   Changing this setting after the initial sync triggers a full re-indexation. See [Customize the Commerce scopes export configuration](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/get-started#customize-the-commerce-scopes-export-configuration) in the *Adobe Commerce Optimizer Connector Guide*.
 
 1. Click **[!UICONTROL Save Store View]**.
 
@@ -81,5 +100,8 @@ If your Adobe Commerce or Magento Open Source installation has a multisite or mu
     - **[!UICONTROL Code]** (only if not used in `index.php`)
     - **[!UICONTROL Status]** (non-default views only)
     - **[!UICONTROL Sort Order]**
+    - **[!UICONTROL Sync products and attributes]** (only if the [!DNL Adobe Commerce Optimizer Connector] is installed)
+
+   ![Store view - edit default view with Adobe Commerce Optimizer exporter settings](./assets/stores-optimizer-exporter-settings.png){width="600" zoomable="yes"}
 
 1. Click **[!UICONTROL Save Store View]**.

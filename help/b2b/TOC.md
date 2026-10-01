@@ -1,6 +1,6 @@
 ---
 user-guide-title: "[!DNL Adobe Commerce B2B] Guide"
-user-guide-description: Learn how to use the integrated B2B features available for Adobe Commerce, 
+user-guide-description: Learn how to use the integrated B2B features for Adobe Commerce, such as company accounts and shared catalog management.
 breadcrumb-title: "[!DNL Adobe Commerce B2B]"
 role: Admin, Leader, User
 feature: B2B
@@ -40,6 +40,7 @@ nudge: true
     + [Set catalog pricing and structure](catalog-shared-pricing-structure.md)
     + [Assign companies to a catalog](catalog-shared-assign-companies.md)
   + [Manage shared catalogs](catalog-shared-manage.md)
+  + [Manage catalog view configuration](catalog-views-manage.md)
 + [Quick orders](quick-order.md)
 + Purchase orders {#purchase-orders}
   + [Purchase orders for companies](purchase-order-flow.md)
