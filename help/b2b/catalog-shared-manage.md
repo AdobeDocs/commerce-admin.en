@@ -36,6 +36,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
+last-update: 2026-10-01
 ---
 # Manage your shared catalogs
 
