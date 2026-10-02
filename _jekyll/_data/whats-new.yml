@@ -2,8 +2,27 @@
 title: What's new
 description: This section contains the changes made in the last 60 days. We exclude
   all minor updates, such as copy editing, from this list.
-updated: Mon Sep 28 10:52:05 2026
+updated: Fri Oct 2 15:20:36 2026
 entries:
+- description: Added documentation for the Adobe Commerce Optimizer Connector for
+    B2B:<br/>- Added [Catalog View Sync Status](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/catalog-view-sync/catalog-view-sync-status)
+    and [Restricted Access Keys](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/catalog-view-sync/restricted-access-keys)
+    admin pages to monitor and repair B2B shared catalog synchronization with Adobe
+    Commerce Optimizer.<br/>- Added the [ACO Restricted Access Keys](https://experienceleague.adobe.com/en/docs/commerce-admin/config/services/aco-restricted-access-keys)
+    configuration reference page.<br/>- Added [Manage catalog view configuration](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/shared-catalogs/catalog-views-manage),
+    linked from [Manage shared catalogs](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/shared-catalogs/catalog-shared-manage)
+    and [Manage company accounts](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/companies/account-company-manage).<br/>-
+    Documented that saving a store view's locale in [Store localization](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-localize)
+    now triggers a catalog view reindex for connected B2B shared catalogs.
+  versions: ''
+  type: major-update
+  date: October 1, 2026
+  link: enterprise:Adobe-Enterprise-Docs/commerce-admin.en/pull/906
+  merge_commit: df7cf0481d74403bb4baaaf48e0ccc735ac3af2c
+  contributor: meker_adobe
+  labels:
+  - major-update
+  - new topic
 - description: Updated [Add a source](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/sources/sources-add)
     to include the new Visible on Storefront toggle for Adobe Commerce as a Cloud
     Service. Each inventory source can now be individually flagged for storefront
