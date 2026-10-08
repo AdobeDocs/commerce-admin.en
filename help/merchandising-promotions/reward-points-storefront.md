@@ -3,13 +3,19 @@ title: Reward points storefront experience
 description: Learn how customers can access a history of their reward point balance in their storefront account.
 exl-id: 6aa2d406-95c1-408c-a971-5c2a4132a0c8
 feature: Rewards, Promotions/Events, Customers, Storefront
-TQID: https://experienceleague.adobe.com/R2LBruTKbg4EhfNJ4tO795Y4LPS094UtRpZIuVNFe6c
+TQID: 'https://experienceleague.adobe.com/R2LBruTKbg4EhfNJ4tO795Y4LPS094UtRpZIuVNFe6c'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
 feature_v2:
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
     internal-label: Storefront
+  - id: 4069cee6-4dc8-5a83-81de-232af6a7c9e9
+    internal-label: Rewards
+  - id: 19d9b313-1a3c-5bed-9da7-4364f71c3a28
+    internal-label: Promotions/Events
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

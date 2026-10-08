@@ -3,13 +3,15 @@ title: Bulk updates for product attributes
 description: Use the [!UICONTROL Update Attributes] tool to apply attribute changes to  multiple products.
 exl-id: a2d303bf-35b4-4fc7-a481-cd9617155fb8
 feature: Catalog Management, Products
-TQID: https://experienceleague.adobe.com/S3nCE3b2jmixhONN-zjaPMdtkuQyi6t3sdL0OYHqWQM
+TQID: 'https://experienceleague.adobe.com/S3nCE3b2jmixhONN-zjaPMdtkuQyi6t3sdL0OYHqWQM'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
     internal-label: Catalog management
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

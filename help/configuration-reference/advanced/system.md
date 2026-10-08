@@ -1,11 +1,12 @@
 ---
-title: "[!UICONTROL Advanced] &gt; [!UICONTROL System]"
-description: "Review the configurations settings on the [!UICONTROL Advanced] &gt; [!UICONTROL System] page of the Commerce Admin."
+title: '[!UICONTROL Advanced] &gt; [!UICONTROL System]'
+description: Review the configurations settings on the [!UICONTROL Advanced] &gt; [!UICONTROL System] page of the Commerce Admin.
 exl-id: ffdaf7b5-c508-4fab-93ec-21f28cff6d3d
 role: Admin, Developer
 feature: Configuration, System
 badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
-TQID: https://experienceleague.adobe.com/9QNzCxuwy1v5xR6YNE4On3woJ4mw-SnWB3m-me-nrb0
+last-update: 2026-08-20T00:00:00.000Z
+TQID: 'https://experienceleague.adobe.com/9QNzCxuwy1v5xR6YNE4On3woJ4mw-SnWB3m-me-nrb0'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -14,6 +15,8 @@ feature_v2:
     internal-label: Security
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 8d0b446f-5b16-5a10-b272-01143504a11c
+    internal-label: System
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
@@ -31,7 +34,6 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-last-update: 2026-08-20
 ---
 # [!UICONTROL Advanced] > [!UICONTROL System]
 

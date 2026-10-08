@@ -3,7 +3,7 @@ title: Product data attributes reference
 description: Use this reference of product data attributes when you work with product data imports and exports.
 exl-id: 9ffa4d1f-cbf8-4a08-bb79-33f21e698a74
 feature: Products, Attributes
-TQID: https://experienceleague.adobe.com/IRfev4xpSuxjNkdU3lOBNX4XDkvyYZq-UvhrXP0mtaQ
+TQID: 'https://experienceleague.adobe.com/IRfev4xpSuxjNkdU3lOBNX4XDkvyYZq-UvhrXP0mtaQ'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -14,6 +14,10 @@ feature_v2:
     internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
+  - id: 76cfaac4-e563-56dd-8938-708bf8b84956
+    internal-label: Attributes
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

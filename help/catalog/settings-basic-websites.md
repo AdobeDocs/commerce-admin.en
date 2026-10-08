@@ -3,13 +3,15 @@ title: Product settings - [!UICONTROL Product in Websites]
 description: For a product, the [!UICONTROL Product in Websites] settings identify each website where the product is available.
 exl-id: dd4751db-5d68-426c-bfb0-43fc82df05f5
 feature: Catalog Management, Products
-TQID: https://experienceleague.adobe.com/Qa-2xvYOG-qqgfrFGWJXbhYtIbVFB3piVCRPZ-92QQY
+TQID: 'https://experienceleague.adobe.com/Qa-2xvYOG-qqgfrFGWJXbhYtIbVFB3piVCRPZ-92QQY'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
     internal-label: Catalog management
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

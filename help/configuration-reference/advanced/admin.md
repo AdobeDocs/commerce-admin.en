@@ -1,11 +1,11 @@
 ---
-title: "[!UICONTROL Advanced] &gt; [!UICONTROL Admin]"
+title: '[!UICONTROL Advanced] &gt; [!UICONTROL Admin]'
 description: Review the configurations settings on the [!UICONTROL Advanced] &gt; [!UICONTROL Admin] page of the Commerce Admin.
 exl-id: 546b8d01-9611-4415-ab2b-29be560316f5
 role: Admin
 feature: Configuration, Admin Workspace
 badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
-TQID: https://experienceleague.adobe.com/nLIhR9z4VAqGUnR2MqQOav3sHg4tnjObhj36K-P08TE
+TQID: 'https://experienceleague.adobe.com/nLIhR9z4VAqGUnR2MqQOav3sHg4tnjObhj36K-P08TE'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -22,11 +22,15 @@ feature_v2:
     internal-label: Configuration
   - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
     internal-label: Reporting
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
 subfeature_v2:
   - id: e91a50b1-0b31-436e-9033-00e4776e94cb
     internal-label: Categories
   - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
     internal-label: B2B
+  - id: bb2df8be-afdd-4818-b6b5-95ca1dd3bc3a
+    internal-label: Admin workspace
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

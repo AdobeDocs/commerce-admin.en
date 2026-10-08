@@ -3,13 +3,19 @@ title: Create a related product rule
 description: Learn how to create a related product rule that can be triggered to display related products, up-sells, and cross-sells.
 exl-id: fbc059ec-d3e6-46ca-810a-a979a0631dd8
 feature: Merchandising, Products, Storefront
-TQID: https://experienceleague.adobe.com/jfs0iFZxLKfvJpRGLA6Hi1dADcGEvm4PJIolOf2nfI4
+TQID: 'https://experienceleague.adobe.com/jfs0iFZxLKfvJpRGLA6Hi1dADcGEvm4PJIolOf2nfI4'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 58c984c2-e237-5c50-9718-500e40d1e82c
+    internal-label: Merchandising
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

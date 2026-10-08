@@ -1,16 +1,20 @@
 ---
-title: "[!UICONTROL General] &gt; [!UICONTROL Currency Setup]"
+title: '[!UICONTROL General] &gt; [!UICONTROL Currency Setup]'
 description: Review the configurations settings on the [!UICONTROL General] &gt; [!UICONTROL Currency Setup] page of the Commerce Admin.
 exl-id: a84be30f-f2eb-4c86-942c-2d49e5cf23af
 role: Admin
 feature: Currency, Configuration, Data Import/Export
-TQID: https://experienceleague.adobe.com/L9VCzj3Kb0IEd-XSk6Q-boF6jgIdURXoULgfhO-Hd5s
+TQID: 'https://experienceleague.adobe.com/L9VCzj3Kb0IEd-XSk6Q-boF6jgIdURXoULgfhO-Hd5s'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 3033d2ab-c1d2-5b52-b865-72d9e5ad2c37
+    internal-label: Currency
+  - id: 601e4abe-d9bf-58de-a779-32ed6794dcbe
+    internal-label: Data Import/Export
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

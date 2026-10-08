@@ -3,7 +3,7 @@ title: Reward points in price rules
 description: Learn how reward points can be awarded to customers according to a cart price rule.
 exl-id: 6e23b56d-64e4-435d-9f4c-ee3f400b0250
 feature: Rewards, Promotions/Events, Customers
-TQID: https://experienceleague.adobe.com/amQYBXl5evC-BUqmb5SyGR97iOAMIPv5UxqCFfOkGmQ
+TQID: 'https://experienceleague.adobe.com/amQYBXl5evC-BUqmb5SyGR97iOAMIPv5UxqCFfOkGmQ'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -12,6 +12,12 @@ feature_v2:
     internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 4069cee6-4dc8-5a83-81de-232af6a7c9e9
+    internal-label: Rewards
+  - id: 19d9b313-1a3c-5bed-9da7-4364f71c3a28
+    internal-label: Promotions/Events
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

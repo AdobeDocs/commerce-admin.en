@@ -3,7 +3,7 @@ title: Customer account dashboard
 description: Customers can manage and monitor their own information and activities from their Customer Account Dashboard.
 exl-id: 74d5b9ec-0630-4843-a88c-f881cb6cd957
 feature: Customers, Storefront
-TQID: https://experienceleague.adobe.com/FwS3UejhrBTgRH-5t0EPY1a2sMX8XneRvSe3JKO5I1w
+TQID: 'https://experienceleague.adobe.com/FwS3UejhrBTgRH-5t0EPY1a2sMX8XneRvSe3JKO5I1w'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -14,6 +14,10 @@ feature_v2:
     internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
 subfeature_v2:
   - id: b01a71b7-d17a-42b2-a9ac-af4b8d9d2ef5
     internal-label: 2FA

@@ -3,7 +3,7 @@ title: Compare products
 description: Learn how the storefront can provide tools for customers to compare products for more informed purchasing decisions.
 exl-id: 7c4de9d3-394a-48e1-ba01-7964b40b95ae
 feature: Products, Storefront
-TQID: https://experienceleague.adobe.com/gqGtJhzoxEsGS-HTgySsMqC9s7D134hPywxyxJL9GDQ
+TQID: 'https://experienceleague.adobe.com/gqGtJhzoxEsGS-HTgySsMqC9s7D134hPywxyxJL9GDQ'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -12,6 +12,8 @@ feature_v2:
     internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

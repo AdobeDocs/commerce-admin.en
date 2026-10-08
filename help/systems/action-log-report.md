@@ -3,13 +3,20 @@ title: Action Logs report
 description: Learn how to view, filter, and export the Actions Log report, which provides a detailed record of all log-enabled Admin actions.
 exl-id: f2be5852-9185-4f14-b0bb-44d779b40819
 feature: Logs, Data Import/Export
-TQID: https://experienceleague.adobe.com/b6LYoDmgU-uDdTLCjtDKd1TS4f7krj4fs9Qz4ClAJr4
+TQID: 'https://experienceleague.adobe.com/b6LYoDmgU-uDdTLCjtDKd1TS4f7krj4fs9Qz4ClAJr4'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
     internal-label: Security
+  - id: 601e4abe-d9bf-58de-a779-32ed6794dcbe
+    internal-label: Data Import/Export
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+subfeature_v2:
+  - id: 3c398179-d35a-51ba-b317-6c5b95feef5e
+    internal-label: Logs
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

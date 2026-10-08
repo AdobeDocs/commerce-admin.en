@@ -1,9 +1,9 @@
 ---
-title: "[!UICONTROL Sales] &gt; [!UICONTROL PDF Print-outs]"
+title: '[!UICONTROL Sales] &gt; [!UICONTROL PDF Print-outs]'
 description: Review the configurations settings on the [!UICONTROL Sales] &gt; [!UICONTROL PDF Print-outs] page of the Commerce Admin.
 exl-id: aa30ee9a-4201-4054-82f0-2f42d7b4ba4f
 feature: Configuration, Orders
-TQID: https://experienceleague.adobe.com/m388tzCZRMtoz8-wtyJyre2KSyc75FY3yRFXqzFMsys
+TQID: 'https://experienceleague.adobe.com/m388tzCZRMtoz8-wtyJyre2KSyc75FY3yRFXqzFMsys'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -12,6 +12,8 @@ feature_v2:
     internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

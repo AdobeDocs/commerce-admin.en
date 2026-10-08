@@ -1,9 +1,9 @@
 ---
-title: "[!DNL Adobe Commerce B2B] release notes"
+title: '[!DNL Adobe Commerce B2B] release notes'
 description: Review the release notes for information about changes in [!DNL Adobe Commerce B2B] releases.
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-TQID: https://experienceleague.adobe.com/d-IieNYP0V4T5mh69jzuYy5ELc8FWbD12qPvJ2P2eZo
+TQID: 'https://experienceleague.adobe.com/d-IieNYP0V4T5mh69jzuYy5ELc8FWbD12qPvJ2P2eZo'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -18,6 +18,8 @@ feature_v2:
     internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: adedf70c-c1e1-5734-acdc-c5c43b114964
+    internal-label: Release Notes
 subfeature_v2:
   - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
     internal-label: B2B

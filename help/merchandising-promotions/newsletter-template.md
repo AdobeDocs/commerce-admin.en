@@ -3,10 +3,15 @@ title: Newsletter templates
 description: Learn how to create newsletter templates to align with your communications strategy.
 exl-id: 2a14ef7c-218a-4984-9062-87cd6000cefc
 feature: Customers, Communications
-TQID: https://experienceleague.adobe.com/wfyNd68Ln7Xr8DOJN77aUedE8b8GC-BtnxDDV41wLtw
+TQID: 'https://experienceleague.adobe.com/wfyNd68Ln7Xr8DOJN77aUedE8b8GC-BtnxDDV41wLtw'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
+feature_v2:
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
+  - id: bb03f6c4-cab9-560e-9d02-5816e1808d17
+    internal-label: Communications
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

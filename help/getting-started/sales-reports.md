@@ -3,7 +3,7 @@ title: Sales reports
 description: The [!DNL Commerce] sales reports help you to track orders, taxes, invoices, shipping, refunds, coupons, and PayPal settlement.
 exl-id: 928a407f-cbed-4114-ad0b-ee227383bf36
 feature: Reporting, Orders
-TQID: https://experienceleague.adobe.com/f1I8ZnBMA1HWwLUoR5e94nPPsMd46OLJcBnHhuALSzA
+TQID: 'https://experienceleague.adobe.com/f1I8ZnBMA1HWwLUoR5e94nPPsMd46OLJcBnHhuALSzA'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -12,6 +12,8 @@ feature_v2:
     internal-label: Order Management System
   - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
     internal-label: Reporting
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
 subfeature_v2:
   - id: b382a22d-d89f-43ea-a98c-4d7d1c29dabd
     internal-label: Sales reports

@@ -3,13 +3,15 @@ title: Shopping cart
 description: Learn about the shopping cart as an important part of the purchase experience on your store.
 exl-id: f1ccbe5b-fe9d-4ad2-9125-b2d2367bbec3
 feature: Shopping Cart
-TQID: https://experienceleague.adobe.com/F4yLQrf-M9YkPyjc3YZmmIM0KtuzuOFWN9D0sfupGCk
+TQID: 'https://experienceleague.adobe.com/F4yLQrf-M9YkPyjc3YZmmIM0KtuzuOFWN9D0sfupGCk'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: df8eaa0e-dd74-553a-8ad5-28129f8e8d3d
+    internal-label: Shopping Cart
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
