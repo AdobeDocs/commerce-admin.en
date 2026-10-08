@@ -3,13 +3,20 @@ title: Create a quote template
 description: Create a quote template from an existing quote to streamline quote negotiation for recurring orders.=
 feature: B2B, Quotes
 exl-id: e0b7c2b6-3ad1-416e-954b-80fe571cb7d6
-TQID: https://experienceleague.adobe.com/eE24prQApxMWecayEeNFphPXrHQ184urBpIQIG8ruRE
+TQID: 'https://experienceleague.adobe.com/eE24prQApxMWecayEeNFphPXrHQ184urBpIQIG8ruRE'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
     internal-label: Order Management System
+  - id: 792a7e9b-6519-5e99-a913-56c3dd2408da
+    internal-label: Quotes
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

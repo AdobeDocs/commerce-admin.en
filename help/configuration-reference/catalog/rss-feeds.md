@@ -1,9 +1,9 @@
 ---
-title: "[!UICONTROL Catalog] &gt; [!UICONTROL RSS Feeds]"
-description: Review the configurations settings on the [!UICONTROL Catalog] &gt; [!UICONTROL RSS Feeds] page of the Commerce Admin.
+title: "[!UICONTROL Catalog] &gt; [!UICONTROL RSS\_Feeds]"
+description: "Review the configurations settings on the [!UICONTROL Catalog] &gt; [!UICONTROL RSS\_Feeds] page of the Commerce Admin."
 exl-id: 3d71b1b9-08aa-495c-a269-b6e336f7ba06
 feature: Configuration, Communications
-TQID: https://experienceleague.adobe.com/vPgIo-h-9LkwMsk7enzY0rM5vMZlj78tT-jqumL5n60
+TQID: 'https://experienceleague.adobe.com/vPgIo-h-9LkwMsk7enzY0rM5vMZlj78tT-jqumL5n60'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -12,6 +12,8 @@ feature_v2:
     internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: bb03f6c4-cab9-560e-9d02-5816e1808d17
+    internal-label: Communications
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

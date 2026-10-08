@@ -3,7 +3,7 @@ title: Provide shopper assistance
 description: When you use the Login as a Customer feature, you can see what the customers see and make updates on their behalf.
 exl-id: 6842ae7a-6440-45f1-af18-e6427088d29d
 feature: Customers, Customer Service
-TQID: https://experienceleague.adobe.com/-bORZ%2D%2D%2Du2UGZ-JcOT7E8u2i58a1c-Iq57-moezBJ78
+TQID: 'https://experienceleague.adobe.com/-bORZ%2D%2D%2Du2UGZ-JcOT7E8u2i58a1c-Iq57-moezBJ78'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -14,6 +14,13 @@ feature_v2:
     internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
+  - id: da76473c-f99b-5ad0-9b14-896aed473f8a
+    internal-label: Services
+subfeature_v2:
+  - id: deedbb4d-f1b7-58ea-a34a-de1f481f9d4c
+    internal-label: Customer Service
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

@@ -1,15 +1,17 @@
 ---
-title: "[!UICONTROL Catalog] &gt; [!UICONTROL XML Sitemap]"
+title: '[!UICONTROL Catalog] &gt; [!UICONTROL XML Sitemap]'
 description: Review the configurations settings on the [!UICONTROL Catalog] &gt; [!UICONTROL XML Sitemap] page of the Commerce Admin.
 exl-id: 319c34e9-bd5f-46f8-810f-bc4d5228f9c9
 feature: Configuration, Site Navigation
-TQID: https://experienceleague.adobe.com/1oTTRT977C3zcifhCRFBuXf7ny-6rqGSC--enriyj-Y
+TQID: 'https://experienceleague.adobe.com/1oTTRT977C3zcifhCRFBuXf7ny-6rqGSC--enriyj-Y'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 48c59cc5-3c2e-5df1-8756-f5c139a28932
+    internal-label: Site Navigation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

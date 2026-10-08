@@ -1,15 +1,18 @@
 ---
-title: "[!UICONTROL Customers] &gt; [!UICONTROL Persistent Shopping Cart]"
+title: '[!UICONTROL Customers] &gt; [!UICONTROL Persistent Shopping Cart]'
 description: Review the configurations settings on the [!UICONTROL Customers] &gt; [!UICONTROL Persistent Shopping Cart] page of the Commerce Admin.
 exl-id: d6c5ae46-32ed-4fcd-bcd6-ee3a07d7db5f
 feature: Configuration, Shopping Cart
-TQID: https://experienceleague.adobe.com/r9fIoKznLzGPZrgstDMBxeELbHPiy9Jv5NSerkKn3Bo
+last-update: 2024-07-24T00:00:00.000Z
+TQID: 'https://experienceleague.adobe.com/r9fIoKznLzGPZrgstDMBxeELbHPiy9Jv5NSerkKn3Bo'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: df8eaa0e-dd74-553a-8ad5-28129f8e8d3d
+    internal-label: Shopping Cart
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -25,7 +28,6 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-last-update: 2024-07-24
 ---
 # [!UICONTROL Customers] > [!UICONTROL Persistent Shopping Cart]
 

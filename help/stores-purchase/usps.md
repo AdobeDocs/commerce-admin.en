@@ -3,13 +3,16 @@ title: United States Postal Service (USPS)
 description: Learn how to set up USPS as a shipping carrier for your store.
 exl-id: c9601fb8-f0f9-484a-a2e1-d50ee0f2dbf0
 feature: Shipping/Delivery
-TQID: https://experienceleague.adobe.com/Bsn7nTsSUfoRygB0hyx1KB29CECaiu3RWkoFOJ5gQg8
+last-update: 2026-05-12T00:00:00.000Z
+TQID: 'https://experienceleague.adobe.com/Bsn7nTsSUfoRygB0hyx1KB29CECaiu3RWkoFOJ5gQg8'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 04d3134c-2afb-5bd7-ac14-e19fa935e848
+    internal-label: Shipping/Delivery
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -23,7 +26,6 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-last-update: 2026-05-12
 ---
 # United States Postal Service (USPS)
 

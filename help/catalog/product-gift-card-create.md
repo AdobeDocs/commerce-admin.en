@@ -3,7 +3,7 @@ title: Gift card product
 description: Learn how to create a gift card product that produces a unique code to be redeemed by a recipient customer during checkout.
 exl-id: bc4b60fe-10b3-4d17-85ce-35c2720c90a2
 feature: Catalog Management, Products, Gift
-TQID: https://experienceleague.adobe.com/NXGOm4ZRIEPM02IPR8yJ7Ai9s1G6IPOKh2ER8f4kJNY
+TQID: 'https://experienceleague.adobe.com/NXGOm4ZRIEPM02IPR8yJ7Ai9s1G6IPOKh2ER8f4kJNY'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -14,6 +14,10 @@ feature_v2:
     internal-label: Catalog management
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
+  - id: 4fc0a729-4349-5307-bd06-1b4bfbaf5d0c
+    internal-label: Gift
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

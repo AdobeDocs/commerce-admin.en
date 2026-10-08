@@ -3,7 +3,7 @@ title: Scheduled changes for catalog price rules
 description: Learn how to apply catalog price rules on schedule as part of a campaign and grouped with other content changes.
 exl-id: ec4b915f-0a27-438d-b1b0-f1bcd297af6d
 feature: Merchandising, Price Rules, Catalog Management
-TQID: https://experienceleague.adobe.com/OP-QPlP2xYEQYnxy9bWEiQJyCiMqFu-k2YblXvXSscw
+TQID: 'https://experienceleague.adobe.com/OP-QPlP2xYEQYnxy9bWEiQJyCiMqFu-k2YblXvXSscw'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -14,6 +14,10 @@ feature_v2:
     internal-label: Catalog management
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
     internal-label: Storefront
+  - id: 58c984c2-e237-5c50-9718-500e40d1e82c
+    internal-label: Merchandising
+  - id: a507b1ed-4937-53da-97ae-57d36bd5b9e0
+    internal-label: Price Rules
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

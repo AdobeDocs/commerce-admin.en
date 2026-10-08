@@ -1,9 +1,9 @@
 ---
-title: "[!UICONTROL Sales] &gt; [!UICONTROL Sales Emails]"
+title: '[!UICONTROL Sales] &gt; [!UICONTROL Sales Emails]'
 description: Review the configurations settings on the [!UICONTROL Sales] &gt; [!UICONTROL Sales Emails] page of the Commerce Admin.
 exl-id: f770e202-6f7e-4f84-9251-7d8a760260b4
 feature: Configuration, Communications
-TQID: https://experienceleague.adobe.com/6BUVNd3BxyFvzCvE-FCXwr0-f7AOQdwW5cB2QiUx-b4
+TQID: 'https://experienceleague.adobe.com/6BUVNd3BxyFvzCvE-FCXwr0-f7AOQdwW5cB2QiUx-b4'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -12,6 +12,8 @@ feature_v2:
     internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: bb03f6c4-cab9-560e-9d02-5816e1808d17
+    internal-label: Communications
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

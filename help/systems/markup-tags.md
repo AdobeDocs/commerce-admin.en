@@ -3,13 +3,23 @@ title: Markup tags
 description: Learn about markup tags that contain snippets of code to reference an object in your store.
 exl-id: 0d6f5a9b-983d-473e-b641-0dceba40974f
 feature: Page Content, Communications, Variables
-TQID: https://experienceleague.adobe.com/Is9ZYbe3G4uXGAcoY8KjaaNVvTdHgYpTvmZBpj7SQpU
+last-update: 2026-06-03T00:00:00.000Z
+TQID: 'https://experienceleague.adobe.com/Is9ZYbe3G4uXGAcoY8KjaaNVvTdHgYpTvmZBpj7SQpU'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
     internal-label: Security
+  - id: 17d326fa-534a-55a5-b46f-8ae1de1e2f75
+    internal-label: Page Content
+  - id: bb03f6c4-cab9-560e-9d02-5816e1808d17
+    internal-label: Communications
+  - id: 8d0b446f-5b16-5a10-b272-01143504a11c
+    internal-label: System
+subfeature_v2:
+  - id: 2191e157-828a-5358-ad69-ebcaa8402915
+    internal-label: Variables
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
@@ -25,7 +35,6 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-last-update: 2026-06-03
 ---
 # Markup tags
 

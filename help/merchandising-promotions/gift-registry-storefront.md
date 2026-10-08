@@ -3,7 +3,7 @@ title: Gift registry storefront experience
 description: Learn how customers can manage the current registries and add new ones in their storefront account.
 exl-id: f83585c8-4e74-4644-8d2d-e41c248be29f
 feature: Gift, Storefront
-TQID: https://experienceleague.adobe.com/51sMhIx1-64jy-GXfCjxkzPFqqDS-2Io5L5zTsFDGxg
+TQID: 'https://experienceleague.adobe.com/51sMhIx1-64jy-GXfCjxkzPFqqDS-2Io5L5zTsFDGxg'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -14,6 +14,8 @@ feature_v2:
     internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 4fc0a729-4349-5307-bd06-1b4bfbaf5d0c
+    internal-label: Gift
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

@@ -1,9 +1,9 @@
 ---
-title: "[!UICONTROL Sales] &gt; [!UICONTROL Checkout]"
+title: '[!UICONTROL Sales] &gt; [!UICONTROL Checkout]'
 description: Review the configurations settings on the [!UICONTROL Sales] &gt; [!UICONTROL Checkout] page of the Commerce Admin.
 exl-id: a912beb0-37a9-407b-83bd-dc6cd0554dc4
 feature: Configuration, Checkout
-TQID: https://experienceleague.adobe.com/clTASsRXJy-IJagl7oAV3LuviEosmuIi4rYEjMpjbIE
+TQID: 'https://experienceleague.adobe.com/clTASsRXJy-IJagl7oAV3LuviEosmuIi4rYEjMpjbIE'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -12,6 +12,8 @@ feature_v2:
     internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 8cd50456-5eb0-5364-922a-f14161feb828
+    internal-label: Checkout
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

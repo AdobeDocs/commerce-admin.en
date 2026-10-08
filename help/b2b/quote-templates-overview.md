@@ -3,7 +3,7 @@ title: Quote template use cases and workflows
 description: Create a quote template from an existing quote to streamline quote negotiation for recurring orders.
 feature: B2B, Quotes
 exl-id: 7d1e7a3d-6c50-416a-b490-0a083e1c06b4
-TQID: https://experienceleague.adobe.com/-eAzkqLT6fhPLp-JeQH3-oap4AuIZ8MXcQx5EPb78uU
+TQID: 'https://experienceleague.adobe.com/-eAzkqLT6fhPLp-JeQH3-oap4AuIZ8MXcQx5EPb78uU'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -16,6 +16,13 @@ feature_v2:
     internal-label: Configuration
   - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
     internal-label: Reporting
+  - id: 792a7e9b-6519-5e99-a913-56c3dd2408da
+    internal-label: Quotes
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
