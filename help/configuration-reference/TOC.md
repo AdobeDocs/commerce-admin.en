@@ -19,6 +19,7 @@ nudge: true
   - [Store Email Addresses](./general/store-email-addresses.md)
   - [Contacts](./general/contacts.md)
   - [Reports](./general/reports.md)
+  - [Bulk API](./general/bulk-api.md)
   - [Content Management](./general/content-management.md)
   - [Advanced Reporting](./general/advanced-reporting.md)
 - Catalog {#catalog}

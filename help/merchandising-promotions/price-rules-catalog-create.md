@@ -63,13 +63,17 @@ Follow these instructions to apply a discount to specific products whenever a se
    - The options available for selection depend on the customer groups created and managed in _Customers_ > _Customer Groups_.
    - To choose multiple groups, hold down the Ctrl key (PC) or the Command key (Mac) and click each option.
 
-1. ![Magento Open Source](../assets/open-source.svg) (Magento Open Source only) Enter the **[!UICONTROL From]** and **[!UICONTROL To]** dates to determine when the price rule is in effect.
+1. Set the schedule for the price rule:
 
-   You can enter the dates or use the **[!UICONTROL Calendar]** (![Calendar icon](../assets/icon-calendar.png)) to choose the dates. If you leave the dates blank, the rule is enabled when the price rule is saved.
+   - ![Magento Open Source](../assets/open-source.svg) (Magento Open Source only) Enter the **[!UICONTROL From]** and **[!UICONTROL To]** dates to determine when the price rule is in effect.
+
+   - ![Adobe Commerce](../assets/adobe-logo.svg) ([!DNL Adobe Commerce as a Cloud Service] only) Enter the **[!UICONTROL From]** and **[!UICONTROL To]** dates and times to determine when the price rule starts and ends.
+
+   You can enter the values or use the **[!UICONTROL Calendar]** (![Calendar icon](../assets/icon-calendar.png)) to choose them.
 
    >[!NOTE]
    >
-   >The `From` and `To` fields have been removed from the Catalog price rule configuration page in Adobe Commerce and cannot be modified directly on the catalog price rule. You must create a scheduled update to set the schedule for price rule activation.
+   >For Adobe Commerce on Cloud and on-premises projects, the `From` and `To` fields are not available on the catalog price rule configuration page. You must create a [scheduled update](#step-5-schedule-the-rule) to set the schedule for price rule activation.
 
 1. Enter a number to establish the **[!UICONTROL Priority]** of this rule in relation to other rules.
 
@@ -237,6 +241,8 @@ Most of the available conditions are based on existing attribute values. To appl
 
    Price rules are automatically processed with other system rules each night. When you create a price rule, allow enough time for it to get into the system before you test the rule to make sure that it works correctly. As new rules are added, Commerce recalculates the prices and the priorities accordingly.
 
+   In [!DNL Adobe Commerce as a Cloud Service], Commerce checks every minute for active rules that have reached their start or end time and updates the prices of the affected products.
+
 ## Catalog price rule demo
 
 Watch this video to learn about creating catalog price rules:
@@ -255,8 +261,8 @@ Watch this video to learn about creating catalog price rules:
 |[!UICONTROL Customer Groups]|(Required) Identifies the customer groups to which the rule applies.|
 |[!UICONTROL Priority]|A number that indicates the priority of this rule in relation to others. Priorities from the highest to the lowest are `0,1,2,3...`|
 |[!UICONTROL Status]|![Magento Open Source](../assets/open-source.svg) (Magento Open Source only) Determines if the rule is active in the store. Options: `Yes` / `No`|
-|[!UICONTROL From]|![Magento Open Source](../assets/open-source.svg) (Magento Open Source only) Specifies the first day that the price rule is in effect. If left blank, the price rule goes into effect when it is saved.|
-|[!UICONTROL To]|![Magento Open Source](../assets/open-source.svg) (Magento Open Source only) Specifies the last day that the price rule is in effect. If left blank, the price rule continues indefinitely.|
+|[!UICONTROL From]|![Magento Open Source](../assets/open-source.svg) (Magento Open Source only) Specifies the first day that the price rule is in effect. If left blank, the price rule goes into effect when it is saved.<br><br>![Adobe Commerce](../assets/adobe-logo.svg) ([!DNL Adobe Commerce as a Cloud Service] only) Specifies the date and time that the price rule goes into effect. If left blank, the price rule goes into effect when it is saved.|
+|[!UICONTROL To]|![Magento Open Source](../assets/open-source.svg) (Magento Open Source only) Specifies the last day that the price rule is in effect. If left blank, the price rule continues indefinitely.<br><br>![Adobe Commerce](../assets/adobe-logo.svg) ([!DNL Adobe Commerce as a Cloud Service] only) Specifies the date and time that the price rule ends. If left blank, the price rule continues indefinitely.|
 
 {style="table-layout:auto"}
 
