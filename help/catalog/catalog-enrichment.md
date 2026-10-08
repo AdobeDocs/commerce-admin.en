@@ -94,7 +94,7 @@ Work with your Commerce administrator or implementation partner to ensure the fo
 
 After you install the catalog enrichment and catalog services extensions, the catalog enrichment capability is available in the Admin under **[!UICONTROL Catalog]** > **[!UICONTROL Catalog Enrichment]**.
 
-![Catalog Enrichment](./assets/catalog-enrichment-menu.png)
+![Catalog Enrichment](./assets/catalog-enrichment-menu.png){zoomable="yes"}
 
 ### Configure catalog enrichment
 
@@ -107,7 +107,7 @@ Configure catalog enrichment on the **[!UICONTROL Settings]** tab so [!DNL Comme
 
    Provide your [!DNL Adobe Commerce] environment details to enable the Catalog LLM Optimizer Service and audit workflows.
 
-   ![Commerce Configuration on the Catalog Enrichment Settings tab](./assets/catalog-enrichment-commerce-config.png)
+   ![Commerce Configuration on the Catalog Enrichment Settings tab](./assets/catalog-enrichment-commerce-config.png){zoomable="yes"}
 
 1. Enter the required connection details for the store view.
 
@@ -145,7 +145,7 @@ Catalog enrichment uses the following workflow views:
 - **[!UICONTROL Fixed Suggestions]**: Items you already applied or resolved.
 - **[!UICONTROL Ignored Suggestions]**: Items you intentionally excluded from action.
 
-![Catalog Enrichment](./assets/agentic-opportunities.png)
+![Catalog Enrichment](./assets/agentic-opportunities.png){zoomable="yes"}
 
 ### Deploy approved suggestions {#review-deploy-catalog}
 
@@ -179,7 +179,7 @@ After you apply an update, suggestions move to **[!UICONTROL Fixed Suggestions]*
 
    The product form shows the enriched product name and/or description.
 
-   ![Enriched Product Name](./assets/enriched-product-name.png)
+   ![Enriched Product Name](./assets/enriched-product-name.png){zoomable="yes"}
 
 1. Optional: Select **[!UICONTROL Override Catalog Agent provided Product Name]** if you want to keep a manually entered name instead.
 
@@ -189,7 +189,7 @@ After you apply an update, suggestions move to **[!UICONTROL Fixed Suggestions]*
 
    The enriched description appears when you applied description changes.
 
-   ![Enrich Product Description](./assets/enrich-product-description.png)
+   ![Enrich Product Description](./assets/enrich-product-description.png){zoomable="yes"}
 
 1. Optional: Select **[!UICONTROL Override Catalog Agent provided Description]** if you want to keep a manually entered description instead.
 
