@@ -2,8 +2,26 @@
 title: What's new
 description: This section contains the changes made in the last 60 days. We exclude
   all minor updates, such as copy editing, from this list.
-updated: Fri Oct 2 15:20:36 2026
+updated: Fri Oct 9 17:21:09 2026
 entries:
+- description: Updated Adobe Commerce Admin documentation for the October Adobe Commerce
+    as a Cloud Service release:<br/>- Added a non-configurable Maximum Entities Per
+    Bulk Request field to the [Configuration Reference](https://experienceleague.adobe.com/en/docs/commerce-admin/config/general/bulk-api)
+    for Adobe Commerce as a Cloud Service.<br/>- You can now require Google reCAPTCHA
+    validation on the [`initiateUpload` GraphQL mutation](https://developer.adobe.com/commerce/webapi/graphql/schema/uploads/mutations/initiate-upload)
+    to protect presigned file uploads.<br/>- You can now set the time of day for a
+    [catalog price rule](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/catalog-rules/price-rules-catalog)
+    to start or end in the Commerce Admin.
+  versions: ''
+  type: major-update
+  date: October 8, 2026
+  link: enterprise:Adobe-Enterprise-Docs/commerce-admin.en/pull/917
+  merge_commit: 377fcad60d7772ec0da69d8ee1c0c1875a567e9b
+  contributor: jhoover_adobe
+  labels:
+  - hold for release
+  - major-update
+  - new topic
 - description: Added documentation for the Adobe Commerce Optimizer Connector for
     B2B:<br/>- Added [Catalog View Sync Status](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/catalog-view-sync/catalog-view-sync-status)
     and [Restricted Access Keys](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/catalog-view-sync/restricted-access-keys)

@@ -4,6 +4,28 @@
 
 This section contains the changes made in the last 60 days. We exclude all minor updates, such as copy editing, from this list.
 
+### October 8, 2026
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>Description</th>
+      <th>Type</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Updated Adobe Commerce Admin documentation for the October Adobe Commerce as a Cloud Service release:<br />- Added a non-configurable Maximum Entities Per Bulk Request field to the <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/config/general/bulk-api">Configuration Reference</a> for Adobe Commerce as a Cloud Service.<br />- You can now require Google reCAPTCHA validation on the <a href="https://developer.adobe.com/commerce/webapi/graphql/schema/uploads/mutations/initiate-upload"><code>initiateUpload</code> GraphQL mutation</a> to protect presigned file uploads.<br />- You can now set the time of day for a <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/catalog-rules/price-rules-catalog">catalog price rule</a> to start or end in the Commerce Admin.</p>
+</td>
+      <td>
+        Major update
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/377fcad60d7772ec0da69d8ee1c0c1875a567e9b">commit</a></td>
+    </tr>
+  </tbody>
+</table>
+
 ### October 1, 2026
 
 <table style="table-layout:auto;">
@@ -66,28 +88,6 @@ This section contains the changes made in the last 60 days. We exclude all minor
         Technical
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/fab7dc8f780fa68c147a06752dc96bd7b03444a2">commit</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### August 4, 2026
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>Description</th>
-      <th>Type</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>Refreshed the <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status">Data Feed Sync Status</a> topic to match the current Admin experience, clarify that the page reports export status only, and document when the feature is available across Commerce service licenses.</p>
-</td>
-      <td>
-        Major update
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/9d7ecab0454b1a1041f1bcd8b4fbda8032ebaac5">commit</a></td>
     </tr>
   </tbody>
 </table>
