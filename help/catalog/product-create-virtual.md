@@ -3,7 +3,7 @@ title: Virtual product
 description: Learn how to create a virtual product that represents a non-tangible item,  such as a membership, service, warranty, or subscription.
 exl-id: 8788ba04-e911-429e-9e48-ce589f0c9fa1
 feature: Catalog Management, Products
-last-update: 2023-05-22T00:00:00.000Z
+last-update: 2023-05-22
 TQID: 'https://experienceleague.adobe.com/L981f0c-abmRqbEf3A-8CxTgVyzAuN-u1WDuMZAKSP4'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

@@ -3,7 +3,7 @@ title: Bulk inventory source assignment and unassignment
 description: Use the Assign Sources bulk action in the Admin to assign or unassign [!DNL Inventory Management] sources for many products at once.
 exl-id: 1f1e81a5-fb06-46b7-84ca-7feea4942093
 feature: Inventory, Products
-last-update: 2023-06-28T00:00:00.000Z
+last-update: 2023-06-28
 TQID: 'https://experienceleague.adobe.com/H8UQh7quyOeDq6-hSmf83fzUuJkuSLv0i2dezX-GKRA'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

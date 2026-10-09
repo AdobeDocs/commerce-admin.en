@@ -3,7 +3,7 @@ title: Manage company accounts
 description: Learn to manage company accounts for your Adobe Commerce store using the Companies page and the tools available in the grid.
 exl-id: 9e125fc2-d20e-463e-a391-582fa0bcb68d
 feature: B2B, Companies, Configuration
-last-update: 2026-10-01T00:00:00.000Z
+last-update: 2026-10-01
 TQID: 'https://experienceleague.adobe.com/a4IAHlQLzc9pX6V2z8V9nLUaWToWizjdOomV7TfS7to'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

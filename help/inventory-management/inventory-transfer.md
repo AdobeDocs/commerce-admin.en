@@ -3,7 +3,7 @@ title: Transfer inventory to source
 description: Transfer on-hand product quantities between [!DNL Inventory Management] sources when you change fulfillment locations.
 exl-id: 30438412-bc93-4e65-8b6a-5ddb50afa7ff
 feature: Inventory, Configuration
-last-update: 2023-10-26T00:00:00.000Z
+last-update: 2023-10-26
 TQID: 'https://experienceleague.adobe.com/HV6GQjHa88xgcSAi-LXhyqe7k2QW95VzQ8eG2mGlJ8I'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

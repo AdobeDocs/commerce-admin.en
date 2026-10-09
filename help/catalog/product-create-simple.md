@@ -3,7 +3,7 @@ title: Simple product
 description: Learn how to create a simple product that can be sold individually or as part of a grouped, configurable, or bundle product.
 exl-id: 3ac9b28d-3929-4fd6-97ca-145ea6d6897c
 feature: Catalog Management, Products
-last-update: 2023-05-22T00:00:00.000Z
+last-update: 2023-05-22
 TQID: 'https://experienceleague.adobe.com/2olR82TlKdkHM3KSRFcOGzeotunoVG1oD2ZRJGdXe9s'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

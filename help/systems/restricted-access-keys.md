@@ -4,7 +4,7 @@ description: Create, assign, and delete the restricted access keys that secure B
 feature: Products, Customers, Data Import/Export
 role: Admin
 level: Intermediate
-last-update: 2026-10-01T00:00:00.000Z
+last-update: 2026-10-01
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce

@@ -4,7 +4,7 @@ description: Learn how to use image optimization for your [!DNL Commerce] media 
 exl-id: ba75e90a-406b-4b14-b049-0b78c4a27188
 feature: Page Content, Media
 badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
-last-update: 2026-08-20T00:00:00.000Z
+last-update: 2026-08-20
 TQID: 'https://experienceleague.adobe.com/BTjXX6X70q2Mwm0xPNx-t429R5m93VprCHBDcYgQNpY'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
