@@ -1,0 +1,12 @@
+---
+version: "1.5.4"
+product: "Adobe Commerce B2B"
+---
+{%- assign data_path = page.version | replace: ".", "-" | prepend: "v" -%}
+# {{page.product}} fixed issues (v{{page.version}}-alpha1)
+
+{%- assign fixes = site.data.release[data_path] %}
+
+{{fixes | size }} issues have been fixed in the {{page.product}} {{page.version}}-alpha1 code. A subset of the fixed issues included in this release is described below.
+
+{%- include fixed-issues.html -%}

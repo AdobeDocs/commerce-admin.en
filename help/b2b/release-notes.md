@@ -57,6 +57,12 @@ These release notes for the B2B extension capture additions and fixes that Adobe
 >
 >See [Product availability](https://experienceleague.adobe.com/en/docs/commerce-operations/release/product-availability) for information about versions of the B2B Commerce extension supported for available Adobe Commerce releases.
 
+## B2B v1.5.4-alpha1
+
+*October 13, 2026*
+
+{{$include /help/_includes/templated/release-notes-v1-5-4.md}}
+
 ## B2B v1.5.3
 
 *May 12, 2026*
