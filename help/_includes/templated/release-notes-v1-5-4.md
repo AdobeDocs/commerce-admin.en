@@ -1,5 +1,9 @@
 # Adobe Commerce B2B fixed issues (v1.5.4-alpha1)
 
+## B2B v1.5.4-alpha1
+
+*October 13, 2026*
+
 23 issues have been fixed in the Adobe Commerce B2B 1.5.4-alpha1 code. A subset of the fixed issues included in this release is described below.
 
 ### Admin UI
