@@ -3,7 +3,7 @@ title: Downloadable product
 description: Learn how to create a downloadable product that can be delivered as a digital file.
 exl-id: c3dd4c5f-adc1-4a8f-a9da-7f0dedd1ee34
 feature: Catalog Management, Products
-last-update: 2026-08-20T00:00:00.000Z
+last-update: 2026-08-20
 TQID: 'https://experienceleague.adobe.com/vGS-R3Ns1D1Y2jL1TTmbH-DAOurBoFMRA9-RrthoR-8'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

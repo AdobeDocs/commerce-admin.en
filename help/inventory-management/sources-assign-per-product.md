@@ -3,7 +3,7 @@ title: Assign inventory sources per product
 description: Assign one or more [!DNL Inventory Management] sources to a product in the Admin before you set per-source quantities and thresholds.
 exl-id: 7e47be25-633e-4f5d-bb61-0d9e79b6dbad
 feature: Inventory, Products
-last-update: 2023-10-26T00:00:00.000Z
+last-update: 2023-10-26
 TQID: 'https://experienceleague.adobe.com/Wjx3w6Z-oNALxNRHw65BZDeCzka3BQvtg-m4a9kp-Y8'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

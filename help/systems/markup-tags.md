@@ -3,7 +3,7 @@ title: Markup tags
 description: Learn about markup tags that contain snippets of code to reference an object in your store.
 exl-id: 0d6f5a9b-983d-473e-b641-0dceba40974f
 feature: Page Content, Communications, Variables
-last-update: 2026-06-03T00:00:00.000Z
+last-update: 2026-06-03
 TQID: 'https://experienceleague.adobe.com/Is9ZYbe3G4uXGAcoY8KjaaNVvTdHgYpTvmZBpj7SQpU'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

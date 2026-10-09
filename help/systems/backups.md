@@ -4,7 +4,7 @@ description: Learn how to create and schedule system backups, including the file
 exl-id: 3a9655c1-c124-42be-a487-b31404dada90
 feature: System, Configuration
 badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
-last-update: 2026-08-20T00:00:00.000Z
+last-update: 2026-08-20
 TQID: 'https://experienceleague.adobe.com/kx2acbOSrWMJGv3ST6qKAXjLPgL2Lsh16wWvOxNO7FE'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
