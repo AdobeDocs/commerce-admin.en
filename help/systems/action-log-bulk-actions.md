@@ -3,7 +3,7 @@ title: Bulk actions
 description: Learn how to configure and view the bulk actions log.
 exl-id: 3907d9ef-3592-4dbb-805f-97b79bafd8ab
 feature: Logs, Configuration
-TQID: https://experienceleague.adobe.com/hmZYwUcG-rgx--kG5RNE3xe38LWn7OM0rq2q7RC3xeQ
+TQID: 'https://experienceleague.adobe.com/hmZYwUcG-rgx--kG5RNE3xe38LWn7OM0rq2q7RC3xeQ'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -12,6 +12,9 @@ feature_v2:
     internal-label: Security
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+subfeature_v2:
+  - id: 3c398179-d35a-51ba-b317-6c5b95feef5e
+    internal-label: Logs
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

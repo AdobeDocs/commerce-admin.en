@@ -3,7 +3,7 @@ title: Issue a credit memo
 description: Learn how to generate and print a credit memo for an invoiced order.
 exl-id: 84ec72ba-7f72-4fa1-a9bf-91c17f43a3a7
 feature: Orders, Invoices
-TQID: https://experienceleague.adobe.com/hOyqjpQzYKj5n3xsNKc9PfbUZ7CvBkg8Li8WR9LRUe4
+TQID: 'https://experienceleague.adobe.com/hOyqjpQzYKj5n3xsNKc9PfbUZ7CvBkg8Li8WR9LRUe4'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -16,6 +16,10 @@ feature_v2:
     internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
+  - id: 591c578b-908e-5b79-a9d3-931dfe60c24c
+    internal-label: Invoices
 subfeature_v2:
   - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
     internal-label: B2B

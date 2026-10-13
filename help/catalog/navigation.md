@@ -3,13 +3,15 @@ title: Catalog navigation
 description: Learn about the concept of catalog navigation in a web store.
 exl-id: b22bde2d-031a-4fa1-9c34-29ae9eadad6c
 feature: Catalog Management, Site Navigation
-TQID: https://experienceleague.adobe.com/M0gd-xDtassp8oxh-fStGwBZwrwVLKfvoO1eWIxNDPU
+TQID: 'https://experienceleague.adobe.com/M0gd-xDtassp8oxh-fStGwBZwrwVLKfvoO1eWIxNDPU'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
     internal-label: Catalog management
+  - id: 48c59cc5-3c2e-5df1-8756-f5c139a28932
+    internal-label: Site Navigation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

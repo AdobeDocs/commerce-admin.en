@@ -1,9 +1,9 @@
 ---
-title: "[!UICONTROL Sales] &gt; [!UICONTROL 3D Secure]"
+title: '[!UICONTROL Sales] &gt; [!UICONTROL 3D Secure]'
 description: Review the configurations settings on the [!UICONTROL Sales] &gt; [!UICONTROL 3D Secure] page of the Commerce Admin.
 exl-id: 38eb3ee6-8b80-4ba3-afce-8ab82baa76a9
 feature: Configuration, Security, Payments
-TQID: https://experienceleague.adobe.com/WzxM9ZYbobbC1fWSIph0jv89uXLte6Wzjs5be27eMyU
+TQID: 'https://experienceleague.adobe.com/WzxM9ZYbobbC1fWSIph0jv89uXLte6Wzjs5be27eMyU'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -12,6 +12,8 @@ feature_v2:
     internal-label: Security
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

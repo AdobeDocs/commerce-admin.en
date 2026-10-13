@@ -3,7 +3,7 @@ title: Product settings - [!UICONTROL Autosettings]
 description: For a product, the [!UICONTROL Autosettings] define the attributes that are dependencies for other operations.
 exl-id: e35bbf6a-d547-40f7-b8cb-2f6c8fdddc70
 feature: Catalog Management, Products
-TQID: https://experienceleague.adobe.com/DT6T10oMKb2LtSsLspkyn5SbV1Zq17jCWy0XZmibhzM
+TQID: 'https://experienceleague.adobe.com/DT6T10oMKb2LtSsLspkyn5SbV1Zq17jCWy0XZmibhzM'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -12,6 +12,8 @@ feature_v2:
     internal-label: Catalog management
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

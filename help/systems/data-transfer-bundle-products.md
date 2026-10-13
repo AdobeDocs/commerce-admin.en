@@ -3,13 +3,17 @@ title: Import bundle products
 description: Review an example of importing product data for a bundle product.
 exl-id: 52146979-9911-449b-9f14-54377e2ae9f4
 feature: Products, Data Import/Export
-TQID: https://experienceleague.adobe.com/UeGDyElWBOH7kUeeb7Bhqksp-hQ-jq5FkoYTWMShF6A
+TQID: 'https://experienceleague.adobe.com/UeGDyElWBOH7kUeeb7Bhqksp-hQ-jq5FkoYTWMShF6A'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
     internal-label: Security
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
+  - id: 601e4abe-d9bf-58de-a779-32ed6794dcbe
+    internal-label: Data Import/Export
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

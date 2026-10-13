@@ -4,7 +4,7 @@ description: Learn about purchase order approval rules and how company administr
 exl-id: e8d8bbc9-41cf-4024-85cc-92f0b0ce32d6
 feature: B2B, Companies, Configuration
 role: Admin
-TQID: https://experienceleague.adobe.com/Mep8kjARPn7loGZozPrDurwWZ2312PNXOqqJNxEEpuE
+TQID: 'https://experienceleague.adobe.com/Mep8kjARPn7loGZozPrDurwWZ2312PNXOqqJNxEEpuE'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -13,6 +13,13 @@ feature_v2:
     internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: e9004f3c-09ae-5d24-acd2-fa0987fdb66e
+    internal-label: Companies
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

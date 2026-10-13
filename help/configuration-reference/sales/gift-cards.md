@@ -1,9 +1,9 @@
 ---
-title: "[!UICONTROL Sales] &gt; [!UICONTROL Gift Cards]"
+title: '[!UICONTROL Sales] &gt; [!UICONTROL Gift Cards]'
 description: Review the configurations settings on the [!UICONTROL Sales] &gt; [!UICONTROL Gift Cards] page of the Commerce Admin.
 exl-id: 95bfdbde-633e-44d0-9d43-00dde671ab6d
 feature: Configuration, Gift
-TQID: https://experienceleague.adobe.com/J-VH-mdaM7HrMRHJMNmmbBPggm1hjtHHWTh3q-5en0w
+TQID: 'https://experienceleague.adobe.com/J-VH-mdaM7HrMRHJMNmmbBPggm1hjtHHWTh3q-5en0w'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -12,6 +12,8 @@ feature_v2:
     internal-label: Accounts
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 4fc0a729-4349-5307-bd06-1b4bfbaf5d0c
+    internal-label: Gift
 subfeature_v2:
   - id: d9ced453-36f4-4eb5-b2f3-1d593e32476b
     internal-label: Account management

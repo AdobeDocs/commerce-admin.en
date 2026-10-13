@@ -1,15 +1,17 @@
 ---
-title: "[!UICONTROL Catalog] &gt; [!UICONTROL Visual Merchandiser]"
+title: '[!UICONTROL Catalog] &gt; [!UICONTROL Visual Merchandiser]'
 description: Review the configurations settings on the [!UICONTROL Catalog] &gt; [!UICONTROL Visual Merchandiser] page of the Commerce Admin.
 exl-id: 264f0f21-7324-4e37-938e-9f0cdbb3dfe8
 feature: Configuration, Merchandising
-TQID: https://experienceleague.adobe.com/uhFV73P5IktXI9KmYz4VGXzzUIlu-GMRNBilAwd4zok
+TQID: 'https://experienceleague.adobe.com/uhFV73P5IktXI9KmYz4VGXzzUIlu-GMRNBilAwd4zok'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 58c984c2-e237-5c50-9718-500e40d1e82c
+    internal-label: Merchandising
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

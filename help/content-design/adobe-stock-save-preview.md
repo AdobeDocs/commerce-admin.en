@@ -4,13 +4,17 @@ description: Image previews are free and are a good way to experiment with diffe
 exl-id: 148d8445-fbbb-4f27-8de8-d8c1943d2afe
 feature: CMS, Media
 badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
-TQID: https://experienceleague.adobe.com/AsWG5XAAHFaj5L1I-gpUimcbVGgxZ1SFPeHA2zzNlrw
+TQID: 'https://experienceleague.adobe.com/AsWG5XAAHFaj5L1I-gpUimcbVGgxZ1SFPeHA2zzNlrw'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: ddbd0f6e-b569-5a04-8a70-55058777c373
+    internal-label: CMS
+  - id: 4ca54350-01cb-5b22-8966-5f2873dc6d90
+    internal-label: Media
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

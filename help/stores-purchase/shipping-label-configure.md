@@ -3,7 +3,7 @@ title: Configure shipping labels
 description: Learn how to configure store for generating shipping labels.
 exl-id: 0693d74b-8b36-4a36-8739-c9fe5a934ff0
 feature: Shipping/Delivery, Orders
-TQID: https://experienceleague.adobe.com/ypUZN4-Oz4bkYrJ0TQCnHmxc1t14PMNI7z707OAinfQ
+TQID: 'https://experienceleague.adobe.com/ypUZN4-Oz4bkYrJ0TQCnHmxc1t14PMNI7z707OAinfQ'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -12,6 +12,10 @@ feature_v2:
     internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 04d3134c-2afb-5bd7-ac14-e19fa935e848
+    internal-label: Shipping/Delivery
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

@@ -4,13 +4,15 @@ description: The private sales reports available in Adobe Commerce provide usefu
 exl-id: e1c2b01f-500a-475e-b61e-20f3ccbc0e70
 feature: Promotions/Events, Reporting
 badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
-TQID: https://experienceleague.adobe.com/PD538YpWbu4svlU2EQZ3x8Ssgf8Ghj8Yk5cLa1b63eM
+TQID: 'https://experienceleague.adobe.com/PD538YpWbu4svlU2EQZ3x8Ssgf8Ghj8Yk5cLa1b63eM'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
 feature_v2:
   - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
     internal-label: Reporting
+  - id: 19d9b313-1a3c-5bed-9da7-4364f71c3a28
+    internal-label: Promotions/Events
 subfeature_v2:
   - id: ae1249e3-cd01-42c9-8377-4223879bf9de
     internal-label: Intelligence tools

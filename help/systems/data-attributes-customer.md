@@ -3,7 +3,7 @@ title: Customer data attributes reference
 description: Use this reference of customer data attributes when you work with customer data imports and exports.
 exl-id: d22ebfed-f439-4a3f-b39e-e957b65c8c21
 feature: Customers, Attributes
-TQID: https://experienceleague.adobe.com/-s4plXYkrsdNTL-xxMj41AAxtJJ5q1PKiBUcdnaWhlg
+TQID: 'https://experienceleague.adobe.com/-s4plXYkrsdNTL-xxMj41AAxtJJ5q1PKiBUcdnaWhlg'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -12,6 +12,10 @@ feature_v2:
     internal-label: Security
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
+  - id: 76cfaac4-e563-56dd-8938-708bf8b84956
+    internal-label: Attributes
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

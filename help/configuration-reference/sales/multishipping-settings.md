@@ -1,9 +1,9 @@
 ---
-title: "[!UICONTROL Sales] &gt; [!UICONTROL Multishipping Settings]"
+title: '[!UICONTROL Sales] &gt; [!UICONTROL Multishipping Settings]'
 description: Review the configurations settings on the [!UICONTROL Sales] &gt; [!UICONTROL Multishipping Settings] page of the Commerce Admin.
 exl-id: 4cacac8c-33af-4275-b1dd-9802d38ec3c8
 feature: Configuration, Shipping/Delivery
-TQID: https://experienceleague.adobe.com/TF3m8EAR7uFtE26hTeFnbEz4WGsVi0b2H0x-jV1Yqis
+TQID: 'https://experienceleague.adobe.com/TF3m8EAR7uFtE26hTeFnbEz4WGsVi0b2H0x-jV1Yqis'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -12,6 +12,8 @@ feature_v2:
     internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 04d3134c-2afb-5bd7-ac14-e19fa935e848
+    internal-label: Shipping/Delivery
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

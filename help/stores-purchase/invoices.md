@@ -3,7 +3,7 @@ title: Invoices
 description: Learn how to create and print invoices to support order processing and customer service operations.
 exl-id: 6141b182-1467-4416-a07f-864333318428
 feature: Invoices, Admin Workspace
-TQID: https://experienceleague.adobe.com/EGRiNGxTpww0k17-XeVPyrR5h1WDSZnseov8L-Yej-w
+TQID: 'https://experienceleague.adobe.com/EGRiNGxTpww0k17-XeVPyrR5h1WDSZnseov8L-Yej-w'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -14,6 +14,13 @@ feature_v2:
     internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 591c578b-908e-5b79-a9d3-931dfe60c24c
+    internal-label: Invoices
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
+subfeature_v2:
+  - id: bb2df8be-afdd-4818-b6b5-95ca1dd3bc3a
+    internal-label: Admin workspace
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

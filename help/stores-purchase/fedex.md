@@ -3,13 +3,15 @@ title: FedEx
 description: Learn how to set up FedEx as a shipping carrier for your store.
 exl-id: 75bb3ed1-3ae9-418a-be90-888046b28a7b
 feature: Shipping/Delivery
-TQID: https://experienceleague.adobe.com/r2D0urz8NAZfeVuKY29905IhseS5Kfivsto7HCwQsqY
+TQID: 'https://experienceleague.adobe.com/r2D0urz8NAZfeVuKY29905IhseS5Kfivsto7HCwQsqY'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 04d3134c-2afb-5bd7-ac14-e19fa935e848
+    internal-label: Shipping/Delivery
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

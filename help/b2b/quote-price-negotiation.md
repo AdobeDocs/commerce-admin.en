@@ -3,7 +3,7 @@ title: Negotiate a quote
 description: Learn about quote negotiation workflows and how to work with buyers for purchasing.
 exl-id: 93efbc9d-da4d-4ff8-95c1-13848b68bc38
 feature: B2B, Quotes
-TQID: https://experienceleague.adobe.com/0AJuvoJhk1iwwDGPmhygvBunlPo0sOWOmgAvINZxcGU
+TQID: 'https://experienceleague.adobe.com/0AJuvoJhk1iwwDGPmhygvBunlPo0sOWOmgAvINZxcGU'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -14,6 +14,13 @@ feature_v2:
     internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 792a7e9b-6519-5e99-a913-56c3dd2408da
+    internal-label: Quotes
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

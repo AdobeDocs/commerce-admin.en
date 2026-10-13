@@ -3,7 +3,7 @@ title: Wish lists
 description: Learn about wish lists and how they can add to the shopping experience and promote more sales.
 exl-id: 42c73566-0e32-4639-9fa2-d504fa161ebc
 feature: Customers, Storefront
-TQID: https://experienceleague.adobe.com/neTWJnIbZcaAAMQiX-SV82fTyvOGEeNLhBfxDUh4Ulk
+TQID: 'https://experienceleague.adobe.com/neTWJnIbZcaAAMQiX-SV82fTyvOGEeNLhBfxDUh4Ulk'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -14,6 +14,8 @@ feature_v2:
     internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

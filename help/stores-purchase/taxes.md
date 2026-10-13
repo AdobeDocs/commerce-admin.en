@@ -3,7 +3,7 @@ title: Taxes
 description: Learn how to configure your store to calculate taxes according to the requirements of your locale.
 exl-id: bf807132-416f-497a-82c4-b00dba4d3092
 feature: Taxes
-TQID: https://experienceleague.adobe.com/qHEJDNo0hUjdWLJjQpXeB7cwzmtCz1t2xnlubLmC3fk
+TQID: 'https://experienceleague.adobe.com/qHEJDNo0hUjdWLJjQpXeB7cwzmtCz1t2xnlubLmC3fk'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -12,6 +12,8 @@ feature_v2:
     internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 42e094d8-211b-5acf-b52f-d8979151ab30
+    internal-label: Taxes
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

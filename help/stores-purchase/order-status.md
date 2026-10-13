@@ -3,7 +3,7 @@ title: Order status
 description: Learn about the predefined order statuses and how to define custom order statuses to align with your operational needs.
 exl-id: d1153558-a721-4643-a70c-7fc20072983c
 feature: Orders
-TQID: https://experienceleague.adobe.com/BJFtNtsT0-ZJH2aXaGlo2tLhgEVtK5bbmaispPmOVnc
+TQID: 'https://experienceleague.adobe.com/BJFtNtsT0-ZJH2aXaGlo2tLhgEVtK5bbmaispPmOVnc'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -12,6 +12,8 @@ feature_v2:
     internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

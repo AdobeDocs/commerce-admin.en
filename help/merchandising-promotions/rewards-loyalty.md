@@ -3,7 +3,7 @@ title: Reward and loyalty programs
 description: Learn about the reward points system that you can use to drive customer engagement and promote customer loyalty.
 exl-id: 2bccdcce-7936-4449-9634-d463ad29e5cc
 feature: Rewards, Promotions/Events, Customers, Configuration
-TQID: https://experienceleague.adobe.com/JESAxbyi9FqEIfr053Mz9Z7PcHt7tmdSwdDlxmhiVQQ
+TQID: 'https://experienceleague.adobe.com/JESAxbyi9FqEIfr053Mz9Z7PcHt7tmdSwdDlxmhiVQQ'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -14,6 +14,12 @@ feature_v2:
     internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 4069cee6-4dc8-5a83-81de-232af6a7c9e9
+    internal-label: Rewards
+  - id: 19d9b313-1a3c-5bed-9da7-4364f71c3a28
+    internal-label: Promotions/Events
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

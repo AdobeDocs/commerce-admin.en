@@ -4,10 +4,18 @@ description: Add predefined or custom variables to your content in the WYSIWYG e
 exl-id: 49b05df0-f425-4706-a402-f1c3f868cb49
 feature: Page Content, Variables
 badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
-TQID: https://experienceleague.adobe.com/5tz40-9rojeIQhgPHQTQlA0YHIp-Hpio1qkxjWU4Ig0
+TQID: 'https://experienceleague.adobe.com/5tz40-9rojeIQhgPHQTQlA0YHIp-Hpio1qkxjWU4Ig0'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
+feature_v2:
+  - id: 17d326fa-534a-55a5-b46f-8ae1de1e2f75
+    internal-label: Page Content
+  - id: 8d0b446f-5b16-5a10-b272-01143504a11c
+    internal-label: System
+subfeature_v2:
+  - id: 2191e157-828a-5358-ad69-ebcaa8402915
+    internal-label: Variables
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

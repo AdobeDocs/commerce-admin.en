@@ -4,7 +4,7 @@ description: Learn how customers can send and view invitations to events and pri
 exl-id: 6a9123a0-bdb4-4cd6-99cd-658f728aa90c
 feature: Promotions/Events, Communications
 badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
-TQID: https://experienceleague.adobe.com/3UEoAOAfcoM6obqizRsQkgBv-C3hi98rMjO6rPGHuL0
+TQID: 'https://experienceleague.adobe.com/3UEoAOAfcoM6obqizRsQkgBv-C3hi98rMjO6rPGHuL0'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -15,6 +15,10 @@ feature_v2:
     internal-label: Configuration
   - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
     internal-label: Reporting
+  - id: 19d9b313-1a3c-5bed-9da7-4364f71c3a28
+    internal-label: Promotions/Events
+  - id: bb03f6c4-cab9-560e-9d02-5816e1808d17
+    internal-label: Communications
 subfeature_v2:
   - id: bd0aa680-a881-4f35-9dcf-843b0574bc5f
     internal-label: Private sales reports

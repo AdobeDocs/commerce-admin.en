@@ -3,7 +3,7 @@ title: Security
 description: Learn about the tools available to secure your stores and data, and guidelines for a security action plan if your detect a compromise.
 exl-id: 10eef4ac-de83-4083-9ba3-e42c8eb33781
 feature: Security, Site Management
-TQID: https://experienceleague.adobe.com/9aJ-ZVqwaIr2IJTY6e2hp3eoZe2v6sxz6WdqP2FiPTc
+TQID: 'https://experienceleague.adobe.com/9aJ-ZVqwaIr2IJTY6e2hp3eoZe2v6sxz6WdqP2FiPTc'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -12,6 +12,8 @@ feature_v2:
     internal-label: Security
   - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
     internal-label: Architecture
+  - id: 938d2364-5176-55ec-80f1-9415253e5e51
+    internal-label: Site Management
 subfeature_v2:
   - id: f8ddfd3b-6194-46e8-a176-0e918039be56
     internal-label: Cloud architecture

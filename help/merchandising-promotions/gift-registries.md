@@ -3,7 +3,7 @@ title: Gift registries
 description: Learn how gift registries can promote sales when customers can invite their friends and family to purchase their selected products as gifts.
 exl-id: 2e5e3d52-e93e-444c-88a1-1eaa7f178b99
 feature: Marketing Tools, Gift, Storefront
-TQID: https://experienceleague.adobe.com/fWjH1PgahxEIm-4uH9di-G-GPxc-Nxku2oMcCqcV958
+TQID: 'https://experienceleague.adobe.com/fWjH1PgahxEIm-4uH9di-G-GPxc-Nxku2oMcCqcV958'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -12,6 +12,10 @@ feature_v2:
     internal-label: Order Management System
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
     internal-label: Storefront
+  - id: 125c1f49-aefd-5f34-a252-288937f95f6b
+    internal-label: Marketing Tools
+  - id: 4fc0a729-4349-5307-bd06-1b4bfbaf5d0c
+    internal-label: Gift
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

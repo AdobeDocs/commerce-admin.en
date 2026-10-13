@@ -3,13 +3,15 @@ title: Marketing reports
 description: Marketing reports provide information about the status of shopping carts, the use of search terms, and newsletter transmissions.
 exl-id: 3ff6d4f7-ab8d-4e4e-b9e9-b12e3a08de62
 feature: Marketing Tools, Reporting
-TQID: https://experienceleague.adobe.com/umG-wy90Uhgn78y45cEo3r09zby6YFEiuRA82MxUmQI
+TQID: 'https://experienceleague.adobe.com/umG-wy90Uhgn78y45cEo3r09zby6YFEiuRA82MxUmQI'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
 feature_v2:
   - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
     internal-label: Reporting
+  - id: 125c1f49-aefd-5f34-a252-288937f95f6b
+    internal-label: Marketing Tools
 subfeature_v2:
   - id: ad1b6f63-fc17-4d32-b4df-5453c0510331
     internal-label: Marketing reports

@@ -3,7 +3,7 @@ title: Payments overview
 description: Learn about the payment methods and services that are supported natively in Adobe Commerce and Magento Open Source.
 exl-id: 474bf6df-96e2-4db3-ad3c-1804b5de33b0
 feature: Payments
-TQID: https://experienceleague.adobe.com/nu9qbRkc1OWOxkg-eERyZKuGwj0oc8wXDdSCMqGxe1I
+TQID: 'https://experienceleague.adobe.com/nu9qbRkc1OWOxkg-eERyZKuGwj0oc8wXDdSCMqGxe1I'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -16,6 +16,8 @@ feature_v2:
     internal-label: Order Management System
   - id: c32adafa-ed01-4b31-997e-2413013911b0
     internal-label: Integrations
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
 subfeature_v2:
   - id: f2261633-201d-46c5-8a66-999e70527a83
     internal-label: PCI

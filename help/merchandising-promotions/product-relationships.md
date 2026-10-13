@@ -3,13 +3,17 @@ title: Product relationships
 description: Learn about the product relationship types that you can use to promote products to targeted buyers.
 exl-id: 180352dc-65bf-4264-8287-9bf30f368ca1
 feature: Merchandising, Products
-TQID: https://experienceleague.adobe.com/mmA3M8qPKv36IeDNiVlolUmI-SqUbGew3UZqdOUCpUo
+TQID: 'https://experienceleague.adobe.com/mmA3M8qPKv36IeDNiVlolUmI-SqUbGew3UZqdOUCpUo'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 58c984c2-e237-5c50-9718-500e40d1e82c
+    internal-label: Merchandising
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

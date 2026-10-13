@@ -3,7 +3,7 @@ title: Product settings - [!UICONTROL Product Reviews]
 description: For a product, the [!UICONTROL Product Reviews] settings provide access to submitted reviews for the product and edit the status for pending reviews.
 exl-id: 9328c9f5-dcd4-4837-8902-39dc48cb8151
 feature: Catalog Management, Products
-TQID: https://experienceleague.adobe.com/GdeAB8bT8WjR9vSGjuD-h5I3O6vYNxyaaUQYAjjy8ME
+TQID: 'https://experienceleague.adobe.com/GdeAB8bT8WjR9vSGjuD-h5I3O6vYNxyaaUQYAjjy8ME'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -12,6 +12,8 @@ feature_v2:
     internal-label: Catalog management
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

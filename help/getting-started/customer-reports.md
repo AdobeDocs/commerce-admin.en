@@ -3,7 +3,7 @@ title: Customer reports
 description: Customer reports available in Adobe Commerce and Magento Open Source provide insight into customer activity during a specified time period or date range.
 exl-id: 7bee414b-b605-4aed-9749-78bb8056a6a4
 feature: Customers, Reporting
-TQID: https://experienceleague.adobe.com/i6BKd2v1P3eT8BkNn4poW5BhsrH8bG86kNN58v-TRIQ
+TQID: 'https://experienceleague.adobe.com/i6BKd2v1P3eT8BkNn4poW5BhsrH8bG86kNN58v-TRIQ'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -14,6 +14,8 @@ feature_v2:
     internal-label: Order Management System
   - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
     internal-label: Reporting
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
 subfeature_v2:
   - id: a0ba824e-0c31-421c-9b6f-aa500e5c18a1
     internal-label: Customer reports

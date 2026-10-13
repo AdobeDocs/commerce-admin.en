@@ -3,7 +3,7 @@ title: Catalog images and video
 description: Learn about using digital media to enhance your catalog product pages and provide visuals for your customers.
 exl-id: 963693d3-669b-42b3-9ac7-cdaed8bb614f
 feature: Catalog Management, Media
-TQID: https://experienceleague.adobe.com/EfPHXDn5-MioWq2McJoLx-1WLIOhhRrAYvM-9vrb-cg
+TQID: 'https://experienceleague.adobe.com/EfPHXDn5-MioWq2McJoLx-1WLIOhhRrAYvM-9vrb-cg'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -14,6 +14,8 @@ feature_v2:
     internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 4ca54350-01cb-5b22-8966-5f2873dc6d90
+    internal-label: Media
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

@@ -3,7 +3,7 @@ title: Wish list storefront experience
 description: Learn about the wish list management tools available to your customers on the storefront.
 exl-id: df8cf89a-c897-4a9a-9e84-3bae946683a4
 feature: Customers, Storefront
-TQID: https://experienceleague.adobe.com/9shDGhaOYei-RczZovWb0szpGHpMPPk06hPDft8NKhI
+TQID: 'https://experienceleague.adobe.com/9shDGhaOYei-RczZovWb0szpGHpMPPk06hPDft8NKhI'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -12,6 +12,8 @@ feature_v2:
     internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

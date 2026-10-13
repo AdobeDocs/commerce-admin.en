@@ -1,9 +1,9 @@
 ---
-title: "[!UICONTROL Customers] &gt; [!UICONTROL Newsletter]"
+title: '[!UICONTROL Customers] &gt; [!UICONTROL Newsletter]'
 description: Review the configurations settings on the [!UICONTROL Customers] &gt; [!UICONTROL Newsletter] page of the Commerce Admin.
 exl-id: a97003ca-985e-47fa-9ff3-677e05ef3729
 feature: Configuration, Customers, Communications
-TQID: https://experienceleague.adobe.com/rqG5WOxVnMnlKTSiSHYgl-3Q5Yy4nIKWOjAev35UYHA
+TQID: 'https://experienceleague.adobe.com/rqG5WOxVnMnlKTSiSHYgl-3Q5Yy4nIKWOjAev35UYHA'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -12,6 +12,10 @@ feature_v2:
     internal-label: Accounts
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
+  - id: bb03f6c4-cab9-560e-9d02-5816e1808d17
+    internal-label: Communications
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

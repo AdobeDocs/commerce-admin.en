@@ -4,13 +4,17 @@ description: If your site uses the built-in review feature, Review Reports provi
 exl-id: f337c0fc-a8fd-43ef-82db-f11741e6dc76
 feature: Reporting, Customers, Products
 badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
-TQID: https://experienceleague.adobe.com/QM0nxXnljOirZCPAtNwB-pFF9b7yAoIHi45y4u-rCoA
+TQID: 'https://experienceleague.adobe.com/QM0nxXnljOirZCPAtNwB-pFF9b7yAoIHi45y4u-rCoA'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
 feature_v2:
   - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
     internal-label: Reporting
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 subfeature_v2:
   - id: e0a937e6-d9cf-463f-a521-d5e34bd833a5
     internal-label: Review reports

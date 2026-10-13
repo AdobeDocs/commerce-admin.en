@@ -3,7 +3,7 @@ title: Returns storefront experience
 description: Learn how your customers can manage their product returns from their account on the storefront.
 exl-id: c276ca2c-3d8b-4019-a9aa-e7631080f331
 feature: Returns, Storefront
-TQID: https://experienceleague.adobe.com/erAT7FtUSif5CxrBLlANMQY2aowkv0MDzkqXQnzzF7Q
+TQID: 'https://experienceleague.adobe.com/erAT7FtUSif5CxrBLlANMQY2aowkv0MDzkqXQnzzF7Q'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -14,6 +14,8 @@ feature_v2:
     internal-label: Order Management System
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
     internal-label: Storefront
+  - id: ac07462c-732c-5c1c-947b-4ce533b4fcfb
+    internal-label: Returns
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

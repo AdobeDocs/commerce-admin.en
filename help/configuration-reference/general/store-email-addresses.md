@@ -1,9 +1,9 @@
 ---
-title: "[!UICONTROL General] &gt; [!UICONTROL Store Email Addresses]"
+title: '[!UICONTROL General] &gt; [!UICONTROL Store Email Addresses]'
 description: Review the configurations settings on the [!UICONTROL General] &gt; [!UICONTROL Store Email Addresses] page of the Commerce Admin.
 exl-id: 7c9e519c-dfc9-4de4-a0a4-1770b7c58145
 feature: Configuration, Communications
-TQID: https://experienceleague.adobe.com/vmh8BFwoPUpw-RmiLzSxY-szLgwSjd8yu-2ro-xAPdY
+TQID: 'https://experienceleague.adobe.com/vmh8BFwoPUpw-RmiLzSxY-szLgwSjd8yu-2ro-xAPdY'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -12,6 +12,8 @@ feature_v2:
     internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: bb03f6c4-cab9-560e-9d02-5816e1808d17
+    internal-label: Communications
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

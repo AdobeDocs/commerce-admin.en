@@ -1,9 +1,9 @@
 ---
-title: "[!UICONTROL Customers] &gt; [!UICONTROL Reward Points]"
+title: '[!UICONTROL Customers] &gt; [!UICONTROL Reward Points]'
 description: Review the configurations settings on the [!UICONTROL Customers] &gt; [!UICONTROL Reward Points] page of the Commerce Admin.
 exl-id: 0b7f8806-74c5-4467-87da-0faae50f164b
 feature: Configuration, Rewards
-TQID: https://experienceleague.adobe.com/jK-FLPd4mglaptKFOhoRsYtAdwRqStPRWM4zMc48qd4
+TQID: 'https://experienceleague.adobe.com/jK-FLPd4mglaptKFOhoRsYtAdwRqStPRWM4zMc48qd4'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -12,6 +12,8 @@ feature_v2:
     internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 4069cee6-4dc8-5a83-81de-232af6a7c9e9
+    internal-label: Rewards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

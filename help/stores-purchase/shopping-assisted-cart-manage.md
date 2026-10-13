@@ -3,7 +3,7 @@ title: Manage a shopping cart
 description: Learn how to assist a customer with their shopping cart directly from the Admin.
 exl-id: beb41dfa-ef87-4065-96fd-0649a5c4c21c
 feature: Customer Service, Shopping Cart
-TQID: https://experienceleague.adobe.com/6kRS38XXT2krhGWypaXChWpBdtvfLupBJX2k6cE4y6w
+TQID: 'https://experienceleague.adobe.com/6kRS38XXT2krhGWypaXChWpBdtvfLupBJX2k6cE4y6w'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -14,6 +14,13 @@ feature_v2:
     internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: df8eaa0e-dd74-553a-8ad5-28129f8e8d3d
+    internal-label: Shopping Cart
+  - id: da76473c-f99b-5ad0-9b14-896aed473f8a
+    internal-label: Services
+subfeature_v2:
+  - id: deedbb4d-f1b7-58ea-a34a-de1f481f9d4c
+    internal-label: Customer Service
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

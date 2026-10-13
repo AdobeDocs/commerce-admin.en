@@ -1,15 +1,17 @@
 ---
-title: "[!UICONTROL Customers] &gt; [!UICONTROL Gift Registry]"
+title: '[!UICONTROL Customers] &gt; [!UICONTROL Gift Registry]'
 description: Review the configurations settings on the [!UICONTROL Customers] &gt; [!UICONTROL Gift Registry] page of the Commerce Admin.
 exl-id: c5153c4e-897a-41d2-bde1-8483855d1a37
 feature: Configuration, Gift
-TQID: https://experienceleague.adobe.com/STCCRRp71FXvz-09LFiYKhJnsbdF8wokfdIa2Ij6-9A
+TQID: 'https://experienceleague.adobe.com/STCCRRp71FXvz-09LFiYKhJnsbdF8wokfdIa2Ij6-9A'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 4fc0a729-4349-5307-bd06-1b4bfbaf5d0c
+    internal-label: Gift
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
