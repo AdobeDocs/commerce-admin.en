@@ -124,3 +124,5 @@ To change the default expiration period applied to newly created keys, go to **[
 > - [Services > ACO Catalog View](../configuration-reference/services/aco-catalog-view.md) — Configure the storefront access-token lifetime and enable or disable issuance
 > - [Manage restricted access keys](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/manage-sync/catalog-view-sync/restricted-access-keys){target="_blank"} in the *Adobe Commerce Optimizer Connector Guide* — Learn how these keys fit into B2B shared catalog sync
 > - [Restricted access keys](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/restricted-access-keys){target="_blank"} in the *Adobe Commerce Optimizer Guide* — The manual, ACO Studio–based key flow for non-B2B use cases
+
+<!-- Last updated from includes: 2026-10-01 08:33:41 -->

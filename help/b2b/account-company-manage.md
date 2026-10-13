@@ -437,3 +437,5 @@ The following columns are available by changing the [column layout](../getting-s
 | [!UICONTROL Payment Methods] | (Admin Only) Becomes active if specific payment methods are indicated. To select multiple payment methods, hold down the Ctrl key (PC) or the Command key (Mac) and click each option. |
 
 {style="table-layout:auto"}
+
+<!-- Last updated from includes: 2026-09-22 10:00:25 -->
