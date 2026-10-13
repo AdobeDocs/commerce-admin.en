@@ -34,7 +34,7 @@ Catalog enrichment is a native [!DNL Adobe Commerce] capability that helps you i
 
 >[!NOTE]
 >
->Catalog enrichment is powered by [!DNL Commerce Catalog Agent] and [!DNL Adobe Brand Visibility] behind the scenes. You use enrichment as part of your Commerce catalog workflow. You do not manage a separate Adobe Brand Visibility integration to apply approved name and description updates. For broader LLM monitoring and optimization outside Commerce, see the [[!DNL Adobe Branch Visibility] product documentation](https://experienceleague.adobe.com/en/docs/brand-visibility/using/home).
+>Catalog enrichment is powered by [!DNL Commerce Catalog Agent] and [!DNL Adobe Brand Visibility] behind the scenes. You use enrichment as part of your Commerce catalog workflow. You do not manage a separate Adobe Brand Visibility integration to apply approved name and description updates. For broader LLM monitoring and optimization outside Commerce, see the [[!DNL Adobe Brand Visibility] product documentation](https://experienceleague.adobe.com/en/docs/brand-visibility/using/home).
 
 ## How it works {#how-it-works}
 
