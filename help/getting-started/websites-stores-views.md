@@ -3,13 +3,17 @@ title: Site, store, and view scope
 description: Learn about the hierarchy of websites, stores, and store views that you can use to deliver shopping experiences for your customers.
 exl-id: 80fc1b73-c869-4f1c-b1a1-d61823b91d83
 feature: System, Site Management
-TQID: https://experienceleague.adobe.com/S8E0BsK2lZqb82QMhyXOIEVUrXWy1X2h943tvF3sMzM
+TQID: 'https://experienceleague.adobe.com/S8E0BsK2lZqb82QMhyXOIEVUrXWy1X2h943tvF3sMzM'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 8d0b446f-5b16-5a10-b272-01143504a11c
+    internal-label: System
+  - id: 938d2364-5176-55ec-80f1-9415253e5e51
+    internal-label: Site Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

@@ -3,7 +3,7 @@ title: Update an order
 description: Learn how to update a customer's order in the Admin.
 exl-id: 15c73d27-f4bd-47d6-8d36-902074f9c3e6
 feature: Orders, Customer Service
-TQID: https://experienceleague.adobe.com/-p3rOdUeSmF-IcUJS9DP9eSxfjZGXs7UhlkvhPkbzOM
+TQID: 'https://experienceleague.adobe.com/-p3rOdUeSmF-IcUJS9DP9eSxfjZGXs7UhlkvhPkbzOM'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -12,6 +12,13 @@ feature_v2:
     internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
+  - id: da76473c-f99b-5ad0-9b14-896aed473f8a
+    internal-label: Services
+subfeature_v2:
+  - id: deedbb4d-f1b7-58ea-a34a-de1f481f9d4c
+    internal-label: Customer Service
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

@@ -3,7 +3,7 @@ title: Store and site structure
 description: Learn about the website, store, and store view hierarchy.
 exl-id: d745cbd0-151b-4f82-bb6c-fb6b9565a014
 feature: Site Management, System
-TQID: https://experienceleague.adobe.com/Qx4MO7bO5PoWmt4XxYeqsHeCq4Ov2mPp5Q0JAIDeaY4
+TQID: 'https://experienceleague.adobe.com/Qx4MO7bO5PoWmt4XxYeqsHeCq4Ov2mPp5Q0JAIDeaY4'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -12,6 +12,10 @@ feature_v2:
     internal-label: Security
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 938d2364-5176-55ec-80f1-9415253e5e51
+    internal-label: Site Management
+  - id: 8d0b446f-5b16-5a10-b272-01143504a11c
+    internal-label: System
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

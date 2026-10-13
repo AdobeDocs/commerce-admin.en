@@ -3,7 +3,7 @@ title: Customer password options
 description: The customer password options determine the level of security for various customer-facing functions of your store.
 exl-id: 84dec8e8-3363-4133-bbcc-9e58467749c4
 feature: Customers, Configuration, Security
-TQID: https://experienceleague.adobe.com/ttWsiKhuvquDE2oQRWLF9rTDTZ64BHkKD0Lbv-EDnHs
+TQID: 'https://experienceleague.adobe.com/ttWsiKhuvquDE2oQRWLF9rTDTZ64BHkKD0Lbv-EDnHs'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -14,6 +14,8 @@ feature_v2:
     internal-label: Accounts
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

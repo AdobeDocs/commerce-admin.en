@@ -3,7 +3,7 @@ title: Transactions
 description: Learn about the Transactions page and how to use it to track activity between your store and a payment system.
 exl-id: 5970db88-146d-4caf-aab4-d9315357a4fe
 feature: Payments
-TQID: https://experienceleague.adobe.com/WyZwtVw-F-pGxxfcHMU-UTz8GVROVyM-YYaLzivMLBM
+TQID: 'https://experienceleague.adobe.com/WyZwtVw-F-pGxxfcHMU-UTz8GVROVyM-YYaLzivMLBM'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -12,6 +12,8 @@ feature_v2:
     internal-label: Order Management System
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
     internal-label: Storefront
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

@@ -3,7 +3,7 @@ title: Instant Purchase
 description: Learn about Instant Purchase and how it can provide a speedy checkout for registered customer accounts.
 exl-id: f299f364-d7e3-4567-8c7b-955129011a19
 feature: Checkout
-TQID: https://experienceleague.adobe.com/sxfhq1vK7ohJBBli3U05dNoOvV2cdHc3j17nwvf3Le4
+TQID: 'https://experienceleague.adobe.com/sxfhq1vK7ohJBBli3U05dNoOvV2cdHc3j17nwvf3Le4'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -12,6 +12,8 @@ feature_v2:
     internal-label: Accounts
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 8cd50456-5eb0-5364-922a-f14161feb828
+    internal-label: Checkout
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

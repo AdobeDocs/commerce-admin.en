@@ -3,13 +3,15 @@ title: Categories - Display settings
 description: Learn about using the [!UICONTROL Display] settings to define which content elements appear on a category page and the order in which products appear.
 exl-id: bb3a1b00-ba56-4113-8208-860963612333
 feature: Catalog Management, Categories, Page Content
-TQID: https://experienceleague.adobe.com/t5UfvWvJ7R-kZb5kyMwpzwI2gfs3x3g1amlfWzQcAsw
+TQID: 'https://experienceleague.adobe.com/t5UfvWvJ7R-kZb5kyMwpzwI2gfs3x3g1amlfWzQcAsw'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
     internal-label: Catalog management
+  - id: 17d326fa-534a-55a5-b46f-8ae1de1e2f75
+    internal-label: Page Content
 subfeature_v2:
   - id: e91a50b1-0b31-436e-9033-00e4776e94cb
     internal-label: Categories

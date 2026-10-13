@@ -3,7 +3,7 @@ title: User roles
 description: Learn how to create user roles and the associated permissions to manage access to Admin functions.
 exl-id: a70f74d4-72b4-4639-a67d-9fc13df65924
 feature: Admin Workspace, Roles/Permissions, Security
-TQID: https://experienceleague.adobe.com/0Uw-HzqI-FwyKM5-OPmPFUjQYzReftmDsO6j-KeO7Eo
+TQID: 'https://experienceleague.adobe.com/0Uw-HzqI-FwyKM5-OPmPFUjQYzReftmDsO6j-KeO7Eo'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -18,9 +18,15 @@ feature_v2:
     internal-label: Configuration
   - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
     internal-label: Reporting
+  - id: e439352c-5b67-587d-b34e-d2a0aa5a0242
+    internal-label: Roles/Permissions
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
 subfeature_v2:
   - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
     internal-label: B2B
+  - id: bb2df8be-afdd-4818-b6b5-95ca1dd3bc3a
+    internal-label: Admin workspace
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

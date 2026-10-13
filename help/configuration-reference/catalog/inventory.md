@@ -1,9 +1,9 @@
 ---
-title: "[!UICONTROL Catalog] &gt; [!UICONTROL Inventory]"
+title: '[!UICONTROL Catalog] &gt; [!UICONTROL Inventory]'
 description: Review the configurations settings on the [!UICONTROL Catalog] &gt; [!UICONTROL Inventory] page of the Commerce Admin.
 exl-id: 80113a31-3585-4ee1-95af-31efc09389eb
 feature: Configuration, Inventory
-TQID: https://experienceleague.adobe.com/kxlKhWRjFDUH97FDenycl4nU1QdBWzceDCKfhZ0MTAc
+TQID: 'https://experienceleague.adobe.com/kxlKhWRjFDUH97FDenycl4nU1QdBWzceDCKfhZ0MTAc'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -12,6 +12,8 @@ feature_v2:
     internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 8dc0e58b-adf0-51bb-8db5-bb36e3e656fb
+    internal-label: Inventory
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

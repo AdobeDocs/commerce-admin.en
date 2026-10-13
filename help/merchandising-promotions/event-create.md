@@ -4,10 +4,15 @@ description: Learn how to create an event associated with a category from your c
 exl-id: 6c9f6a33-6785-4c3a-add6-dc2a6b16ed88
 feature: Marketing Tools, Promotions/Events
 badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
-TQID: https://experienceleague.adobe.com/6ipZ7CKTvNo1BGDU6ERhsJpJcKQ9yuoKKxqdIE6iEiM
+TQID: 'https://experienceleague.adobe.com/6ipZ7CKTvNo1BGDU6ERhsJpJcKQ9yuoKKxqdIE6iEiM'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
+feature_v2:
+  - id: 125c1f49-aefd-5f34-a252-288937f95f6b
+    internal-label: Marketing Tools
+  - id: 19d9b313-1a3c-5bed-9da7-4364f71c3a28
+    internal-label: Promotions/Events
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

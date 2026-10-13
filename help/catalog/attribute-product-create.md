@@ -3,7 +3,7 @@ title: Create and delete product attributes
 description: Learn about creating and removing product attributes, which are used to describe specific characteristics of the products in your catalog.
 exl-id: fd0e5d5b-a917-4e55-8ec2-7ebb040d3d06
 feature: Catalog Management, Products
-TQID: https://experienceleague.adobe.com/6N9gBrz24wtV4ljexgluyonOcjVbP8p2fQUQaLyJo3Q
+TQID: 'https://experienceleague.adobe.com/6N9gBrz24wtV4ljexgluyonOcjVbP8p2fQUQaLyJo3Q'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -14,6 +14,8 @@ feature_v2:
     internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

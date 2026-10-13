@@ -4,10 +4,15 @@ description: Learn about installing a new theme for your Adobe Commerce or Magen
 exl-id: 28728064-cf3e-44ef-a251-61a23499d096
 feature: Page Content, Themes
 badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
-TQID: https://experienceleague.adobe.com/95FY93Orarr7iijUGev462alrGf6eVxUZGkc0dvMX-o
+TQID: 'https://experienceleague.adobe.com/95FY93Orarr7iijUGev462alrGf6eVxUZGkc0dvMX-o'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
+feature_v2:
+  - id: 17d326fa-534a-55a5-b46f-8ae1de1e2f75
+    internal-label: Page Content
+  - id: 8b440f30-6794-5ed6-981f-391de4e9b0cc
+    internal-label: Themes
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

@@ -3,7 +3,7 @@ title: Product settings - [!UICONTROL Configurations]
 description: For a product, the [!UICONTROL Configurations] settings define variations for use with the Configurable product type.
 exl-id: 75c594e1-ef75-464b-a1f0-0eb63b9d165f
 feature: Catalog Management, Products
-TQID: https://experienceleague.adobe.com/bdoxw2eaO6ZWEXH4LdSNyOx4FaMcFPVTeHLZ-ufAGqo
+TQID: 'https://experienceleague.adobe.com/bdoxw2eaO6ZWEXH4LdSNyOx4FaMcFPVTeHLZ-ufAGqo'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -12,6 +12,8 @@ feature_v2:
     internal-label: Catalog management
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

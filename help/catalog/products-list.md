@@ -3,7 +3,7 @@ title: Products list
 description: Learn about the _[!UICONTROL Products]_ page in the Admin, where you can create products and edit existing ones.
 exl-id: 47e14f72-017f-456a-8904-6d32ef47e6f1
 feature: Catalog Management, Products, Admin Workspace
-TQID: https://experienceleague.adobe.com/tCvjmMlTzn0ejytHyuLPIKKpHn7CGiVkrAwJWmvN-Ro
+TQID: 'https://experienceleague.adobe.com/tCvjmMlTzn0ejytHyuLPIKKpHn7CGiVkrAwJWmvN-Ro'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -12,9 +12,15 @@ feature_v2:
     internal-label: Catalog management
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
 subfeature_v2:
   - id: e91a50b1-0b31-436e-9033-00e4776e94cb
     internal-label: Categories
+  - id: bb2df8be-afdd-4818-b6b5-95ca1dd3bc3a
+    internal-label: Admin workspace
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

@@ -16,6 +16,18 @@ feature_v2:
     internal-label: Integrations
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
     internal-label: Storefront
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
@@ -34,7 +46,7 @@ Catalog enrichment is a native [!DNL Adobe Commerce] capability that helps you i
 
 >[!NOTE]
 >
->Catalog enrichment is powered by [!DNL Commerce Catalog Agent] and [!DNL Adobe LLM Optimizer] behind the scenes. You use enrichment as part of your Commerce catalog workflow. You do not manage a separate LLM Optimizer integration to apply approved name and description updates. For broader LLM monitoring and optimization outside Commerce, see the [LLM Optimizer product documentation](https://experienceleague.adobe.com/en/docs/brand-visibility/using/home).
+>Catalog enrichment is powered by [!DNL Commerce Catalog Agent] and [!DNL Adobe Brand Visibility] behind the scenes. You use enrichment as part of your Commerce catalog workflow. You do not manage a separate Adobe Brand Visibility integration to apply approved name and description updates. For broader LLM monitoring and optimization outside Commerce, see the [[!DNL Adobe Brand Visibility] product documentation](https://experienceleague.adobe.com/en/docs/brand-visibility/using/home).
 
 ## How it works {#how-it-works}
 
@@ -65,13 +77,25 @@ The following prerequisites apply when you have access to catalog enrichment.
 
 - Your storefront can be crawled by LLM-oriented and agentic bots where crawl coverage is required for catalog-aware suggestions.
 - Required Commerce services and catalog connectivity are enabled and healthy. See [Enable catalog enrichment](#enable-catalog-enrichment) to learn more.
-- [IMS is configured](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/organizations).
+- The Commerce Admin user who accesses catalog enrichment signs in through Adobe IMS. See [IMS sign-in and organization requirements](#ims-sign-in-requirements).
 - You have access to the [Adobe Admin Console](https://helpx.adobe.com/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html).
 - Your organization has signed the GenAI rider, or explicitly opted out, for the underlying AI services.
 
 >[!NOTE]
 >
 >As part of setup, Commerce checks whether your organization has signed the GenAI rider that covers the AI services behind catalog enrichment. If you have not yet signed the rider or opted out, you are prompted to sign or update the rider before you can use catalog enrichment.
+
+### IMS sign-in and organization requirements {#ims-sign-in-requirements}
+
+Catalog enrichment uses the signed-in Commerce Admin user's Adobe IMS access token to connect to [!DNL Adobe Brand Visibility]. A native Commerce Admin sign-in with only a Commerce user name and password does not produce this token, so the Admin user who accesses catalog enrichment must sign in through Adobe IMS.
+
+To support IMS sign-in, your Commerce instance must have the Commerce Admin Integration with Adobe ID enabled. See [Configure the Commerce Admin Integration with Adobe ID](/help/getting-started/adobe-ims-config.md).
+
+>[!IMPORTANT]
+>
+>Enabling the Commerce Admin Integration with Adobe ID is an instance-wide change. Once enabled, every Admin user must authenticate through Adobe IMS, and native Commerce username-and-password sign-in is no longer available. Review [Adobe Identity Management Service (IMS) integration overview](/help/getting-started/adobe-ims-integration-overview.md) before you enable this integration.
+
+The Adobe IMS organization associated with your Commerce instance is typically different from the IMS organization that holds your [!DNL Adobe Brand Visibility] entitlement. Enabling the Commerce Admin Integration with Adobe ID does not, by itself, grant access to the Brand Visibility entitlement, and the two organizations are not required to be the same. Work with your Adobe administrator or account team to confirm which IMS organization memberships and account access catalog enrichment requires in your setup.
 
 ## Enable catalog enrichment {#enable-catalog-enrichment}
 
@@ -94,20 +118,22 @@ Work with your Commerce administrator or implementation partner to ensure the fo
 
 After you install the catalog enrichment and catalog services extensions, the catalog enrichment capability is available in the Admin under **[!UICONTROL Catalog]** > **[!UICONTROL Catalog Enrichment]**.
 
-![Catalog Enrichment](./assets/catalog-enrichment-menu.png)
+![Catalog Enrichment](./assets/catalog-enrichment-menu.png){zoomable="yes"}
 
-### Configure catalog enrichment
+### Configure catalog enrichment {#configure-catalog-enrichment}
 
 Configure catalog enrichment on the **[!UICONTROL Settings]** tab so [!DNL Commerce Catalog Agent] can connect to your [!DNL Adobe Commerce] environment and surface suggestions in the Commerce Admin.
+
+The fields on this tab identify the Commerce environment and store view that catalog enrichment connects to. They are separate from the Adobe IMS organization that holds your [!DNL Adobe Brand Visibility] entitlement. See [IMS sign-in and organization requirements](#ims-sign-in-requirements).
 
 1. In the Admin, go to **[!UICONTROL Catalog]** > **[!UICONTROL Catalog Enrichment]**.
 1. In the **[!UICONTROL Scope]** list at the top of the page, select the store view you want to configure, or leave **[!UICONTROL All Store Views]** to manage settings across store views.
 1. Open the **[!UICONTROL Settings]** tab.
 1. In **[!UICONTROL Commerce Configuration]**, expand the store view panel labeled with its URL.
 
-   Provide your [!DNL Adobe Commerce] environment details to enable the Catalog LLM Optimizer Service and audit workflows.
+   Provide your [!DNL Adobe Commerce] environment details to enable the Catalog Adobe Brand Visibility Service and audit workflows.
 
-   ![Commerce Configuration on the Catalog Enrichment Settings tab](./assets/catalog-enrichment-commerce-config.png)
+   ![Commerce Configuration on the Catalog Enrichment Settings tab](./assets/catalog-enrichment-commerce-config.png){zoomable="yes"}
 
 1. Enter the required connection details for the store view.
 
@@ -145,7 +171,7 @@ Catalog enrichment uses the following workflow views:
 - **[!UICONTROL Fixed Suggestions]**: Items you already applied or resolved.
 - **[!UICONTROL Ignored Suggestions]**: Items you intentionally excluded from action.
 
-![Catalog Enrichment](./assets/agentic-opportunities.png)
+![Catalog Enrichment](./assets/agentic-opportunities.png){zoomable="yes"}
 
 ### Deploy approved suggestions {#review-deploy-catalog}
 
@@ -179,7 +205,7 @@ After you apply an update, suggestions move to **[!UICONTROL Fixed Suggestions]*
 
    The product form shows the enriched product name and/or description.
 
-   ![Enriched Product Name](./assets/enriched-product-name.png)
+   ![Enriched Product Name](./assets/enriched-product-name.png){zoomable="yes"}
 
 1. Optional: Select **[!UICONTROL Override Catalog Agent provided Product Name]** if you want to keep a manually entered name instead.
 
@@ -189,7 +215,7 @@ After you apply an update, suggestions move to **[!UICONTROL Fixed Suggestions]*
 
    The enriched description appears when you applied description changes.
 
-   ![Enrich Product Description](./assets/enrich-product-description.png)
+   ![Enrich Product Description](./assets/enrich-product-description.png){zoomable="yes"}
 
 1. Optional: Select **[!UICONTROL Override Catalog Agent provided Description]** if you want to keep a manually entered description instead.
 

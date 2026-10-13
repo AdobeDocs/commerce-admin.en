@@ -3,7 +3,7 @@ title: System notifications
 description: Learn how to use the Notifications page to review messages regarding system operations.
 exl-id: 6577f9c7-41dd-4ceb-8d8b-4b84d8bcbd17
 feature: System, Admin Workspace
-TQID: https://experienceleague.adobe.com/8hon-KOsXQ2rZHAimAsggNw9GlX-FZgU3vPMB-YJzN4
+TQID: 'https://experienceleague.adobe.com/8hon-KOsXQ2rZHAimAsggNw9GlX-FZgU3vPMB-YJzN4'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -12,6 +12,13 @@ feature_v2:
     internal-label: Security
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
     internal-label: Accounts
+  - id: 8d0b446f-5b16-5a10-b272-01143504a11c
+    internal-label: System
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
+subfeature_v2:
+  - id: bb2df8be-afdd-4818-b6b5-95ca1dd3bc3a
+    internal-label: Admin workspace
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

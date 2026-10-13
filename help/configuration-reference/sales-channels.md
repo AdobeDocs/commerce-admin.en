@@ -1,15 +1,17 @@
 ---
-title: "[!UICONTROL Sales Channels] &gt; [!UICONTROL Global Settings]"
+title: '[!UICONTROL Sales Channels] &gt; [!UICONTROL Global Settings]'
 description: Review the configurations settings on the [!UICONTROL Sales Channels] &gt; [!UICONTROL Global Settings] page of the Commerce Admin.
 exl-id: 28a5ef4b-265e-457a-9480-96763785b5fd
 feature: Configuration, Sales Channels
-TQID: https://experienceleague.adobe.com/jnjAspEdJbx3unjmoqgH12JEiLz4ThbgFGeFOArOonU
+TQID: 'https://experienceleague.adobe.com/jnjAspEdJbx3unjmoqgH12JEiLz4ThbgFGeFOArOonU'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 541b5773-5ae1-55f2-8721-511b946fbd7f
+    internal-label: Sales Channels
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

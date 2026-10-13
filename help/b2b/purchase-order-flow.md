@@ -3,7 +3,7 @@ title: Purchase orders for companies
 description: Learn about purchase order workflows that allow companies to track and control spending.
 exl-id: 4f93ab4c-6bdf-495e-9183-3a18898b377f
 feature: B2B, Purchase Orders
-TQID: https://experienceleague.adobe.com/YNQaayS05dNl3qUfoIUh2vqY3H3yTA32nt7rXmORF7A
+TQID: 'https://experienceleague.adobe.com/YNQaayS05dNl3qUfoIUh2vqY3H3yTA32nt7rXmORF7A'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -12,6 +12,15 @@ feature_v2:
     internal-label: Security
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
     internal-label: Order Management System
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
+  - id: 2d6d41d4-a5c1-5baf-8dbe-bf7300b68bb3
+    internal-label: Purchase Orders
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

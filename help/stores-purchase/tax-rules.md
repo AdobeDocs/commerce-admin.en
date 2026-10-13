@@ -3,10 +3,15 @@ title: Tax rules
 description: Learn how to define the tax rules using product class, customer class, and tax rate.
 exl-id: 38d65998-7769-49ce-9814-e65df9d77bba
 feature: Taxes, Currency
-TQID: https://experienceleague.adobe.com/ik-dbYrFRZQ9EvgjFCx6pv5WBnPtk6AHBe2oB4GPn8I
+TQID: 'https://experienceleague.adobe.com/ik-dbYrFRZQ9EvgjFCx6pv5WBnPtk6AHBe2oB4GPn8I'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
+feature_v2:
+  - id: 42e094d8-211b-5acf-b52f-d8979151ab30
+    internal-label: Taxes
+  - id: 3033d2ab-c1d2-5b52-b865-72d9e5ad2c37
+    internal-label: Currency
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

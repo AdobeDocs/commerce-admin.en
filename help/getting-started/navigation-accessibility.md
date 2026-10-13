@@ -3,10 +3,13 @@ title: Accessibility
 description: Review the common keyboard controls for accessible site navigation for your customers.
 exl-id: 7e3becf2-6c47-4993-8581-e253607ab381
 feature: Compliance
-TQID: https://experienceleague.adobe.com/5tFp9wd5hE-F2OZak4PbaVvtNijAxmctxKRFDb0pOPw
+TQID: 'https://experienceleague.adobe.com/5tFp9wd5hE-F2OZak4PbaVvtNijAxmctxKRFDb0pOPw'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
+feature_v2:
+  - id: b5f00040-57a0-4a6d-a39e-383b1936c2c9
+    internal-label: Compliance
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

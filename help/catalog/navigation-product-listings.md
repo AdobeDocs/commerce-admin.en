@@ -3,7 +3,7 @@ title: Product listings
 description: Learn how to modify the product listing configuration, which determines how many products appear per page, and which attribute is used to sort the list.
 exl-id: 3779d9db-4adb-473b-b9c9-ad066f50b549
 feature: Catalog Management, Products, Page Content
-TQID: https://experienceleague.adobe.com/XC4xwHkJyLCiHNNCAz6huVbN3j-WwCvKumJtjf0uj-I
+TQID: 'https://experienceleague.adobe.com/XC4xwHkJyLCiHNNCAz6huVbN3j-WwCvKumJtjf0uj-I'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -14,6 +14,10 @@ feature_v2:
     internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
+  - id: 17d326fa-534a-55a5-b46f-8ae1de1e2f75
+    internal-label: Page Content
 subfeature_v2:
   - id: ae62cf09-5996-4921-bda8-fbe67b62e470
     internal-label: Storefront configuration

@@ -3,7 +3,7 @@ title: Product settings - [!UICONTROL Sources]
 description: For a product, the [!UICONTROL Sources] settings provides access to the [!DNL Inventory Management] sources from which the product can be distributed.
 exl-id: 986f6031-0edc-4105-aa02-1c22364b3e7c
 feature: Catalog Management, Products, Inventory
-TQID: https://experienceleague.adobe.com/7LFF4ufXyKtJwUp4DiNDdnRMhFRsM1tX8Z2TlPt1Kso
+TQID: 'https://experienceleague.adobe.com/7LFF4ufXyKtJwUp4DiNDdnRMhFRsM1tX8Z2TlPt1Kso'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -14,6 +14,10 @@ feature_v2:
     internal-label: Catalog management
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
+  - id: 8dc0e58b-adf0-51bb-8db5-bb36e3e656fb
+    internal-label: Inventory
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

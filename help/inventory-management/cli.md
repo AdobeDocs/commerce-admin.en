@@ -1,11 +1,11 @@
 ---
-title: "[!DNL Inventory Management] CLI reference"
-description: "Learn about the [!DNL Inventory Management Commerce] CLI commands for managing inventory data and configuration settings."
+title: '[!DNL Inventory Management] CLI reference'
+description: Learn about the [!DNL Inventory Management Commerce] CLI commands for managing inventory data and configuration settings.
 exl-id: d92dffce-94a1-443c-8c72-98fecbbd5320
 level: Experienced
 feature: Inventory, Configuration
 badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
-TQID: https://experienceleague.adobe.com/jdlLgwIe50ExZ2giXBiGf5cG8L4DQDZe4psbB16F5JE
+TQID: 'https://experienceleague.adobe.com/jdlLgwIe50ExZ2giXBiGf5cG8L4DQDZe4psbB16F5JE'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -14,6 +14,8 @@ feature_v2:
     internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 8dc0e58b-adf0-51bb-8db5-bb36e3e656fb
+    internal-label: Inventory
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -21,6 +23,9 @@ role_v2:
     internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
     internal-label: Leader
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration

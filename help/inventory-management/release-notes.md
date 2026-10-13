@@ -3,7 +3,7 @@ title: '[!DNL Inventory Management] release notes'
 description: Review [!DNL Inventory Management] release notes for new features, fixes, and known issues in each Community Engineering module version.
 exl-id: 856b9503-7621-4beb-ac2f-3eb1a240cebc
 feature: Inventory, Release Notes
-TQID: https://experienceleague.adobe.com/UaHQorWcNwDPzAMuV-e27DDH-G5D0k5qENPTINNfiTk
+TQID: 'https://experienceleague.adobe.com/UaHQorWcNwDPzAMuV-e27DDH-G5D0k5qENPTINNfiTk'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -14,6 +14,10 @@ feature_v2:
     internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 8dc0e58b-adf0-51bb-8db5-bb36e3e656fb
+    internal-label: Inventory
+  - id: adedf70c-c1e1-5734-acdc-c5c43b114964
+    internal-label: Release Notes
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

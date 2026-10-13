@@ -4,7 +4,7 @@ description: Learn how to run an enhanced security scan and monitor each of your
 exl-id: 87d4739f-496c-4e47-89a3-70d3969c0fdb
 role: Admin
 feature: Security, Site Management, Reporting
-TQID: https://experienceleague.adobe.com/htuqRHD-ZLrN42IPAdZrEzbea8UirA0xS9eMcksZNQs
+TQID: 'https://experienceleague.adobe.com/htuqRHD-ZLrN42IPAdZrEzbea8UirA0xS9eMcksZNQs'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -17,6 +17,8 @@ feature_v2:
     internal-label: Configuration
   - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
     internal-label: Reporting
+  - id: 938d2364-5176-55ec-80f1-9415253e5e51
+    internal-label: Site Management
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

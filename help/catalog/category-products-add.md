@@ -3,13 +3,15 @@ title: Add and remove category products
 description: Learn how to add and remove products from a category.
 exl-id: 3b71028e-8679-425a-9ac7-77bf692d0194
 feature: Catalog Management, Categories, Products
-TQID: https://experienceleague.adobe.com/0WjaBF8dHDq8YSqE1gFt0-JKwbn9IFrRlFwl2Se7mkI
+TQID: 'https://experienceleague.adobe.com/0WjaBF8dHDq8YSqE1gFt0-JKwbn9IFrRlFwl2Se7mkI'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
     internal-label: Catalog management
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 subfeature_v2:
   - id: e91a50b1-0b31-436e-9033-00e4776e94cb
     internal-label: Categories

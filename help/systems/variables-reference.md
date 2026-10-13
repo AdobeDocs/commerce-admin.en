@@ -4,13 +4,20 @@ description: Review examples of frequently used email templates and their associ
 exl-id: b5e49a56-4b7c-431d-bd44-e8591106fa4e
 role: Admin, User
 feature: System, Variables, Communications
-TQID: https://experienceleague.adobe.com/FAJe-nOanaUmPT9Is9-ZGevULFepFE6QyyrbGhcCePY
+TQID: 'https://experienceleague.adobe.com/FAJe-nOanaUmPT9Is9-ZGevULFepFE6QyyrbGhcCePY'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
     internal-label: Security
+  - id: 8d0b446f-5b16-5a10-b272-01143504a11c
+    internal-label: System
+  - id: bb03f6c4-cab9-560e-9d02-5816e1808d17
+    internal-label: Communications
+subfeature_v2:
+  - id: 2191e157-828a-5358-ad69-ebcaa8402915
+    internal-label: Variables
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

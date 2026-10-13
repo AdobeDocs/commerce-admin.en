@@ -7,7 +7,7 @@ feature-set: Commerce
 role: Admin
 level: Intermediate
 exl-id: 9fe20d6a-2c9c-4618-a395-805d64dcf0de
-TQID: https://experienceleague.adobe.com/H-dTFXAVolrnH6j72tou-NCEcv38NyZdtwhnk0xxX-0
+TQID: 'https://experienceleague.adobe.com/H-dTFXAVolrnH6j72tou-NCEcv38NyZdtwhnk0xxX-0'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -18,6 +18,10 @@ feature_v2:
     internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: e9004f3c-09ae-5d24-acd2-fa0987fdb66e
+    internal-label: Companies
+  - id: e439352c-5b67-587d-b34e-d2a0aa5a0242
+    internal-label: Roles/Permissions
 subfeature_v2:
   - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
     internal-label: B2B

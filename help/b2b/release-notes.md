@@ -1,9 +1,9 @@
 ---
-title: "[!DNL Adobe Commerce B2B] release notes"
+title: '[!DNL Adobe Commerce B2B] release notes'
 description: Review the release notes for information about changes in [!DNL Adobe Commerce B2B] releases.
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-TQID: https://experienceleague.adobe.com/d-IieNYP0V4T5mh69jzuYy5ELc8FWbD12qPvJ2P2eZo
+TQID: 'https://experienceleague.adobe.com/d-IieNYP0V4T5mh69jzuYy5ELc8FWbD12qPvJ2P2eZo'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -18,6 +18,8 @@ feature_v2:
     internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: adedf70c-c1e1-5734-acdc-c5c43b114964
+    internal-label: Release Notes
 subfeature_v2:
   - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
     internal-label: B2B
@@ -42,6 +44,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
+last-update: 2026-10-13
 ---
 # [!DNL Adobe Commerce B2B] release notes
 
@@ -54,6 +57,8 @@ These release notes for the B2B extension capture additions and fixes that Adobe
 >[!NOTE]
 >
 >See [Product availability](https://experienceleague.adobe.com/en/docs/commerce-operations/release/product-availability) for information about versions of the B2B Commerce extension supported for available Adobe Commerce releases.
+
+{{$include /help/_includes/templated/release-notes-v1-5-4.md}}
 
 ## B2B v1.5.3
 
@@ -1154,3 +1159,5 @@ This release includes improvements to order approvals, shipping methods, shoppin
 - Adobe Commerce throws an exception during upgrade to B2B 1.2.0 in a multi-website deployment. When `setup:upgrade` runs, this error occurs on the `PurchaseOrder` module: `Module Magento_PurchaseOrder: Unable to apply data patch Magento\PurchaseOrder\Setup\Patch\Data\InitPurchaseOrderSalesSequence for moduleMagento_PurchaseOrder`. **Workaround**: Install the `B2B-716 Add NonTransactionableInterface` interface to the `InitPurchaseOrderSalesSequence` data patch hotfix, which is now available from the **My Account** > **Downloads** section of `magento.com`.
 - If a discount code expires before a Purchase Order (PO) is approved, the PO continues to display the discounted amount, but once the PO is approved, the order is placed at the non-discounted total. **Workaround**: Install the `B2B-709 Purchase Order Discount patch` hotfix for this issue, which is now available from the **My Account** > **Downloads** section of `magento.com`.
 - If items in a purchase order are out of stock, or of insufficient quantity when the purchase order is converted into an actual order, an error occurs. If backorders are enabled, the order is processed normally.
+
+<!-- Last updated from includes: 2026-10-09 17:06:14 -->

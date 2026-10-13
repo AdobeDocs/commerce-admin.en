@@ -3,7 +3,7 @@ title: Search results
 description: Learn how to configure how your products match the search criteria entered in the Quick Search box or the Advanced Search form.
 exl-id: c721fb3b-ee31-4d2b-b4ea-9ae2c80aa800
 feature: Catalog Management, Search
-TQID: https://experienceleague.adobe.com/66fWLxfEO03dyaOfxN0M-JlUPqupTY4txCRybKxF4n8
+TQID: 'https://experienceleague.adobe.com/66fWLxfEO03dyaOfxN0M-JlUPqupTY4txCRybKxF4n8'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -14,6 +14,9 @@ feature_v2:
     internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+subfeature_v2:
+  - id: a1d22079-48b9-5e69-9ee6-eb236068ef34
+    internal-label: Search
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

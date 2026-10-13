@@ -3,7 +3,7 @@ title: Gift card purchase and redemption
 description: Learn about the gift card purchase-to-redemption lifecycle when you include gift cards in your store catalog.
 exl-id: ecaa39aa-f504-4bfd-874b-12b44093c2a9
 feature: Products, Gift
-TQID: https://experienceleague.adobe.com/-GZIzNSrAxpHKeS269m0q4FS-BUXRpNnE7JxK09Ea0I
+TQID: 'https://experienceleague.adobe.com/-GZIzNSrAxpHKeS269m0q4FS-BUXRpNnE7JxK09Ea0I'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -14,6 +14,10 @@ feature_v2:
     internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
+  - id: 4fc0a729-4349-5307-bd06-1b4bfbaf5d0c
+    internal-label: Gift
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

@@ -3,7 +3,7 @@ title: Minimum advertised price
 description: Learn how to use the minimum advertised price (MAP) feature to remain in compliance with the manufacturer's requirements with special pricing.
 exl-id: ccd44cfe-3967-4d82-b5b2-3f92701d152e
 feature: Catalog Management, Products
-TQID: https://experienceleague.adobe.com/DRNm0PPX81W4jzLnu7ALhJ1lQZYUpTcO6ojp1E50vto
+TQID: 'https://experienceleague.adobe.com/DRNm0PPX81W4jzLnu7ALhJ1lQZYUpTcO6ojp1E50vto'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -16,6 +16,8 @@ feature_v2:
     internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

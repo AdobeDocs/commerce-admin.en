@@ -4,6 +4,7 @@ description: Create, assign, and delete the restricted access keys that secure B
 feature: Products, Customers, Data Import/Export
 role: Admin
 level: Intermediate
+last-update: 2026-10-01
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -16,6 +17,12 @@ feature_v2:
     internal-label: Security
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
+  - id: 601e4abe-d9bf-58de-a779-32ed6794dcbe
+    internal-label: Data Import/Export
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
@@ -117,3 +124,5 @@ To change the default expiration period applied to newly created keys, go to **[
 > - [Services > ACO Catalog View](../configuration-reference/services/aco-catalog-view.md) — Configure the storefront access-token lifetime and enable or disable issuance
 > - [Manage restricted access keys](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/manage-sync/catalog-view-sync/restricted-access-keys){target="_blank"} in the *Adobe Commerce Optimizer Connector Guide* — Learn how these keys fit into B2B shared catalog sync
 > - [Restricted access keys](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/restricted-access-keys){target="_blank"} in the *Adobe Commerce Optimizer Guide* — The manual, ACO Studio–based key flow for non-B2B use cases
+
+<!-- Last updated from includes: 2026-10-01 08:33:41 -->

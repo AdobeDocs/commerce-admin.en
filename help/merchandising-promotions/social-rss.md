@@ -3,7 +3,7 @@ title: Social media and RSS feeds
 description: Learn how to add social media and other RSS feed integration to build brand and product awareness.
 exl-id: e4a48870-f53e-4848-8faa-8f2aedaf53b7
 feature: Merchandising, Communications
-TQID: https://experienceleague.adobe.com/jO5CAIJOQ7caLuno4OP4vnhJhIMZahlxL7waFwDyHzY
+TQID: 'https://experienceleague.adobe.com/jO5CAIJOQ7caLuno4OP4vnhJhIMZahlxL7waFwDyHzY'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -12,6 +12,10 @@ feature_v2:
     internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 58c984c2-e237-5c50-9718-500e40d1e82c
+    internal-label: Merchandising
+  - id: bb03f6c4-cab9-560e-9d02-5816e1808d17
+    internal-label: Communications
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

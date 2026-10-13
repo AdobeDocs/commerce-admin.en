@@ -4,7 +4,7 @@ description: Learn how to set up PayPal Payments Advanced as an online payment s
 exl-id: 018dd999-2f17-4650-8f61-624809ae76c6
 feature: Payments
 badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
-TQID: https://experienceleague.adobe.com/pkxzCNRxzCwDeYhaDoaiNl04wpbqbMmOedoBzW4hbR8
+TQID: 'https://experienceleague.adobe.com/pkxzCNRxzCwDeYhaDoaiNl04wpbqbMmOedoBzW4hbR8'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -15,6 +15,8 @@ feature_v2:
     internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

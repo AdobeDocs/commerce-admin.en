@@ -1,11 +1,11 @@
 ---
-title: "[!UICONTROL Advanced] &gt; [!UICONTROL Developer]"
+title: '[!UICONTROL Advanced] &gt; [!UICONTROL Developer]'
 description: Review the configurations settings on the [!UICONTROL Advanced] &gt; [!UICONTROL Developer] page of the Commerce Admin.
 exl-id: 2ef4ba6a-b5a5-419d-8d61-e535e3366370
 role: Admin, Developer
 feature: Site Management, Configuration, System
 badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
-TQID: https://experienceleague.adobe.com/Cl6rp-pqD6LBM-50gDiPC-7Ox2MDzy-szQDesLTecdQ
+TQID: 'https://experienceleague.adobe.com/Cl6rp-pqD6LBM-50gDiPC-7Ox2MDzy-szQDesLTecdQ'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -22,6 +22,10 @@ feature_v2:
     internal-label: Configuration
   - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
     internal-label: Reporting
+  - id: 938d2364-5176-55ec-80f1-9415253e5e51
+    internal-label: Site Management
+  - id: 8d0b446f-5b16-5a10-b272-01143504a11c
+    internal-label: System
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

@@ -1,15 +1,19 @@
 ---
-title: "[!UICONTROL Customers] &gt; [!UICONTROL Wish List]"
+title: '[!UICONTROL Customers] &gt; [!UICONTROL Wish List]'
 description: Review the configurations settings on the [!UICONTROL Customers] &gt; [!UICONTROL Wish List] page of the Commerce Admin.
 exl-id: 33ff428c-03e3-4698-a01e-f007b4e1688e
 feature: Configuration, Customers, Storefront
-TQID: https://experienceleague.adobe.com/Qtxe8KavYOeudVvJe1ojXj6ZStlNVeAtAUtZOkRox8E
+TQID: 'https://experienceleague.adobe.com/Qtxe8KavYOeudVvJe1ojXj6ZStlNVeAtAUtZOkRox8E'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

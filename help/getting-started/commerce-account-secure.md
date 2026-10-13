@@ -3,7 +3,7 @@ title: Secure your [!DNL Commerce] account
 description: Learn how to use two-factor authentication to secure your [!DNL Commerce] account.
 exl-id: 4847b5cb-a93a-40d0-8c31-c30afa27c0ce
 feature: User Account
-TQID: https://experienceleague.adobe.com/AG9ZJu83LRAHgPaKFBWI5HQ2EPredJsOKL5FwEzGeZc
+TQID: 'https://experienceleague.adobe.com/AG9ZJu83LRAHgPaKFBWI5HQ2EPredJsOKL5FwEzGeZc'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -14,6 +14,8 @@ feature_v2:
     internal-label: Accounts
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 4560f5f5-d00c-5b5d-b61b-369d85ef7a26
+    internal-label: User Account
 subfeature_v2:
   - id: b01a71b7-d17a-42b2-a9ac-af4b8d9d2ef5
     internal-label: 2FA

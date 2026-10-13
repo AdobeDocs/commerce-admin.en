@@ -3,7 +3,7 @@ title: Company accounts
 description: Learn how company accounts managed in your Adobe Commerce store allow for joining multiple buyers that belong to the same company into a single company account.
 exl-id: 0b3c3635-a1cf-4ee6-a8bc-e7cbcb4e2e63
 feature: B2B, Companies, Configuration
-TQID: https://experienceleague.adobe.com/gHdiA49ndaE4yFfIPAPaCUOhWnkkZIg2WKfSeSrwBQQ
+TQID: 'https://experienceleague.adobe.com/gHdiA49ndaE4yFfIPAPaCUOhWnkkZIg2WKfSeSrwBQQ'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -16,6 +16,8 @@ feature_v2:
     internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: e9004f3c-09ae-5d24-acd2-fa0987fdb66e
+    internal-label: Companies
 subfeature_v2:
   - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
     internal-label: B2B

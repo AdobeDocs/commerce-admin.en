@@ -1,9 +1,9 @@
 ---
 title: Categories - Search Engine Optimization settings
-description: Learn about using the [!UICONTROL Search Engine Optimization] settings to define the URL key and metadata fields that are used by search engines to index the category.
+description: "Learn about using the [!UICONTROL Search Engine Optimization] settings to define the URL\_key and metadata fields that are used by search engines to index the category."
 exl-id: 6c8af01d-d2aa-4c13-af76-663c47cbe38c
 feature: Catalog Management, Categories, Search
-TQID: https://experienceleague.adobe.com/cOVprTrDavkZmoy6MofgSfzxIeMO1ayKkgHBi2PZutM
+TQID: 'https://experienceleague.adobe.com/cOVprTrDavkZmoy6MofgSfzxIeMO1ayKkgHBi2PZutM'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -15,6 +15,8 @@ feature_v2:
 subfeature_v2:
   - id: e91a50b1-0b31-436e-9033-00e4776e94cb
     internal-label: Categories
+  - id: a1d22079-48b9-5e69-9ee6-eb236068ef34
+    internal-label: Search
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

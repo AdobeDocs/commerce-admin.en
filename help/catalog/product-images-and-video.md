@@ -3,13 +3,17 @@ title: Product settings - [!UICONTROL Images and Videos]
 description: For a product, the [!UICONTROL Images and Videos] settings determine how each image or video is used for the product listing.
 exl-id: 13ebed16-a788-4d39-bc28-b86c2375cc6b
 feature: Catalog Management, Products, Media
-TQID: https://experienceleague.adobe.com/dduSjokAf5xgrYCKux5UCTM7qqT-JWJKIOy7E-Jynxg
+TQID: 'https://experienceleague.adobe.com/dduSjokAf5xgrYCKux5UCTM7qqT-JWJKIOy7E-Jynxg'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
     internal-label: Catalog management
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
+  - id: 4ca54350-01cb-5b22-8966-5f2873dc6d90
+    internal-label: Media
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

@@ -3,7 +3,7 @@ title: The Adobe Commerce ecosystem
 description: Adobe provides a wealth of business and technical resources, self-help tools, and services to help merchants succeed.
 exl-id: 05fb3769-6f99-45c0-81d6-3ccdd50dc047
 feature: Support
-TQID: https://experienceleague.adobe.com/KdcZAzJW8An6k6Iy6hr7ghuLNq9b9ZSp8vccFqxGqFg
+TQID: 'https://experienceleague.adobe.com/KdcZAzJW8An6k6Iy6hr7ghuLNq9b9ZSp8vccFqxGqFg'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -14,9 +14,13 @@ feature_v2:
     internal-label: Architecture
   - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
     internal-label: Reporting
+  - id: 125c1f49-aefd-5f34-a252-288937f95f6b
+    internal-label: Marketing Tools
 subfeature_v2:
   - id: ae1249e3-cd01-42c9-8377-4223879bf9de
     internal-label: Intelligence tools
+  - id: a59f76dc-e003-5617-951e-dffa5bd3de81
+    internal-label: Support
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

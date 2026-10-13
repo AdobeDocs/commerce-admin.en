@@ -3,7 +3,7 @@ title: Store privacy policy
 description: Your privacy policy should describe the type of information that your company collects, and how it is used.
 exl-id: d8eaa946-2a12-4a36-8f7e-025778ffa7dd
 feature: Compliance
-TQID: https://experienceleague.adobe.com/643rt9zfz1cfPwuZs9ZFPXmb5Hgi-5lV8zmDqWlZBeA
+TQID: 'https://experienceleague.adobe.com/643rt9zfz1cfPwuZs9ZFPXmb5Hgi-5lV8zmDqWlZBeA'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -12,6 +12,8 @@ feature_v2:
     internal-label: Security
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
     internal-label: Storefront
+  - id: b5f00040-57a0-4a6d-a39e-383b1936c2c9
+    internal-label: Compliance
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

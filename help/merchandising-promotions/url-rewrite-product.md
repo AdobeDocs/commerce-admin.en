@@ -4,7 +4,7 @@ description: Learn how to use product URL rewrites to redirect links to the URL 
 exl-id: 42b28ff7-e148-44f2-b6b4-63a38458e752
 feature: Products, Configuration
 badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
-TQID: https://experienceleague.adobe.com/Gf-FKoKTnWSHVNB2EsutTTQEc7KL-sL3z8LklPF-1Z8
+TQID: 'https://experienceleague.adobe.com/Gf-FKoKTnWSHVNB2EsutTTQEc7KL-sL3z8LklPF-1Z8'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -13,6 +13,8 @@ feature_v2:
     internal-label: Security
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

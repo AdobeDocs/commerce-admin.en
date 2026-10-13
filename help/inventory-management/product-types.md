@@ -1,15 +1,19 @@
 ---
 title: Product types
-description: "Learn how [!DNL Inventory Management] supports inventory and order management for all Adobe Commerce and Magento Open Source product types."
+description: Learn how [!DNL Inventory Management] supports inventory and order management for all Adobe Commerce and Magento Open Source product types.
 exl-id: c800168a-e8b2-4d72-bd3d-68f46ece8a5e
 feature: Inventory, Products
-TQID: https://experienceleague.adobe.com/3F5vZOseQC7ILpL0j-ksjWP-GW7c0gUN9Zy7hylzzHU
+TQID: 'https://experienceleague.adobe.com/3F5vZOseQC7ILpL0j-ksjWP-GW7c0gUN9Zy7hylzzHU'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
     internal-label: Order Management System
+  - id: 8dc0e58b-adf0-51bb-8db5-bb36e3e656fb
+    internal-label: Inventory
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

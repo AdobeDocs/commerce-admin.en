@@ -3,7 +3,7 @@ title: Top navigation
 description: Learn how to define the main menu of a store, which functions like a directory to the different departments.
 exl-id: 8b71fe73-2716-4820-9e57-4cb1e6888132
 feature: Catalog Management, Categories, Site Navigation
-TQID: https://experienceleague.adobe.com/REad4AtBdJeK2eVNRo1XiTrrjJqmTs6oJfum260IfOk
+TQID: 'https://experienceleague.adobe.com/REad4AtBdJeK2eVNRo1XiTrrjJqmTs6oJfum260IfOk'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -14,6 +14,8 @@ feature_v2:
     internal-label: Catalog management
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 48c59cc5-3c2e-5df1-8756-f5c139a28932
+    internal-label: Site Navigation
 subfeature_v2:
   - id: e91a50b1-0b31-436e-9033-00e4776e94cb
     internal-label: Categories

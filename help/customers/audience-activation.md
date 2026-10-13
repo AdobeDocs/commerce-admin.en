@@ -1,12 +1,12 @@
 ---
-title: "[!DNL Audience Activation]"
+title: '[!DNL Audience Activation]'
 description: Learn how to activate Real-Time CDP audiences in Adobe Commerce to drive personalization in your store.
 exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
 badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
-TQID: https://experienceleague.adobe.com/yzMHk3bclm2kSJ588YKqTUrZzvf-FZNN9qAXGhqFs84
+TQID: 'https://experienceleague.adobe.com/yzMHk3bclm2kSJ588YKqTUrZzvf-FZNN9qAXGhqFs84'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -21,11 +21,18 @@ feature_v2:
     internal-label: Configuration
   - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
     internal-label: Architecture
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
+  - id: f37757d8-3174-5335-b977-1161792f965d
+    internal-label: Personalization
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation

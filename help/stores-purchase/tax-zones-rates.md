@@ -3,13 +3,15 @@ title: Tax zones and rates
 description: Learn how to define tax rates for each geographical area where you collect and remit taxes.
 exl-id: d8eb0743-d277-438d-91ed-fc711a6ba3ae
 feature: Taxes
-TQID: https://experienceleague.adobe.com/HHCiYX6ihYArvccmTswjnZ5SNP09D29Srn2JvWiw4tY
+TQID: 'https://experienceleague.adobe.com/HHCiYX6ihYArvccmTswjnZ5SNP09D29Srn2JvWiw4tY'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 42e094d8-211b-5acf-b52f-d8979151ab30
+    internal-label: Taxes
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

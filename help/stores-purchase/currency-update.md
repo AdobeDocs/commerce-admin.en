@@ -3,13 +3,17 @@ title: Update currency rates
 description: Learn how to set currency rates manually or import them into your store.
 exl-id: 316a7bc8-1118-46e7-82ff-891ada04cd13
 feature: Currency, Configuration, Data Import/Export
-TQID: https://experienceleague.adobe.com/tEt15Mzt7MeDtf6MZfu9n6EsvJKUCNBdGhUo0-RK3zk
+TQID: 'https://experienceleague.adobe.com/tEt15Mzt7MeDtf6MZfu9n6EsvJKUCNBdGhUo0-RK3zk'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 3033d2ab-c1d2-5b52-b865-72d9e5ad2c37
+    internal-label: Currency
+  - id: 601e4abe-d9bf-58de-a779-32ed6794dcbe
+    internal-label: Data Import/Export
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

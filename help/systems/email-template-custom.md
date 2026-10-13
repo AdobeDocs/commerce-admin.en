@@ -3,7 +3,7 @@ title: Customize email templates
 description: Learn how to customize email templates for each website, store, or store view.
 exl-id: d328b84d-fab7-4956-9071-2d8848f7c21e
 feature: Communications, Configuration
-TQID: https://experienceleague.adobe.com/JsYtRQoLNKrCjd9DSPB3z6sgm1ApQA5G-tun03tXX7A
+TQID: 'https://experienceleague.adobe.com/JsYtRQoLNKrCjd9DSPB3z6sgm1ApQA5G-tun03tXX7A'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -12,6 +12,8 @@ feature_v2:
     internal-label: Security
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: bb03f6c4-cab9-560e-9d02-5816e1808d17
+    internal-label: Communications
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

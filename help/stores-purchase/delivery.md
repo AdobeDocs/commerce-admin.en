@@ -3,7 +3,7 @@ title: Shipping and delivery
 description: Learn about support for various delivery methods and shipping carriers that you can offer to your customers.
 exl-id: 79fce11c-d45d-4176-94ac-80261c65b7ad
 feature: Shipping/Delivery
-TQID: https://experienceleague.adobe.com/ztcCQwzUB-DEOxTokNeH8TN7AxA0uAOuSVK8c1X--RU
+TQID: 'https://experienceleague.adobe.com/ztcCQwzUB-DEOxTokNeH8TN7AxA0uAOuSVK8c1X--RU'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -12,6 +12,8 @@ feature_v2:
     internal-label: Order Management System
   - id: c32adafa-ed01-4b31-997e-2413013911b0
     internal-label: Integrations
+  - id: 04d3134c-2afb-5bd7-ac14-e19fa935e848
+    internal-label: Shipping/Delivery
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

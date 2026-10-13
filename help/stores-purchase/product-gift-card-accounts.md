@@ -3,7 +3,7 @@ title: Gift card accounts
 description: Learn about gift card accounts and how to configure the default settings for code pool management.
 exl-id: f8caff04-38fd-4195-ab11-77dae900976d
 feature: Products, Gift, Configuration
-TQID: https://experienceleague.adobe.com/Yc9uWjM1Je77Cw1BO5PJVjg05icRtI4Ehhytr5mTCBI
+TQID: 'https://experienceleague.adobe.com/Yc9uWjM1Je77Cw1BO5PJVjg05icRtI4Ehhytr5mTCBI'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -14,6 +14,10 @@ feature_v2:
     internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
+  - id: 4fc0a729-4349-5307-bd06-1b4bfbaf5d0c
+    internal-label: Gift
 subfeature_v2:
   - id: d9ced453-36f4-4eb5-b2f3-1d593e32476b
     internal-label: Account management

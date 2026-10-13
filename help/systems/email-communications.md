@@ -3,7 +3,7 @@ title: Configure email communications
 description: Learn how to configure email communications, including the routing of returned email or replies to a specific email address.
 exl-id: 7e62e9c5-f214-4fd5-becc-99dcb093cd5c
 feature: Communications, Configuration
-TQID: https://experienceleague.adobe.com/0spSxu59rF2KomOWVI5iR9pcg2r-VLm-GiXvJvatnww
+TQID: 'https://experienceleague.adobe.com/0spSxu59rF2KomOWVI5iR9pcg2r-VLm-GiXvJvatnww'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -12,6 +12,8 @@ feature_v2:
     internal-label: Security
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: bb03f6c4-cab9-560e-9d02-5816e1808d17
+    internal-label: Communications
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

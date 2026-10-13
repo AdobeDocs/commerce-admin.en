@@ -3,7 +3,7 @@ title: Returns
 description: Learn about the returns workflow and issuing a returned merchandise authorization.
 exl-id: 9dde0360-aa99-4fc4-92ff-976d9874ffec
 feature: Returns
-TQID: https://experienceleague.adobe.com/aqLSVZ943i7njT3XKZowZo9KhQz4azqZ6watc4J1w-Y
+TQID: 'https://experienceleague.adobe.com/aqLSVZ943i7njT3XKZowZo9KhQz4azqZ6watc4J1w-Y'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -12,6 +12,8 @@ feature_v2:
     internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: ac07462c-732c-5c1c-947b-4ce533b4fcfb
+    internal-label: Returns
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

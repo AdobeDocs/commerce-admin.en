@@ -3,7 +3,7 @@ title: Tax guidelines by country
 description: Review recommended tax settings according to country.
 exl-id: 027da0a2-0ff4-40a7-9b9c-eefad888bb7a
 feature: Taxes
-TQID: https://experienceleague.adobe.com/hs8-0P0zSc-du-ubuYHiw7Yg9ps7SMPudBxcJgh-VCc
+TQID: 'https://experienceleague.adobe.com/hs8-0P0zSc-du-ubuYHiw7Yg9ps7SMPudBxcJgh-VCc'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -14,6 +14,8 @@ feature_v2:
     internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 42e094d8-211b-5acf-b52f-d8979151ab30
+    internal-label: Taxes
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

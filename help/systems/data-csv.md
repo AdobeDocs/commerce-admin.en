@@ -3,13 +3,19 @@ title: CSV data files
 description: Learn about the structure used in CSV file to support data import and export.
 exl-id: 86e362af-2af7-4557-ac49-1efad2f0e976
 feature: Products, Customers, Data Import/Export
-TQID: https://experienceleague.adobe.com/qeKpxnrPVwIX4MgrHlQRMEVQDOZjFvG3Es39rDwNgx4
+TQID: 'https://experienceleague.adobe.com/qeKpxnrPVwIX4MgrHlQRMEVQDOZjFvG3Es39rDwNgx4'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
     internal-label: Security
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
+  - id: 601e4abe-d9bf-58de-a779-32ed6794dcbe
+    internal-label: Data Import/Export
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

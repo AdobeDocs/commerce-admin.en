@@ -3,7 +3,7 @@ title: Transfer an Adobe Commerce Account
 description: Learn how to transfer an Adobe Commerce account to a new owner or email address, choose the right transfer type, verify email changes, and contact Support.
 exl-id: f6528931-dbf1-4702-8989-232c27969c4a
 feature: User Account
-TQID: https://experienceleague.adobe.com/CIyzus4f8WcBH-jW9R1nCL-gkl065DLTHbjNn0K6e7E
+TQID: 'https://experienceleague.adobe.com/CIyzus4f8WcBH-jW9R1nCL-gkl065DLTHbjNn0K6e7E'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -12,6 +12,8 @@ feature_v2:
     internal-label: Accounts
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 4560f5f5-d00c-5b5d-b61b-369d85ef7a26
+    internal-label: User Account
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

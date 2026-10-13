@@ -3,7 +3,7 @@ title: Manage orders and shipments from inventory
 description: Manage orders, partial shipments, refunds, and cancellations in [!DNL Inventory Management] as salable and on-hand quantities update automatically.
 exl-id: cc4ca518-d98c-48f3-9051-6fb3c6fae9fe
 feature: Inventory, Shipping/Delivery
-TQID: https://experienceleague.adobe.com/snZn77FvwJ-XKXojEtLOEpnPKp-nLZUpkTg6jTA9BY4
+TQID: 'https://experienceleague.adobe.com/snZn77FvwJ-XKXojEtLOEpnPKp-nLZUpkTg6jTA9BY4'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -12,6 +12,10 @@ feature_v2:
     internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 8dc0e58b-adf0-51bb-8db5-bb36e3e656fb
+    internal-label: Inventory
+  - id: 04d3134c-2afb-5bd7-ac14-e19fa935e848
+    internal-label: Shipping/Delivery
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

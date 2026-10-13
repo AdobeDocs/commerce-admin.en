@@ -3,10 +3,15 @@ title: Create email reminders
 description: Learn how to set up an email reminder rule that uses an existing cart price rule.
 exl-id: b04dc8a3-5daa-43f2-bf52-d85bfd2554b7
 feature: Merchandising, Communications
-TQID: https://experienceleague.adobe.com/p7WUWpQFlu2gUeyTU6ZrIHkRJzw8XTp2Mxkvi9Vu-eU
+TQID: 'https://experienceleague.adobe.com/p7WUWpQFlu2gUeyTU6ZrIHkRJzw8XTp2Mxkvi9Vu-eU'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
+feature_v2:
+  - id: 58c984c2-e237-5c50-9718-500e40d1e82c
+    internal-label: Merchandising
+  - id: bb03f6c4-cab9-560e-9d02-5816e1808d17
+    internal-label: Communications
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

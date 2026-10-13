@@ -3,7 +3,7 @@ title: Apply store credit
 description: Store administrators can apply store credit to a purchase.
 exl-id: 97b6b206-71db-435c-8736-a781437bb0b4
 feature: Customers, Storefront
-TQID: https://experienceleague.adobe.com/O2EJMZscownPnhjPeFROdwikhYmHuDYdCx4N7NpXlho
+TQID: 'https://experienceleague.adobe.com/O2EJMZscownPnhjPeFROdwikhYmHuDYdCx4N7NpXlho'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -12,6 +12,10 @@ feature_v2:
     internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
     internal-label: Order Management System
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

@@ -3,13 +3,19 @@ title: Store credit in the customer account dashboard
 description: The [!UICONTROL Store Credit] page of the customer account dashboard lists amounts from returns and refunds that can be applied to future purchases.
 exl-id: 9273b9a3-6095-4fc9-ad6f-3e4a6da60a89
 feature: Customers, Storefront, Checkout
-TQID: https://experienceleague.adobe.com/I64vMgYhCmEBnFluH3uTqF5aqdy-YEZc-0bbKfiVfe4
+TQID: 'https://experienceleague.adobe.com/I64vMgYhCmEBnFluH3uTqF5aqdy-YEZc-0bbKfiVfe4'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
     internal-label: Accounts
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
+  - id: 8cd50456-5eb0-5364-922a-f14161feb828
+    internal-label: Checkout
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

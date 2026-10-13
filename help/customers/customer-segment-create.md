@@ -3,7 +3,7 @@ title: Create and delete customer segments
 description: Customers can view the refund information associated with the order in their Customer Account Dashboard.
 exl-id: 8a13271d-d0b5-4fc6-a701-3edfae04bfca
 feature: Customers, Configuration
-TQID: https://experienceleague.adobe.com/D31F3AtNhNhDaTcOHxX4qNos-0MIP-nh0UVszKQh5y0
+TQID: 'https://experienceleague.adobe.com/D31F3AtNhNhDaTcOHxX4qNos-0MIP-nh0UVszKQh5y0'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -12,6 +12,8 @@ feature_v2:
     internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

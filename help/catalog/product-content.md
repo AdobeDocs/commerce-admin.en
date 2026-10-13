@@ -3,7 +3,7 @@ title: Product settings - [!UICONTROL Content]
 description: For a product, the [!UICONTROL Content] settings define the main product description that appears on the product page.
 exl-id: d38aa828-8656-4935-948f-3188654a91a0
 feature: Catalog Management, Products
-TQID: https://experienceleague.adobe.com/Q-zeffK2GElT0OyS3Lapa7XNHkT2sK30bKszPrGhW6k
+TQID: 'https://experienceleague.adobe.com/Q-zeffK2GElT0OyS3Lapa7XNHkT2sK30bKszPrGhW6k'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -12,6 +12,8 @@ feature_v2:
     internal-label: Catalog management
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

@@ -1,9 +1,9 @@
 ---
-title: "[!UICONTROL General] &gt; [!UICONTROL Web]"
+title: '[!UICONTROL General] &gt; [!UICONTROL Web]'
 description: Review the configurations settings on the [!UICONTROL General] &gt; [!UICONTROL Web] page of the Commerce Admin.
 exl-id: 1809b03a-a55c-41b4-947b-f66f4bd290a1
 feature: Site Management, Configuration
-TQID: https://experienceleague.adobe.com/31ifTtUvNwjEouPwT5N2cQyr6CUrEblmMULOolo6Amw
+TQID: 'https://experienceleague.adobe.com/31ifTtUvNwjEouPwT5N2cQyr6CUrEblmMULOolo6Amw'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -12,6 +12,8 @@ feature_v2:
     internal-label: Security
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 938d2364-5176-55ec-80f1-9415253e5e51
+    internal-label: Site Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

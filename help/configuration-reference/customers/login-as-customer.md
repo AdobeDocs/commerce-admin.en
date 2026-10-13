@@ -1,9 +1,9 @@
 ---
-title: "[!UICONTROL Customers] &gt; [!UICONTROL Login As Customer]"
+title: '[!UICONTROL Customers] &gt; [!UICONTROL Login As Customer]'
 description: Review the configurations settings on the [!UICONTROL Customers] &gt; [!UICONTROL Login As Customer] page of the Commerce Admin.
 exl-id: fe5925a2-f66f-44a1-aead-8b1abcbd9db2
 feature: Configuration, Customer Service
-TQID: https://experienceleague.adobe.com/JEl-a-erEFFzlIxbQGnHBuJ96e0kyxR6mKnJfs-lH5M
+TQID: 'https://experienceleague.adobe.com/JEl-a-erEFFzlIxbQGnHBuJ96e0kyxR6mKnJfs-lH5M'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -14,6 +14,11 @@ feature_v2:
     internal-label: Accounts
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: da76473c-f99b-5ad0-9b14-896aed473f8a
+    internal-label: Services
+subfeature_v2:
+  - id: deedbb4d-f1b7-58ea-a34a-de1f481f9d4c
+    internal-label: Customer Service
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

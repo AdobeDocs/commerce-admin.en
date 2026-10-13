@@ -3,10 +3,15 @@ title: Hidden tax calculation
 description: Learn how to configure a hidden tax calculation when there is a discount that has tax embedded in it.
 exl-id: be2000b1-09d7-4a28-814a-f5da7591e387
 feature: Invoices, Taxes
-TQID: https://experienceleague.adobe.com/KkluEZ6WopfZzfFvnd0XA93av21JP0mxXBS4A4czvA0
+TQID: 'https://experienceleague.adobe.com/KkluEZ6WopfZzfFvnd0XA93av21JP0mxXBS4A4czvA0'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
+feature_v2:
+  - id: 591c578b-908e-5b79-a9d3-931dfe60c24c
+    internal-label: Invoices
+  - id: 42e094d8-211b-5acf-b52f-d8979151ab30
+    internal-label: Taxes
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

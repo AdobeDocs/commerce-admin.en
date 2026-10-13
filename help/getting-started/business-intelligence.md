@@ -1,10 +1,10 @@
 ---
-title: "[!DNL Commerce Intelligence] tools"
+title: '[!DNL Commerce Intelligence] tools'
 description: Learn how Adobe Commerce and Magento Open Source merchants can use Commerce Intelligence tools to gain the insight used to make sound business decisions.
 exl-id: 687d04e4-841b-44f7-94ca-bbb20fbe2d8b
 feature: Commerce Intelligence, Reporting
 badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
-TQID: https://experienceleague.adobe.com/fXuvq380YffN-gCcGRcpwN5x-bc1EHcyrUaDFctaLKo
+TQID: 'https://experienceleague.adobe.com/fXuvq380YffN-gCcGRcpwN5x-bc1EHcyrUaDFctaLKo'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -19,6 +19,8 @@ feature_v2:
     internal-label: Configuration
   - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
     internal-label: Reporting
+  - id: 3cd14413-6539-5c64-b063-fdcabf03abff
+    internal-label: Commerce Intelligence
 subfeature_v2:
   - id: ae1249e3-cd01-42c9-8377-4223879bf9de
     internal-label: Intelligence tools

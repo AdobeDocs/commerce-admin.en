@@ -3,7 +3,7 @@ title: Add attributes to a product
 description: Learn how to add attributes to products in your catalog.
 exl-id: 1f92807a-2362-48a2-8d3a-4aef90a5671f
 feature: Catalog Management, Products
-TQID: https://experienceleague.adobe.com/UjUC1RvGmumw8smkucJTNMYlrnQ43uurysnPdD48eog
+TQID: 'https://experienceleague.adobe.com/UjUC1RvGmumw8smkucJTNMYlrnQ43uurysnPdD48eog'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -14,6 +14,8 @@ feature_v2:
     internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

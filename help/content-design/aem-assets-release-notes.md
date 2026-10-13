@@ -3,10 +3,17 @@ title: AEM Assets Integration for Commerce Release Notes
 description: Review the release notes for information about all AEM Assets Integration releases.
 feature: CMS, Media, Release Notes
 exl-id: 0d639565-812f-481a-afd6-6e6fa54ed70e
-TQID: https://experienceleague.adobe.com/R6wDWdeyz9FzDUTYyIsBzOfYhYD-MuR8Kcn5XEOCr3U
+TQID: 'https://experienceleague.adobe.com/R6wDWdeyz9FzDUTYyIsBzOfYhYD-MuR8Kcn5XEOCr3U'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
+feature_v2:
+  - id: ddbd0f6e-b569-5a04-8a70-55058777c373
+    internal-label: CMS
+  - id: 4ca54350-01cb-5b22-8966-5f2873dc6d90
+    internal-label: Media
+  - id: adedf70c-c1e1-5734-acdc-c5c43b114964
+    internal-label: Release Notes
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

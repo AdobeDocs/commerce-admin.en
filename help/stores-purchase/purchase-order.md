@@ -3,7 +3,7 @@ title: Purchase orders
 description: Learn how to set up purchase orders as an offline method of payment on your store.
 exl-id: 493c1b59-2155-449f-a08a-eb1aa2af9b3e
 feature: Purchase Orders
-TQID: https://experienceleague.adobe.com/Oc2vdP-OTXwo-6cjKWFj5zPf-QJVvU8aK6OUMPko4eY
+TQID: 'https://experienceleague.adobe.com/Oc2vdP-OTXwo-6cjKWFj5zPf-QJVvU8aK6OUMPko4eY'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -14,6 +14,11 @@ feature_v2:
     internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
+subfeature_v2:
+  - id: 2d6d41d4-a5c1-5baf-8dbe-bf7300b68bb3
+    internal-label: Purchase Orders
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

@@ -1,9 +1,9 @@
 ---
-title: "[!UICONTROL General] &gt; [!UICONTROL Reports]"
+title: '[!UICONTROL General] &gt; [!UICONTROL Reports]'
 description: Review the configurations settings on the [!UICONTROL General] &gt; [!UICONTROL Reports] page of the Commerce Admin.
 exl-id: 0ca75585-eb5d-4497-9f4e-22a788c3a2c2
 feature: Configuration, Admin Workspace, Reporting
-TQID: https://experienceleague.adobe.com/5yACTsq-KPgwwDM59mt2Mj07q4HFaG8DgB4VSDovgrI
+TQID: 'https://experienceleague.adobe.com/5yACTsq-KPgwwDM59mt2Mj07q4HFaG8DgB4VSDovgrI'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -12,6 +12,11 @@ feature_v2:
     internal-label: Configuration
   - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
     internal-label: Reporting
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
+subfeature_v2:
+  - id: bb2df8be-afdd-4818-b6b5-95ca1dd3bc3a
+    internal-label: Admin workspace
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

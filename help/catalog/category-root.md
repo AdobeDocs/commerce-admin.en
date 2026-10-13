@@ -3,13 +3,15 @@ title: Root category and hierarchy
 description: Learn about the category hierarchy and the root category, which acts as a container for the main menu in the category tree.
 exl-id: b419cb45-4fe5-42c4-be20-667c7e1e4354
 feature: Catalog Management, Categories, Site Navigation
-TQID: https://experienceleague.adobe.com/nkUEOu8IqMM21waPwmkp76YckH6cToL6MiaSK--klho
+TQID: 'https://experienceleague.adobe.com/nkUEOu8IqMM21waPwmkp76YckH6cToL6MiaSK--klho'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
     internal-label: Catalog management
+  - id: 48c59cc5-3c2e-5df1-8756-f5c139a28932
+    internal-label: Site Navigation
 subfeature_v2:
   - id: e91a50b1-0b31-436e-9033-00e4776e94cb
     internal-label: Categories

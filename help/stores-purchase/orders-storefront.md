@@ -3,7 +3,7 @@ title: Storefront order management
 description: Learn how customers can view and manage their order history on the Commerce storefront.
 exl-id: 85d953e6-f5a1-4a5e-a6ef-36b9cf6988bb
 feature: Orders, Storefront
-TQID: https://experienceleague.adobe.com/FGexEy3ZXcnDUoHOiGc3B24ri2AuP4vX-vX7q3tcbRA
+TQID: 'https://experienceleague.adobe.com/FGexEy3ZXcnDUoHOiGc3B24ri2AuP4vX-vX7q3tcbRA'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -14,6 +14,8 @@ feature_v2:
     internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

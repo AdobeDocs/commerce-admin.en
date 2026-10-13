@@ -1,9 +1,9 @@
 ---
 title: Product settings - [!UICONTROL Search Engine Optimization]
-description: For a product, the [!UICONTROL Search Engine Optimization] settings set the URL Key and meta data that are used by search engines to index the product.
+description: "For a product, the [!UICONTROL Search Engine Optimization] settings set the URL\_Key and meta data that are used by search engines to index the product."
 exl-id: 78888094-759c-4e45-afcd-65858ee76159
 feature: Catalog Management, Products, Search
-TQID: https://experienceleague.adobe.com/ya6B95jMPXfOYW785xN7WrmbFOwtKXdcr7yXTDvOAcw
+TQID: 'https://experienceleague.adobe.com/ya6B95jMPXfOYW785xN7WrmbFOwtKXdcr7yXTDvOAcw'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -12,6 +12,11 @@ feature_v2:
     internal-label: Catalog management
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
+subfeature_v2:
+  - id: a1d22079-48b9-5e69-9ee6-eb236068ef34
+    internal-label: Search
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

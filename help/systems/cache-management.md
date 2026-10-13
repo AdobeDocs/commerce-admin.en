@@ -4,7 +4,7 @@ description: Learn how to use the cache management tools, which provide an easy 
 exl-id: c87f85ca-81b9-4cbf-9817-3d779397eefd
 feature: Cache, System
 badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
-TQID: https://experienceleague.adobe.com/eVeStZTLha9hm3LWPqckl5GgfYBY4cyrlz2sqbzdXS0
+TQID: 'https://experienceleague.adobe.com/eVeStZTLha9hm3LWPqckl5GgfYBY4cyrlz2sqbzdXS0'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -17,6 +17,13 @@ feature_v2:
     internal-label: Integrations
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 8d0b446f-5b16-5a10-b272-01143504a11c
+    internal-label: System
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
+subfeature_v2:
+  - id: b673188e-f9fa-492a-b470-c8f949bf7827
+    internal-label: Cache
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

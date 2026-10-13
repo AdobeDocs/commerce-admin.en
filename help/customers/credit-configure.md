@@ -3,7 +3,7 @@ title: Configure store credit
 description: Store credit can be configured to control automatic refunds and available credit for customers.
 exl-id: 7920074b-6ad8-46fe-ac1f-3dcf686859b2
 feature: Customers, Configuration
-TQID: https://experienceleague.adobe.com/tuUDB5HS0xmPaM9nuVmseQSmH1FGlGyxH1DbyVCJ2wc
+TQID: 'https://experienceleague.adobe.com/tuUDB5HS0xmPaM9nuVmseQSmH1FGlGyxH1DbyVCJ2wc'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -12,6 +12,8 @@ feature_v2:
     internal-label: Accounts
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

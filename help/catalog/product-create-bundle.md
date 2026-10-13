@@ -3,7 +3,7 @@ title: Bundle product
 description: Learn how to create a bundle product that allows shoppers to build a customized product in your store.
 exl-id: dfa31eb8-2330-44eb-889b-5d10ce56ef13
 feature: Catalog Management, Products
-TQID: https://experienceleague.adobe.com/T4-rAn2fY1I71IAt00o5kKY62NTAYhr-WO0QGdkyNE0
+TQID: 'https://experienceleague.adobe.com/T4-rAn2fY1I71IAt00o5kKY62NTAYhr-WO0QGdkyNE0'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -12,6 +12,8 @@ feature_v2:
     internal-label: Order Management System
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
     internal-label: Catalog management
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

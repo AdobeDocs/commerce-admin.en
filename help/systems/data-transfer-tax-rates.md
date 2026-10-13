@@ -3,7 +3,7 @@ title: Update tax rate data
 description: Learn how to use export and import operations to update tax rates for your store.
 exl-id: a3ef718d-b296-41d7-a1b8-ae8274da71b6
 feature: Taxes, Data Import/Export
-TQID: https://experienceleague.adobe.com/QPY-XfiA3XhBSV3eiiYtxb9K-quf5AycMcHDBUBtE0k
+TQID: 'https://experienceleague.adobe.com/QPY-XfiA3XhBSV3eiiYtxb9K-quf5AycMcHDBUBtE0k'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -14,6 +14,10 @@ feature_v2:
     internal-label: Security
   - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
     internal-label: Reporting
+  - id: 42e094d8-211b-5acf-b52f-d8979151ab30
+    internal-label: Taxes
+  - id: 601e4abe-d9bf-58de-a779-32ed6794dcbe
+    internal-label: Data Import/Export
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

@@ -3,7 +3,7 @@ title: Negotiable Quotes
 description: Learn about quote workflows and how you can provide this service to your company accounts.
 exl-id: c278818b-fa5a-4e7a-8ca2-c4b757da4f05
 feature: B2B, Quotes
-TQID: https://experienceleague.adobe.com/098ze8GgUWx4j1d96UGoEcLfAequOjAbadJHS5AvClU
+TQID: 'https://experienceleague.adobe.com/098ze8GgUWx4j1d96UGoEcLfAequOjAbadJHS5AvClU'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -16,6 +16,8 @@ feature_v2:
     internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 792a7e9b-6519-5e99-a913-56c3dd2408da
+    internal-label: Quotes
 subfeature_v2:
   - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
     internal-label: B2B

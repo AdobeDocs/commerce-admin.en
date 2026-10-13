@@ -3,7 +3,7 @@ title: Reward exchange rates
 description: Learn how to set up the reward exchange rates that determine the number of reward points that are earned.
 exl-id: 4850d853-fb86-4f64-bfee-47915ea028e2
 feature: Rewards, Promotions/Events, Customers
-TQID: https://experienceleague.adobe.com/Iwr92ju0R1z6DFP-5n4O4bqIBYnYWtdn18ImbHJhoHU
+TQID: 'https://experienceleague.adobe.com/Iwr92ju0R1z6DFP-5n4O4bqIBYnYWtdn18ImbHJhoHU'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -12,6 +12,12 @@ feature_v2:
     internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 4069cee6-4dc8-5a83-81de-232af6a7c9e9
+    internal-label: Rewards
+  - id: 19d9b313-1a3c-5bed-9da7-4364f71c3a28
+    internal-label: Promotions/Events
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

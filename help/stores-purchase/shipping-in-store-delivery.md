@@ -3,7 +3,7 @@ title: In-store delivery
 description: Learn how to set up an in-store delivery option for your store.
 exl-id: bd64b110-5c39-41c6-8a0c-38561b2a5bf4
 feature: Shipping/Delivery
-TQID: https://experienceleague.adobe.com/9pETzHXJvXmnJKhRbS7maASWBuMtbTbhJtCRKHekGTo
+TQID: 'https://experienceleague.adobe.com/9pETzHXJvXmnJKhRbS7maASWBuMtbTbhJtCRKHekGTo'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -12,6 +12,8 @@ feature_v2:
     internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 04d3134c-2afb-5bd7-ac14-e19fa935e848
+    internal-label: Shipping/Delivery
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
