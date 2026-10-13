@@ -174,3 +174,5 @@ To learn more about catalog views and editing restricted access keys, see [Manag
 ### Catalog views
 
 {{$include /help/_includes/catalog-views-reference-table.md}}
+
+<!-- Last updated from includes: 2026-09-22 10:00:25 -->
