@@ -2,7 +2,6 @@
 title: "[!UICONTROL Content] menu"
 description: Use the [!UICONTROL Content] menu to access multiple features for managing the content in your store.
 exl-id: 4e149836-f13c-4240-8700-882f2fc1619a
-badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 TQID: https://experienceleague.adobe.com/UTh5IKGTXZUcSXGQvP7rHtja8EnEELc75EPpvPvSD3E
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
