@@ -4,6 +4,36 @@
 
 This section contains the changes made in the last 60 days. We exclude all minor updates, such as copy editing, from this list.
 
+### October 13, 2026
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>Description</th>
+      <th>Type</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Added Adobe Commerce B2B 1.5.4-alpha1 fixed-issue details to the <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/release-notes">B2B release notes</a>, grouped by component with available GitHub references.</p>
+</td>
+      <td>
+        Release notes
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/1e12f5ec4271d0f11872bfca56e73efa843aba82">commit</a></td>
+    </tr>
+    <tr>
+      <td><p>Updated <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/catalog-enrichment">Catalog enrichment</a> with guidance on signing in to Catalog enrichment through Adobe IMS, clarified the distinction between the Commerce IMS organization and the organization that holds the Adobe Brand Visibility entitlement, and refreshed screenshots.</p>
+</td>
+      <td>
+        Major update
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/071b39214ebbd52a656e2f9278dc6696455cb856">commit</a></td>
+    </tr>
+  </tbody>
+</table>
+
 ### October 8, 2026
 
 <table style="table-layout:auto;">

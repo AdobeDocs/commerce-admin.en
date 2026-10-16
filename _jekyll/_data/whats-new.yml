@@ -2,8 +2,32 @@
 title: What's new
 description: This section contains the changes made in the last 60 days. We exclude
   all minor updates, such as copy editing, from this list.
-updated: Fri Oct 9 17:21:09 2026
+updated: Fri Oct 16 15:19:08 2026
 entries:
+- description: Added Adobe Commerce B2B 1.5.4-alpha1 fixed-issue details to the [B2B
+    release notes](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/release-notes),
+    grouped by component with available GitHub references.
+  versions: ''
+  type: release-notes
+  date: October 13, 2026
+  link: enterprise:Adobe-Enterprise-Docs/commerce-admin.en/pull/921
+  merge_commit: 1e12f5ec4271d0f11872bfca56e73efa843aba82
+  contributor: shevtsov_adobe
+  labels:
+  - hold for release
+  - release-notes
+- description: Updated [Catalog enrichment](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/catalog-enrichment)
+    with guidance on signing in to Catalog enrichment through Adobe IMS, clarified
+    the distinction between the Commerce IMS organization and the organization that
+    holds the Adobe Brand Visibility entitlement, and refreshed screenshots.
+  versions: ''
+  type: major-update
+  date: October 13, 2026
+  link: enterprise:Adobe-Enterprise-Docs/commerce-admin.en/pull/924
+  merge_commit: 071b39214ebbd52a656e2f9278dc6696455cb856
+  contributor: emarr_adobe
+  labels:
+  - major-update
 - description: Updated Adobe Commerce Admin documentation for the October Adobe Commerce
     as a Cloud Service release:<br/>- Added a non-configurable Maximum Entities Per
     Bulk Request field to the [Configuration Reference](https://experienceleague.adobe.com/en/docs/commerce-admin/config/general/bulk-api)
