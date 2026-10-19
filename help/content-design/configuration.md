@@ -74,6 +74,4 @@ The Design configuration makes it easy to edit design-related rules and configur
    - [[!UICONTROL Product Image Watermarks]](../catalog/product-image.md#watermarks)
    - [[!UICONTROL Transactional Emails]](../systems/email-templates.md#configure-email-templates)
 
-   ![Other settings to affect design](./assets/configuration-other-settings.png){width="500" zoomable="yes"}
-
 1. When complete, click **[!UICONTROL Save Configuration]**.

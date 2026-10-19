@@ -2,7 +2,6 @@
 title: "[!UICONTROL Content] menu"
 description: Use the [!UICONTROL Content] menu to access multiple features for managing the content in your store.
 exl-id: 4e149836-f13c-4240-8700-882f2fc1619a
-badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 TQID: https://experienceleague.adobe.com/UTh5IKGTXZUcSXGQvP7rHtja8EnEELc75EPpvPvSD3E
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -28,7 +27,7 @@ topic_v2:
 
 >[!NOTE]
 >
->When the new [[!DNL Media Gallery]](media-gallery.md) is enabled, the _[!UICONTROL Media]_ section appears with a single option to access the [!DNL Media Gallery]. You can set the **[!UICONTROL Enable Old Media Gallery]** option to `No` by going to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]** and choosing **[!UICONTROL Advanced]** > **[!UICONTROL System]** in the left panel.
+>When the new [[!DNL Media Gallery]](media-gallery.md) is enabled, the _[!UICONTROL Media]_ section appears with a single option to access the [!DNL Media Gallery]. Set the **[!UICONTROL Enable Old Media Gallery]** option to `No` by going to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]** and choosing **[!UICONTROL Advanced]** > **[!UICONTROL System]** in the left panel.
 
 >[!BEGINTABS]
 
@@ -57,7 +56,7 @@ On the _Admin_ sidebar, choose **[!UICONTROL Content]**.
 - Create [blocks](blocks.md) of content without writing any code. Blocks can contain text, images, and even video, and can be assigned to any part of the page layout.
 - ![Adobe Commerce](../assets/adobe-logo.svg) (Adobe Commerce only) Create [dynamic blocks](dynamic-blocks.md) to incorporate rich, interactive content that is driven by logic from [price rules](../merchandising-promotions/introduction.md#promotions) and [customer segments](../customers/customer-segments.md).
 - Create [widgets](widgets.md) that display dynamic data and add blocks, links, and interactive elements most anywhere in your store.
-- Create [templates](../page-builder/templates.md) from your Page Builder content and save time and effort when adding new content (or replacing older content).
+- Create [templates](../page-builder/templates.md) from your Page Builder content and improve efficiency when adding new content (or replacing older content).
 
 >[!NOTE]
 >
@@ -77,4 +76,4 @@ Manage the visual presentation of your store:
 
 {{ee-feature}}
 
-[Content staging](content-staging.md) gives your business team the ability to easily create, preview, and schedule a wide range of content updates directly from the Admin of your store.
+[Content staging](content-staging.md) gives your business team the ability to create, preview, and schedule a wide range of content updates directly from the Admin of your store.
