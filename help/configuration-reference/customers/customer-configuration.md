@@ -53,7 +53,7 @@ topic_v2:
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
-|[!UICONTROL Share Customer Accounts]|Global|Determines the scope of customer accounts in the store hierarchy. Options: <br/>**`Global`** - Customer account information is shared with every website and store in the Commerce installation. <br/>**`Per Website`** - Customer account information is limited to the website where the account was created.|
+|[!UICONTROL Share Customer Accounts]|Global|Determines the scope of customer accounts in the store hierarchy. Options: <br/ > ([^>]*?) > **`Per Website`** - Customer account information is limited to the website where the account was created.|
 
 {style="table-layout:auto"}
 
@@ -80,7 +80,7 @@ topic_v2:
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
-|[!UICONTROL Enable Automatic Assignment to Customer Group]|Store View|Determines if customers are automatically assigned to the default customer group. To show VAT number in the store, set Show VAT Number in the storefront, select `Yes`. Options: <br/>**`Yes`** - The system does not automatically validate customer VAT IDs nor does it change customer groups. <br/>**`No`** - The system behavior is as usual, and the default customer group can be set in the Default Group field.|
+|[!UICONTROL Enable Automatic Assignment to Customer Group]|Store View|Determines if customers are automatically assigned to the default customer group. To show VAT number in the store, set Show VAT Number in the storefront, select `Yes`. Options: <br/(?<![ \t]) > (?![ \t])([^>\r\n]*)(?<![ \t]) > (?![ \t])**`No`** - The system behavior is as usual, and the default customer group can be set in the Default Group field.|
 |[!UICONTROL Default Group]|Store View|Identifies the initial customer group assigned when an account is created.|
 |[!UICONTROL Default Value for Disable Automatic Group Changes Based on VAT ID]|Global|(Available only if current configuration scope is set to `Default Group`.) Choose whether the automatic change of customer group based on VAT ID is enabled or disabled by default. The setting can be overridden on the product level. The setting influences the system behavior in the following situations: <br/> - The VAT ID of the customer's default address or the whole default address changes. <br/> - Customer group change was emulated during the checkout for a registered customer who had no previously saved address or for a customer, who registered during the checkout. <br/>If the automatic group change is enabled, then in the first case the customer group changes automatically, and in the second case the temporarily emulated customer group is assigned to customer. If the automatic group change is disabled, the customer group that is assigned never changes, unless an administrator changes it manually.|
 |[!UICONTROL Show VAT Number on Storefront]|Website|Determines if the VAT number is visible to customers in the store. Options: `Yes` / `No` <br/> Affects regular non-B2B customer accounts only. Company accounts have their own separate VAT Number field.|

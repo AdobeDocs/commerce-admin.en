@@ -60,7 +60,7 @@ The scope of customer accounts can be limited to the website where the account w
 >
 >If the website is excluded from the customer group, the customer is not allowed to log in to the website when the scope of customer accounts is limited to the website or shared with all websites. See [Create a customer group](customer-groups.md#create-a-customer-group) for more information about excluding websites from groups.
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > [!UICONTROL _[!UICONTROL Settings]_] > **[!UICONTROL Configuration]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. In the left panel, expand **[!UICONTROL Customers]** and choose **[!UICONTROL Customer Configuration]**.
 
