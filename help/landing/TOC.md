@@ -13,6 +13,7 @@ nudge: true
 - [Catalog Management](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/guide-overview)
 - [[!DNL Inventory Management]](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/guide-overview)
 - [Merchandising and Promotions](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/guide-overview)
+- [AI Product Discovery](https://experienceleague.adobe.com/en/docs/commerce-admin/ai-discovery/guide-overview)
 - [Content and Design](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/guide-overview)
 - [[!DNL Page Builder]](https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/guide-overview)
 - [Customer Management](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/guide-overview)

@@ -1,6 +1,6 @@
 ---
-title: Catalog enrichment
-description: Use the native catalog enrichment capability in Adobe Commerce to review and apply AI-suggested improvements to product names and long descriptions for LLM and AI-assisted discovery.
+title: Catalog Enrichment
+description: Use [!DNL Adobe Commerce] Catalog Enrichment to review AI-suggested product copy, create enrichment jobs, and deploy approved updates for LLM and AI discovery.
 role: Admin, User, Leader
 recommendations: noCatalog
 badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
@@ -118,6 +118,8 @@ Work with your Commerce administrator or implementation partner to ensure the fo
 
 After you install the catalog enrichment and catalog services extensions, the catalog enrichment capability is available in the Admin under **[!UICONTROL Catalog]** > **[!UICONTROL Catalog Enrichment]**.
 
+The Catalog Enrichment workspace includes the **[!UICONTROL Optimizations]**, **[!UICONTROL Brand governance]**, and **[!UICONTROL Settings]** tabs. Use the **[!UICONTROL Optimizations]** tab to review discovery signals and manage enrichment jobs.
+
 ![Catalog Enrichment](./assets/catalog-enrichment-menu.png){zoomable="yes"}
 
 ### Configure catalog enrichment {#configure-catalog-enrichment}
@@ -163,36 +165,48 @@ Required fields are marked with an asterisk (*) on the **[!UICONTROL Commerce Co
 
 ### Review and apply catalog enrichment {#review-and-apply}
 
-After catalog enrichment is enabled and configured, product suggestions display on the **[!UICONTROL Agentic Opportunities]** tab. From here, you can review suggestions and apply approved updates to product names and long descriptions in your Commerce catalog.
+After catalog enrichment is enabled and configured, use the **[!UICONTROL Optimizations]** tab to review search and agentic traffic insights and manage enrichment jobs.
 
-Catalog enrichment uses the following workflow views:
+### Review shopper search insights
 
-- **[!UICONTROL Current Suggestions]**: New or active items to review.
-- **[!UICONTROL Fixed Suggestions]**: Items you already applied or resolved.
-- **[!UICONTROL Ignored Suggestions]**: Items you intentionally excluded from action.
+The shopper search panel highlights popular search terms, the number of products that match each term, and terms missing from product data. Use the available action to add a missing term to the matching products.
 
-![Catalog Enrichment](./assets/agentic-opportunities.png){zoomable="yes"}
+### Review monthly agentic traffic
 
-### Deploy approved suggestions {#review-deploy-catalog}
+The agentic traffic section identifies products that AI agents visit frequently and creates monthly enrichment jobs for high-traffic products. Review job results before deploying changes. Monthly cards show the product count, AI agent visits, and job status, such as **[!UICONTROL Ready to review]** or **[!UICONTROL Deployed]**.
 
-To deploy approved suggestions:
+### Review jobs that need attention
 
-1. Select **[!UICONTROL Current Suggestions]**.
-1. Click the expand control for the URL or SKU row to show the proposed product name and product description updates.
-1. Review the suggestion and confirm it matches your merchandising and SEO strategy.
+The **[!UICONTROL Needs your attention]** section highlights jobs that are generating or ready for review. For a ready job, click **[!UICONTROL Review & deploy]** to inspect its proposed product changes.
 
-  You can edit a suggestion before you deploy it or move it to **[!UICONTROL Ignored Suggestions]** if it does not match your strategy.
+### Find jobs
 
-1. Select the row for the URL or SKU to update.
-1. Click **[!UICONTROL Deploy optimizations]** and confirm.
+The **[!UICONTROL All jobs]** table includes the job ID, job name, rule used, origin, SKU count, start date, and status. Search for a job and filter by **[!UICONTROL Generating]**, **[!UICONTROL Ready to review]**, **[!UICONTROL Deployed]**, **[!UICONTROL Queued]**, **[!UICONTROL Failed]**, or **[!UICONTROL All]**. Available row actions include **[!UICONTROL Review & deploy]**, **[!UICONTROL View]**, or **[!UICONTROL Retry]**, depending on the job status.
 
-Approved name and description changes are saved to your [!DNL Adobe Commerce] catalog like other product updates.
+### Create an enrichment job
 
->[!IMPORTANT]
->
->Treat each applied update as a production catalog change. Use your normal change-control, staging, and QA practices. Apply updates only after merchandising and SEO stakeholders agree on the final copy.
+1. In **[!UICONTROL Optimizations]**, click **[!UICONTROL Create enrichment]**.
+1. Choose how to start:
+   - **[!UICONTROL Blank]**: Select and configure products yourself.
+   - **[!UICONTROL Copy a past job]**: Reuse its products and rule.
+   - **[!UICONTROL Describe with AI]**: Describe what you want to achieve in plain language.
+1. Enter an enrichment name.
+1. Select enabled products with a live product page.
+1. Search by name or SKU, then filter by **[!UICONTROL Category]**, **[!UICONTROL Price]**, **[!UICONTROL Status: Enabled]**, **[!UICONTROL Store view]**, or **[!UICONTROL More filters]**. The grid shows each product's image, SKU, name, and URL.
+1. Review the matching and selected product counts. Select **[!UICONTROL Hide already enriched]** to exclude previously enriched products, or select **[!UICONTROL Clear selection]** to clear the current selection.
+1. If selected products were already enriched, review the affected products and choose **[!UICONTROL Skip them]** or **[!UICONTROL Overwrite them]**.
+1. Choose a brand rule. The Global rule is the default; you can select a custom rule that is available in the current catalog view. For details, see [Brand governance](brand-governance.md).
+1. Review the selected brand rule and the fields included in the job, such as product name and product description. Select **[!UICONTROL Details]** for a field to review its settings. Changes made in Brand governance apply to every job that uses the rule.
+1. Review the job summary, including the product count, brand rule, fields, and estimated time. Check the agent traffic coverage and preview how the selected products will appear to AI agents.
+1. Click **[!UICONTROL Run enrichment]** to start the job, or click **[!UICONTROL Save as draft]** to finish it later. Click **[!UICONTROL Cancel]** to leave without starting the job.
 
-After you apply an update, suggestions move to **[!UICONTROL Fixed Suggestions]** with a **Marked as Fixed** status.
+The live preview shows how selected products appear to AI agents with the chosen rule. It does not change catalog data. Product content changes after you review and deploy the completed job.
+
+### Review and deploy an enrichment job {#review-deploy-catalog}
+
+When a job is ready for review, open it from **[!UICONTROL Needs your attention]** or the **[!UICONTROL All jobs]** table. Review the products and proposed name or description changes against your merchandising and SEO requirements. Deploy the approved job to apply the changes to your [!DNL Adobe Commerce] catalog.
+
+Treat each deployment as a production catalog change. Use your normal change-control, staging, and QA practices. After deployment, confirm that the job status is **[!UICONTROL Deployed]** and verify the updated product data in the Admin and on the storefront.
 
 ## Verify enrichment in the Admin {#verify-in-admin}
 
@@ -227,7 +241,7 @@ After you apply an update, suggestions move to **[!UICONTROL Fixed Suggestions]*
 
 1. Search for the SKU on your storefront.
 1. Open the product page.
-1. Confirm that the product name and description matches what you approved.
+1. Confirm that the product name and description match what you approved.
 
    It may take some time before enrichments appear on your storefront.
 
@@ -258,7 +272,7 @@ These rules help you know whether catalog enrichment, ingestion feeds, or Admin 
 
 ## Limits and considerations {#limits}
 
-- Enrichment applies to product names and long descriptions only. It does not change PDP layout, widgets, or other page-level storefront content.
+- Enrichment applies to product names and long descriptions only. It does not change product detail page layout, widgets, or other page-level storefront content.
 - Large catalogs and high URL counts can affect how quickly analysis completes and how many suggestions appear at once.
 - Meaningful suggestions assume that LLM-relevant bots can access the product URLs you care about. Robots rules, authentication, geo-blocking, and heavy personalization can reduce coverage.
 
