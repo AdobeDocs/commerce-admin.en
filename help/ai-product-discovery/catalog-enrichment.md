@@ -65,70 +65,21 @@ Because product names and long descriptions live in Commerce, improving copy onc
 | Commerce catalog -> analysis | Catalog and URL signals feed enrichment suggestions. |
 | Enrichment -> Commerce catalog | After you approve an update, changes to product name and description are saved to the Commerce catalog so the Admin and storefront reflect the optimized values. |
 
-## Who this is for {#who-this-is-for}
-
-- Digital marketers and merchandisers who want product data to be accurate and consistent in LLM-driven answers.
-- Digital marketers and merchandisers who need a controlled way to improve catalog copy at scale.
-- Commerce administrators who own catalog integrity, Admin processes, and integrations (API, CSV, PIM) that feed product attributes.
-
-## Prerequisites {#prerequisites}
-
-The following prerequisites apply when you have access to catalog enrichment.
-
-- Your storefront can be crawled by LLM-oriented and agentic bots where crawl coverage is required for catalog-aware suggestions.
-- Required Commerce services and catalog connectivity are enabled and healthy. See [Enable catalog enrichment](#enable-catalog-enrichment) to learn more.
-- The Commerce Admin user who accesses catalog enrichment signs in through Adobe IMS. See [IMS sign-in and organization requirements](#ims-sign-in-requirements).
-- You have access to the [Adobe Admin Console](https://helpx.adobe.com/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html).
-- Your organization has signed the GenAI rider, or explicitly opted out, for the underlying AI services.
-
->[!NOTE]
->
->As part of setup, Commerce checks whether your organization has signed the GenAI rider that covers the AI services behind catalog enrichment. If you have not yet signed the rider or opted out, you are prompted to sign or update the rider before you can use catalog enrichment.
-
-### IMS sign-in and organization requirements {#ims-sign-in-requirements}
-
-Catalog enrichment uses the signed-in Commerce Admin user's Adobe IMS access token to connect to [!DNL Adobe Brand Visibility]. A native Commerce Admin sign-in with only a Commerce user name and password does not produce this token, so the Admin user who accesses catalog enrichment must sign in through Adobe IMS.
-
-To support IMS sign-in, your Commerce instance must have the Commerce Admin Integration with Adobe ID enabled. See [Configure the Commerce Admin Integration with Adobe ID](/help/getting-started/adobe-ims-config.md).
-
->[!IMPORTANT]
->
->Enabling the Commerce Admin Integration with Adobe ID is an instance-wide change. Once enabled, every Admin user must authenticate through Adobe IMS, and native Commerce username-and-password sign-in is no longer available. Review [Adobe Identity Management Service (IMS) integration overview](/help/getting-started/adobe-ims-integration-overview.md) before you enable this integration.
-
-The Adobe IMS organization associated with your Commerce instance is typically different from the IMS organization that holds your [!DNL Adobe Brand Visibility] entitlement. Enabling the Commerce Admin Integration with Adobe ID does not, by itself, grant access to the Brand Visibility entitlement, and the two organizations are not required to be the same. Work with your Adobe administrator or account team to confirm which IMS organization memberships and account access catalog enrichment requires in your setup.
-
-## Enable catalog enrichment {#enable-catalog-enrichment}
-
-Work with your Commerce administrator or implementation partner to ensure the following before you review or apply suggestions:
-
-### Install catalog enrichment and catalog services extensions
-
-1. Install the catalog enrichment extension in your Commerce instance by running the following command:
-
-    ```bash
-    composer require magento/module-catalog-enrichment --no-update
-    composer update magento/module-catalog-enrichment
-    ```
-
-1. If you have not already installed Catalog services, [do so](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/installation#install-the-catalog-service-extension).
-
-    **[!UICONTROL Catalog enrichment]** is now available in your Commerce instance.
-
 ### Access catalog enrichment
 
-After you install the catalog enrichment and catalog services extensions, the catalog enrichment capability is available in the Admin under **[!UICONTROL Catalog]** > **[!UICONTROL Catalog Enrichment]**.
+Before you begin, review the deployment-specific [AI Product Discovery prerequisites](guide-overview.md#prerequisites). After you install the shared enrichment extension and required Catalog Services, go to **[!UICONTROL AI Product Discovery]** > **[!UICONTROL Catalog Enrichment]** in the Admin.
 
 The Catalog Enrichment workspace includes the **[!UICONTROL Optimizations]**, **[!UICONTROL Brand governance]**, and **[!UICONTROL Settings]** tabs. Use the **[!UICONTROL Optimizations]** tab to review discovery signals and manage enrichment jobs.
 
-![Catalog Enrichment](./assets/catalog-enrichment-menu.png){zoomable="yes"}
+The shared extension also enables PDP enrichment, which has a separate workflow for exposing structured product facts to AI agents. See [Create a PDP enrichment job](pdp-enrichment.md).
 
 ### Configure catalog enrichment {#configure-catalog-enrichment}
 
 Configure catalog enrichment on the **[!UICONTROL Settings]** tab so [!DNL Commerce Catalog Agent] can connect to your [!DNL Adobe Commerce] environment and surface suggestions in the Commerce Admin.
 
-The fields on this tab identify the Commerce environment and store view that catalog enrichment connects to. They are separate from the Adobe IMS organization that holds your [!DNL Adobe Brand Visibility] entitlement. See [IMS sign-in and organization requirements](#ims-sign-in-requirements).
+The fields on this tab identify the [!DNL Adobe Commerce] environment and store view that Catalog Enrichment connects to. They are separate from the Adobe IMS organization that holds your [!DNL Adobe Brand Visibility] entitlement. For IMS sign-in and organization requirements, see the [AI Product Discovery guide prerequisites](guide-overview.md#prerequisites).
 
-1. In the Admin, go to **[!UICONTROL Catalog]** > **[!UICONTROL Catalog Enrichment]**.
+1. In the Admin, go to **[!UICONTROL AI Product Discovery]** > **[!UICONTROL Catalog Enrichment]**.
 1. In the **[!UICONTROL Scope]** list at the top of the page, select the store view you want to configure, or leave **[!UICONTROL All Store Views]** to manage settings across store views.
 1. Open the **[!UICONTROL Settings]** tab.
 1. In **[!UICONTROL Commerce Configuration]**, expand the store view panel labeled with its URL.
@@ -173,15 +124,15 @@ The shopper search panel highlights popular search terms, the number of products
 
 ### Review monthly agentic traffic
 
-The agentic traffic section identifies products that AI agents visit frequently and creates monthly enrichment jobs for high-traffic products. Review job results before deploying changes. Monthly cards show the product count, AI agent visits, and job status, such as **[!UICONTROL Ready to review]** or **[!UICONTROL Deployed]**.
+Each monthly agentic traffic audit identifies high-traffic SKUs and makes a recommended batch available. Detection does not generate content or start enrichment. Monthly cards show the product count, AI agent visits, and job status. Agentic-traffic and self-selected batches use the same rule-selection, confirmation, run, review, and deploy workflow.
 
 ### Review jobs that need attention
 
-The **[!UICONTROL Needs your attention]** section highlights jobs that are generating or ready for review. For a ready job, click **[!UICONTROL Review & deploy]** to inspect its proposed product changes.
+The **[!UICONTROL Needs your attention]** section highlights jobs that need action, including completed jobs ready for review. Open a completed job to review its proposed product changes before deployment.
 
 ### Find jobs
 
-The **[!UICONTROL All jobs]** table includes the job ID, job name, rule used, origin, SKU count, start date, and status. Search for a job and filter by **[!UICONTROL Generating]**, **[!UICONTROL Ready to review]**, **[!UICONTROL Deployed]**, **[!UICONTROL Queued]**, **[!UICONTROL Failed]**, or **[!UICONTROL All]**. Available row actions include **[!UICONTROL Review & deploy]**, **[!UICONTROL View]**, or **[!UICONTROL Retry]**, depending on the job status.
+The **[!UICONTROL All jobs]** table lists each job ID, name, origin, SKU count, rule used, start time, and status. Origins identify whether a batch was self-selected or recommended from agentic traffic. Track processing status as **[!UICONTROL Queued]**, **[!UICONTROL Running]**, **[!UICONTROL Completed]**, or **[!UICONTROL Failed]**. In the Optimizations workspace, these jobs can also appear as **[!UICONTROL Generating]** while they run, **[!UICONTROL Ready to review]** when generation is complete, and **[!UICONTROL Deployed]** after approved changes are deployed. You can run multiple jobs concurrently. Retry a failed job with **[!UICONTROL Retry]**.
 
 ### Create an enrichment job
 
@@ -191,20 +142,20 @@ The **[!UICONTROL All jobs]** table includes the job ID, job name, rule used, or
    - **[!UICONTROL Copy a past job]**: Reuse its products and rule.
    - **[!UICONTROL Describe with AI]**: Describe what you want to achieve in plain language.
 1. Enter an enrichment name.
-1. Select enabled products with a live product page.
-1. Search by name or SKU, then filter by **[!UICONTROL Category]**, **[!UICONTROL Price]**, **[!UICONTROL Status: Enabled]**, **[!UICONTROL Store view]**, or **[!UICONTROL More filters]**. The grid shows each product's image, SKU, name, and URL.
-1. Review the matching and selected product counts. Select **[!UICONTROL Hide already enriched]** to exclude previously enriched products, or select **[!UICONTROL Clear selection]** to clear the current selection.
+1. Select enabled products with a live product page. For the MVP, enrichment applies at the parent SKU level, not to individual variants.
+1. Search by SKU or use the product grid filters, including SKU range, price range, last-updated date range, category tree, attribute set, enabled or disabled status, store view, and other attributes. The grid shows each product's image, SKU, name, and URL.
+1. Review the matching and selected product counts. Select **[!UICONTROL Hide already enriched]** to exclude previously enriched products, or select **[!UICONTROL Clear selection]** to clear the current selection. Previously enriched products show an indicator; hover over it to review the prior enrichment date, rule, and job ID.
 1. If selected products were already enriched, review the affected products and choose **[!UICONTROL Skip them]** or **[!UICONTROL Overwrite them]**.
-1. Choose a brand rule. The Global rule is the default; you can select a custom rule that is available in the current catalog view. For details, see [Brand governance](brand-governance.md).
+1. Select or confirm a brand rule for this job. The Global rule is preselected, or you can choose an available custom rule. You must explicitly confirm the rule for every job, including agentic-traffic batches. A rule is never applied silently. For details, see [Brand governance](brand-governance.md).
 1. Review the selected brand rule and the fields included in the job, such as product name and product description. Select **[!UICONTROL Details]** for a field to review its settings. Changes made in Brand governance apply to every job that uses the rule.
 1. Review the job summary, including the product count, brand rule, fields, and estimated time. Check the agent traffic coverage and preview how the selected products will appear to AI agents.
-1. Click **[!UICONTROL Run enrichment]** to start the job, or click **[!UICONTROL Save as draft]** to finish it later. Click **[!UICONTROL Cancel]** to leave without starting the job.
+1. Review the job details and explicitly click **[!UICONTROL Run enrichment]** to create and start it. Click **[!UICONTROL Save as draft]** to finish later, or click **[!UICONTROL Cancel]** to leave without starting the job. This explicit action is required for both self-selected and agentic-traffic batches. Enrichment never starts automatically.
 
 The live preview shows how selected products appear to AI agents with the chosen rule. It does not change catalog data. Product content changes after you review and deploy the completed job.
 
 ### Review and deploy an enrichment job {#review-deploy-catalog}
 
-When a job is ready for review, open it from **[!UICONTROL Needs your attention]** or the **[!UICONTROL All jobs]** table. Review the products and proposed name or description changes against your merchandising and SEO requirements. Deploy the approved job to apply the changes to your [!DNL Adobe Commerce] catalog.
+When a job is completed, use its review action in **[!UICONTROL Needs your attention]** or the **[!UICONTROL All jobs]** table to open the existing review-and-deploy workflow. The review includes only the SKUs from that job. Review the proposed name or description changes against your merchandising and SEO requirements, then deploy the approved changes to your [!DNL Adobe Commerce] catalog.
 
 Treat each deployment as a production catalog change. Use your normal change-control, staging, and QA practices. After deployment, confirm that the job status is **[!UICONTROL Deployed]** and verify the updated product data in the Admin and on the storefront.
 

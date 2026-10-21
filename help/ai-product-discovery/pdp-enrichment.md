@@ -6,6 +6,10 @@ description: Learn how to create a PDP enrichment job, select product pages and 
 
 Outline of the workflow for creating a PDP enrichment job, selecting product pages and facts, and reviewing the job before submission.
 
+## Access PDP enrichment
+
+In the Admin, open **[!UICONTROL AI Product Discovery]** and select **[!UICONTROL Product Details Page Enrichment]**. This is separate from **[!UICONTROL Catalog Enrichment]**.
+
 ## Create a PDP enrichment job
 
 ### Choose a starting point
