@@ -42,3 +42,19 @@ Brand governance rules let you define product copy requirements for Catalog enri
 ## Choose an enrichment workflow
 
 Use PDP enrichment to control which structured product facts AI agents receive. Use Catalog enrichment to improve product names and descriptions for discovery. These workflows address different data gaps and remain separate.
+
+## Prerequisites
+
+Prerequisites differ by deployment type. Optimize at Edge is required for PDP enrichment, while Catalog enrichment does not require it.
+
+### Adobe Commerce on PaaS
+
+- **Required: Adobe IMS organization.** Make an Adobe IMS organization available. If your organization does not have one, follow the [Adobe IMS integration overview](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview).
+- **Required: Commerce enrichment extension.** Install the Commerce enrichment extension to enable both PDP enrichment and Catalog enrichment. See [Enable catalog enrichment](catalog-enrichment.md#enable-catalog-enrichment).
+- **Required for PDP enrichment: Optimize at Edge.** Set up Optimize at Edge for PDP enrichment. Catalog enrichment does not require this setup. Commerce-specific instructions are required; the [Optimize at Edge with Fastly BYOCDN guide](https://experienceleague.adobe.com/en/docs/brand-visibility/using/resources/optimize-at-edge/fastly-byocdn) is a reference only and is not a Commerce setup guide.
+- **Optional: Log forwarding.** Configure log forwarding to enable agentic traffic-based recommendations for PDP enrichment and Catalog enrichment. Without log forwarding, you can still select product detail pages (PDPs) or SKUs manually for enrichment.
+
+### Adobe Commerce as a Cloud Service (ACCS)
+
+- **Required for PDP enrichment: Optimize at Edge.** Set up Optimize at Edge for PDP enrichment. Catalog enrichment does not require this setup. Commerce-specific instructions are required; the [Optimize at Edge with Fastly BYOCDN guide](https://experienceleague.adobe.com/en/docs/brand-visibility/using/resources/optimize-at-edge/fastly-byocdn) is a reference only and is not a Commerce setup guide.
+- **Optional: Log forwarding.** Configure log forwarding to enable agentic traffic-based recommendations for PDP enrichment and Catalog enrichment. Without log forwarding, you can still select product detail pages (PDPs) or SKUs manually for enrichment.
