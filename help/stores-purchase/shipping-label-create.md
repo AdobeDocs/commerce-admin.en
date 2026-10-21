@@ -58,7 +58,7 @@ Follow the instructions provided by each carrier to add shipping label support t
 
 1. Make sure that your [Store Information](../getting-started/store-details.md#store-information) is complete.
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]**  > **[!UICONTROL Configuration]**.
 
 1. In the left panel, expand **[!UICONTROL Sales]** and select **[!UICONTROL Shipping Settings]**.
 

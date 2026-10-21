@@ -54,7 +54,7 @@ When you configure the UPS settings in the Admin, use the credential values for 
 
 ## Step 3: Enable UPS for your store
 
-1. On the _Admin sidebar_, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+1. On the _Admin sidebar_, go to **[!UICONTROL Stores]**  > **[!UICONTROL Configuration]**.
 
 1. In the panel on the left, under **[!UICONTROL Sales]**, choose **[!UICONTROL Delivery Methods]**.
 
@@ -206,7 +206,7 @@ The handling fee is optional and appears as an extra charge that is added to the
 
 1. Make sure that your [Store Information](../getting-started/store-details.md#store-information) is complete.
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]**  > **[!UICONTROL Configuration]**.
 
 1. In the left panel, expand **[!UICONTROL Sales]** and select **[!UICONTROL Shipping Settings]**.
 

@@ -66,7 +66,7 @@ _Instant Purchase_ allows customers to speed through the checkout process using 
 
 ### Step 1: Open the configuration page
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]**  > **[!UICONTROL Configuration]**.
 
 ### Step 2: Configure the payment method vault
 

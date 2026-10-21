@@ -63,7 +63,7 @@ The following instructions show how to set up a fixed product tax for your store
 
 ### Step 1: Enable fixed product tax
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]**  > **[!UICONTROL Configuration]**.
 
 1. In the left panel, expand **[!UICONTROL Sales]** and choose **[!UICONTROL Tax]**.
 
@@ -97,7 +97,7 @@ The following instructions show how to set up a fixed product tax for your store
 
 ### Step 2: Create an FPT attribute
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_ > **[!UICONTROL Product]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > **[!UICONTROL Product]**.
 
 1. In the upper-right corner, click **[!UICONTROL Add New Attribute]** and do the following:
 
@@ -127,7 +127,7 @@ The following instructions show how to set up a fixed product tax for your store
 
 ### Step 3: Add the FPT attribute to an attribute set
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_ > **[!UICONTROL Attribute Set]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > **[!UICONTROL Attribute Set]**.
 
 1. In the list, click the attribute set to open the record in edit mode.
 
