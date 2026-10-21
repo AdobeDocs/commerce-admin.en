@@ -221,7 +221,7 @@ After you install the [!DNL Audience Activation] extension, you must log into yo
     >
     >When you specify a datastream ID, you [associate it to a specific website](https://experienceleague.adobe.com/en/docs/commerce/data-connection/fundamentals/connect-data#data-collection) in the [!DNL Data Connection] extension. If your Commerce store has multiple websites, [create a destination](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/connect-destination) for each website in Real-Time CDP and use a different datastream ID for each.
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]**  > **[!UICONTROL Configuration]**.
 
 1. Expand **[!UICONTROL Services]** and select **[!UICONTROL [!DNL Data Connection]]**.
 
@@ -444,7 +444,7 @@ For example:
 ### Incorrect authentication type selected in configuration
 
 1. Open your Commerce instance.
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]**  > **[!UICONTROL Configuration]**.
 1. Expand **[!UICONTROL Services]** and select **[!UICONTROL [!DNL Data Connection]]**.
 1. Ensure the server-to-server authorization method that you specified in the **[!UICONTROL Authentication Type]** field is correct. Adobe recommends using **OAuth**. [JWT has been deprecated](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/security/jwt-credentials-deprecation-in-adobe-developer-console), with all current certificates expiring by March 1, 2026.
 

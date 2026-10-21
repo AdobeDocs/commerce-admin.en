@@ -47,7 +47,7 @@ Customer address attributes are used in the following forms:
 
 ## Step 1: Complete the attribute properties
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_ > **[!UICONTROL Customer Address]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > **[!UICONTROL Customer Address]**.
 
 1. In the upper-right corner, click **[!UICONTROL Add New Attribute]**.
 

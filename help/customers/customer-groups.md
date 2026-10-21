@@ -101,7 +101,7 @@ Customer groups determine which discounts are available and the tax class that i
 
 ## Associate a group of customers with specific discounts
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Marketing]** > _Promotions_ > **[!UICONTROL Cart Price Rules]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Marketing]** > **[!UICONTROL Cart Price Rules]**.
 
 1. Select the cart price rule where you want to associate a group for the applied discount, or [create a price rule](../merchandising-promotions/price-rules-catalog.md).
 
