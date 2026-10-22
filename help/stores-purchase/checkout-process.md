@@ -117,7 +117,7 @@ Admin users can change the maximum number of items displayed in the order summar
 
    ![Number of items displayed in Order Summary](./assets/order-summary.png){width="700" zoomable="yes"}
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]**  > **[!UICONTROL Configuration]**.
 
 1. In the left panel, expand **[!UICONTROL Sales]** and choose **[!UICONTROL Checkout]**.
 
@@ -147,7 +147,7 @@ For a detailed description of each of these configuration settings, see [Checkou
 
 ### Change the checkout options
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]**  > **[!UICONTROL Configuration]**.
 1. On the left panel, expand **[!UICONTROL Sales]** and choose **[!UICONTROL Checkout]**.
 1. Set any of the following options that you require.
 1. Click **[!UICONTROL Save Config]**.

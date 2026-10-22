@@ -51,7 +51,7 @@ The _[!UICONTROL Billing Agreements]_ page lists all billing agreements between 
 
 ### View a billing agreement
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Sales]** > _[!UICONTROL Operations]_ > **[!UICONTROL Billing Agreements]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Sales]** > **[!UICONTROL Billing Agreements]**.
 
 1. Find the billing agreement in the list and click to open it.
 
@@ -77,7 +77,7 @@ This tab displays the list of the orders placed using the current billing agreem
 
 ### Cancel a billing agreement
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Sales]** > _[!UICONTROL Operations]_ > **[!UICONTROL Billing Agreements]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Sales]** > **[!UICONTROL Billing Agreements]**.
 
 1. Find the billing agreement in the list and click to open it.
 
@@ -87,7 +87,7 @@ This tab displays the list of the orders placed using the current billing agreem
 
 ### Delete a billing agreement
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Sales]** > _[!UICONTROL Operations]_ > **[!UICONTROL Billing Agreements]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Sales]** > **[!UICONTROL Billing Agreements]**.
 
 1. Find the billing agreement in the list and click to open it.
 

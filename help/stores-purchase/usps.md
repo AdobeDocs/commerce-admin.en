@@ -39,7 +39,7 @@ Open a [USPS Developer Portal](https://developers.usps.com/) account. After you 
 
 {{$include /help/_includes/usps-api-type-configuration-note.md}}
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]**  > **[!UICONTROL Configuration]**.
 
 1. In the left panel, expand **[!UICONTROL Sales]** and choose **[!UICONTROL Delivery Methods]**.
 
