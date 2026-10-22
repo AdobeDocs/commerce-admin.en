@@ -117,7 +117,7 @@ Work with your Commerce administrator or implementation partner to ensure the fo
 
 >[!IMPORTANT]
 >
->Catalog enrichment 2.1.1 and later requires Adobe Commerce 2.4.7 or later on PHP 8.3 or later, and cannot be installed together with the [!DNL LLM Optimizer] extension (`magento/llm-optimizer`). If you have it installed, remove it before you upgrade. See [Upgrade from earlier versions](#upgrade-from-earlier-versions) in the release notes.
+>Catalog enrichment 2.1.1 and later requires Adobe Commerce 2.4.7 or later on PHP 8.3 or later, and cannot be installed together with the [!DNL Adobe Brand Visibility] extension (`magento/llm-optimizer`). If you have it installed, remove it before you upgrade. See [Upgrade from earlier versions](#upgrade-from-earlier-versions) in the release notes.
 
 ### Access catalog enrichment
 
@@ -322,15 +322,15 @@ These release notes capture additions and fixes in the catalog enrichment extens
 
 [!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce 2.4.9, 2.4.8, 2.4.7 on PHP 8.3 to 8.5.
 
-Version 2.1.1 makes catalog enrichment a self-contained extension. It now includes everything that was previously provided by the separate [!DNL LLM Optimizer] extension (`magento/llm-optimizer`): applying approved suggestions to the catalog, rolling them back, and protecting your own edits from being overwritten.
+Version 2.1.1 makes catalog enrichment a self-contained extension. It now includes everything that was previously provided by the separate [!DNL Adobe Brand Visibility] extension (`magento/llm-optimizer`): applying approved suggestions to the catalog, rolling them back, and protecting your own edits from being overwritten.
 
 #### Upgrade from earlier versions {#upgrade-from-earlier-versions}
 
 >[!IMPORTANT]
 >
->Version 2.1.1 cannot be installed together with the [!DNL LLM Optimizer] extension. If you have it installed, remove it as part of the upgrade.
+>Version 2.1.1 cannot be installed together with the [!DNL Adobe Brand Visibility] extension. If you have it installed, remove it as part of the upgrade.
 
-1. Remove the [!DNL LLM Optimizer] extension, if it is installed:
+1. Remove the [!DNL Adobe Brand Visibility] extension, if it is installed:
 
     ```bash
     composer remove magento/llm-optimizer
@@ -382,4 +382,4 @@ Version 2.1.1 makes catalog enrichment a self-contained extension. It now includ
 
 ### v1.0.2
 
-Initial release of the catalog enrichment Admin page. Requires the [!DNL LLM Optimizer] extension to apply suggestions to the catalog.
+Initial release of the catalog enrichment Admin page. Requires the [!DNL Adobe Brand Visibility] extension to apply suggestions to the catalog.
