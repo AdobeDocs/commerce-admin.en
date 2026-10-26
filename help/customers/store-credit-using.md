@@ -38,6 +38,18 @@ Store administrators can view the credit balance and history from the customer a
 
 ![Customer credit balance and history](assets/store-credit-balance-history.png){width="600" zoomable="yes"}
 
+## Store credit role resources
+
+[!BADGE SaaS only]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service projects only (Adobe-managed SaaS infrastructure)."}
+
+You can control which Admin users can change a customer's store credit balance and which ones can apply store credit to an order. For information about assigning resources to a user role, see [Role resources](../systems/permissions-user-roles.md#role-resources). The following resources control store credit:
+
+- **[!UICONTROL Manage Store Credit Balances]**, under **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**, lets the user view and update store credit balances. Without it, the _[!UICONTROL Store Credit]_ tab and the **[!UICONTROL Store Credit Balance]** on the _[!UICONTROL Customer View]_ tab are hidden. The user can still edit the rest of the customer account. If the user saves a customer page that was opened before the resource was removed, any store credit change on it is ignored and the other changes are saved.
+
+- **[!UICONTROL Can Spend Store Credit]**, under **[!UICONTROL Sales]** > **[!UICONTROL Operations]** > **[!UICONTROL Orders]** > **[!UICONTROL Actions]** > **[!UICONTROL Create]**, lets the user apply store credit when [creating an order](../stores-purchase/customer-account-create-order.md). Without it, the **[!UICONTROL Use Store Credit]** checkbox is hidden and orders that the user creates are placed without store credit.
+
+Through the REST API, Admin users and integrations also need **[!UICONTROL Can Spend Store Credit]** to apply store credit to a cart or to place an order for a cart that already has store credit applied. For details, see [Store credit](https://developer.adobe.com/commerce/webapi/rest/saas-integrations/store-credit/) in the _Web API Developer Guide_.
+
 ## View the credit balance
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
@@ -77,6 +89,8 @@ The updated balance should be displayed in **[!UICONTROL Balance History]**.
 As a store administrator, you can do various things on behalf of a customer, including submitting orders. When you [create an order](../stores-purchase/customer-account-create-order.md), you can apply a Store Credit balance that is due to the customer. The available balance is displayed in the _Payment & Shipping Information_ section. Select the **[!UICONTROL Use Store Credit]** checkbox to apply the balance, or a portion of the balance if the order total is less.
 
 ![Apply the store credit balance to the order](assets/store-credit-apply.png){width="500" zoomable="yes"}
+
+[!BADGE SaaS only]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service projects only (Adobe-managed SaaS infrastructure)."} The **[!UICONTROL Use Store Credit]** checkbox appears only when your user role includes the **[!UICONTROL Can Spend Store Credit]** resource. See [Store credit role resources](#store-credit-role-resources).
 
 ## Apply store credit during checkout
 
