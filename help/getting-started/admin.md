@@ -41,6 +41,8 @@ topic_v2:
 
 Your store _Admin_ is the password-protected back office where you, as the merchant, set up products and promotions, manage orders, and perform other administrative tasks. All basic configuration tasks and store management operations are performed from the _Admin_.
 
+{{$include /help/_includes/admin-unified-experience-note.md}}
+
 For additional security, the _Admin_ login is protected by [two-factor authentication](../systems/security-two-factor-authentication.md), and can be configured to require a [CAPTCHA](../systems/security-captcha.md). To learn more, go to [Configuring Admin Security](../systems/security-admin.md).
 
 ![Admin sidebar and dashboard](./assets/admin-dashboard.png){width="700" zoomable="yes"}
