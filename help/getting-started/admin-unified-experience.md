@@ -36,8 +36,6 @@ The Commerce Admin for Adobe Commerce as a Cloud Service opens in Adobe Unified 
 
 The Adobe Unified Experience interface provides the shared top navigation used across Adobe products, an updated left navigation, and refreshed Admin page styling.
 
-Adobe Unified Experience is delivered through the Adobe Unified Shell, the shared framework that provides common navigation and hosts Adobe products such as the Commerce Admin. This topic uses _Unified Experience_ for what you see and use. _Unified Shell_ appears only where it is part of a product label, such as **[!UICONTROL Admin URL (Unified Shell UI)]**.
-
 You can switch between organizations, products, and Commerce instances, and access help, notifications, and account preferences from the top navigation. Your existing Commerce role permissions continue to determine which Admin menu items you can access.
 
 >[!NOTE]
@@ -69,7 +67,7 @@ For the access procedure, see [Access an instance](https://experienceleague.adob
 
 ### Choose an Admin interface {#classic-ui}
 
-For the initial release of the Commerce Admin in Unified Experience, Adobe Commerce as a Cloud Service supports both Adobe Unified Experience and the Classic UI. This dual support lets you continue using familiar workflows in the Classic UI while you adapt to the new Commerce Admin experience at your own pace.
+For the initial release of the Commerce Admin in Unified Experience, Adobe Commerce as a Cloud Service supports two Commerce Admin experiences, Adobe Unified Experience and the Classic UI.
 
 By default, when you select a Commerce instance in Commerce Cloud Manager, the Commerce Admin opens in Adobe Unified Experience. To switch back to the Classic UI, use an existing bookmark or find the URL for the Classic UI. See [Open Classic UI](#open-classic-ui).
 
@@ -176,7 +174,7 @@ For Adobe Commerce as a Cloud Service user and role management, see [User manage
 
 The top navigation includes an instance switcher button. It always shows the **[!UICONTROL Production]** or **[!UICONTROL Sandbox]** badge and the name of the instance that you are in.
 
-1. In the top navigation, select the instaCommnce switcher that displays your current instance name and environment badge.
+1. In the top navigation, select the instance switcher that displays your current instance name and environment badge.
 
 1. Select an instance from the list.
 
@@ -210,7 +208,7 @@ Continue to use the Admin Guide for tasks such as managing products, orders, cus
 
 ## Get help and provide feedback
 
-To access resources without leaving your Commerce Admin, open the help panel using the help icon in the top navigation.
+To access resources without leaving your Commerce Admin, open the help panel using the help icon (![Help icon](./assets/admin-unified-experience-icon-help.png){width="24"}) in the top navigation.
 
 - **Help**: Search Adobe Experience League for documentation directly from the panel.
 - **Support**: Access community forums and other learning resources, and find your support tickets on Adobe Experience League.
