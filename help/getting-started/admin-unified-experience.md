@@ -36,40 +36,42 @@ The Commerce Admin for Adobe Commerce as a Cloud Service opens in Adobe Unified 
 
 The Adobe Unified Experience interface provides the shared top navigation used across Adobe products, an updated left navigation, and refreshed Admin page styling.
 
+Adobe Unified Experience is delivered through the Adobe Unified Shell, the shared framework that provides common navigation and hosts Adobe products such as the Commerce Admin. This topic uses _Unified Experience_ for what you see and use. _Unified Shell_ appears only where it is part of a product label, such as **[!UICONTROL Admin URL (Unified Shell UI)]**.
+
 You can switch between organizations, products, and Commerce instances, and access help, notifications, and account preferences from the top navigation. Your existing Commerce role permissions continue to determine which Admin menu items you can access.
 
 >[!NOTE]
 >
->Commerce Admin in Unified Experience (Unified Shell UI) is available only for Adobe Commerce as a Cloud Service. Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises customers continue to use the [classic Commerce Admin UI](admin.md).
+>The Commerce Admin in Adobe Unified Experience is available only for Adobe Commerce as a Cloud Service. Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises customers continue to use the [classic Commerce Admin UI](admin.md).
 
-![Commerce Admin dashboard with Unified Experience top navigation and Commerce left navigation](./assets/admin-unified-experience-overview.png){width="700" zoomable="yes" border="light"}
+![Commerce Admin dashboard with Unified Experience top navigation and Commerce left navigation](./assets/admin-unified-experience-overview.png){width="800" zoomable="yes" border="light"}
 
 ## Open the Commerce Admin
 
-After you sign in to [Adobe Experience Cloud](https://experience.adobe.com/), open Commerce Cloud Manager. Then, select an instance to open the Admin in Unified Experience.
+After you sign in to [Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"}, open Commerce Cloud Manager. Then, select an instance to open the Admin in Unified Experience.
 
 The sign-in flow lets you move between Commerce instances without signing in separately to each instance.
 You can move between Adobe products and Commerce instances without further sign-in prompts.
 
-For the access procedure, see [Access an instance](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/getting-started#access-an-instance) in the _Adobe Commerce as a Cloud Service Guide_.
+For the access procedure, see [Access an instance](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/getting-started#access-an-instance){target="_blank"} in the _Adobe Commerce as a Cloud Service Guide_.
 
 >[!BEGINTABS]
 
 >[!TAB Open the Admin from Commerce Cloud Manager]
 
-![Open the Admin](./assets/admin-uex-seamless-login-cloud-manager-to-instance.png){width="700" zoomable="yes" border="light"}
+![Open the Admin](./assets/admin-uex-seamless-login-cloud-manager-to-instance.png){width="800" zoomable="yes" border="light"}
 
 >[!TAB See it in action]
 
-![Open the Admin from Commerce Cloud Manager](./assets/admin-uex-seamless-login-cloud-manager-to-instance.gif){width="700" zoomable="yes" border="light"}
+![Open the Admin from Commerce Cloud Manager](./assets/admin-uex-seamless-login-cloud-manager-to-instance.gif){width="800" zoomable="yes" border="light"}
 
 >[!ENDTABS]
 
 ### Choose an Admin interface {#classic-ui}
 
-For the initial release of the Commerce Admin in Unified Experience, Adobe Commerce as a Cloud Service supports two Commerce Admin experiences, the Unified Experience (Unified Shell UI) and the Classic UI interface.
+For the initial release of the Commerce Admin in Unified Experience, Adobe Commerce as a Cloud Service supports two Commerce Admin experiences, Adobe Unified Experience and the Classic UI.
 
-By default, when you select a Commerce instance in Commerce Cloud Manager, the Commerce Admin opens in the Unified Experience (Unified Shell UI). To switch back to the Classic UI, use an existing bookmark or find the URL for the Classic UI. See [Open Classic UI](#open-classic-ui).
+By default, when you select a Commerce instance in Commerce Cloud Manager, the Commerce Admin opens in Adobe Unified Experience. To switch back to the Classic UI, use an existing bookmark or find the URL for the Classic UI. See [Open Classic UI](#open-classic-ui).
 
 The links for the Unified Experience and Classic UI are available in the instance details panel in Commerce Cloud Manager.
 
@@ -78,7 +80,7 @@ The links for the Unified Experience and Classic UI are available in the instanc
 | **[!UICONTROL Admin URL (Unified Shell UI)]** | Opens the Admin in Unified Experience. |
 | **[!UICONTROL Admin URL (Classic UI)]** | Opens the previous Admin interface. |
 
-![Illustration of Commerce Cloud Manager instance details showing the Unified Shell UI and Classic UI Admin URL choices](./assets/admin-unified-experience-cloud-manager-instance-details.png){width="960" zoomable="yes" border="light"}
+![Illustration of Commerce Cloud Manager instance details showing the Admin URL (Unified Shell UI) and Admin URL (Classic UI) links](./assets/admin-unified-experience-cloud-manager-instance-details.png){width="800" zoomable="yes" border="light"}
 
 _Illustration based on the instance-list screenshot and the updated instance-details design. The URLs shown use staging hosts._
 
@@ -134,17 +136,17 @@ Use the organization switcher in the top navigation to move between the organiza
 
 >[!TAB Organization switcher]
 
-![Organization switcher](./assets/admin-uex-org-switcher.png){width="700" zoomable="yes" border="light"}
+![Organization switcher](./assets/admin-uex-org-switcher.png){width="800" zoomable="yes" border="light"}
 
 >[!TAB See it in action]
 
-![Organization switcher](./assets/admin-uex-org-switcher.gif){width="700" zoomable="yes" border="light"}
+![Organization switcher](./assets/admin-uex-org-switcher.gif){width="800" zoomable="yes" border="light"}
 
 >[!ENDTABS]
 
 The account menu also shows which organization you are working in. Select your profile picture (![Account](./assets/admin-unified-experience-icon-account.png){width="24"}) in the top navigation, and then check the **[!UICONTROL Organization]** line.
 
-![Account menu showing the current organization](./assets/admin-uex-account-menu-organization.png){width="700" zoomable="yes" border="light"}
+![Account menu showing the current organization](./assets/admin-uex-account-menu-organization.png){width="800" zoomable="yes" border="light"}
 
 The instances that you can open belong to the organization that you are working in. To change instances, see [Switch Commerce instances](#switch-commerce-instances).
 
@@ -160,15 +162,15 @@ Use the product switcher (![Product switcher](./assets/admin-unified-experience-
 
 >[!TAB Product switcher menu]
 
-![Product switcher menu](./assets/admin-uex-product-dropdown.png){width="700" zoomable="yes" border="light"}
+![Product switcher menu](./assets/admin-uex-product-dropdown.png){width="800" zoomable="yes" border="light"}
 
 >[!TAB See it in action]
 
-![Product switcher menu](./assets/admin-uex-product-dropdown.gif){width="700" zoomable="yes" border="light"}
+![Product switcher menu](./assets/admin-uex-product-dropdown.gif){width="800" zoomable="yes" border="light"}
 
 >[!ENDTABS]
 
-For Adobe Commerce as a Cloud Service user and role management, see [User management](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/user-management).
+For Adobe Commerce as a Cloud Service user and role management, see [User management](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/user-management){target="_blank"}.
 
 ### Switch Commerce instances
 
@@ -186,7 +188,7 @@ The instance is part of the page URL, so you can bookmark or share a link that o
 
 ## Use the left navigation
 
-The Commerce Admin menu appears in the left navigation of the Adobe Unified Experience shell. Expand or collapse menu sections to find the tools that you need, or type to jump to a menu item.
+The Commerce Admin menu appears in the left navigation of Adobe Unified Experience. Expand or collapse menu sections to find the tools that you need, or type to jump to a menu item.
 
 The menu is specific to the instance that you are working in. When you switch instances, the left navigation updates to match.
 
@@ -198,17 +200,17 @@ Continue to use the Admin Guide for tasks such as managing products, orders, cus
 
 >[!TAB Commerce Admin left navigation]
 
-![Commerce Admin left navigation](./assets/admin-uex-left-navigation.png){width="700" zoomable="yes" border="light"}
+![Commerce Admin left navigation](./assets/admin-uex-left-navigation.png){width="800" zoomable="yes" border="light"}
 
 >[!TAB See it in action]
 
-![Commerce Admin left navigation](./assets/admin-uex-left-navigation.gif){width="700" zoomable="yes" border="light"}
+![Commerce Admin left navigation](./assets/admin-uex-left-navigation.gif){width="800" zoomable="yes" border="light"}
 
 >[!ENDTABS]
 
 ## Get help and provide feedback
 
-To access resources without leaving your Commerce Admin, open the help panel using the help icon (![Help](./assets/admin-unified-experience-icon-help.png){width="24"}) in the top navigation.
+To access resources without leaving your Commerce Admin, open the help panel using the help icon in the top navigation.
 
 - **Help**: Search Adobe Experience League for documentation directly from the panel.
 - **Support**: Access community forums and other learning resources, and find your support tickets on Adobe Experience League.
@@ -220,11 +222,11 @@ Help, support, and feedback are available in context. You stay in your Commerce 
 
 >[!TAB Help panel]
 
-![Help panel](./assets/admin-uex-help-search.png){width="700" zoomable="yes" border="light"}
+![Help panel](./assets/admin-uex-help-search.png){width="800" zoomable="yes" border="light"}
 
 >[!TAB See it in action]
 
-![Help panel](./assets/admin-uex-help-search.gif){width="700" zoomable="yes" border="light"}
+![Help panel](./assets/admin-uex-help-search.gif){width="800" zoomable="yes" border="light"}
 
 >[!ENDTABS]
 
@@ -240,11 +242,11 @@ Use the bell icon in the Unified Experience top navigation for this panel, rathe
 
 >[!TAB Notifications panel]
 
-![Notifications panel](./assets/admin-uex--notifications-bell.png){width="700" zoomable="yes" border="light"}
+![Notifications panel](./assets/admin-uex--notifications-bell.png){width="800" zoomable="yes" border="light"}
 
 >[!TAB See it in action]
 
-![Notifications panel](./assets/admin-uex--notifications-bell.gif){width="700" zoomable="yes" border="light"}
+![Notifications panel](./assets/admin-uex--notifications-bell.gif){width="800" zoomable="yes" border="light"}
 
 >[!ENDTABS]
 
@@ -260,14 +262,18 @@ Select your profile picture (![Account](./assets/admin-unified-experience-icon-a
 
 >[!TAB Account menu with dark mode]
 
-![Account menu with dark mode](./assets/admin-uex-dark-mode.png){width="700" zoomable="yes" border="light"}
+![Account menu with dark mode](./assets/admin-uex-dark-mode.png){width="800" zoomable="yes" border="light"}
 
 >[!TAB See it in action]
 
-![Account menu with dark mode](./assets/admin-uex-dark-mode.gif){width="700" zoomable="yes" border="light"}
+![Account menu with dark mode](./assets/admin-uex-dark-mode.gif){width="800" zoomable="yes" border="light"}
 
 >[!ENDTABS]
 
 ## Updated page styling
 
-Pages in the Commerce Admin have a refreshed look that matches the Adobe Unified Experience shell. More restyling is planned for later releases.
+Pages in the Commerce Admin have a refreshed look that matches Adobe Unified Experience. More restyling is planned for later releases.
+
+>[!MORELIKETHIS]
+>
+>[Adobe CX Enterprise interface and administration guide](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud)
