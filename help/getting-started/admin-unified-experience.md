@@ -69,7 +69,7 @@ For the access procedure, see [Access an instance](https://experienceleague.adob
 
 ### Choose an Admin interface {#classic-ui}
 
-For the initial release of the Commerce Admin in Unified Experience, Adobe Commerce as a Cloud Service supports two Commerce Admin experiences, Adobe Unified Experience and the Classic UI.
+For the initial release of the Commerce Admin in Unified Experience, Adobe Commerce as a Cloud Service supports both Adobe Unified Experience and the Classic UI. This dual support lets you continue using familiar workflows in the Classic UI while you adapt to the new Commerce Admin experience at your own pace.
 
 By default, when you select a Commerce instance in Commerce Cloud Manager, the Commerce Admin opens in Adobe Unified Experience. To switch back to the Classic UI, use an existing bookmark or find the URL for the Classic UI. See [Open Classic UI](#open-classic-ui).
 
@@ -176,7 +176,7 @@ For Adobe Commerce as a Cloud Service user and role management, see [User manage
 
 The top navigation includes an instance switcher button. It always shows the **[!UICONTROL Production]** or **[!UICONTROL Sandbox]** badge and the name of the instance that you are in.
 
-1. In the top navigation, select the instance switcher that displays your current instance name and environment badge.
+1. In the top navigation, select the instaCommnce switcher that displays your current instance name and environment badge.
 
 1. Select an instance from the list.
 
