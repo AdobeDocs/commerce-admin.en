@@ -117,7 +117,7 @@ Work with your Commerce administrator or implementation partner to ensure the fo
 
 >[!IMPORTANT]
 >
->Catalog enrichment 2.1.1 and later requires Adobe Commerce 2.4.7 or later on PHP 8.3 or later, and cannot be installed together with the [!DNL Adobe Brand Visibility] extension (`magento/llm-optimizer`). If you have it installed, remove it before you upgrade. See [Upgrade from earlier versions](#upgrade-from-earlier-versions) in the release notes.
+>Catalog enrichment 2.1.2 and later requires Adobe Commerce 2.4.7 or later on PHP 8.3 or later, and cannot be installed together with the [!DNL Adobe Brand Visibility] extension (`magento/llm-optimizer`). If you have it installed, remove it before you upgrade. See [Upgrade from earlier versions](#upgrade-from-earlier-versions) in the release notes.
 
 ### Access catalog enrichment
 
@@ -316,19 +316,19 @@ These release notes capture additions and fixes in the catalog enrichment extens
 ![Fixed issue](../assets/fix.svg) Fixes and improvements
 ![Known issue](../assets/bug.svg) Known issues
 
-### v2.1.1
+### v2.1.2
 
 *October 22, 2026*
 
 [!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce 2.4.9, 2.4.8, 2.4.7 on PHP 8.3 to 8.5.
 
-Version 2.1.1 makes catalog enrichment a self-contained extension. It now includes everything that was previously provided by the separate [!DNL Adobe Brand Visibility] extension (`magento/llm-optimizer`): applying approved suggestions to the catalog, rolling them back, and protecting your own edits from being overwritten.
+Version 2.1.2 makes catalog enrichment a self-contained extension. It now includes everything that was previously provided by the separate [!DNL Adobe Brand Visibility] extension (`magento/llm-optimizer`): applying approved suggestions to the catalog, rolling them back, and protecting your own edits from being overwritten.
 
 #### Upgrade from earlier versions {#upgrade-from-earlier-versions}
 
 >[!IMPORTANT]
 >
->Version 2.1.1 cannot be installed together with the [!DNL Adobe Brand Visibility] extension. If you have it installed, remove it as part of the upgrade.
+>Version 2.1.2 cannot be installed together with the [!DNL Adobe Brand Visibility] extension. If you have it installed, remove it as part of the upgrade.
 
 1. Remove the [!DNL Adobe Brand Visibility] extension, if it is installed:
 
@@ -356,7 +356,7 @@ Version 2.1.1 makes catalog enrichment a self-contained extension. It now includ
 
 ![New](../assets/new.svg) **[!UICONTROL AI Product Discovery] menu**—The catalog enrichment pages now have their own section in the Admin sidebar. Go to **[!UICONTROL AI Product Discovery]** > **[!UICONTROL Catalog Enrichment]**. Previously, the page was under **[!UICONTROL Catalog]**.
 
-![New](../assets/new.svg) **[!UICONTROL Product Details Page Enrichment]**—A new page under **[!UICONTROL AI Product Discovery]** to review enrichment suggestions for product detail pages.
+![New](../assets/new.svg) **[!UICONTROL Product Details Page Enrichment (Beta)]**—A new page under **[!UICONTROL AI Product Discovery]** to review enrichment suggestions for product detail pages. Product details page enrichment is in beta and is not yet generally available.
 
 ![New](../assets/new.svg) **Apply and roll back approved suggestions**—Approved name and description updates are written to the catalog by this extension. Commerce records the original value of each enriched attribute the first time it changes, so a rollback always restores the value you had before enrichment, even after several suggestions were applied to the same attribute.
 
