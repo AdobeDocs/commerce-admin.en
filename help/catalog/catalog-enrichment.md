@@ -125,6 +125,10 @@ After you install the catalog enrichment and catalog services extensions, the ca
 
 ![Catalog Enrichment](./assets/catalog-enrichment-menu.png){zoomable="yes"}
 
+>[!NOTE]
+>
+>The **[!UICONTROL AI Product Discovery]** menu also lists **[!UICONTROL Product Details Page Enrichment (Beta)]**. Product details page enrichment is in beta and is not yet generally available.
+
 ### Configure catalog enrichment {#configure-catalog-enrichment}
 
 Configure catalog enrichment on the **[!UICONTROL Settings]** tab so [!DNL Commerce Catalog Agent] can connect to your [!DNL Adobe Commerce] environment and surface suggestions in the Commerce Admin.
@@ -356,7 +360,7 @@ Version 2.1.2 makes catalog enrichment a self-contained extension. It now includ
 
 ![New](../assets/new.svg) **[!UICONTROL AI Product Discovery] menu**—The catalog enrichment pages now have their own section in the Admin sidebar. Go to **[!UICONTROL AI Product Discovery]** > **[!UICONTROL Catalog Enrichment]**. Previously, the page was under **[!UICONTROL Catalog]**.
 
-![New](../assets/new.svg) **[!UICONTROL Product Details Page Enrichment (Beta)]**—A new page under **[!UICONTROL AI Product Discovery]** to review enrichment suggestions for product detail pages. Product details page enrichment is in beta and is not yet generally available.
+![New](../assets/new.svg) [!BADGE Beta]{type=Informative tooltip="Not yet generally available"} **[!UICONTROL Product Details Page Enrichment (Beta)]**—A new page under **[!UICONTROL AI Product Discovery]** to review enrichment suggestions for product detail pages. Product details page enrichment is in beta and is not yet generally available.
 
 ![New](../assets/new.svg) **Apply and roll back approved suggestions**—Approved name and description updates are written to the catalog by this extension. Commerce records the original value of each enriched attribute the first time it changes, so a rollback always restores the value you had before enrichment, even after several suggestions were applied to the same attribute.
 
