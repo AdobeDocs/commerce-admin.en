@@ -110,7 +110,7 @@ You can issue any needed refunds using a [credit memo](credit-memo-create.md) af
 
 ## Edit a pending order
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Sales]** > _[!UICONTROL Operations]_  > **[!UICONTROL Orders]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
 
 1. In the **[!UICONTROL Action]** column for the order to be edited, click **[!UICONTROL View]**.
 

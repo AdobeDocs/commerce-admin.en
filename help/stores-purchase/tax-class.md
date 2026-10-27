@@ -40,7 +40,7 @@ Tax classes can be assigned to customers, products, and shipping. Commerce analy
 
 The tax class that is used for shipping, and the default tax classes for [products and customers](#add-a-product-tax-class) are set in the _[!UICONTROL Sales]_ configuration.
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]**  > **[!UICONTROL Configuration]**.
 
 1. In the left panel, expand **[!UICONTROL Sales]** and choose **[!UICONTROL Tax]**.
 
@@ -61,7 +61,7 @@ The tax class that is used for shipping, and the default tax classes for [produc
 
 Tax classes for customers and products can be easily added, and then assigned to individual customers and products, and used in tax rules.
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_ > **[!UICONTROL Tax Rules]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > **[!UICONTROL Tax Rules]**.
 
 1. Click **[!UICONTROL Add New Tax Rule]**.
 
@@ -95,7 +95,7 @@ The default tax destination settings determine the country, state, and ZIP or p
 
 **_To configure the default tax destination for calculations:_**
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]**  > **[!UICONTROL Configuration]**.
 
 1. In the left panel, expand **[!UICONTROL Sales]** and choose **[!UICONTROL Tax]**.
 

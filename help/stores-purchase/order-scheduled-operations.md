@@ -38,7 +38,7 @@ Use [Cron](../systems/cron.md) jobs to schedule the following order processing t
 
 The lifetime of orders with pending payments is determined by the _Orders Cron Settings_ configuration. The default value is set to 480 minutes, which is eight hours.
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]**  > **[!UICONTROL Configuration]**.
 
 1. In the left panel, expand the **[!UICONTROL Sales]** section and choose **[!UICONTROL Sales]** underneath.
 
@@ -69,7 +69,7 @@ By scheduling these tasks, you can avoid the locks that occur when data is saved
 
 When [Default mode](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/setup/application-modes#default-mode) is enabled, complete the following steps:
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]**  > **[!UICONTROL Configuration]**.
 
 1. In the left panel, expand the **[!UICONTROL Advanced]** section and choose **[!UICONTROL Developer]**.
 

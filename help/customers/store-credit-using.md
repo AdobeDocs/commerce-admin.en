@@ -64,7 +64,7 @@ Admin users and integrations using the REST API also need the **[!UICONTROL Can 
 
 ## Update store credit balance
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Customers]** > _Operations_ > **[!UICONTROL All Customers]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
 
 1. Find the customer in the grid.
 

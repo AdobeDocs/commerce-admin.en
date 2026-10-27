@@ -38,7 +38,7 @@ Before importing currency rates, complete the [currency rate setup](currency-con
 
 ## Update a currency rate manually
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Currency]_ > **[!UICONTROL Currency Rates]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > **[!UICONTROL Currency Rates]**.
 
 1. Click the rate that you want to change and enter the new value for each currency supported.
 
@@ -46,7 +46,7 @@ Before importing currency rates, complete the [currency rate setup](currency-con
 
 ## Import currency rates
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Currency]_ > **[!UICONTROL Currency Rates]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > **[!UICONTROL Currency Rates]**.
 
 1. Set **[!UICONTROL Import Service]** to the currency rate provider.
 

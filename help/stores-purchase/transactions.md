@@ -34,7 +34,7 @@ The _Transactions_ page lists all payment activity that has taken place between 
 
 ## View transactions
 
-On the _Admin_ sidebar, go to **[!UICONTROL Sales]** > _[!UICONTROL Operations]_ > **[!UICONTROL Transactions]**.
+On the _Admin_ sidebar, go to **[!UICONTROL Sales]** > **[!UICONTROL Transactions]**.
 
 ![Transactions grid](./assets/transactions.png){width="600" zoomable="yes"}
 

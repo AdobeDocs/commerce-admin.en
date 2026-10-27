@@ -36,7 +36,7 @@ Follow the standard instructions for installing the language pack extension. For
 
 ## Step 2: Create a store view for the language
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL All Stores]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]**  > **[!UICONTROL All Stores]**.
 
 1. Click **[!UICONTROL Create Store View]**.
 
@@ -58,7 +58,7 @@ Follow the standard instructions for installing the language pack extension. For
 
 ## Step 3: Change the locale of the store view
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]**  > **[!UICONTROL Configuration]**.
 
 1. In the **[!UICONTROL Scope]** dropdown, select the store view to configure, and click **[!UICONTROL OK]** when prompted.
 
@@ -98,7 +98,7 @@ If your store has multiple views in different languages, the same products are a
 
 ### Step 2: Translate field labels
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_ > **[!UICONTROL Product]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > **[!UICONTROL Product]**.
 
 1. In the list, find the attribute to be translated and open in edit mode.
 
@@ -144,7 +144,7 @@ If your store has multiple views in different languages, the same products are a
 
 ### Step 4: Translate product attributes and attributes options
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_ > **[!UICONTROL Product]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > **[!UICONTROL Product]**.
 
 1. Select the attribute to be translated.
 

@@ -69,7 +69,7 @@ When customers forget their passwords, a reset link is sent to the email address
 
 You can configure the store to redirect customers to their account dashboard after they log in or let them continue shopping.
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]**  > **[!UICONTROL Configuration]**.
 
 1. In the left panel, expand **[!UICONTROL Customers]** and choose **[!UICONTROL Customer Configuration]**.
 

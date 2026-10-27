@@ -46,7 +46,7 @@ Customer attributes provide the information that is required to support the orde
 
 ## Step 1: Complete the Attribute Properties
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_ > **[!UICONTROL Customer]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > **[!UICONTROL Customer]**.
 
 1. In the upper-right corner, click **[!UICONTROL Add New Attribute]**.
 
