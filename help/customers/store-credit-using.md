@@ -44,7 +44,7 @@ Store administrators can view the credit balance and history from the customer a
 
 The following resources determine which Admin users can change a customer's store credit balance and which users can apply store credit to an order. For information about assigning resources to a user role, see [Role resources](../systems/permissions-user-roles.md#role-resources).
 
--  **[!UICONTROL Customers]** > **[!UICONTROL All Customers]** > **[!UICONTROL Manage Store Credit Balances]** allows users to view and update store credit balances. Without it, the **[!UICONTROL Store Credit]** tab and the **[!UICONTROL Store Credit Balance]** on the **[!UICONTROL Customer View]** tab are not visible. The user can still make other edits to customer accounts.
+- **[!UICONTROL Customers]** > **[!UICONTROL All Customers]** > **[!UICONTROL Manage Store Credit Balances]** allows users to view and update store credit balances. Without it, the **[!UICONTROL Store Credit]** tab and the **[!UICONTROL Store Credit Balance]** on the **[!UICONTROL Customer View]** tab are not visible. The user can still make other edits to customer accounts.
 
 - **[!UICONTROL Sales]** > **[!UICONTROL Operations]** > **[!UICONTROL Orders]** > **[!UICONTROL Actions]** > **[!UICONTROL Create]** > **[!UICONTROL Can Spend Store Credit]** allows users to apply store credit when [creating an order](../stores-purchase/customer-account-create-order.md). Without it, the **[!UICONTROL Use Store Credit]** checkbox is not visible.
 
