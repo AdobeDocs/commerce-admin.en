@@ -117,7 +117,7 @@ The [Gift Registry](../merchandising-promotions/gift-registry-storefront.md) sec
 
 The [Store credit](../customers/store-credit.md) tab displays an amount that is restored to a customer account, the admin can manage this value.
 
-[!BADGE SaaS only]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service projects only (Adobe-managed SaaS infrastructure)."} This tab and the **[!UICONTROL Store Credit Balance]** on the _[!UICONTROL Customer View]_ tab appear only when the user role includes the **[!UICONTROL Manage Store Credit Balances]** resource. See [Store credit role resources](../customers/store-credit-using.md#store-credit-role-resources).
+[!BADGE SaaS only]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service projects only (Adobe-managed SaaS infrastructure)."} The [!UICONTROL Store Credit] tab and the **[!UICONTROL Store Credit Balance]** on the **[!UICONTROL Customer View]** tab only appear when the user role includes the **[!UICONTROL Manage Store Credit Balances]** resource. See [Store credit role resources](../customers/store-credit-using.md#store-credit-role-resources).
 
 ### [!UICONTROL Newsletter]
 

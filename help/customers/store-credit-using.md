@@ -42,13 +42,13 @@ Store administrators can view the credit balance and history from the customer a
 
 [!BADGE SaaS only]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service projects only (Adobe-managed SaaS infrastructure)."}
 
-You can control which Admin users can change a customer's store credit balance and which ones can apply store credit to an order. For information about assigning resources to a user role, see [Role resources](../systems/permissions-user-roles.md#role-resources). The following resources control store credit:
+The following resources determine which Admin users can change a customer's store credit balance and which users can apply store credit to an order. For information about assigning resources to a user role, see [Role resources](../systems/permissions-user-roles.md#role-resources).
 
-- **[!UICONTROL Manage Store Credit Balances]**, under **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**, lets the user view and update store credit balances. Without it, the _[!UICONTROL Store Credit]_ tab and the **[!UICONTROL Store Credit Balance]** on the _[!UICONTROL Customer View]_ tab are hidden. The user can still edit the rest of the customer account. If the user saves a customer page that was opened before the resource was removed, any store credit change on it is ignored and the other changes are saved.
+-  **[!UICONTROL Customers]** > **[!UICONTROL All Customers]** > **[!UICONTROL Manage Store Credit Balances]** allows users to view and update store credit balances. Without it, the **[!UICONTROL Store Credit]** tab and the **[!UICONTROL Store Credit Balance]** on the **[!UICONTROL Customer View]** tab are not visible. The user can still make other edits to customer accounts.
 
-- **[!UICONTROL Can Spend Store Credit]**, under **[!UICONTROL Sales]** > **[!UICONTROL Operations]** > **[!UICONTROL Orders]** > **[!UICONTROL Actions]** > **[!UICONTROL Create]**, lets the user apply store credit when [creating an order](../stores-purchase/customer-account-create-order.md). Without it, the **[!UICONTROL Use Store Credit]** checkbox is hidden and orders that the user creates are placed without store credit.
+- **[!UICONTROL Sales]** > **[!UICONTROL Operations]** > **[!UICONTROL Orders]** > **[!UICONTROL Actions]** > **[!UICONTROL Create]** > **[!UICONTROL Can Spend Store Credit]** allows users to apply store credit when [creating an order](../stores-purchase/customer-account-create-order.md). Without it, the **[!UICONTROL Use Store Credit]** checkbox is not visible.
 
-Through the REST API, Admin users and integrations also need **[!UICONTROL Can Spend Store Credit]** to apply store credit to a cart or to place an order for a cart that already has store credit applied. For details, see [Store credit](https://developer.adobe.com/commerce/webapi/rest/saas-integrations/store-credit/) in the _Web API Developer Guide_.
+Admin users and integrations using the REST API also need the **[!UICONTROL Can Spend Store Credit]** resource to apply store credit to a cart or to place an order for a cart that already has store credit applied. For more information, see [Store credit](https://developer.adobe.com/commerce/webapi/rest/saas-integrations/store-credit/).
 
 ## View the credit balance
 
@@ -90,7 +90,7 @@ As a store administrator, you can do various things on behalf of a customer, inc
 
 ![Apply the store credit balance to the order](assets/store-credit-apply.png){width="500" zoomable="yes"}
 
-[!BADGE SaaS only]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service projects only (Adobe-managed SaaS infrastructure)."} The **[!UICONTROL Use Store Credit]** checkbox appears only when your user role includes the **[!UICONTROL Can Spend Store Credit]** resource. See [Store credit role resources](#store-credit-role-resources).
+[!BADGE SaaS only]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service projects only (Adobe-managed SaaS infrastructure)."} The **[!UICONTROL Use Store Credit]** checkbox only appears when your user role includes the **[!UICONTROL Can Spend Store Credit]** resource. See [Store credit role resources](#store-credit-role-resources).
 
 ## Apply store credit during checkout
 
