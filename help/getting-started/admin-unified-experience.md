@@ -52,19 +52,23 @@ The sign-in flow lets you move between Commerce instances without signing in sep
 You can move between Adobe products and Commerce instances without further sign-in prompts.
 
 For the access procedure, see [Access an instance](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/getting-started#access-an-instance){target="_blank"} in the _Adobe Commerce as a Cloud Service Guide_.
+<!--
 
 >[!BEGINTABS]
 
 >[!TAB Open the Admin from Commerce Cloud Manager]
 
-![Open the Admin](./assets/admin-uex-seamless-login-cloud-manager-to-instance.png){width="800" zoomable="yes" border="light"}
+-->
+![Open the Admin](./assets/admin-uex-seamless-login-cloud-manager-to-instance-edited.png){width="800" zoomable="yes" border="light"}
 
+<!--
 >[!TAB See it in action]
 
 ![Open the Admin from Commerce Cloud Manager](./assets/admin-uex-seamless-login-cloud-manager-to-instance.gif){width="800" zoomable="yes" border="light"}
 
 >[!ENDTABS]
 
+-->
 ### Choose an Admin interface {#classic-ui}
 
 For the initial release of the Commerce Admin in Unified Experience, Adobe Commerce as a Cloud Service supports two Commerce Admin experiences, Adobe Unified Experience and the Classic UI.
