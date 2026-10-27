@@ -1,6 +1,6 @@
 ---
 title: The Admin sidebar
-description: The Commerce Admin uses a left sidebar to access the main menu. Merchants can access all the Admin tools that they need for configuraing and managing their store.
+description: The Commerce Admin uses a left sidebar to access the main menu. Merchants can access all the Admin tools they need for configuring and managing their store.
 exl-id: 2619645e-22fc-4365-80c5-14e2ce7ea8df
 TQID: https://experienceleague.adobe.com/sYB6S97lXHf-Bet1RDrQMLidAOew9yjev3aZvFXf-Ak
 product_v2:
