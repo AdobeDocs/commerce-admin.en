@@ -51,6 +51,10 @@ topic_v2:
 ---
 # Your Admin account
 
+>[!NOTE]
+>
+>For Adobe Commerce as a Cloud Service, sign in through Adobe Experience Cloud and open an instance from Commerce Cloud Manager. See [Commerce Admin in Adobe Unified Experience](admin-unified-experience.md#open-the-commerce-admin) for access information and [User management](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/user-management) for managing Adobe Commerce as a Cloud Service users and roles. The installation-based account and local sign-in instructions below do not describe the Adobe Commerce as a Cloud Service sign-in flow.
+
 The primary Admin account was initially set up during the installation, and might contain initial placeholder information or sample data information. The designated owner of this account can personalize the user name and password and update the first name, last name, and email address at any time. This account, a _super user_ with all permissions by default, typically creates the Admin user accounts needed for the business.
 
 - See [Create a user](../systems/permissions-users-all.md#create-a-user) for information on adding or editing users.

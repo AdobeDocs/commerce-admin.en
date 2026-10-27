@@ -65,7 +65,7 @@ Adobe Commerce and Magento Open Source can be configured to deliver all pages ov
 
 ## Configure the base URL
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]**  > **[!UICONTROL Configuration]**.
 
 1. Under _General_ in the left panel, choose **[!UICONTROL Web]**.
 
@@ -138,7 +138,7 @@ If your domain has a valid security certificate, you can configure the URLs of b
 >
 >When the _Add Store Code to URLs_ option is set to `Yes`, you must include store codes in your browser URLs. This setting ensures that URL rewrites are mapped correctly and all pages are opened successfully, without _"404 Page Not Found"_ errors.
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]**  > **[!UICONTROL Configuration]**.
 
 1. Under _[!UICONTROL General]_ in the left panel, choose **[!UICONTROL Web]**.
 
@@ -186,7 +186,7 @@ Although it is possible to change the Admin URL and path to another location, an
 
 ### Method 1: Change from the Admin
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]**  > **[!UICONTROL Configuration]**.
 
 1. In the left panel, expand **[!UICONTROL Advanced]** and choose **[!UICONTROL Admin]**.
 

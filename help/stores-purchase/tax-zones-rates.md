@@ -36,7 +36,7 @@ Store tax is calculated based on the store's address. The actual customer tax fo
 
 ## Define a new tax rate
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_ > **[!UICONTROL Tax Zones and Rates]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > **[!UICONTROL Tax Zones and Rates]**.
 
 1. In the upper-right corner, click **[!UICONTROL Add New Tax Rate]**.
 
@@ -70,7 +70,7 @@ Store tax is calculated based on the store's address. The actual customer tax fo
 
 ## Edit an existing tax rate
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_ > **[!UICONTROL Tax Zones and Rates]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > **[!UICONTROL Tax Zones and Rates]**.
 
 1. Find the tax rate in the _[!UICONTROL Tax Zones and Rates]_ grid, and open the record in edit mode.
 
@@ -84,7 +84,7 @@ Store tax is calculated based on the store's address. The actual customer tax fo
 
 ## Delete tax rate
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_ > **[!UICONTROL Tax Zones and Rates]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > **[!UICONTROL Tax Zones and Rates]**.
 
 1. Find the tax rate to be deleted and open it in edit mode.
 

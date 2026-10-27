@@ -88,7 +88,7 @@ In addition to the preset order status settings, you can create your own custom 
 
 ### Create a custom order status
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Order Status]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]**  > **[!UICONTROL Order Status]**.
 
 1. In the upper-right corner, click **[!UICONTROL Create New Status]**.
 
@@ -162,7 +162,7 @@ Customers can track the status of their orders by [RSS feed](../merchandising-pr
 
 ### Enable order status notification
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]**  > **[!UICONTROL Configuration]**.
 
 1. In the left panel, expand **[!UICONTROL Catalog]** and choose **[!UICONTROL RSS Feeds]** underneath.
 
@@ -176,7 +176,7 @@ Customers can track the status of their orders by [RSS feed](../merchandising-pr
 
 ### Configure new order email notifications
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]**  > **[!UICONTROL Configuration]**.
 
 1. In the left panel, expand **[!UICONTROL Sales]** and choose **[!UICONTROL Sales Emails]** underneath.
 

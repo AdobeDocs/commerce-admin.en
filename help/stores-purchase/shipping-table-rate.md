@@ -50,7 +50,7 @@ The data that is used to calculate tables rates is prepared in a spreadsheet and
 
 The first step is to complete the default settings for table rates. You can complete this step without changing the scope of the configuration.
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]**  > **[!UICONTROL Configuration]**.
 
 1. In the _[!UICONTROL Sales]_ section of the left panel, choose **[!UICONTROL Delivery Methods]**.
 

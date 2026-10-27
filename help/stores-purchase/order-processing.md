@@ -63,7 +63,7 @@ When a customer places an order, a sales order is created as a temporary record 
 
 ## View an order
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Sales]** > _[!UICONTROL Operations]_ > **[!UICONTROL Orders]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
 
 1. Find the order in the grid.
 

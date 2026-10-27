@@ -67,7 +67,7 @@ In certain business-to-business transactions, VAT is not assessed. Commerce can 
 
 The process of creating a tax rule begins by adding a tax rate.
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_ > **[!UICONTROL Tax Zones and Rates]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > **[!UICONTROL Tax Zones and Rates]**.
 
    ![Set up customer tax classes](./assets/vat-zones.png){width="600" zoomable="yes"}
 
@@ -91,7 +91,7 @@ Based on the submitted tax rate, you can create subsequent tax rules. In the abs
 
 ### Step 2: Set up product tax classes
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** >  _[!UICONTROL Taxes]_ > **[!UICONTROL Tax Rules]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > **[!UICONTROL Tax Rules]**.
 
 1. Click **[!UICONTROL Add New Tax Rule]**.
 
@@ -113,7 +113,7 @@ Based on the submitted tax rate, you can create subsequent tax rules. In the abs
 
 ### Step 3: Set up tax zones and rates
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** >  _[!UICONTROL Taxes]_ > **[!UICONTROL Tax Zones and Rates]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > **[!UICONTROL Tax Zones and Rates]**.
 
    For this example you can remove the U.S. tax rates, or leave them as they are.
 
@@ -141,7 +141,7 @@ Based on the submitted tax rate, you can create subsequent tax rules. In the abs
 
 A tax rule is a combination of a customer tax class, a product tax class, and a tax rate.
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_ > **[!UICONTROL Tax Rules]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > **[!UICONTROL Tax Rules]**.
 
 1. Add new tax rules as follows:
 
@@ -163,7 +163,7 @@ A tax rule is a combination of a customer tax class, a product tax class, and a 
 
 ### Step 5: Apply tax classes to products
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Catalog]** > **[!UICONTROL Manage Products]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
 1. Open a product from your catalog in edit mode.
 
@@ -304,7 +304,7 @@ Create the [tax rules](tax-rules.md) for using VAT ID Validation effectively.
 
 #### Step 3: Enable and configure VAT ID validation
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]**  > **[!UICONTROL Configuration]**.
 
 1. If necessary, set the **[!UICONTROL Store View]** for the configuration.
 

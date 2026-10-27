@@ -29,6 +29,8 @@ topic_v2:
 ---
 # The Admin tools and workspace
 
+{{$include /help/_includes/admin-unified-experience-note.md}}
+
 The Admin workspace provides access to all the tools, data, and content used to run your store. The default startup page can be set in the configuration. Many Admin pages have a grid that lists the data for the section, with a set of tools to search, sort, filter, select, and apply actions. By default, the [Dashboard](admin-dashboard.md) is the startup page for the Admin. However, you can choose any other page to appear as the startup page when you log in. You can click the logo in the Admin sidebar to return to the Admin startup page.
 
 ![Admin - workspace](./assets/admin-workspace.png){zoomable="yes"}
@@ -66,7 +68,7 @@ To find any record in the database, use the magnifying glass icon in the header 
 
 ## Change the Admin startup page
 
-The [dashboard](admin-workspace.md#the-dashboard) is the default startup page for the Admin, although you can configure a different startup page.
+The dashboard is the default startup page for the Admin, although you can configure a different startup page.
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
@@ -77,7 +79,7 @@ The [dashboard](admin-workspace.md#the-dashboard) is the default startup page fo
    ![Advanced configuration - Admin startup page setting](./assets/admin-startup-page.png){width="600"}
 
 1. Set **[!UICONTROL Startup Page]** to the page that you want to appear first after you log in to the Admin.
-   
+
    For a detailed list of all Admin options, see [Admin](../configuration-reference/advanced/admin.md) in the _Configuration Reference_.
 
 1. When complete, click **[!UICONTROL Save Config]**.
