@@ -38,7 +38,7 @@ You also specify the currencies that you accept and which currency you want to u
 
 ## Step 1: Choose the accepted currencies
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]**  > **[!UICONTROL Configuration]**.
 
 1. In the upper-left corner, set **[!UICONTROL Scope]** to the store view where the configuration applies.
 
@@ -160,7 +160,7 @@ Managing Currency Symbols gives you the ability to customize the symbol associat
 
 ![Currency symbols](./assets/stores-currency-symbols.png){width="600" zoomable="yes"}
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Currency]_ > **[!UICONTROL Currency Symbols]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > **[!UICONTROL Currency Symbols]**.
 
    Each currency that is enabled for your store appears in the _[!UICONTROL Currency]_ list.
 

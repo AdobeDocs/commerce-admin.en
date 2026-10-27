@@ -47,7 +47,7 @@ To enable or disable synchronization, edit the **[!UICONTROL Adobe Commerce Opti
 
 ## Add a store view
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL All Stores]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]**  > **[!UICONTROL All Stores]**.
 
    ![All Stores](./assets/stores-all.png){width="700" zoomable="yes"}
 
@@ -90,7 +90,7 @@ If your Adobe Commerce or Magento Open Source installation has a multisite or mu
 
 {style="table-layout:auto"}
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** >  _[!UICONTROL Settings]_ > **[!UICONTROL All Stores]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > **[!UICONTROL All Stores]**.
 
 1. In the _[!UICONTROL Store View]_ column of the grid, click the name of the view that you want to edit.
 

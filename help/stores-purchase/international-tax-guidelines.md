@@ -180,7 +180,7 @@ The following example shows how to set up GST tax rates for Canada and PST tax
 
 ### Step 1: Complete tax calculation settings
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]**  > **[!UICONTROL Configuration]**.
 
 1. For a multisite configuration, set **[!UICONTROL Store View]** to the website and store that is the target of the configuration.
 
@@ -366,13 +366,13 @@ Create the following tax rules:
 
 ### Step 4: Set up a store view for Germany
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL All Stores]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]**  > **[!UICONTROL All Stores]**.
 
 1. Under the default website, create a store view for **[!UICONTROL Germany]**.
 
 1. Next, do the following:
 
-   - On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+   - On the _Admin_ sidebar, go to **[!UICONTROL Stores]**  > **[!UICONTROL Configuration]**.
 
    - In the upper-left corner, set **[!UICONTROL Default Config]** to the French store.
 
@@ -417,7 +417,7 @@ Complete the following general tax settings:
 
 ### Step 6: Configure tax settings for Germany
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]**  > **[!UICONTROL Configuration]**.
 
 1. In the upper-right corner, set **[!UICONTROL Store View]** to the view to the German store and click **[!UICONTROL OK]** to confirm.
 

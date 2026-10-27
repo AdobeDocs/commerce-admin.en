@@ -39,7 +39,7 @@ topic_v2:
 
 An invoice is a record of the record of payment for an order. Multiple invoices can be [created](#create-an-invoice) for a single order, and each can include as many or as few of the purchased products that you specify. You can also create [print-ready PDF invoices](#print-invoices) as sales documents for your customers.
 
-On the _Admin_ sidebar, go to **[!UICONTROL Sales]** > _Operations_ > **Invoices** to open the _Invoices_ grid and access your created invoices.
+On the _Admin_ sidebar, go to **[!UICONTROL Sales]** > **[!UICONTROL Invoices]** to open the _Invoices_ grid and access your created invoices.
 
 ![Invoices grid](./assets/invoices.png){width="700" zoomable="yes"}
 
@@ -86,7 +86,7 @@ An invoice for the order must be generated before it can be printed. To view or 
 
 **_To invoice an order:_**
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Sales]** > _[!UICONTROL Operations]_ > **[!UICONTROL Orders]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
 
 1. Find the sales order with the status of `Processing` in the grid. Then, do the following:
 
@@ -154,7 +154,7 @@ Invoices can be printed individually or as a batch. However, before an invoice c
 
 ### Print a single invoice
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Sales]** > _[!UICONTROL Operations]_ > **[!UICONTROL Invoices]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Sales]** > **[!UICONTROL Invoices]**.
 
 1. In the _[!UICONTROL Invoices]_ grid, locate the invoice and click **[!UICONTROL View]** in the _Action_ column.
 
@@ -164,7 +164,7 @@ Invoices can be printed individually or as a batch. However, before an invoice c
 
 ### Print multiple invoices
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Sales]** > _[!UICONTROL Operations]_ > **[!UICONTROL Invoices]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Sales]** > **[!UICONTROL Invoices]**.
 
 1. In the _[!UICONTROL Invoices]_ grid, select the checkbox for each invoice to be printed.
 

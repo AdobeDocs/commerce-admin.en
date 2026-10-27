@@ -152,7 +152,7 @@ You can modify shipping and tracking information as needed using the direct ship
 
 ## Set up comments for shipments
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]**  > **[!UICONTROL Configuration]**.
 
 1. Under _[!UICONTROL Sales]_, select **[!UICONTROL Sales Email]**.
 

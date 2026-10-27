@@ -40,7 +40,7 @@ Admin [permissions](../systems/permissions.md) can be set to restrict [access](.
 
 ## Configure the general tax settings
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]**  > **[!UICONTROL Configuration]**.
 
 1. For a multisite configuration, set **[!UICONTROL Store View]** to the website and store that is the target of the configuration.
 
@@ -231,7 +231,7 @@ Merchants operating across regions and geographies can display a single price by
 
 **_To enable cross-border price consistency:_**
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]**  > **[!UICONTROL Configuration]**.
 
 1. For a multisite configuration, set **[!UICONTROL Store View]** to the website and store that is the target of the configuration.
 

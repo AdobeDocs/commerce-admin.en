@@ -38,7 +38,7 @@ A customer segment can be used for targeted promotions by associating it with a 
 
 _**To associate a segment with a cart price rule:**_
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Marketing]** > _Promotions_ > **[!UICONTROL Cart Price Rules]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Marketing]** > **[!UICONTROL Cart Price Rules]**.
 
 1. Open a new or existing rule:
 

@@ -49,7 +49,7 @@ _**[!UICONTROL Customer Segments] grid**_
 
 ## Prerequisite: Enable customer segments
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]**  > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]**   > **[!UICONTROL Configuration]**.
 
 1. In the left panel, expand **[!UICONTROL Customers]** and choose **[!UICONTROL Customer Configuration]**.
 

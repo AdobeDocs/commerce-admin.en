@@ -47,7 +47,7 @@ The gift card configuration establishes the default settings for all gift cards 
 
 ### Step 1: Configure email notifications
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]**  > **[!UICONTROL Configuration]**.
 
 1. In the left panel, expand **[!UICONTROL Sales]** and choose **[!UICONTROL Gift Cards]**.
 
@@ -118,7 +118,7 @@ See [Store Email Addresses](../configuration-reference/general/store-email-addre
 
 1. To find the number of the gift card account for a current order, do the following:
 
-    - On the _Admin_ sidebar, go to **[!UICONTROL Sales]** > _[!UICONTROL Operations]_  > **[!UICONTROL Orders]**.
+    - On the _Admin_ sidebar, go to **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
 
     - Find the order in the list and click **[!UICONTROL View]** in the _[!UICONTROL Action]_ column.
 
@@ -126,7 +126,7 @@ See [Store Email Addresses](../configuration-reference/general/store-email-addre
 
     The number is in the _[!UICONTROL Product]_ column, under **[!UICONTROL Gift Card Accounts]**.
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_ > **[!UICONTROL Gift Card Accounts]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Marketing]** > **[!UICONTROL Gift Card Accounts]**.
 
 1. Find the gift card account in the grid and open it in edit mode.
 
@@ -136,7 +136,7 @@ See [Store Email Addresses](../configuration-reference/general/store-email-addre
 
 ## Create a gift card account
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_ > **[!UICONTROL Gift Card Accounts]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Marketing]** > **[!UICONTROL Gift Card Accounts]**.
 
 1. At the upper-right corner, click **[!UICONTROL Add Gift Card Account]**.
 
@@ -172,7 +172,7 @@ See [Store Email Addresses](../configuration-reference/general/store-email-addre
 
 ## View gift card account history
 
-1. Go to **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_ > **[!UICONTROL Gift Card Accounts]**.
+1. Go to **[!UICONTROL Marketing]** > **[!UICONTROL Gift Card Accounts]**.
 
 1. Open the gift card in edit mode.
 
@@ -193,7 +193,7 @@ See [Store Email Addresses](../configuration-reference/general/store-email-addre
 
 ## Delete a gift card account
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_ > **[!UICONTROL Gift Card Accounts]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Marketing]** > **[!UICONTROL Gift Card Accounts]**.
 
 1. Select the gift card account to be deleted and open it in edit mode.
 
