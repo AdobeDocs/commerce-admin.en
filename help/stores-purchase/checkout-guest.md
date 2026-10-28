@@ -34,7 +34,7 @@ Your store can be configured to require shoppers to open an account before makin
 
 **_To disable guest checkout:_**
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]**  > **[!UICONTROL Configuration]**.
 
 1. On the left panel, expand **[!UICONTROL Sales]** and choose **[!UICONTROL Checkout]**.
 
@@ -62,4 +62,4 @@ An optional, store-level configuration, which is disabled by default, allows gue
 
 When enabled, guest checkout orders placed with a registered email remain accessible, while also appearing in the customer's order history.
 
-To enable this feature, navigate to **Stores** > Settings > **Configuration** > Sales > **Sales** > **Guest Checkout** and set the **Allow Guest Order Access for Registered Emails** setting to `Yes`.
+To enable this feature, navigate to **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Sales]** > **[!UICONTROL Sales]** > **[!UICONTROL Guest Checkout]** and set the **[!UICONTROL Allow Guest Order Access for Registered Emails]** setting to `Yes`.

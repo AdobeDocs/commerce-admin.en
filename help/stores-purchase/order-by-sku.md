@@ -47,7 +47,7 @@ _Order by SKU_ is a [widget](../content-design/widgets.md) that can be displayed
 
 ## Configure order by SKU
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]**  > **[!UICONTROL Configuration]**.
 
 1. In the left panel, expand the **[!UICONTROL Sales]** section and choose **[!UICONTROL Sales]** underneath.
 
@@ -65,7 +65,7 @@ _Order by SKU_ is a [widget](../content-design/widgets.md) that can be displayed
 
 ![Adobe Commerce B2B](../assets/b2b.svg) (Adobe Commerce B2B only) _**To enable the Order by SKU function, disable the Quick Order function:**_
 
-1. Go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+1. Go to **[!UICONTROL Stores]**  > **[!UICONTROL Configuration]**.
 
 1. In the left panel under _[!UICONTROL General]_, choose **[!UICONTROL B2B Features]**
 

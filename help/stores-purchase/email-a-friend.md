@@ -36,7 +36,7 @@ The Email link makes it easy for your customers to share links to products with 
 
 ## Configure email-a-friend
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]**  > **[!UICONTROL Configuration]**.
 
 1. In the left panel, expand **[!UICONTROL Catalog]** and choose **[!UICONTROL Email to a Friend]**.
 

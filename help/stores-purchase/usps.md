@@ -3,7 +3,7 @@ title: United States Postal Service (USPS)
 description: Learn how to set up USPS as a shipping carrier for your store.
 exl-id: c9601fb8-f0f9-484a-a2e1-d50ee0f2dbf0
 feature: Shipping/Delivery
-last-update: 2026-05-12
+last-update: 2026-10-26
 TQID: 'https://experienceleague.adobe.com/Bsn7nTsSUfoRygB0hyx1KB29CECaiu3RWkoFOJ5gQg8'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -39,7 +39,7 @@ Open a [USPS Developer Portal](https://developers.usps.com/) account. After you 
 
 {{$include /help/_includes/usps-api-type-configuration-note.md}}
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]**  > **[!UICONTROL Configuration]**.
 
 1. In the left panel, expand **[!UICONTROL Sales]** and choose **[!UICONTROL Delivery Methods]**.
 

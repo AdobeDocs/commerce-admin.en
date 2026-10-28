@@ -36,7 +36,7 @@ When manual _Terms and Conditions_ functionality is enabled, customers are requi
 
 ## Step 1: Enable terms and conditions for checkout
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]**  > **[!UICONTROL Configuration]**.
 
 1. In the left panel, expand **[!UICONTROL Sales]** and choose **[!UICONTROL Checkout]**.
 
@@ -52,7 +52,7 @@ When manual _Terms and Conditions_ functionality is enabled, customers are requi
 
 ## Step 2: Add your own terms and conditions information
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Terms and Conditions]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]**  > **[!UICONTROL Terms and Conditions]**.
 
    ![Terms and Conditions grid](./assets/terms-conditions.png){width="600" zoomable="yes"}
 

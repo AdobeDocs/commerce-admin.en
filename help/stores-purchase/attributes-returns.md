@@ -40,7 +40,7 @@ The returns attributes are used to store information that is needed during the p
 
 ## Create a returns attribute
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_ > **[!UICONTROL Returns]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > **[!UICONTROL Returns]**.
 
 1. In the upper-right corner, click **[!UICONTROL Add New Attribute]**.
 

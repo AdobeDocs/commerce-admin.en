@@ -67,7 +67,7 @@ The link can be configured to display the number of different products (or SKUs)
 
 ### Configure the mini cart
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]**  > **[!UICONTROL Configuration]**.
 
 1. In the left panel, expand **[!UICONTROL Sales]** and choose **[!UICONTROL Checkout]**.
 
@@ -93,7 +93,7 @@ The link can be configured to display the number of different products (or SKUs)
 
 ### Configure the cart link
 
-1. On the _Admin_ sidebar, got to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+1. On the _Admin_ sidebar, got to **[!UICONTROL Stores]**  > **[!UICONTROL Configuration]**.
 
 1. In the left panel, expand **[!UICONTROL Sales]** and choose **[!UICONTROL Checkout]**.
 
@@ -114,7 +114,7 @@ The shopping cart page can be configured to appear whenever an item is added to 
 
 **_To configure when the cart appears:_**
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]**  > **[!UICONTROL Configuration]**.
 
 1. In the left panel, expand **[!UICONTROL Sales]** and choose **[!UICONTROL Checkout]**.
 
@@ -141,7 +141,7 @@ You can determine how long a price is valid by setting the cart quote lifetime i
 
 **_To configure the quote lifetime:_**
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]**  > **[!UICONTROL Configuration]**.
 
 1. In the left panel, expand **[!UICONTROL Sales]** and choose **[!UICONTROL Checkout]**.
 
@@ -165,7 +165,7 @@ The configuration allows you to specify a minimum amount, after discounts are ap
 
 **_To configure a minimum order amount:_**
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]**  > **[!UICONTROL Configuration]**.
 
 1. In the left panel, expand **[!UICONTROL Sales]** and choose **[!UICONTROL Sales]** underneath.
 
@@ -215,7 +215,7 @@ The configuration allows you to specify a minimum amount, after discounts are ap
 
 You can set the minimum quantity allowed for an order. The minimum quantity can also be configured according to each customer group.
 
-1. Go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+1. Go to **[!UICONTROL Stores]**  > **[!UICONTROL Configuration]**.
 
 1. In the left panel, expand **[!UICONTROL Catalog]** and choose **[!UICONTROL Inventory]**.
 
@@ -247,7 +247,7 @@ The thumbnail image for both grouped and configurable products can be set to dis
 
 **_To configure cart thumbnails:_**
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]**  > **[!UICONTROL Configuration]**.
 
 1. In the left panel, expand **[!UICONTROL Sales]** and choose **[!UICONTROL Checkout]**.
 
@@ -277,7 +277,7 @@ The Gift Options configuration applies to the entire website, but can be overrid
 
 ### Enable gift options
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]**  > **[!UICONTROL Configuration]**.
 
 1. In the left panel, expand **[!UICONTROL Sales]** and choose **[!UICONTROL Sales]** underneath.
 
@@ -317,7 +317,7 @@ The gift wrap image should be a swatch that shows the repeating pattern, and can
 
 #### Add a gift wrap design
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Other Settings]_ > **[!UICONTROL Gift Wrapping]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > **[!UICONTROL Gift Wrapping]**.
 
    ![Gift Wrapping grid](./assets/gift-wrapping.png){width="700" zoomable="yes"}
 
@@ -347,7 +347,7 @@ The gift wrap image should be a swatch that shows the repeating pattern, and can
 
 #### Edit a gift wrap design
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Other Settings]_ > **[!UICONTROL Gift Wrapping]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > **[!UICONTROL Gift Wrapping]**.
 
 1. Find the gift wrap record in the list.
 
@@ -387,7 +387,7 @@ Gift wrapping and printed gift card prices can be configured to include or exclu
 
 **_To configure gift options taxes:_**
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]**  > **[!UICONTROL Configuration]**.
 
 1. In the left panel, expand **[!UICONTROL Sales]** and choose **[!UICONTROL Tax]**.
 

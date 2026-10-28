@@ -44,7 +44,7 @@ Archiving orders regularly improves performance and keeps your workspace free of
 
 Your store can be configured to archive orders, invoices, shipments, and credit memos after a set number of days. You can move orders and their associated documents to the archive, or restore them to their previous state. Archived orders are not deleted and remain available from the Admin. Archived data can be exported to a CSV file and opened in a spreadsheet. When enabled, the _Archive_ action appears at the top of the workspace.
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]**  > **[!UICONTROL Configuration]**.
 
 1. In the left panel, expand the **[!UICONTROL Sales]** section and choose **[!UICONTROL Sales]** underneath.
 
@@ -135,7 +135,7 @@ Your store can be configured to archive orders, invoices, shipments, and credit 
 
 ## Manually archive orders
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Sales]** > _[!UICONTROL Operations]_ > **[!UICONTROL Orders]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
 
 1. To select the order on the grid, select the checkbox in the first column.
 
@@ -153,7 +153,7 @@ Your store can be configured to archive orders, invoices, shipments, and credit 
 
     - In the button bar above the _[!UICONTROL Orders]_ grid, click **[!UICONTROL Go to Archive]**.
 
-    - On the _Admin_ sidebar, go to **[!UICONTROL Sales]** > _[!UICONTROL Archive]_ > **[!UICONTROL Orders]**.
+    - On the _Admin_ sidebar, go to **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
 
    >[!NOTE]
    >
@@ -169,7 +169,7 @@ Your store can be configured to archive orders, invoices, shipments, and credit 
 >
 >An order that is restored from an archived order is archived again according to the number of days configured in the [!UICONTROL Archive Orders Purchased] setting (see [Configure the order archive](#configure-the-order-archive)). The number of days is calculated against the [!UICONTROL Updated At] date for the order, which is changed when the order is moved from the archive.
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Sales]** > _[!UICONTROL Operations]_ > **[!UICONTROL Orders]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
 
 1. In the button bar, click **[!UICONTROL Go to Archive]**.
 
@@ -183,6 +183,6 @@ Your store can be configured to archive orders, invoices, shipments, and credit 
 
 ## Export archived order
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Sales]** > _[!UICONTROL Operations]_ > **[!UICONTROL Orders]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
 
 1. In the action menu, click **[!UICONTROL Export]** and select the desired format.

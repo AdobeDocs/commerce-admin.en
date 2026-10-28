@@ -54,7 +54,7 @@ For [!UICONTROL Text], [!UICONTROL HTML], and [!UICONTROL PDF] address template
 
 ## Change the order of address fields
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. In the left side panel, expand **[!UICONTROL Customers]** and select **[!UICONTROL Customer Configuration]**.
 

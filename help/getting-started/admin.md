@@ -36,10 +36,13 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
+last-update: 2026-10-26
 ---
 # What is the Admin?
 
 Your store _Admin_ is the password-protected back office where you, as the merchant, set up products and promotions, manage orders, and perform other administrative tasks. All basic configuration tasks and store management operations are performed from the _Admin_.
+
+{{$include /help/_includes/admin-unified-experience-note.md}}
 
 For additional security, the _Admin_ login is protected by [two-factor authentication](../systems/security-two-factor-authentication.md), and can be configured to require a [CAPTCHA](../systems/security-captcha.md). To learn more, go to [Configuring Admin Security](../systems/security-admin.md).
 

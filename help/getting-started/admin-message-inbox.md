@@ -27,6 +27,10 @@ topic_v2:
 ---
 # Admin message inbox
 
+>[!NOTE]
+>
+>For Adobe Commerce as a Cloud Service notifications, requests, and product announcements in the Adobe Unified Experience top navigation, see [View notifications](admin-unified-experience.md#view-notifications). This topic describes the Commerce Admin message inbox, not the notifications panel in the Adobe Unified Experience interface.
+
 Your store receives messages from Adobe regularly. The messages are rated by importance and might refer to system updates, patches, new releases, scheduled maintenance, or upcoming events. The bell icon in the header indicates the number of unread messages in your inbox.
 
 ![Admin - incoming messages](./assets/admin-inbox-summary.png){width="700" zoomable="yes"}

@@ -48,7 +48,7 @@ When enabled, you can cancel an order directly from the customer's account. Canc
 
 ## Configure to allow customer cancellation and customize the cancellation reasons
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]**  > **[!UICONTROL Configuration]**.
 
 1. In the left panel, expand **[!UICONTROL Sales]** and select **[!UICONTROL Sales]**.
 
