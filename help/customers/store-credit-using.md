@@ -48,7 +48,7 @@ The following resources determine which Admin users can change a customer's stor
 
 - **[!UICONTROL Sales]** > **[!UICONTROL Operations]** > **[!UICONTROL Orders]** > **[!UICONTROL Actions]** > **[!UICONTROL Create]** > **[!UICONTROL Can Spend Store Credit]** allows users to apply store credit when [creating an order](../stores-purchase/customer-account-create-order.md). Without it, the **[!UICONTROL Use Store Credit]** checkbox is not visible.
 
-Admin users and integrations using the REST API also need the **[!UICONTROL Can Spend Store Credit]** resource to apply store credit to a cart or to place an order for a cart that already has store credit applied. For more information, see [Store credit](https://developer.adobe.com/commerce/webapi/rest/saas-integrations/store-credit/).
+Admin users and integrations using the REST API need the **[!UICONTROL Can Spend Store Credit]** resource to apply store credit to a cart or to place an order for a cart that already has store credit applied. For more information, see [Store credit](https://developer.adobe.com/commerce/webapi/rest/saas-integrations/store-credit/).
 
 ## View the credit balance
 
