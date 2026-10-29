@@ -259,7 +259,7 @@ These rules help you know whether catalog enrichment, ingestion feeds, or Admin 
 
 ## Limits and considerations {#limits}
 
-- Enrichment currently supports English-language product content only. Support for additional languages coming soon.
+- Enrichment currently supports English-language product content only.
 - Enrichment applies to product names and long descriptions only. It does not change PDP layout, widgets, or other page-level storefront content.
 - Large catalogs and high URL counts can affect how quickly analysis completes and how many suggestions appear at once.
 - Meaningful suggestions assume that LLM-relevant bots can access the product URLs you care about. Robots rules, authentication, geo-blocking, and heavy personalization can reduce coverage.
