@@ -104,12 +104,15 @@ Work with your Commerce administrator or implementation partner to ensure the fo
 
 ### Install catalog enrichment and catalog services extensions
 
-1. Install the catalog enrichment extension in your Commerce instance by running the following command:
+1. Install the catalog enrichment extension in your Commerce instance and apply the changes:
 
     ```bash
-    composer require magento/module-catalog-enrichment --no-update
-    composer update magento/module-catalog-enrichment
+    composer require magento/module-catalog-enrichment:^2.1
+    bin/magento setup:upgrade
+    bin/magento cache:flush
     ```
+
+    `setup:upgrade` enables the extension, creates its database table, and grants the Admin permissions. Flush the cache afterward so the permissions take effect. In production mode, also run `bin/magento setup:di:compile` and `bin/magento setup:static-content:deploy`.
 
 1. If you have not already installed Catalog services, [do so](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/installation#install-the-catalog-service-extension).
 
