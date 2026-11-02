@@ -4,6 +4,94 @@
 
 This section contains the changes made in the last 60 days. We exclude all minor updates, such as copy editing, from this list.
 
+### November 2, 2026
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>Description</th>
+      <th>Type</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Updated <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/catalog-enrichment">Catalog Enrichment</a> to include release notes, new menu navigation, and installation steps.</p>
+</td>
+      <td>
+        Release notes
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/6809e8121b81b0565ce9767e3fcf444ad3342f8f">commit</a></td>
+    </tr>
+  </tbody>
+</table>
+
+### October 29, 2026
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>Description</th>
+      <th>Type</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Added <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/store-credit/store-credit-using#store-credit-role-resources">Store credit role resources</a> to control which Admin users can manage store credit.</p>
+</td>
+      <td>
+        Major update
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/72b270ab3fd062fab4268bd4667d61ccab4d8676">commit</a></td>
+    </tr>
+  </tbody>
+</table>
+
+### October 27, 2026
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>Description</th>
+      <th>Type</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Updated the Admin user guides for the Unified Shell interface:<br />- Revised navigation instructions and refreshed screenshots throughout the guides, including the <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/tools/admin-menu">Admin sidebar</a> reference with its SaaS-only App Management entry.<br />- Clarified <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/guide-overview">content and design capabilities</a> for Adobe Commerce as a Cloud Service, including product image watermarks and transactional emails.</p>
+</td>
+      <td>
+        Major update
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/d6950d5fa02a2b50e3b481afe36f232da35560b5">commit</a></td>
+    </tr>
+  </tbody>
+</table>
+
+### October 26, 2026
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>Description</th>
+      <th>Type</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Added documentation for <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/admin-unified-experience">Commerce Admin in Adobe Unified Experience</a>, the new Commerce Admin interface for Adobe Commerce as a Cloud Service customers. The documentation describes the updated Commerce Admin navigation menu, and how to use the Adobe Unified Experience interface, switch organizations, products, and instances, and use the shared navigation, help, notifications, and account controls.</p>
+</td>
+      <td>
+        New topic
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/2e3b71207ddf49a1b80661f4174a8e892a361e61">commit</a></td>
+    </tr>
+  </tbody>
+</table>
+
 ### October 13, 2026
 
 <table style="table-layout:auto;">
@@ -96,28 +184,6 @@ This section contains the changes made in the last 60 days. We exclude all minor
         Major update
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/1b3beb5c914dae4c07dd591e9b975c0f35bb23cd">commit</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### August 31, 2026
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>Description</th>
-      <th>Type</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>Removed Adobe Commerce 2.4.8-p5 from the list of supported versions for <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/release-notes#b2b-v152-p5">B2B 1.5.2-p5</a>. 2.4.8 customers should use B2B version 1.5.3 instead.</p>
-</td>
-      <td>
-        Technical
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/fab7dc8f780fa68c147a06752dc96bd7b03444a2">commit</a></td>
     </tr>
   </tbody>
 </table>
