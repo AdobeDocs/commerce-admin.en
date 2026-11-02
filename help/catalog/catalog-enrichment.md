@@ -104,22 +104,33 @@ Work with your Commerce administrator or implementation partner to ensure the fo
 
 ### Install catalog enrichment and catalog services extensions
 
-1. Install the catalog enrichment extension in your Commerce instance by running the following command:
+1. Install the catalog enrichment extension in your Commerce instance and apply the changes:
 
     ```bash
-    composer require magento/module-catalog-enrichment --no-update
-    composer update magento/module-catalog-enrichment
+    composer require magento/module-catalog-enrichment:^2.1
+    bin/magento setup:upgrade
+    bin/magento cache:flush
     ```
+
+    `setup:upgrade` enables the extension, creates its database table, and grants the Admin permissions. Flush the cache afterward so the permissions take effect. In production mode, also run `bin/magento setup:di:compile` and `bin/magento setup:static-content:deploy`.
 
 1. If you have not already installed Catalog services, [do so](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/installation#install-the-catalog-service-extension).
 
     **[!UICONTROL Catalog enrichment]** is now available in your Commerce instance.
 
+>[!IMPORTANT]
+>
+>Catalog enrichment 2.1.2 and later requires Adobe Commerce 2.4.7 or later on PHP 8.3 or later, and cannot be installed together with the [!DNL Adobe Brand Visibility] extension (`magento/llm-optimizer`). If you have it installed, remove it before you upgrade. See [Upgrade from earlier versions](#upgrade-from-earlier-versions) in the release notes.
+
 ### Access catalog enrichment
 
-After you install the catalog enrichment and catalog services extensions, the catalog enrichment capability is available in the Admin under **[!UICONTROL Catalog]** > **[!UICONTROL Catalog Enrichment]**.
+After you install the catalog enrichment and catalog services extensions, the catalog enrichment capability is available in the Admin under **[!UICONTROL AI Product Discovery]** > **[!UICONTROL Catalog Enrichment]**.
 
 ![Catalog Enrichment](./assets/catalog-enrichment-menu.png){zoomable="yes"}
+
+>[!NOTE]
+>
+>The **[!UICONTROL AI Product Discovery]** menu also lists **[!UICONTROL Product Details Page Enrichment (Beta)]**. Product details page enrichment is in beta and is not yet generally available.
 
 ### Configure catalog enrichment {#configure-catalog-enrichment}
 
@@ -127,7 +138,7 @@ Configure catalog enrichment on the **[!UICONTROL Settings]** tab so [!DNL Comme
 
 The fields on this tab identify the Commerce environment and store view that catalog enrichment connects to. They are separate from the Adobe IMS organization that holds your [!DNL Adobe Brand Visibility] entitlement. See [IMS sign-in and organization requirements](#ims-sign-in-requirements).
 
-1. In the Admin, go to **[!UICONTROL Catalog]** > **[!UICONTROL Catalog Enrichment]**.
+1. In the Admin, go to **[!UICONTROL AI Product Discovery]** > **[!UICONTROL Catalog Enrichment]**.
 1. In the **[!UICONTROL Scope]** list at the top of the page, select the store view you want to configure, or leave **[!UICONTROL All Store Views]** to manage settings across store views.
 1. Open the **[!UICONTROL Settings]** tab.
 1. In **[!UICONTROL Commerce Configuration]**, expand the store view panel labeled with its URL.
@@ -304,3 +315,79 @@ Catalog enrichment expands the configuration and fabric attributes into a narrat
 - **After**: "This configuration includes 6 Standard Seat Insert Sets and 6 Standard Side Inserts that function interchangeably as arms or backs, forming the modular building blocks of your layout. Each Seat features Standard Foam with three high-density layers designed to preserve lift and resist sagging. The Sapphire Navy Corded Velvet cover is as durable as it is luxurious, featuring textured cords that create a subtle sheen and a soft, plush feel. Covers are hand-sewn for a precise, tailored look and are machine washable and changeable, so your sectional can evolve with your space."
 
 Because the enriched description is written back to the Commerce catalog, it is available to AI bots crawling the product detail page as well as to any downstream channel or feed that consumes the product's catalog data, without changing the layout or design that shoppers see on the page.
+
+## Release notes {#release-notes}
+
+These release notes capture additions and fixes in the catalog enrichment extension (`magento/module-catalog-enrichment`):
+
+![New](../assets/new.svg) New features
+![Fixed issue](../assets/fix.svg) Fixes and improvements
+![Known issue](../assets/bug.svg) Known issues
+
+### v2.1.2
+
+*October 22, 2026*
+
+[!BADGE Supported]{type=Informative tooltip="Supported"} Adobe Commerce 2.4.9, 2.4.8, 2.4.7 on PHP 8.3 to 8.5.
+
+Version 2.1.2 makes catalog enrichment a self-contained extension. It now includes everything that was previously provided by the separate [!DNL Adobe Brand Visibility] extension (`magento/llm-optimizer`): applying approved suggestions to the catalog, rolling them back, and protecting your own edits from being overwritten.
+
+#### Upgrade from earlier versions {#upgrade-from-earlier-versions}
+
+>[!IMPORTANT]
+>
+>Version 2.1.2 cannot be installed together with the [!DNL Adobe Brand Visibility] extension. If you have it installed, remove it as part of the upgrade.
+
+1. Remove the [!DNL Adobe Brand Visibility] extension, if it is installed:
+
+    ```bash
+    composer remove magento/llm-optimizer
+    ```
+
+    If the extension was installed by copying or symlinking `Magento/LlmoCatalog` into `app/code`, delete that directory. Do not only disable the module: a disabled module that is still on disk can cause `setup:upgrade` to drop the table that stores the original values of enriched products.
+
+1. Update catalog enrichment and apply the changes:
+
+    ```bash
+    composer require magento/module-catalog-enrichment:^2.1
+    bin/magento setup:upgrade
+    bin/magento cache:flush
+    ```
+
+    Flush the cache after the upgrade. The upgrade moves existing access grants to new permission resources, and those grants do not take effect until the cache is cleared.
+
+#### Requirements
+
+![New](../assets/new.svg) **PHP 8.3 and Adobe Commerce 2.4.7 or later**—PHP 8.1 is end of life and PHP 8.2 reaches end of life on December 31, 2026, so neither is supported. Adobe Commerce 2.4.6 and earlier are not supported.
+
+#### New features
+
+![New](../assets/new.svg) **[!UICONTROL AI Product Discovery] menu**—The catalog enrichment pages now have their own section in the Admin sidebar. Go to **[!UICONTROL AI Product Discovery]** > **[!UICONTROL Catalog Enrichment]**. Previously, the page was under **[!UICONTROL Catalog]**.
+
+![New](../assets/new.svg) [!BADGE Beta]{type=Informative tooltip="Not yet generally available"} **[!UICONTROL Product Details Page Enrichment (Beta)]**—A new page under **[!UICONTROL AI Product Discovery]** to review enrichment suggestions for product detail pages. Product details page enrichment is in beta and is not yet generally available.
+
+![New](../assets/new.svg) **Apply and roll back approved suggestions**—Approved name and description updates are written to the catalog by this extension. Commerce records the original value of each enriched attribute the first time it changes, so a rollback always restores the value you had before enrichment, even after several suggestions were applied to the same attribute.
+
+![New](../assets/new.svg) **Your edits are respected**—When you change an enriched name or description in the Admin product form, with **[!UICONTROL Update Attributes]**, or through an import, your value is kept and the related suggestion is marked *Outdated*. A change made at the default scope only affects store views that inherit the value.
+
+![New](../assets/new.svg) **Read-only catalog access for suggestions**—[!DNL Commerce Catalog Agent] can read product, category, attribute set, and product type data to select products for analysis. The read returns only attributes marked **[!UICONTROL Used in Product Listing]**, plus the attributes that can be enriched. It cannot change catalog data.
+
+#### Fixes and improvements
+
+![Fixed issue](../assets/fix.svg) **Retried apply reports success**—If an apply request is retried after it has already completed, the retry now reports the changes as applied instead of reporting no changes. Nothing is written twice.
+
+![Fixed issue](../assets/fix.svg) **Only approved services can change the catalog**—Apply and rollback accept only requests from [!DNL Commerce Catalog Agent]. Previously, any valid Adobe IMS token was accepted. The same check now also applies to SOAP requests.
+
+![Fixed issue](../assets/fix.svg) **Clearer errors**—An Adobe IMS outage now returns `401` instead of `500`, so the request is not retried against the catalog, and an unrecognized Adobe IMS environment is rejected instead of being treated as staging.
+
+![Fixed issue](../assets/fix.svg) **Adobe IMS environment**—Catalog enrichment now signs in to the production Adobe IMS environment by default, including on instances connected to a non-production [!DNL Commerce Services] data space. Previously, those instances were sent to the staging environment.
+
+![Fixed issue](../assets/fix.svg) **Sign-in after the [!DNL Adobe Brand Visibility] domain change**—The catalog enrichment page now loads from `abv.adobe.com`, which fixes a sign-in loop after the previous domain started redirecting.
+
+#### Known issues
+
+![Known issue](../assets/bug.svg) **Roles with full [!UICONTROL Catalog] access**—A user role saved before this release with all of **[!UICONTROL Catalog]** granted keeps access to the **[!UICONTROL Catalog Enrichment Service API]** resource. Review such roles in **[!UICONTROL System]** > **[!UICONTROL Permissions]** > **[!UICONTROL User Roles]** and clear that resource where it is not needed.
+
+### v1.0.2
+
+Initial release of the catalog enrichment Admin page. Requires the [!DNL Adobe Brand Visibility] extension to apply suggestions to the catalog.
