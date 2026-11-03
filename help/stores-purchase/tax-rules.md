@@ -38,7 +38,7 @@ Tax rules incorporate a combination of product class, customer class, and tax ra
 
 ## Step 1: Complete the tax rule information
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_ > **[!UICONTROL Tax Rules]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > **[!UICONTROL Tax Rules]**.
 
 1. In the upper-right corner, click **[!UICONTROL Add New Tax Rule]**.
 

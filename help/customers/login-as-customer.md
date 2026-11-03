@@ -77,7 +77,7 @@ Enabling _Login as Customer_ requires that you enable the feature in your Commer
 
 ### Enable the feature
 
-1. On the Admin sidebar, go to  **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+1. On the Admin sidebar, go to  **[!UICONTROL Stores]**  > **[!UICONTROL Configuration]**.
 
 1. In the left panel, expand **[!UICONTROL Customers]** and choose  **[!UICONTROL Login as Customer]**.
 
@@ -97,7 +97,7 @@ Enabling _Login as Customer_ requires that you enable the feature in your Commer
 
 ### Enable access for Admin users
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL System]** > _Permissions_ > **[!UICONTROL User Roles]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL System]** > **[!UICONTROL User Roles]**.
 
 1. Click the role in the list.
 

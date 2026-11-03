@@ -3,7 +3,7 @@ title: Create shipping labels and packages
 description: Learn how to package items in an order and create shipping labels.
 exl-id: ed9be72a-0dcd-4dbf-82ba-b1d75a1e76fd
 feature: Shipping/Delivery, Orders
-last-update: 2026-05-12
+last-update: 2026-10-26
 TQID: 'https://experienceleague.adobe.com/eKOA-A1xmw29l51ADFwl6X6Ctbdd6cBCZ0gnKOm1a8s'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -58,7 +58,7 @@ Follow the instructions provided by each carrier to add shipping label support t
 
 1. Make sure that your [Store Information](../getting-started/store-details.md#store-information) is complete.
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]**  > **[!UICONTROL Configuration]**.
 
 1. In the left panel, expand **[!UICONTROL Sales]** and select **[!UICONTROL Shipping Settings]**.
 

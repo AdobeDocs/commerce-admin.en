@@ -34,7 +34,7 @@ DHL offers integrated international services and tailored, customer-focused solu
 
 ## Step 1: Enable DHL
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]**  > **[!UICONTROL Configuration]**.
 
 1. In the left panel, expand **[!UICONTROL Sales]** and choose **[!UICONTROL Delivery Methods]**.
 

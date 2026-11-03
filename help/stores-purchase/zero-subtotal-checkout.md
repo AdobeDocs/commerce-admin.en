@@ -44,7 +44,7 @@ To save time, zero subtotal orders can be set to automatically invoice.
 
 **_To configure zero subtotal checkout:_**
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]**  > **[!UICONTROL Configuration]**.
 
 1. In the left panel, expand **[!UICONTROL Sales]** and choose **[!UICONTROL Payment Methods]**.
 

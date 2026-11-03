@@ -34,7 +34,7 @@ During order review, the total appears at the bottom of the order, with any adju
 
 **_To configure the checkout totals sort order:_**
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]**  > **[!UICONTROL Configuration]**.
 
 1. In left panel, expand the **[!UICONTROL Sales]** section and choose **[!UICONTROL Sales]** underneath.
 

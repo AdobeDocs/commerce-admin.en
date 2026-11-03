@@ -79,7 +79,7 @@ The country of manufacture is required for all products that are shipped interna
 
 ## Step 2 Verify the store information
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]**  > **[!UICONTROL Configuration]**.
 
 1. In the left panel, expand **[!UICONTROL Sales]** and choose **[!UICONTROL Shipping Settings]**.
 

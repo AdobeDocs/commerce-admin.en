@@ -67,7 +67,7 @@ The first step is to choose how you want to position the store. Should the store
 
 ### Step 2: Create the store
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL All Stores]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]**  > **[!UICONTROL All Stores]**.
 
 1. Click **[!UICONTROL Create Store]** and set the options for the new store:
 
@@ -105,7 +105,7 @@ The first step is to choose how you want to position the store. Should the store
 
 ### Step 4: Configure the store URL
 
-1. On the _Admin_ sidebar, click **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+1. On the _Admin_ sidebar, click **[!UICONTROL Stores]**  > **[!UICONTROL Configuration]**.
 
 1. Under _[!UICONTROL General]_ in the left panel on the left, choose **[!UICONTROL Web]**.
 
@@ -146,7 +146,7 @@ Multi-site installations of Adobe Commerce or Magento Open Source must be config
 
 ### Step 1: Create a website
 
-1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL All Stores]**.
+1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]**  > **[!UICONTROL All Stores]**.
 
 1. In the upper-right corner, click **[!UICONTROL Create Website]**.
 
