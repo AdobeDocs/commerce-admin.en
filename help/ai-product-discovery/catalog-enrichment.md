@@ -63,14 +63,14 @@ Because product names and long descriptions live in Commerce, improving copy onc
 
 | Direction | Purpose |
 | --- | --- |
-| Commerce catalog -> analysis | Catalog and URL signals feed enrichment suggestions. |
+| Commerce catalog -> analysis | Catalog and Agentic traffic signals uncover enrichment suggestions opportunities. |
 | Enrichment -> Commerce catalog | After you approve an update, changes to product name and description are saved to the Commerce catalog so the Admin and storefront reflect the optimized values. |
 
 ### Access catalog enrichment
 
 Before you begin, review the deployment-specific [AI Product Discovery prerequisites](guide-overview.md#prerequisites). After you install the shared enrichment extension and required Catalog Services, go to **[!UICONTROL AI Product Discovery]** > **[!UICONTROL Catalog Enrichment]** in the Admin.
 
-The Catalog Enrichment workspace includes the **[!UICONTROL Optimizations]**, **[!UICONTROL Brand governance]**, and **[!UICONTROL Settings]** tabs. Use the **[!UICONTROL Optimizations]** tab to review discovery signals and manage enrichment jobs.
+The Catalog Enrichment workspace includes the **[!UICONTROL Optimizations]**, **[!UICONTROL Brand governance]**, and **[!UICONTROL Settings]** tabs. Use the **[!UICONTROL Optimizations]** tab to review Agentic traffic based discovery signals and manage enrichment jobs.
 
 The shared extension also enables PDP enrichment, which has a separate workflow for exposing structured product facts to AI agents. See [Create a PDP enrichment job](pdp-enrichment.md).
 

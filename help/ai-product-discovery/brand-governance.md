@@ -77,7 +77,12 @@ Add one or more **[!UICONTROL Excluded Phrases]**. Enriched names must not conta
 
 ### Set tone and capitalization
 
-Enter guidance in the multiline **[!UICONTROL Brand Tone Profile]** field to describe the voice and style of the enriched name. For example: `We're confident, not boastful. We're precise, not jargon-heavy. Get to the benefit fast.`
+Enter guidance in the multiline **[!UICONTROL Brand Tone Profile]** field to describe the voice and style of the enriched name. For example: 
+* B2B industrial: `Literal and spec-first. Brand, model number, product type, then the key spec (capacity, voltage)`
+* Luxury fashion: `Understated. Collection or style name, then material and color. Fewer words read as more premium. No superlatives, urgency, or discount language`
+* Consumer electronics: `Brand, product line, model, then the one or two specs shoppers compare on (storage, screen size, connectivity). Use standard units and abbreviations consistently (GB, in, Wi-Fi 7). No hype words like "ultimate" or "next-gen."`
+* 4. Specialty food and grocery: `Brand, product, defining attribute (origin, variety, process), then size.`
+* 5. Home furnishings: `Collection name, product type, then material and finish.`
 
 If the product description already has the desired tone and constraints, click **[!UICONTROL Copy from description]** to copy its settings to the product name.
 
