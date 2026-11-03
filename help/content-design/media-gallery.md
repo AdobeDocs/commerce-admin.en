@@ -31,7 +31,7 @@ topic_v2:
 ---
 # The [!DNL Media Gallery]
 
-With Adobe Commerce or Magento Open Source 2.4, merchants can use the new _enhanced_ [!DNL Media Gallery] to organize and manage their media files on the server. This new [!DNL Media Gallery] contains the same functionalities as the existing media storage, but includes an improved user interface and a closer integration with [Adobe Stock](https://stock.adobe.com).
+Merchants can use the [!DNL Media Gallery] to organize and manage their media files on the server.
 
 ![Images displayed in the Media Gallery grid](./assets/media-gallery-grid.png){width="700" zoomable="yes"}
 
@@ -39,7 +39,7 @@ With Adobe Commerce or Magento Open Source 2.4, merchants can use the new _enhan
 >
 >Product images added to the [_[!UICONTROL Images and Videos]_ product section](../catalog/product-image.md#upload-an-image) are not managed by the [!DNL Media Gallery]. Only images used in the _[!UICONTROL Content]_ product section fields are displayed and filtered in the new [!DNL Media Gallery].
 
-## Enable the new [!DNL Media Gallery]
+## Verify the [!DNL Media Gallery] configurtion {#enable-the-new-media-gallery}
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
@@ -49,8 +49,12 @@ With Adobe Commerce or Magento Open Source 2.4, merchants can use the new _enhan
 
    ![Advanced configuration - [!DNL Media Gallery]](./assets/system-media-gallery.png){width="600" zoomable="yes"}
 
-1. Set **[!UICONTROL Enable Old Media Gallery]** to `No`.
+1. Verify that **[!UICONTROL Enable Old Media Gallery]** is set to `No`.
 
+   >[!IMPORTANT]
+   >
+   >The option to enable the **[!UICONTROL Old Media Gallery]** is deprecated. Ensure that this setting is always set to `No`.
+ 
 1. Click **[!UICONTROL Save Config]**.
 
 1. When prompted, click the **[!UICONTROL Cache Management]** link in the system message and refresh the invalid cache.
