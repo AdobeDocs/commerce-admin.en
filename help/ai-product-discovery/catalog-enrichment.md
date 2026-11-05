@@ -119,10 +119,6 @@ Required fields are marked with an asterisk (*) on the **[!UICONTROL Commerce Co
 
 After catalog enrichment is enabled and configured, use the **[!UICONTROL Optimizations]** tab to review search and agentic traffic insights and manage enrichment jobs.
 
-### Review shopper search insights
-
-The shopper search panel highlights popular search terms, the number of products that match each term, and terms missing from product data. Use the available action to add a missing term to the matching products.
-
 ### Review monthly agentic traffic
 
 Each monthly agentic traffic audit identifies high-traffic SKUs and makes a recommended batch available. Detection does not generate content or start enrichment. Monthly cards show the product count, AI agent visits, and job status. Agentic-traffic and self-selected batches use the same rule-selection, confirmation, run, review, and deploy workflow.
@@ -147,7 +143,7 @@ The **[!UICONTROL All jobs]** table lists each job ID, name, origin, SKU count, 
 1. Search by SKU or use the product grid filters, including SKU range, price range, last-updated date range, category tree, attribute set, enabled or disabled status, store view, and other attributes. The grid shows each product's image, SKU, name, and URL.
 1. Review the matching and selected product counts. Select **[!UICONTROL Hide already enriched]** to exclude previously enriched products, or select **[!UICONTROL Clear selection]** to clear the current selection. Previously enriched products show an indicator; hover over it to review the prior enrichment date, rule, and job ID.
 1. If selected products were already enriched, review the affected products and choose **[!UICONTROL Skip them]** or **[!UICONTROL Overwrite them]**.
-1. Select or confirm a brand rule for this job. The Global rule is preselected, or you can choose an available custom rule. You must explicitly confirm the rule for every job, including agentic-traffic batches. A rule is never applied silently. For details, see [Brand governance](brand-governance.md).
+1. Select or confirm a brand rule for this job. The Default Rule is preselected, or you can choose an available custom rule. You must explicitly confirm the rule for every job, including agentic-traffic batches. A rule is never applied silently. For details, see [Brand governance](brand-governance.md).
 1. Review the selected brand rule and the fields included in the job, such as product name and product description. Select **[!UICONTROL Details]** for a field to review its settings. Changes made in Brand governance apply to every job that uses the rule.
 1. Review the job summary, including the product count, brand rule, fields, and estimated time. Check the agent traffic coverage and preview how the selected products will appear to AI agents.
 1. Review the job details and explicitly click **[!UICONTROL Run enrichment]** to create and start it. Click **[!UICONTROL Save as draft]** to finish later, or click **[!UICONTROL Cancel]** to leave without starting the job. This explicit action is required for both self-selected and agentic-traffic batches. Enrichment never starts automatically.

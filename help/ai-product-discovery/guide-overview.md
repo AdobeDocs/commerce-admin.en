@@ -13,27 +13,33 @@ Shoppers often describe a need, use, or preference rather than search for an exa
 
 When product records are incomplete, inconsistent, or focused only on technical specifications, agents may have difficulty understanding which products fit a shopper's intent. Shoppers can miss relevant products, and merchants may need to spend time correcting and enriching catalog content manually.
 
+Additionally, unbranded shopper queries create new opportunities for product discovery. When shoppers describe their needs without specifying a brand, AI surfaces show relevant products across competing brands based on how well those products match shopper intent. For merchants, this creates an opportunity to reach new customers who may not be familiar with their brand, expanding product visibility beyond existing brand awareness.
+
 ## Challenges in Product Discovery on AI surfaces
 
 Two common catalog gaps can limit AI-assisted product discovery:
 
 ### Product facts are difficult to access and interpret
 
-Catalog information may be stored across attributes, variants, options, categories, and price or availability fields. If agents cannot access the relevant facts in a useful structure, they may not understand a product's features or how it compares with alternatives.
+Product information is often distributed across attributes, variants, options, categories, and other catalog fields. While this information may be available to shoppers on the storefront, it is not always accessible or easily interpreted by AI crawlers. Product details presented through dynamically rendered content, JavaScript-dependent components, interactive shopping wizards, pop-ups, or linked pages may be difficult for crawlers to retrieve.
 
-### Product copy does not reflect shopper intent
+Even when this information is accessible, it may not be structured in a way that AI agents can reliably interpret. As a result, AI agents may lack a complete understanding of a product's features, available options, and capabilities, limiting their ability to accurately match products to shopper needs.
 
-Product names and descriptions may repeat technical attributes without explaining the benefit or context that matters to a shopper. This can make it harder for AI agents to connect a product with a natural-language request.
+### Product catalog does not reflect shopper intent
+
+Shoppers increasingly describe their needs, problems, and intended use cases in natural language rather than searching for specific product names or technical specifications. However, product names and descriptions often focus on technical attributes without clearly communicating the benefits, use cases, or real-world problems a product addresses.
+
+This creates a gap between how shoppers express their needs and how products are described in the catalog. Without clear, shopper-focused product content, AI agents may struggle to interpret a product's value and relevance to a shopper's intent, potentially overlooking suitable products in favor of alternatives whose descriptions more clearly align with the shopper's needs.
 
 ## Enrichment workflows for product discovery
 
-In [!DNL Adobe Commerce], two enrichment workflows address these different catalog gaps.
+[!DNL Adobe Commerce] provides two complementary enrichment workflows to improve how AI agents access, understand, and match products to shopper intent.
 
 ### Make structured facts available with Product Detail Page Enrichment
 
 PDP Enrichment creates a structured data payload containing relevant product information, including attributes, variants, options, feature bullets, category relationships, pricing, and availability. This provides AI agents with a more complete and structured understanding of a product's features, capabilities, and available configurations.
 
-Using Optimize at Edge technology<link>, the enriched product information is made directly accessible to AI crawlers without requiring changes to the human-visible storefront. Merchants can improve how product information is presented to AI agents without modifying storefront layouts, introducing new shopper-facing components, or requiring custom storefront development.See [Create a PDP enrichment job](pdp-enrichment.md).
+Using Optimize at Edge technology, the enriched product information is made directly accessible to AI crawlers without requiring changes to the human-visible storefront. Merchants can improve how product information is presented to AI agents without modifying storefront layouts, introducing new shopper-facing components, or requiring custom storefront development.See [Create a PDP enrichment job](pdp-enrichment.md).
 
 ### Optimize product catalog content with shopper intent using Catalog Enrichment
 
@@ -59,15 +65,37 @@ Use PDP enrichment to control which structured product facts AI agents receive. 
 
 ## Prerequisites {#prerequisites}
 
-Prerequisites depend on your deployment type and the enrichment workflow you plan to use. Optimize at Edge is required for PDP enrichment, but not for Catalog enrichment.
+Prerequisites depend on your deployment type and the enrichment workflow you plan to use.
 
 ### [!DNL Adobe Commerce] on PaaS
 
 - **IMS organization and sign-in:** An [!DNL Adobe IMS] organization must be available. If your organization does not have one, follow the [Adobe IMS integration overview](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview). Catalog Enrichment uses the signed-in Admin user's IMS access token; a native Commerce username and password alone do not provide this token.
-- **Commerce Admin IMS integration:** The Commerce Admin Integration with Adobe ID must be enabled for IMS sign-in. Enabling it is an instance-wide change: all Admin users must sign in through IMS, and native Commerce username-and-password sign-in is no longer available. See [Configure the Commerce Admin Integration with Adobe ID](/help/getting-started/adobe-ims-config.md) and the [IMS integration overview](/help/getting-started/adobe-ims-integration-overview.md).
-- **Catalog Enrichment organization access:** The IMS organization associated with the Commerce instance is typically different from the organization that holds the [!DNL Adobe Brand Visibility] entitlement. The organizations do not need to be the same. Ask your Adobe administrator or account team to confirm the supported organization access for your account.
 - **Optimize at Edge:** Required for PDP enrichment, but not for Catalog enrichment. Commerce-specific setup instructions are needed. The [Optimize at Edge with [!DNL Fastly] BYOCDN guide](https://experienceleague.adobe.com/en/docs/brand-visibility/using/resources/optimize-at-edge/fastly-byocdn) is a reference, not a Commerce setup guide.
 - **Log forwarding:** Optional. Configure log forwarding to enable agentic traffic-based recommendations for both workflows. Without it, you can still select PDPs or SKUs manually for enrichment.
+
+#### Install Catalog Service {#install-catalog-service}
+
+The shared enrichment extension requires Catalog Service. Catalog Service is installed automatically when you enable [!DNL Live Search] or [!DNL Product Recommendations]. If neither service is enabled, install Catalog Service before the shared enrichment extension.
+
+You need command-line access to the Commerce application server and permission to download packages from `repo.magento.com`. Catalog Service requires Adobe Commerce 2.4.4 or later.
+
+From your Commerce project directory, add and update the Catalog Service package:
+
+```bash
+composer require magento/catalog-service --no-update
+composer update magento/catalog-service
+```
+
+For Adobe Commerce on cloud infrastructure, commit and push the changes to `composer.json` and `composer.lock` to deploy the package.
+
+For Adobe Commerce on-premises, upgrade the application and clear the cache:
+
+```bash
+bin/magento setup:upgrade
+bin/magento cache:clean
+```
+
+Configure the Commerce Services Connector with API keys and a SaaS Data Space if it is not already configured for another Commerce service.
 
 #### Install the shared enrichment extension {#install-enrichment-extension}
 
@@ -78,7 +106,16 @@ composer require magento/module-catalog-enrichment --no-update
 composer update magento/module-catalog-enrichment
 ```
 
-If Catalog Services is not installed, install the [Catalog Service extension](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/installation#install-the-catalog-service-extension).
+#### Monitor and troubleshoot data synchronization {#monitor-enrichment-data-sync}
+
+After you deploy the extensions, confirm that Commerce exports catalog data and that Catalog Service receives it. The Data Feed Sync Status page reports export status; the Data Management Dashboard confirms downstream availability.
+
+1. In the Admin, go to **[!UICONTROL System]** > **[!UICONTROL Data Transfer]** > **[!UICONTROL Data Feed Sync Status]**.
+1. Review the product feeds and confirm that successfully sent records match the source records, with no failed or awaiting submissions.
+1. For failed records, review the error details, resolve the issue, and schedule a resync for the affected records.
+1. Go to **[!UICONTROL System]** > **[!UICONTROL Data Transfer]** > **[!UICONTROL Data Management Dashboard]** and confirm that the expected catalog data is available in Catalog Service.
+
+For status details and additional troubleshooting steps, see [Monitor data feed status](/help/systems/data-feed-sync-status.md#monitor-data-feed-status).
 
 #### Additional Catalog Enrichment requirements
 
