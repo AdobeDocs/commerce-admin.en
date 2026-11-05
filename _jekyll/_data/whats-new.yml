@@ -2,8 +2,58 @@
 title: What's new
 description: This section contains the changes made in the last 60 days. We exclude
   all minor updates, such as copy editing, from this list.
-updated: Fri Oct 23 15:19:07 2026
+updated: Mon Nov 2 17:35:15 2026
 entries:
+- description: Updated [Catalog Enrichment](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/catalog-enrichment)
+    to include release notes, new menu navigation, and installation steps.
+  versions: ''
+  type: release-notes
+  date: November 2, 2026
+  link: enterprise:Adobe-Enterprise-Docs/commerce-admin.en/pull/935
+  merge_commit: 6809e8121b81b0565ce9767e3fcf444ad3342f8f
+  contributor: vmosor_adobe
+  labels:
+  - hold for release
+  - release-notes
+- description: Added [Store credit role resources](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/store-credit/store-credit-using#store-credit-role-resources)
+    to control which Admin users can manage store credit.
+  versions: ''
+  type: major-update
+  date: October 29, 2026
+  link: enterprise:Adobe-Enterprise-Docs/commerce-admin.en/pull/941
+  merge_commit: 72b270ab3fd062fab4268bd4667d61ccab4d8676
+  contributor: sangmil_adobe
+  labels:
+  - major-update
+- description: Updated the Admin user guides for the Unified Shell interface:<br/>-
+    Revised navigation instructions and refreshed screenshots throughout the guides,
+    including the [Admin sidebar](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/tools/admin-menu)
+    reference with its SaaS-only App Management entry.<br/>- Clarified [content and
+    design capabilities](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/guide-overview)
+    for Adobe Commerce as a Cloud Service, including product image watermarks and
+    transactional emails.
+  versions: ''
+  type: major-update
+  date: October 27, 2026
+  link: enterprise:Adobe-Enterprise-Docs/commerce-admin.en/pull/936
+  merge_commit: d6950d5fa02a2b50e3b481afe36f232da35560b5
+  contributor: keharper_adobe
+  labels:
+  - major-update
+- description: Added documentation for [Commerce Admin in Adobe Unified Experience](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/admin-unified-experience),
+    the new Commerce Admin interface for Adobe Commerce as a Cloud Service customers.
+    The documentation describes the updated Commerce Admin navigation menu, and how
+    to use the Adobe Unified Experience interface, switch organizations, products,
+    and instances, and use the shared navigation, help, notifications, and account
+    controls.
+  versions: ''
+  type: new-topic
+  date: October 26, 2026
+  link: enterprise:Adobe-Enterprise-Docs/commerce-admin.en/pull/942
+  merge_commit: 2e3b71207ddf49a1b80661f4174a8e892a361e61
+  contributor: meker_adobe
+  labels:
+  - new-topic
 - description: Added Adobe Commerce B2B 1.5.4-alpha1 fixed-issue details to the [B2B
     release notes](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/release-notes),
     grouped by component with available GitHub references.
