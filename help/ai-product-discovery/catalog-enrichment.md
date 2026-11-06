@@ -74,6 +74,8 @@ The Catalog Enrichment workspace includes the **[!UICONTROL Optimizations]**, **
 
 The shared extension also enables PDP enrichment, which has a separate workflow for exposing structured product facts to AI agents. See [Create a PDP enrichment job](pdp-enrichment.md).
 
+The shared **[!UICONTROL Settings]** controls for delivery, monthly agentic traffic jobs, and AI agent eligibility apply to both Catalog Enrichment and PDP enrichment. See [Enrichment settings](settings.md).
+
 ### Configure catalog enrichment {#configure-catalog-enrichment}
 
 Configure catalog enrichment on the **[!UICONTROL Settings]** tab so [!DNL Commerce Catalog Agent] can connect to your [!DNL Adobe Commerce] environment and surface suggestions in the Commerce Admin.

@@ -20,6 +20,8 @@ The **[!UICONTROL Needs your attention]** area highlights rules that need work, 
 
 ## Understand rule types
 
+Catalog Enrichment supports a default rule and custom rules.
+
 ### Default Rule
 
 Each [!DNL Adobe Commerce] instance has exactly one Default Rule. [!DNL Adobe Commerce] creates this rule with empty fields. Its name is fixed as **[!UICONTROL Global]**. You can edit the rule, but you cannot delete it.
@@ -69,12 +71,15 @@ Add one or more **[!UICONTROL Excluded Phrases]**. Enriched names must not conta
 
 ### Set tone and capitalization
 
-Enter guidance in the multiline **[!UICONTROL Brand Tone Profile]** field to describe the voice and style of the enriched name. For example: 
-* B2B industrial: `Literal and spec-first. Brand, model number, product type, then the key spec (capacity, voltage)`
-* Luxury fashion: `Understated. Collection or style name, then material and color. Fewer words read as more premium. No superlatives, urgency, or discount language`
-* Consumer electronics: `Brand, product line, model, then the one or two specs shoppers compare on (storage, screen size, connectivity). Use standard units and abbreviations consistently (GB, in, Wi-Fi 7). No hype words like "ultimate" or "next-gen."`
-* 4. Specialty food and grocery: `Brand, product, defining attribute (origin, variety, process), then size.`
-* 5. Home furnishings: `Collection name, product type, then material and finish.`
+Enter guidance in the multiline **[!UICONTROL Brand Tone Profile]** field to describe the voice and style of the enriched name.
+
+Here are some examples of the tone you might use for the **Description**:
+
+- **B2B industrial**: `Write for the operator and the buyer. Open with what the unit does and where it fits in the kitchen, then throughput, utility requirements, footprint, and certifications. Plain, technical language. Mention cleaning and maintenance, because total cost of ownership drives the decision. No lifestyle language.`
+- **Luxury fashion**: `Quiet confidence. Lead with craftsmanship and provenance (atelier, tannery, technique), then how the piece wears and ages. Short, measured sentences. Sensory detail is fine. Never compare to other brands or mention price or value.`
+- **Consumer electronics**: `Clear and benefit-led. Turn every spec into what it does for the user. Scannable short paragraphs or bullets. Put compatibility and what's in the box up front. Don't make performance claims without a source, and don't use comparative claims like "fastest"`
+- **Specialty food and grocery**: `Warm and appetizing, but honest. Describe taste, texture, and aroma in concrete terms, then origin and how it's made, then serving ideas. Plain, friendly language. Put allergens and dietary attributes in a consistent closing line. Don't make health claims.`
+- **Home furnishings**: `Inviting and practical. Open with how the piece is used, then dimensions, materials, and care. Help the shopper picture it in their space without overselling. Always mention assembly, delivery, and weight, since those drive returns.`
 
 If the product description already has the desired tone and constraints, click **[!UICONTROL Copy from description]** to copy its settings to the product name.
 
@@ -102,16 +107,6 @@ Add each phrase in a separate **[!UICONTROL Required Phrases]** field. Every req
 
 Add each phrase in a separate **[!UICONTROL Excluded Phrases]** field. Enriched descriptions must not contain any excluded phrase. Click **[!UICONTROL Add]** to add another field.
 
-### Set tone and capitalization
-
-Enter guidance in the multiline **[!UICONTROL Brand Tone Profile]** field to describe the voice and style of the enriched description. For example, a seasonal beauty campaign might emphasize indulgence and small luxuries rather than clinical benefits.
-
-Choose a capitalization option:
-
-- **[!UICONTROL Sentence case]**: `Waterproof hiking boots`
-- **[!UICONTROL Title Case]**: `Waterproof Hiking Boots`
-- **[!UICONTROL As written]**: Preserve the capitalization of the source text.
-
 ## Preview and validate a rule
 
 Select a sample product to compare its current name or description with the result produced by the rule. Use the preview tabs to switch between the name and description.
@@ -121,6 +116,8 @@ Review the validation state and any issues. The preview can show whether the res
 The preview does not change catalog data. Product content changes only after a Catalog Enrichment job is run, reviewed, and deployed.
 
 ## Review and resolve rule issues
+
+Rules that need attention can include drafts that still require setup.
 
 ### Complete a draft
 

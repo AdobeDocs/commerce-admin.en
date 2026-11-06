@@ -7,10 +7,11 @@ role: Admin, User, Leader
 
 # AI product discovery guide {#ai-product-discovery}
 
-+ [Overview of AI product discovery](guide-overview.md)
-+ Catalog enrichment {#catalog-enrichment}
-  + [Catalog enrichment](catalog-enrichment.md)
-  + [Create Catalog Enrichment brand rules](brand-governance.md)
-  + [Enrichment settings](settings.md)
-+ PDP enrichment {#pdp-enrichment}
-  + [Create a PDP enrichment job](pdp-enrichment.md)
+- [Overview of AI product discovery](guide-overview.md)
+- Catalog enrichment {#catalog-enrichment}
+  - [Catalog enrichment](catalog-enrichment.md)
+  - [Create Catalog Enrichment brand rules](brand-governance.md)
+- PDP enrichment {#pdp-enrichment}
+  - [Create a PDP enrichment job](pdp-enrichment.md)
+- [Enrichment settings](settings.md)
+- [Release notes](release-notes.md)

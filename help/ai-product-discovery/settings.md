@@ -1,28 +1,41 @@
 ---
 title: Enrichment Settings
-description: Learn how to configure enrichment delivery, recurring agentic traffic jobs, and the AI agents that receive enriched product data.
+description: Configure delivery, monthly agentic traffic jobs, and eligible AI agents shared by Catalog Enrichment and PDP enrichment in AI Product Discovery.
 ---
 # Enrichment settings
 
-Outline of the delivery, automation, and AI agent controls available on the Settings tab.
+Use the **[!UICONTROL Settings]** tab in the AI Product Discovery workspace to manage delivery, monthly agentic traffic jobs, and eligible AI agents for both Catalog Enrichment and PDP enrichment. The Catalog Enrichment workflow also has Commerce connection fields on this tab. For those fields, see [Configure catalog enrichment](catalog-enrichment.md#configure-catalog-enrichment).
 
 ## Delivery
 
-- Explain the Optimize at Edge connection status and what the Connected state means.
-- Describe that enriched data is served only to selected AI agents, does not change the storefront, theme, or content management system, and can go live within minutes.
+The delivery status shows whether Optimize at Edge is connected. This shared delivery setting applies to enriched data from both workflows.
+
+### Optimize at Edge connection
+
+When the status is **[!UICONTROL Connected]**, enriched data is served only to the AI agents selected in the settings below. Your storefront, theme, and content management system do not change. Updates go live within minutes.
 
 ## Monthly agentic traffic jobs
 
-- Explain the monthly job schedule, including the first-of-the-month run and selection of product pages with the most AI agent visits.
-- Describe the control for enabling or disabling recurring jobs and the dropdown for setting the number of top product pages.
-- Document the available page-count choices, including the value of 40 shown in the screenshot, and how changes to these settings take effect.
+Monthly agentic traffic jobs identify product pages that AI agents visit most often and create a job for those pages. Use the shared controls to enable or disable this recurring job and choose how many product pages to include.
 
-## Eligible AI agents
+### Configure monthly jobs
 
-- Explain how the selected agents receive enriched product data and how unselected agents and shoppers are served the normal product page.
-- Identify each available agent and its organization: GPTBot (OpenAI), ClaudeBot (Anthropic), PerplexityBot, Google-Extended, and Applebot-Extended.
-- Describe the selected and unselected states shown in the interface, and verify whether these selections are defaults or specific to the configured environment.
+Select or clear the checkbox for **[!UICONTROL Monthly agentic traffic jobs]** to enable or disable recurring jobs. When enabled, a job is created on the first day of each month.
 
-### Select AI agents
+Use the page-count dropdown to set how many product pages to include, ranked by agent visits. The available values and current selection may vary.
 
-- Describe how to include or exclude each listed agent and clarify the effect of each selection on delivery.
+## AI agents
+
+Choose which AI agents receive enriched product data from Catalog Enrichment and PDP enrichment. Everyone else, including shoppers, receives the normal product page.
+
+### Select eligible agents
+
+Select or clear the checkbox beside each agent to include or exclude it from enrichment delivery:
+
+- **[!UICONTROL GPTBot (OpenAI)]**
+- **[!UICONTROL ClaudeBot (Anthropic)]**
+- **[!UICONTROL PerplexityBot]**
+- **[!UICONTROL Google-Extended]**
+- **[!UICONTROL Applebot-Extended]**
+
+The checkboxes reflect the current configuration and may vary. Select or clear an agent checkbox to change which agents receive enriched data.
