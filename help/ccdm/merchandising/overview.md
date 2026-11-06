@@ -1,5 +1,5 @@
 ---
-title: Merchandising with composable catalog date model
+title: Merchandising with composable catalog data model
 description: Learn about merchandising features in [!DNL Adobe Commerce Optimizer].
 recommendations: noCatalog
 badgeSaas: label="SaaS only" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service and [!DNL Adobe Commerce Optimizer] projects only (Adobe-managed SaaS infrastructure)."
@@ -22,7 +22,6 @@ feature_v2:
   - id: f37757d8-3174-5335-b977-1161792f965d
     internal-label: Personalization
 topic_v2:
-
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
     internal-label: Artificial intelligence
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef

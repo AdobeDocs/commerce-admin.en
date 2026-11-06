@@ -63,7 +63,7 @@ For a list of the advanced capabilities included with Adobe Commerce, see [Comme
 
 ## Magento Open Source code base
 
-Magento Open Source is the code base that Adobe officially contributes to and ensures compatibility for transition to Adobe Commerce. This code base is part of Adobe's initiative to empower individual developers and foster small businesses who aspire to grow fast. 
+Magento Open Source is the code base that Adobe officially contributes to and ensures compatibility for transition to Adobe Commerce. This code base is part of Adobe's initiative to empower individual developers and foster small businesses who aspire to grow fast.
 
 ## Admin User Guides
 
@@ -81,7 +81,7 @@ Magento Open Source is the code base that Adobe officially contributes to and en
 <tr>
   <td valign="top">
       <img alt="Adobe Commerce B2B" src="./assets/icon-building.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="../b2b/guide-overview.md"><strong>Adobe Commerce B2B</strong></a> [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."}
+   <td valign="top"><a href="../b2b/guide-overview.md"><strong>Adobe Commerce B2B</strong></a>
     <div><em>This feature set is designed to meet the needs of sellers (merchants) whose customers are primarily companies—possibly with complex organizational structures and multiple staff members with various roles and levels of buying permission.</em>
     <br></div>
   </td>
@@ -99,6 +99,13 @@ Magento Open Source is the code base that Adobe officially contributes to and en
        <img alt="Inventory Management" src="./assets/icon-transfer.svg" width="40" height="40"/></td>
    <td valign="top"><a href="../inventory-management/guide-overview.md"> <strong>[!DNL Inventory Management]</strong></a>
     <div><em>The [!DNL Inventory Management] features enable merchants with a single store to multiple warehouses, stores, pickup locations, drop shippers, and more. Use these features to maintain quantities for sales and handle shipments to complete orders. </em></div>
+  </td>
+</tr>
+<tr>
+    <td valign="top">
+       <img alt="Merchandising Services with composable catalog data model (CCDM)" src="./assets/icon-merchandising-ccdm.svg" width="40" height="40"/></td>
+   <td valign="top"><a href="../ccdm/overview.md"> <strong>Merchandising Services with CCDM</strong></a> [!BADGE SaaS only]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service and Adobe Commerce Optimizer projects only (Adobe-managed SaaS infrastructure)."}
+    <div><em>Merchandising Services with the composable catalog data model let merchants use catalog views and policies to tailor product assortments across brands, regions, business units, and channels, supporting product discovery and recommendations.</em></div>
   </td>
 </tr>
 <tr>
