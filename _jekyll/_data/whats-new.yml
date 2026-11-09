@@ -2,13 +2,13 @@
 title: What's new
 description: This section contains the changes made in the last 60 days. We exclude
   all minor updates, such as copy editing, from this list.
-updated: Mon Nov 2 17:35:15 2026
+updated: Mon Nov 9 10:53:36 2026
 entries:
 - description: Updated [Catalog Enrichment](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/catalog-enrichment)
     to include release notes, new menu navigation, and installation steps.
   versions: ''
   type: release-notes
-  date: November 2, 2026
+  date: '2026-11-02'
   link: enterprise:Adobe-Enterprise-Docs/commerce-admin.en/pull/935
   merge_commit: 6809e8121b81b0565ce9767e3fcf444ad3342f8f
   contributor: vmosor_adobe
