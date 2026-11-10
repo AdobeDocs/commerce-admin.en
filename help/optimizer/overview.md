@@ -46,8 +46,8 @@ Merchandising Services with the Composable Catalog Data Model (CCDM) is for Adob
 Define your catalog views. The catalog contains your product data and helps you define your business structure. Also, you can view valuable insights into the availability of product data for your storefront, ensuring it can be promptly displayed to your shoppers.
 
 - **Catalog views**—Help you define your retail structure into meaningful business groups. For example, dealers for the automobile industry, subsidiaries for multi brand conglomerates, or manufacturing locations for suppliers.
-- **Catalog layers**— Modify product data without changing source data. When using AEM Assets for product images, the AEM-Assets layer is applied through Product Visuals. See Catalog layers for details.
-- **Private catalog views** - Configure catalog protection to restrict a catalog view so only requests carrying a valid signed token can retrieve its data. See [Private catalog views](./setup/catalog-layer.md#private-catalog-views) for setup.
+- **Catalog layers**— Modify product data without changing source data. When using AEM Assets for product images, the AEM-Assets layer is applied through Product Visuals. See [Catalog layers](./setup/catalog-layer.md) for details.
+- **Private catalog views** - Configure catalog protection to restrict a catalog view so only requests carrying a valid signed token can retrieve its data. See [Private catalog views](./setup/private-catalog-view.md#private-catalog-views) for setup.
 
 >[!TAB Policies]
 
@@ -77,7 +77,7 @@ Use reports to measure the results of your merchandising efforts, identify oppor
 Monitor the synchronization of your catalog data and storefront events from the Commerce Admin. This helps ensure that your product data is available for your storefront and can be promptly displayed to your shoppers.
 
 - **Catalog Sync**—Displays an overview of the synchronization status for catalog data transferred from your Commerce data source. This is the same capability documented as [Data sync](./setup/data-sync.md).
-- **Catalog View Sync Status**—Monitors synchronization and helps you troubleshoot catalog views, including their policies, price books, and access keys. See [Catalog View Sync Status](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/catalog-view-sync/catalog-view-sync-status).
+- **Catalog View Sync Status**—Monitors synchronization and helps you troubleshoot catalog views, including their policies, price books, and access keys. Available only to Adobe Commerce on Cloud Infrastructure and on-premises merchants who use B2B shared catalogs with the Adobe Commerce Optimizer Connector for B2B. See [Catalog View Sync Status](../systems/catalog-view-sync-status.md).
 - **Events** - Displays storefront event data which powers Product Discovery and Recommendations. The **Events** page lets the merchant verify that they have implemented storefront eventing correctly and that events are being successfully captured. Merchants can use this page to identify potential problems and take steps to resolve any eventing issues.
 
 >[!ENDTABS]

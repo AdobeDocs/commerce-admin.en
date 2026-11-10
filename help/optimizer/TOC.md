@@ -1,6 +1,6 @@
 ---
 user-guide-title: "Merchandising Services with the Composable Catalog Data Model"
-breadcrumb-title: "Merchandising Services with CCDM]"
+breadcrumb-title: "Merchandising Services with CCDM"
 user-guide-description: Documentation and resources for [!DNL Adobe Commerce Optimizer].
 role: Admin, Leader, User
 feature: Personalization, Integration
@@ -9,7 +9,7 @@ recommendations: noDisplay
 # Merchandising Services with Composable Catalog Data Model (CCDM) {#merchandising-with-ccdm}
 
 - [What is Merchandising Services with CCDM?](overview.md)
-- [Get started with merchandising](get-started-merchandising.md)
+- [Get started with merchandising](get-started-merchandising-ccdm.md)
 - Managing Results {#manage-results}
    - [Success metrics](./manage-results/success-metrics.md)
    - [Search performance](./manage-results/search-performance.md)
@@ -55,7 +55,6 @@ recommendations: noDisplay
    - [Semantic search](./setup/semantic-search.md)
    - Events {#events}
       - [Overview](./setup/events/overview.md)
-- [Storefront](storefront.md)
 - [Settings](settings.md)
 - Use case {#use-case}
    - [Storefront and Catalog Admin end-to-end use case](./use-case/admin-use-case.md)
