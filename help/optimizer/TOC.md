@@ -1,27 +1,23 @@
 ---
-user-guide-title: "[!DNL Adobe Commerce Optimizer] Guide"
-breadcrumb-title: "[!DNL Adobe Commerce Optimizer]"
+user-guide-title: "Merchandising Services with the Composable Catalog Data Model"
+breadcrumb-title: "Merchandising Services with CCDM]"
 user-guide-description: Documentation and resources for [!DNL Adobe Commerce Optimizer].
 role: Admin, Leader, User
 feature: Personalization, Integration
 recommendations: noDisplay
 ---
-# [!DNL Adobe Commerce Optimizer] {#optimizer}
+# Merchandising Services with Composable Catalog Data Model (CCDM) {#merchandising-with-ccdm}
 
-- [What is [!DNL Adobe Commerce Optimizer]?](overview.md)
-- [Get started](get-started.md)
-- [Integrations](./integrations/integrations-overview.md)
-- [User and identity management](user-management.md)
-- [Shared responsibility](shared-responsibility.md)
-- [Limits and boundaries](boundaries-limits.md)
+- [What is Merchandising Services with CCDM?](overview.md)
+- [Get started with merchandising](get-started-merchandising.md)
 - Managing Results {#manage-results}
-   - [Opportunities](./manage-results/opportunities.md)
    - [Success metrics](./manage-results/success-metrics.md)
    - [Search performance](./manage-results/search-performance.md)
    - {hide-from-toc}[Search matching and ranking](./manage-results/search-relevance-matching.md)
    - [Recommendations performance](./manage-results/recommendation-performance.md)
 - Merchandising {#merchandising}
    - [Overview](./merchandising/overview.md)
+   - [Opportunities](./manage-results/opportunities.md)
    - Recommendations {#recommendations}
       - [Overview](./merchandising/recommendations/overview.md)
       - [Create and manage](./merchandising/recommendations/create.md)
@@ -44,6 +40,8 @@ recommendations: noDisplay
       - [Create and manage](./merchandising/synonyms/add.md)
       - [Types](./merchandising/synonyms/type.md)
       - [Best practices](./merchandising/synonyms/best-practice.md)
+   - [Merchandising Settings](settings.md)
+
 - Store setup {#setup}
    - [Catalog sources](./setup/catalog-sources.md)
    - [Catalog views](./setup/catalog-view.md)
@@ -63,7 +61,4 @@ recommendations: noDisplay
    - [Storefront and Catalog Admin end-to-end use case](./use-case/admin-use-case.md)
 - Launch site {#launch}
    - [Launch checklist](./launch/launch-checklist.md)
-- Developer resources {#developer}
-   - [Developer guide and API references](https://developer.adobe.com/commerce/services/optimizer/)
-   - [Salesforce Commerce Connector](./developer/salesforce-connector.md)
-- [Release notes](release-notes.md)
+

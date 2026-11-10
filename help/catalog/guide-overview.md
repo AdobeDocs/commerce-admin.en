@@ -42,16 +42,17 @@ This guide covers:
 
 | Subject | Description |
 | ------- | ----------- |
-| [Introduction](introduction.md) | Overview of using the catalog management features to reflect how you want customers to find products in your store.|
+| [Introduction](introduction.md) | Overview of using the catalog management features to reflect how you want customers to find products in your store. |
 | [Catalog menu](catalog-menu.md) | Use the [!UICONTROL Catalog] menu to access multiple features for managing catalogs, categories, and products for your store. |
 | [Catalog and product URLs](catalog-urls.md) | Review the basic URL types and how you can design your URLs to maximize search engine optimization. |
 | [Catalog navigation](navigation.md) | Use the navigation tools to define the way that your shoppers move from page to page throughout your store. |
-| [Catalog search](search.md) | Review the tools that customers can use to locate products on the storefront, and configure the search experience according to your product catalog.|
-| [Categories](categories.md) | Establish the basic category structure of your catalog in a way that optimizes the shopper experience on your storefront.|
-| [Products](products-list.md) | Create products from simple to complex with multiple options, swatches, customizable bundles. Create downloadable products, and virtual products for services and other non-tangible items.|
+| [Catalog search](search.md) | Review the tools that customers can use to locate products on the storefront, and configure the search experience according to your product catalog. |
+| [Categories](categories.md) | Establish the basic category structure of your catalog in a way that optimizes the shopper experience on your storefront. |
+| [Products](products-list.md) | Create products from simple to complex with multiple options, swatches, customizable bundles. Create downloadable products, and virtual products for services and other non-tangible items. |
+| [Shared catalogs](../b2b/enable-basic-features.md) | Shared catalogs let merchants offer different companies curated product assortments and custom pricing. Requires Adobe Commerce B2B licensing and configuration, including company accounts and the Shared Catalog capabilities.|
 | [Catalog enrichment](catalog-enrichment.md) | Review and apply AI-suggested improvements to product names and descriptions so your catalog is represented accurately in LLM and AI-assisted discovery. |
 | [Product attributes](product-attributes.md) | Create attributes with input controls for product options, and to provide additional information on product pages. |
-| [Catalog views](../ccdm/setup/catalog-view.md) [!BADGE SaaS only]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service and Adobe Commerce Optimizer projects only (Adobe-managed SaaS infrastructure)."} | For Commerce deployments using the composable catalog data model (CCDM), define the products and pricing that a client can retrieve by combining catalog sources, catalog layers, policies, and price books for each brand, region, business unit, or channel. Optionally, restrict a catalog view to make it private. |
+| [Catalog views](../optimizer/setup/catalog-view.md) [!BADGE SaaS only]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service and Adobe Commerce Optimizer projects only (Adobe-managed SaaS infrastructure)."} | For Commerce deployments using Merchandising Services with the composable catalog data model (CCDM), define the products and pricing that a client can retrieve by combining catalog sources, catalog layers, policies, and price books for each brand, region, business unit, or channel. Optionally, restrict a catalog view to make it private. |
 | [Policies](../ccdm/setup/policies.md) [!BADGE SaaS only]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service and Adobe Commerce Optimizer projects only (Adobe-managed SaaS infrastructure)."} | For Commerce deployments using the composable catalog data model (CCDM), define the data access filters that control which products each catalog view delivers, so the right content is sent to the right destination. |
 
 {style="table-layout:auto"}
