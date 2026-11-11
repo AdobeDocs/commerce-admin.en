@@ -96,5 +96,5 @@ Product availability is enforced per catalog view even for recommendation units 
 **Example: Recommendation with inclusion filters under the All views selection**
 
 - **All views** recommendation includes SKUs: SKU_ABC, SKU_CDE, SKU_XYZ.
-- **Catalog view: Kingsbluff** cannot sell SKU_ABC or SKU_CDE. **Shown:** SKU_XYZ plus any other SKUs valid for Kingsbluff.
-- **Catalog view: Arkbridge** cannot sell any of the included SKUs. **Shown:** Only SKUs permitted by Arkbridge. If none are available, the recommendation unit does not appear on that storefront.
+- **Catalog view: Kingsbluff** cannot sell SKU_ABC or SKU_CDE. **Shown:** Only SKU_XYZ, provided it satisfies all other enabled filters.
+- **Catalog view: Arkbridge** cannot sell any of the included SKUs. **Shown:** No recommendation unit, because no SKU satisfies both the inclusion filter and catalog-view availability.

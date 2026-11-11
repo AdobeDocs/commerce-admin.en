@@ -62,7 +62,7 @@ There are several key factors that determine the relevance and effectiveness of 
 
 To optimize search results, monitor relevant Key Performance Indicators (KPIs) such as unique queries, average click position, click-through rates, conversion rate, and zero results rate to understand shopper search interactions. This data guides you to update and refine your search rules regularly.
 
-- **Unique Searches** - The count of distinct search queries performed on your site. The system counts each unique search only once, even if the same shopper or different shoppers repeat it multiple times. This metric helps you understand the diversity of search terms used by customers and provides insights into what products or information shoppers are seeking. Tracking unique searches allows you to:
+- **Unique Searches** - The count of unique searches performed on your site during the selected date range. Multiple searches by the same shopper for the same query are considered unique if submitted more than one hour apart. Use this metric together with the Unique searches report to understand search activity and identify products or information shoppers are seeking. Tracking unique searches allows you to:
 
     - Identify popular search trends and frequently searched items.
     - Detect potential gaps in your product catalog or content.
