@@ -10,7 +10,7 @@ recommendations: noDisplay
 
 - [What is Merchandising Services with CCDM?](overview.md)
 - [Get started with merchandising](get-started-merchandising-ccdm.md)
-- Managing Results {#manage-results}
+- Managing results {#manage-results}
    - [Success metrics](./manage-results/success-metrics.md)
    - [Search performance](./manage-results/search-performance.md)
    - {hide-from-toc}[Search matching and ranking](./manage-results/search-relevance-matching.md)
@@ -40,7 +40,7 @@ recommendations: noDisplay
       - [Create and manage](./merchandising/synonyms/add.md)
       - [Types](./merchandising/synonyms/type.md)
       - [Best practices](./merchandising/synonyms/best-practice.md)
-   - [Merchandising Settings](settings.md)
+   - [Merchandising settings](settings.md)
 
 - Store setup {#setup}
    - [Catalog sources](./setup/catalog-sources.md)
@@ -55,7 +55,7 @@ recommendations: noDisplay
    - Events {#events}
       - [Overview](./setup/events/overview.md)
 - Use case {#use-case}
-   - [Storefront and Catalog Admin end-to-end use case](./use-case/admin-use-case.md)
+   - [Storefront and catalog admin end-to-end use case](./use-case/admin-use-case.md)
 - Launch site {#launch}
    - [Launch checklist](./launch/launch-checklist.md)
 

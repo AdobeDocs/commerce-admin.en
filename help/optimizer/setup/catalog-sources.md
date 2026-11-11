@@ -3,7 +3,7 @@ title: Catalog Sources
 description: Learn what catalog sources are and how they define the authoritative scope of products, attributes, and categories for search, filter, and sort behavior.
 role: Admin, Developer
 recommendations: noCatalog
-badgeSaas: label="SaaS only" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service and [!DNL Adobe Commerce Optimizer] projects only (Adobe-managed SaaS infrastructure)."
+badgeSaas: label="SaaS only" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service instances provisioned with CCDM only (Adobe-managed SaaS infrastructure)."
 subfeature_v2:
   - id: ae62cf09-5996-4921-bda8-fbe67b62e470
     internal-label: Storefront configuration

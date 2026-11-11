@@ -1,7 +1,7 @@
 ---
 title: Recommendations Best Practices
 description: Learn where you can place recommendations on various pages on your site and suggestions for frequently used labels for each recommendation type.
-badgeSaas: label="SaaS only" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service and [!DNL Adobe Commerce Optimizer] projects only (Adobe-managed SaaS infrastructure)."
+badgeSaas: label="SaaS only" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service instances provisioned with CCDM only (Adobe-managed SaaS infrastructure)."
 autotag-review: '2026-11-02T19:20:28.675Z'
 TQID: 'https://experienceleague.adobe.com/l1yAoT3zh-PFftMANgIx0K0OlwecOqjnclAMSQHK7hQ'
 product_v2:
@@ -25,4 +25,4 @@ topic_v2:
     internal-label: Personalization
 ---
 
-# Recommendations Best Practices
+# Recommendations best practices

@@ -178,6 +178,7 @@ Manually resync in these cases:
 To verify end-to-end synchronization after exports complete, use one of the following methods. For the limits of export status on this page, see the [note above](#export-status-scope).
 
 - **[!DNL Adobe Commerce as a Cloud Service] with Commerce services:** Check the applicable [Data Management Dashboard](data-dashboard.md) to confirm downstream availability.
+- **[!DNL Adobe Commerce as a Cloud Service] provisioned with CCDM:** Product and price data synchronizes natively. Use [Catalog sync](/help/optimizer/setup/data-sync.md) in Merchandising Services to confirm data availability.
 - **Adobe Commerce on Cloud or On-Premises with Adobe Commerce Optimizer Connector**: Check Commerce Admin export status first, then check the [Data Sync page](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync) in [!DNL Commerce Optimizer Studio]
 - **[!DNL Adobe Commerce Optimizer] (stand-alone):**  Data is not exported from the Commerce backend. Use the [Data Sync page](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync) in [!DNL Commerce Optimizer Studio] to confirm data availability.
 

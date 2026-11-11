@@ -33,6 +33,10 @@ topic_v2:
 
 Use these settings to control the access tokens issued by the [!DNL Adobe Commerce Optimizer Connector for B2B]. Storefronts use these tokens to authenticate to Commerce Optimizer private catalog views populated with data synchronized from custom shared catalogs configured in the Admin.
 
+>[!NOTE]
+>
+>This page applies to the connector. Instances provisioned with the Composable Catalog Data Model (CCDM) synchronize data natively and do not use the connector. See [Merchandising Services with CCDM](/help/optimizer/overview.md).
+
 {{config}}
 
 ![Adobe Commerce Admin showing ACO Catalog View access-token settings, with a 3,600-second TTL and token issuance enabled.](./assets/aco-catalog-view-access-token-config.png)<!-- zoom -->

@@ -1,7 +1,7 @@
 ---
 title: Recommendation Types
 description: Learn about the recommendations that you can deploy to various pages on your site.
-badgeSaas: label="SaaS only" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service and [!DNL Adobe Commerce Optimizer] projects only (Adobe-managed SaaS infrastructure)."
+badgeSaas: label="SaaS only" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service instances provisioned with CCDM only (Adobe-managed SaaS infrastructure)."
 autotag-review: '2026-11-02T19:21:36.761Z'
 TQID: 'https://experienceleague.adobe.com/i2T0qGlx6PVM-V6US9FjMGazmfz-x-zaW3ReN1ANE3E'
 product_v2:
@@ -29,4 +29,4 @@ topic_v2:
     internal-label: Personalization
 ---
 
-# Recommendation Types
+# Recommendation types

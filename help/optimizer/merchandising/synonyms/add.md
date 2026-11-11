@@ -1,7 +1,7 @@
 ---
 title: Create and Manage Synonyms
 description: Learn how to create and manage synonyms to [!DNL Adobe Commerce Optimizer].
-badgeSaas: label="SaaS only" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service and [!DNL Adobe Commerce Optimizer] projects only (Adobe-managed SaaS infrastructure)."
+badgeSaas: label="SaaS only" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service instances provisioned with CCDM only (Adobe-managed SaaS infrastructure)."
 autotag-review: '2026-11-02T19:37:24.097Z'
 TQID: 'https://experienceleague.adobe.com/-RyVBok0I4hF-srOngE9yw0yjkyDVp-yNNH7FMvDqYI'
 product_v2:
@@ -21,4 +21,4 @@ topic_v2:
     internal-label: Personalization
 ---
 
-# Create Synonyms
+# Create synonyms

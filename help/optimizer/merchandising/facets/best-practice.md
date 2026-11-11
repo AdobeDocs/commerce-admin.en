@@ -2,7 +2,7 @@
 title: Facets Best Practices
 description: Learn the best practices for implementing facets in your store.
 role: Admin, Developer
-badgeSaas: label="SaaS only" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service and [!DNL Adobe Commerce Optimizer] projects only (Adobe-managed SaaS infrastructure)."
+badgeSaas: label="SaaS only" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service instances provisioned with CCDM only (Adobe-managed SaaS infrastructure)."
 autotag-review: '2026-11-02T19:18:56.877Z'
 TQID: 'https://experienceleague.adobe.com/ieVuCgWFcHX0Kly5pqKAQR5Nn2T1XhwiOuq6tmGUbJI'
 product_v2:
@@ -22,4 +22,4 @@ topic_v2:
     internal-label: Personalization
 ---
 
-# Facets Best Practices
+# Facets best practices

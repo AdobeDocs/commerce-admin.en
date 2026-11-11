@@ -1,7 +1,7 @@
 ---
 title: Recommendations Performance
 description: The Recommendations performance page provides insight into how well your product recommendations are performing.
-badgeSaas: label="SaaS only" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service and [!DNL Adobe Commerce Optimizer] projects only (Adobe-managed SaaS infrastructure)."
+badgeSaas: label="SaaS only" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service instances provisioned with CCDM only (Adobe-managed SaaS infrastructure)."
 autotag-review: '2026-11-02T19:12:08.536Z'
 TQID: 'https://experienceleague.adobe.com/kz7MdvZBW-55Wg9EtKduG33jvzgEl93zWfs30hFe1YY'
 product_v2:
@@ -25,4 +25,4 @@ topic_v2:
     internal-label: Insights
 ---
 
-# Recommendations Performance
+# Recommendations performance

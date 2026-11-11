@@ -1,9 +1,9 @@
 ---
-title: Search matching and ranking
-description: Learn how [!DNL Adobe Commerce Optimizer] prioritizes exact and near matches, same-field matches, and cross-field matches, and how ranking interacts with search weights, intelligent ranking, and merchandising rules.
+title: Search Matching and Ranking
+description: Learn how [!DNL Adobe Commerce Optimizer] ranks exact, near, same-field, and cross-field matches, and how ranking works with weights and merchandising rules.
 role: Admin, Leader, User
 recommendations: noCatalog
-badgeSaas: label="SaaS only" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service and [!DNL Adobe Commerce Optimizer] projects only (Adobe-managed SaaS infrastructure)."
+badgeSaas: label="SaaS only" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service instances provisioned with CCDM only (Adobe-managed SaaS infrastructure)."
 hide: true
 autotag-review: '2026-11-02T19:17:14.019Z'
 TQID: 'https://experienceleague.adobe.com/9pCrz4vA-A9qR8NpuhylRBFmBc1-wIgi3yG1w-dybTg'

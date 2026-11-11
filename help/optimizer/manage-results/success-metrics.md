@@ -1,7 +1,7 @@
 ---
 title: Success metrics
 description: Success metrics provides insight into the key performance metrics for your [!DNL Adobe Commerce Optimizer] store.
-badgeSaas: label="SaaS only" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service and [!DNL Adobe Commerce Optimizer] projects only (Adobe-managed SaaS infrastructure)."
+badgeSaas: label="SaaS only" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service instances provisioned with CCDM only (Adobe-managed SaaS infrastructure)."
 autotag-review: '2026-11-02T19:17:26.674Z'
 TQID: 'https://experienceleague.adobe.com/qWHF3u721-Ub1gqbW-QXDUW78ZtSxo6U6R0P0OMxpyc'
 product_v2:

@@ -47,6 +47,8 @@ The [!UICONTROL Marketing] menu provides access tools for managing promotions, c
 
 >[!ENDTABS]
 
+{{ccdm-merchandising-note}}
+
 ## Display the [!UICONTROL Marketing] menu
 
 On the _Admin_ sidebar, click **[!UICONTROL Marketing]**.

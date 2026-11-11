@@ -1,7 +1,7 @@
 ---
 title: Merchandising Settings
 description: Configure settings for [!DNL Adobe Commerce Optimizer].
-badgeSaas: label="SaaS only" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service and [!DNL Adobe Commerce Optimizer] projects only (Adobe-managed SaaS infrastructure)."
+badgeSaas: label="SaaS only" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service instances provisioned with CCDM only (Adobe-managed SaaS infrastructure)."
 TQID: 'https://experienceleague.adobe.com/mkvRlke8kOz0hVD3dYwU24FXwtQrDP5fOWrm3OSJlZA'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -18,7 +18,7 @@ topic_v2:
     internal-label: Personalization
 ---
 
-# Merchandising Settings
+# Merchandising settings
 
 
 

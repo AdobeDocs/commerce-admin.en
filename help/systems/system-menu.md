@@ -49,6 +49,8 @@ The [!UICONTROL System] menu includes tools to import and export data, manage sy
 
 >[!ENDTABS]
 
+{{ccdm-merchandising-note}}
+
 **_To display the [!UICONTROL System] menu:_**
 
 On the _Admin_ sidebar, click **[!UICONTROL System]**.

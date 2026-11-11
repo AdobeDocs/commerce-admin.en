@@ -1,9 +1,9 @@
 ---
-title: Merchandising Services tasks by role
+title: Merchandising Services Tasks by Role
 description: Find task guidance for administrators, developers, and merchandisers working with Adobe Commerce as a Cloud Service instances provisioned with CCDM.
 role: Admin, Developer
 recommendations: noCatalog
-badgeSaas: label="SaaS only" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service and [!DNL Adobe Commerce Optimizer] projects only (Adobe-managed SaaS infrastructure)."
+badgeSaas: label="SaaS only" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service instances provisioned with CCDM only (Adobe-managed SaaS infrastructure)."
 TQID: 'https://experienceleague.adobe.com/0PmobUkdEWspxuRSaIPL8vS1ojDDZ3gw-L-3SfPmJAg'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

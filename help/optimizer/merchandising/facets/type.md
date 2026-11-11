@@ -1,7 +1,7 @@
 ---
 title: Facet Types
 description: Learn about the different types of facets in [!DNL Adobe Commerce Optimizer].
-badgeSaas: label="SaaS only" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service and [!DNL Adobe Commerce Optimizer] projects only (Adobe-managed SaaS infrastructure)."
+badgeSaas: label="SaaS only" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service instances provisioned with CCDM only (Adobe-managed SaaS infrastructure)."
 autotag-review: '2026-11-02T19:19:37.050Z'
 TQID: 'https://experienceleague.adobe.com/jeBR535CTNK0jhGRt9j5yPuEQHb-HQ0HWVxoRD-Fi5Q'
 product_v2:
@@ -21,4 +21,4 @@ topic_v2:
     internal-label: Personalization
 ---
 
-# Types of Facets
+# Types of facets

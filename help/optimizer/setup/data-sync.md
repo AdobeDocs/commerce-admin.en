@@ -1,9 +1,9 @@
 ---
 title: Catalog Sync
-description: Review the catalog data that is being synchronized to the Merchandising Services data layer.  This ensures that your product data is available for your storefront and can be promptly displayed to your shoppers.
+description: Review the catalog data synchronized to the Merchandising Services data layer to confirm that your product data is available for your storefront.
 role: Admin, Developer
 recommendations: noCatalog
-badgeSaas: label="SaaS only" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service and [!DNL Adobe Commerce Optimizer] projects only (Adobe-managed SaaS infrastructure)."
+badgeSaas: label="SaaS only" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service instances provisioned with CCDM only (Adobe-managed SaaS infrastructure)."
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
@@ -11,7 +11,5 @@ topic_v2:
     internal-label: Insights
 ---
 
-# Catalog Sync
-
-
+# Catalog sync
 

@@ -33,6 +33,10 @@ topic_v2:
 
 Use this setting to control the default expiration period that the [!DNL Adobe Commerce Optimizer Connector for B2B] applies to restricted access keys it provisions for B2B shared catalog views. To create, assign, and delete these keys, see [Restricted Access Keys management](../../systems/restricted-access-keys.md).
 
+>[!NOTE]
+>
+>This page applies to the connector. Instances provisioned with the Composable Catalog Data Model (CCDM) synchronize data natively and do not use the connector. See [Merchandising Services with CCDM](/help/optimizer/overview.md).
+
 {{config}}
 
 ## [!UICONTROL Provisioning]
