@@ -40,6 +40,8 @@ topic_v2:
 >[!NOTE]
 >
 >The standard layered navigation described in this section differs from Live Search filtered navigation with [facets](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets).
+>
+>For instances provisioned with the Composable Catalog Data Model (CCDM), see [Facets](/help/optimizer/merchandising/facets/overview.md) in Merchandising Services.
 
 Layered navigation makes it easy to find products based on category, price range, or any other available attribute. Layered navigation usually displays in the left column of search results and category pages and sometimes on the home page. The standard navigation includes a _Shop By_ list of categories and price range. You can configure the display of layered navigation, including product count and price range.
 

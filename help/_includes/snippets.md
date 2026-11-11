@@ -82,6 +82,12 @@ To access the store configuration settings, choose **[!UICONTROL Stores]** > _[!
 >
 >Adobe Commerce B2B version 1.4.2+ is compatible with PHP 8.2. If you upgrade the Commerce instance to version 2.4.7+, ensure that the instance uses PHP version 8.2 to maintain compatibility with the Adobe Commerce B2B release. Additionally, the B2B 1.4.2+ release does not support the [GraphQL Application Server](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server).
 
+## CCDM Merchandising Services note {#ccdm-merchandising-note}
+
+>[!NOTE]
+>
+>If your Adobe Commerce as a Cloud Service instance is provisioned with the Composable Catalog Data Model (CCDM), you manage catalog views, policies, merchandising, and reporting in Merchandising Services. See [Merchandising Services with CCDM](/help/optimizer/overview.md).
+
 ## reCAPTCHA forms list {#recaptcha-forms-list}
 
 - [!UICONTROL Enable for Customer Login]

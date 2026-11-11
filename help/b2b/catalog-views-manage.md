@@ -36,6 +36,10 @@ topic_v2:
 ---
 # Manage catalog view configuration
 
+>[!NOTE]
+>
+>This topic describes the catalog view implementation for Commerce deployments using the Adobe Commerce Optimizer Connector for B2B. If you are using Adobe Commerce as a Cloud Service with Merchandising Services and the composable catalog data model (CCDM), see setup [Catalog Views](../optimizer/setup/catalog-view.md) in the _Merchandising Services with CCDM Guide_.
+
 With the [!DNL Adobe Commerce Optimizer Connector for B2B] extension installed, the Catalog Views page lists the [!DNL Adobe Commerce Optimizer]  [catalog view projections](https://experienceleague-review.adobe.com/en/docs/commerce/aco-optimizer-connector/b2b-shared-catalog-projection){target="_blank"} created for custom shared catalog.  A _projection_ is the catalog view created when the connector synchronizes shared catalog data to [!DNL Adobe Commerce Optimizer]. The connector creates a separate projection for each store view in the shared catalog, so a shared catalog can have multiple catalog views. In storefront experiences, these catalog views are accessible only to companies assigned to the associated shared catalog.
 
 For example, suppose Acme Industrial is assigned to one shared catalog, EU Business, which belongs to the EU Website. That website has two store views:
