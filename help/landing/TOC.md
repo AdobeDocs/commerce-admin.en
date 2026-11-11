@@ -12,7 +12,7 @@ nudge: true
 - [Adobe Commerce B2B](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/guide-overview)
 - [Catalog Management](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/guide-overview)
 - [[!DNL Inventory Management]](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/guide-overview)
-- [Merchandising with composable catalog data model (CCDM)](https://experienceleague.adobe.com/en/docs/commerce-admin/optimizer/overview)
+- [Merchandising Services with CCDM](https://experienceleague.adobe.com/en/docs/commerce-admin/optimizer/overview)
 - [Merchandising and Promotions](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/guide-overview)
 - [Content and Design](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/guide-overview)
 - [[!DNL Page Builder]](https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/guide-overview)

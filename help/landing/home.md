@@ -102,10 +102,12 @@ Magento Open Source is the code base that Adobe officially contributes to and en
   </td>
 </tr>
 <tr>
-    <td valign="top">
-         <img alt="Merchandising Services" src="./assets/icon-merchandising-ccdm.svg" width="40" height="40"/></td>
-       <td valign="top"><a href="../optimizer/overview.md"> <strong>Merchandising Services with the composable catalog data model (CCDM)</strong></a> [!BADGE SaaS only]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service and Adobe Commerce Optimizer projects only (Adobe-managed SaaS infrastructure)."}
-      <div><em>Merchandising Services with CCDM let merchants use catalog views and policies to tailor product assortments across brands, regions, business units, and channels, supporting product discovery and recommendations.</em></div>
+  <td valign="top">
+    <img alt="Merchandising Services" src="./assets/icon-merchandising-ccdm.svg" width="40" height="40"/>
+  </td>
+  <td valign="top">
+    <a href="../optimizer/overview.md"><strong>Merchandising Services with the Composable Catalog Data Model (CCDM)</strong></a> [!BADGE SaaS only]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service instances provisioned with CCDM only (Adobe-managed SaaS infrastructure)."}
+    <div><em>Configure catalog views and policies, manage merchandising rules and recommendations, review storefront performance, and monitor catalog synchronization in Commerce Admin.</em></div>
   </td>
 </tr>
 <tr>
