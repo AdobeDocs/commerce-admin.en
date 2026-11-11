@@ -7,6 +7,8 @@ TQID: 'https://experienceleague.adobe.com/n7WvI0yju-qRiFtTxaCxr5xp3xzNUn-ywytltW
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
+  - id: de2e2e68-c5d7-4efe-be7b-27528698f06b
+    internal-label: Commerce as a Cloud Service
 feature_v2:
   - id: 58c984c2-e237-5c50-9718-500e40d1e82c
     internal-label: Merchandising

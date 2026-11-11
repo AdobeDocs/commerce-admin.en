@@ -7,11 +7,11 @@ TQID: 'https://experienceleague.adobe.com/suVqMbKCBqrvBTt-WDcxmjkgB9bWmXMQzpp0Ek
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
+  - id: de2e2e68-c5d7-4efe-be7b-27528698f06b
+    internal-label: Commerce as a Cloud Service
 feature_v2:
   - id: cc04bd17-78d5-5120-8c3d-1b8a57e49280
     internal-label: Integration
-  - id: d3b92bef-63fa-5031-a925-d04d9362d616
-    internal-label: Saas
   - id: f37757d8-3174-5335-b977-1161792f965d
     internal-label: Personalization
   - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
