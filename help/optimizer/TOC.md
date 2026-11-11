@@ -54,7 +54,6 @@ recommendations: noDisplay
    - [Semantic search](./setup/semantic-search.md)
    - Events {#events}
       - [Overview](./setup/events/overview.md)
-- [Settings](settings.md)
 - Use case {#use-case}
    - [Storefront and Catalog Admin end-to-end use case](./use-case/admin-use-case.md)
 - Launch site {#launch}

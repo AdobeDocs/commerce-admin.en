@@ -1,6 +1,6 @@
 ---
-title: Get Started
-description: Learn how to get started with [!DNL Adobe Commerce Optimizer].
+title: Merchandising Services tasks by role
+description: Find task guidance for administrators, developers, and merchandisers working with Adobe Commerce as a Cloud Service instances provisioned with CCDM.
 role: Admin, Developer
 recommendations: noCatalog
 badgeSaas: label="SaaS only" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service and [!DNL Adobe Commerce Optimizer] projects only (Adobe-managed SaaS infrastructure)."
@@ -8,13 +8,11 @@ TQID: 'https://experienceleague.adobe.com/0PmobUkdEWspxuRSaIPL8vS1ojDDZ3gw-L-3Sf
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
+  - id: de2e2e68-c5d7-4efe-be7b-27528698f06b
+    internal-label: Commerce as a Cloud Service
 feature_v2:
-  - id: 5a951749-fac9-5bc7-9a98-ebe4ff066437
-    internal-label: Cloud
   - id: cc04bd17-78d5-5120-8c3d-1b8a57e49280
     internal-label: Integration
-  - id: d3b92bef-63fa-5031-a925-d04d9362d616
-    internal-label: Saas
   - id: dec06508-d41f-555a-87e8-29e8bcdfa95a
     internal-label: Recommendations
   - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
@@ -37,28 +35,42 @@ topic_v2:
     internal-label: Personalization
 ---
 
-# Get started with Merchandising Services
+# Merchandising Services tasks by role
 
-Merchandisers optimize and personalize the shopping experience through product discovery and recommendations. They also use shopper data and analytics to make strategic decisions about product placement, pricing, and promotions on the storefront.
+Use this task reference to find guidance for configuring catalog data, integrating the storefront, managing merchandising, and reviewing performance in Adobe Commerce as a Cloud Service instances provisioned with the Composable Catalog Data Model (CCDM).
 
-Developers handle technical implementation and data integration, including platform architecture tasks. For Adobe Commerce as a Cloud Service with the composable catalog data model (CCDM), the catalog setup tasks are done in Adobe Commerce.
+Responsibilities vary by implementation. The following sections group tasks by the roles that typically perform them.
 
-If you use Adobe Commerce on Cloud Infrastructure or on-premises, you connect to Merchandising Services with CCDM by configuring the Adobe Commerce Optimizer Connector. See the [Adobe Commerce Optimizer Connector Guide](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/overview){target=_blank}.
+- Administrators manage products, prices, and B2B configuration in Commerce Foundation.
+- Developers configure the storefront integration and verify catalog requests and behavioral-data collection.
+- Merchandisers configure product discovery and recommendations and use reporting to inform merchandising decisions.
 
-| Task | Description | Link |
+Product and price data synchronize to CCDM through native Adobe Commerce as a Cloud Service integration. No separate connector installation or App Builder app is required.
+
+## Prepare the catalog and storefront
+
+Complete the tasks that apply to your implementation. B2C catalog views can be created manually. B2B catalog views, policies, and price books are generated from the B2B configuration in Commerce Foundation.
+
+| Task | Description | Resources |
 | --- | --- | --- |
-| **Configure products and prices** | Configure products and prices in Adobe Commerce. Pricing data is mapped to price books when data is synced to Merchandising Services. See [Base catalog mapping](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/overview#base-catalog-mapping){target=_blank} to understand how catalog data is mapped. | Manage products: [Products list](../catalog/products-list.md), [Product workspace](../catalog/product-workspace.md), and [Create a product](../catalog/product-create.md). Manage pricing: [Price scope](../catalog/catalog-price-scope.md), [Advanced pricing](../catalog/pricing-advanced.md), [Group pricing](../catalog/product-price-group.md), [Special prices](../catalog/product-price-special.md), and [Tier pricing](../catalog/product-price-tier.md). Sync: [Adobe Commerce Optimizer Connector](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/overview) |
-| **Configure catalogs** | Configure store views in Adobe Commerce. Store views are mapped to catalog sources when data is synced to Merchandising Services, and each catalog source includes the localized product attributes and any store-view-specific data. | [Catalog sources](./setup/catalog-sources.md) |
-| **Set up B2B shared catalogs and accounts** | For B2B, set up shared catalogs and configure companies and company accounts | [Shared catalogs](../b2b/catalog-shared.md) and [Companies](../b2b/account-companies.md) |
-| **Configure B2C catalog views** | Create catalog views that combine catalog sources, policies, and price books for each brand, region, business unit, or channel. From the catalog view, define the catalog layers that modify product data without changing the source data. Optionally, restrict a catalog view to make it private. | [Catalog views](./setup/catalog-view.md), [Catalog layers](./setup/catalog-layer.md), and [Private catalog views](./setup/private-catalog-view.md) |
-| **Configure B2B catalog views** | For B2B, catalog views are projected from custom shared catalogs in Adobe Commerce. The integration creates and manages these views and their associated configuration. You do not need to create them manually. | [Manage catalog view configuration](../b2b/catalog-views-manage.md) |
-| **Configure policies** | Define the data access filters that control which products each catalog view delivers.<br><br>For B2B Commerce deployments, policies are mapped based on the Shared Catalog configuration. See [Data mapping](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/b2b-shared-catalog-projection#data-mapping){target=_blank}. | [Policies](./setup/policies.md) |
-| **Set Up the Storefront** | Configure Edge Delivery Services storefront | [Storefront Setup](https://experienceleague.adobe.com/en/tools/commerce-storefront/setup/configuration/commerce-configuration/){target=_blank} |
+| **Configure products and prices** | Manage products and prices in Commerce Foundation. Pricing data synchronizes to CCDM as price books; do not independently author prices in CCDM. | [Products list](../catalog/products-list.md), [Create a product](../catalog/product-create.md), [Price scope](../catalog/catalog-price-scope.md), and [Advanced pricing](../catalog/pricing-advanced.md) |
+| **Configure store views** | Configure the store views and localized product data required for your storefront in Commerce Foundation. | [Store views](../stores-purchase/store-views.md) |
+| **Set up B2B shared catalogs and companies** | For B2B implementations, configure shared catalogs and company relationships in Commerce Foundation before reviewing the generated catalog configuration. | [Shared catalogs](../b2b/catalog-shared.md) and [Companies](../b2b/account-companies.md) |
+| **Configure B2C catalog views and policies** | Create catalog views and select the policies that define the available product assortment. Associate the applicable synchronized price books with each view. | [Catalog views](./setup/catalog-view.md) |
+| **Review B2B catalog views** | Confirm that native synchronization has generated the expected catalog views, policies, and price books. Manage the underlying B2B configuration in Commerce Foundation rather than creating duplicate structures manually. | [B2B catalog views](./setup/catalog-view.md#b2b-catalog-views) |
+| **Configure the storefront** | Configure the storefront to request the intended catalog context. For custom or other storefront integrations, review the applicable catalog request headers. | [Storefront configuration](https://experienceleague.adobe.com/en/tools/commerce-storefront/setup/configuration/commerce-configuration/) |
 
-| Task | Description | Link |
+Before configuring merchandising, confirm that the storefront returns the expected products and prices. Test add-to-cart, cart, and checkout to verify that transaction pricing matches the intended Commerce Foundation configuration.
+
+## Configure merchandising and review performance
+
+| Task | Description | Resources |
 | --- | --- | --- |
-| **Product Discovery** | Configure search and filtering | [Merchandising Overview](./merchandising/overview.md) |
-| **Search settings** | Manage semantic search (enabled by default) and optional tuning | [Merchandising Settings — Advanced search](./settings.md#advanced-search) and [Semantic search](./setup/semantic-search.md) |
-| **Recommendations** | Set up AI-powered product recommendations | [Product Recommendations](./merchandising/recommendations/overview.md) |
-| **Performance Tracking** | Monitor success metrics and search performance | [Success Metrics](./manage-results/success-metrics.md) and [Search Performance](./manage-results/search-performance.md) |
+| **Configure product discovery** | Set up merchandising rules, facets, and synonyms. Rules can apply across all catalog views or be tailored to a specific view. | [Merchandising overview](./merchandising/overview.md) |
+| **Review search settings** | Review the search configuration and available semantic-search options for your implementation. | [Merchandising settings](./settings.md) and [Semantic search](./setup/semantic-search.md) |
+| **Configure recommendations** | Create recommendation units and verify that the storefront collects the behavioral data required by the implementation. | [Recommendations overview](./merchandising/recommendations/overview.md) |
+| **Review performance** | Use Success Metrics and search performance reporting to evaluate storefront activity and inform merchandising decisions. | [Success Metrics](./manage-results/success-metrics.md) and [Search performance](./manage-results/search-performance.md) |
 
+## Next steps
+
+After configuring merchandising and reviewing performance, continue to monitor and adjust your rules, facets, and recommendations as needed to optimize the storefront experience.
