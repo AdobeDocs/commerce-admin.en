@@ -18,5 +18,5 @@ nudge: true
 - [[!DNL Page Builder]](https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/guide-overview)
 - [Customer Management](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/guide-overview)
 - [Stores and Purchase Experience](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/guide-overview)
-- [Admin systems](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/guide-overview)
+- [Admin Systems](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/guide-overview)
 - [Configuration Reference Guide](https://experienceleague.adobe.com/en/docs/commerce-admin/config/guide-overview)

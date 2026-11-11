@@ -17,7 +17,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
 ---
-# Merchandising Services overview
+# Merchandising Services with CCDM overview
 
 Adobe Commerce as a Cloud Service instances provisioned with the Composable Catalog Data Model (CCDM) provide catalog configuration, merchandising, reporting, and monitoring tools in [Commerce Admin in Adobe Unified Experience](../getting-started/admin-unified-experience.md). CCDM is the same catalog foundation that powers Adobe Commerce Optimizer.
 

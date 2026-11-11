@@ -3,6 +3,7 @@ title: Storefront and Catalog Administrator End-to-End Use Case
 description: Learn how to use [!DNL Adobe Commerce Optimizer] catalog views and policies to manage your catalog and set up your storefront to match your configuration.
 role: Admin, Developer
 feature: Personalization, Integration
+hide: true
 badgeSaas: label="SaaS only" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service instances provisioned with CCDM only (Adobe-managed SaaS infrastructure)."
 autotag-review: '2026-11-02T19:39:05.356Z'
 TQID: 'https://experienceleague.adobe.com/5YIe-yCWxOcc56mi2p1QS9mIqaJxVsUvaN-AOF7Khi8'
