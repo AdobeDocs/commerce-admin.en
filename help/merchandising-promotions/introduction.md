@@ -35,6 +35,8 @@ topic_v2:
 
 Target promotions and create opportunities for customer engagement, and turn shoppers into buyers. Manage customer relationships by supporting post-purchase activities and offering special discounts to returning customers. Learn best practices and techniques to support your SEO initiatives.
 
+{{ccdm-merchandising-note}}
+
 ## Merchandising
 
 _Merchandising_ is a term used in retail to describe the art and science of floor plan development and the presentation of products. You might think of the [category-based navigation](../catalog/navigation-top.md) as the floor plan of the store, and the dynamic presentation of products as the conditions that you can apply to the listing of products in the store. Also, you can implement programs that drive more product sales:

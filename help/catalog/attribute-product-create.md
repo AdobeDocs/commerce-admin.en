@@ -171,7 +171,7 @@ For an attribute to be visible on the product creation page, add it to a specifi
 Any attribute that is used as a drop-down list of options for a [configurable product](product-create-configurable.md) must have the following properties:
 
 | Property | Value |
-|----------|------ |
+| ---------- | ------ |
 | Catalog Input Type for Store Owner | Dropdown |
 | Scope | Global |
 

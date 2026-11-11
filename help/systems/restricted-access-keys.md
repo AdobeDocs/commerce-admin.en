@@ -45,6 +45,8 @@ Use the Restricted Access Keys page to manage access keys for private catalog vi
 >[!NOTE]
 >
 >For manually created keys used to manage private catalogs in non-B2B scenarios, such as partner portals, manage keys from [[!DNL Adobe Commerce Optimizer Studio]](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/restricted-access-keys){target="_blank"}.
+>
+>For instances provisioned with the Composable Catalog Data Model (CCDM), see [Restricted access keys](/help/optimizer/setup/restricted-access-keys.md) in Merchandising Services.
 
 ## Audience and availability {#audience}
 

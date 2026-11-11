@@ -48,6 +48,8 @@ Use the Catalog View Sync Status page to monitor synchronization and troubleshoo
 >[!NOTE]
 >
 >To track the synchronization status for catalog data feeds, use the [[!UICONTROL Data Feed Sync Status]](data-feed-sync-status.md) page.
+>
+>This page applies to catalog views created by the connector. For instances provisioned with the Composable Catalog Data Model (CCDM), see [Catalog sync](/help/optimizer/setup/data-sync.md) in Merchandising Services.
 
 ## Audience and availability {#audience}
 

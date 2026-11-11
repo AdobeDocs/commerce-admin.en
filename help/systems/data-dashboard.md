@@ -47,6 +47,8 @@ The Data Management Dashboard offers an overview of the synchronization status f
 >[!NOTE]
 >
 >If you have installed the [Adobe Commerce Optimizer Connector ](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/overview) to export catalog data to Adobe Commerce Optimizer, use the [Data Sync page](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync) in Commerce Optimizer Studio to verify successful data synchronization, rather than the Data Management Dashboard.
+>
+>For instances provisioned with the Composable Catalog Data Model (CCDM), see [Catalog sync](/help/optimizer/setup/data-sync.md) in Merchandising Services.
 
 ## Audience
 

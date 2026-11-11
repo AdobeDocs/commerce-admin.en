@@ -1,6 +1,6 @@
 ---
 title: "[!UICONTROL System] menu"
-description: The Commerce Admin includes the [!UICONTROL System] menu, which provides access to tools for import and export of data, system cache and index management, Admin access and permissions management, backups, system notifications, and custom variables.
+description: The [!UICONTROL System] menu provides access to tools for data import and export, cache and index management, permissions, backups, and notifications.
 exl-id: 3f3bfc07-0ac8-4a50-9442-4b2e1e5fba04
 TQID: https://experienceleague.adobe.com/fNQyGiTfJuHW-AuspIq122m0mqxzaLXP63AFHWIT2lo
 product_v2:
@@ -48,6 +48,8 @@ The [!UICONTROL System] menu includes tools to import and export data, manage sy
 ![System menu](./assets/system-menu-accs.png){width="600" zoomable="yes"}
 
 >[!ENDTABS]
+
+{{ccdm-merchandising-note}}
 
 **_To display the [!UICONTROL System] menu:_**
 
