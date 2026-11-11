@@ -32,3 +32,5 @@ topic_v2:
 ---
 
 # Recommendation types
+
+{{$include /help/_includes/ccdm-shared/merchandising/recommendations/types.md}}

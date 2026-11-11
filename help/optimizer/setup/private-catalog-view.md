@@ -19,3 +19,5 @@ topic_v2:
 ---
 
 # Private catalog views
+
+{{$include /help/_includes/ccdm-shared/setup/private-catalog-view.md}}

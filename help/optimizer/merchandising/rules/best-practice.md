@@ -27,3 +27,5 @@ topic_v2:
 ---
 
 # Merchandising rules best practices
+
+{{$include /help/_includes/ccdm-shared/merchandising/rules/best-practice.md}}

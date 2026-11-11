@@ -9,7 +9,7 @@ recommendations: noDisplay
 # Merchandising Services with composable catalog data model (CCDM) {#merchandising-with-ccdm}
 
 - [What is Merchandising Services with CCDM?](overview.md)
-- [Get started with merchandising](get-started-merchandising-ccdm.md)
+- [Catalog merchandising tasks by role](get-started-merchandising-ccdm.md)
 - Managing results {#manage-results}
    - [Success metrics](./manage-results/success-metrics.md)
    - [Search performance](./manage-results/search-performance.md)
@@ -58,4 +58,6 @@ recommendations: noDisplay
    - [Storefront and catalog admin end-to-end use case](./use-case/admin-use-case.md)
 - Launch site {#launch}
    - [Launch checklist](./launch/launch-checklist.md)
+- [Return to Admin User Guides](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+
 

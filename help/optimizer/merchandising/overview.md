@@ -33,3 +33,5 @@ topic_v2:
 ---
 
 # Merchandising Services with composable catalog data model (CCDM)
+
+{{$include /help/_includes/ccdm-shared/merchandising/overview.md}}

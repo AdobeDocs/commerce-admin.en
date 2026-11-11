@@ -28,3 +28,5 @@ topic_v2:
 ---
 
 # Recommendations best practices
+
+{{$include /help/_includes/ccdm-shared/merchandising/recommendations/best-practice.md}}

@@ -12,3 +12,5 @@ product_v2:
 ---
 
 # Semantic search
+
+{{$include /help/_includes/ccdm-shared/setup/semantic-search.md}}

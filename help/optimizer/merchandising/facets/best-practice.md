@@ -25,3 +25,5 @@ topic_v2:
 ---
 
 # Facets best practices
+
+{{$include /help/_includes/ccdm-shared/merchandising/facets/best-practice.md}}

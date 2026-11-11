@@ -28,3 +28,5 @@ topic_v2:
 ---
 
 # Recommendations performance
+
+{{$include /help/_includes/ccdm-shared/manage-results/recommendation-performance.md}}

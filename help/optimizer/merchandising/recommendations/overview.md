@@ -31,3 +31,5 @@ topic_v2:
 ---
 
 # Introduction to recommendations
+
+{{$include /help/_includes/ccdm-shared/merchandising/recommendations/overview.md}}

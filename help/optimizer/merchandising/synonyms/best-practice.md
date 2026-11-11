@@ -25,3 +25,5 @@ topic_v2:
 ---
 
 # Synonym best practices
+
+{{$include /help/_includes/ccdm-shared/merchandising/synonyms/best-practice.md}}

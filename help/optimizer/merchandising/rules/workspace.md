@@ -24,3 +24,5 @@ topic_v2:
 ---
 
 # Merchandising rules workspace
+
+{{$include /help/_includes/ccdm-shared/merchandising/rules/workspace.md}}

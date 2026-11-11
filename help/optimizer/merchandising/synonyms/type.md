@@ -22,3 +22,5 @@ topic_v2:
 ---
 
 # Types of synonyms
+
+{{$include /help/_includes/ccdm-shared/merchandising/synonyms/type.md}}

@@ -28,3 +28,5 @@ topic_v2:
 ---
 
 # Create and manage recommendations
+
+{{$include /help/_includes/ccdm-shared/merchandising/recommendations/create.md}}

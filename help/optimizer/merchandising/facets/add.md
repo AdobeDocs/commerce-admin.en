@@ -24,3 +24,5 @@ topic_v2:
 ---
 
 # Create and manage facets
+
+{{$include /help/_includes/ccdm-shared/merchandising/facets/add.md}}

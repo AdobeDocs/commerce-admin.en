@@ -24,3 +24,5 @@ topic_v2:
 ---
 
 # Create synonyms
+
+{{$include /help/_includes/ccdm-shared/merchandising/synonyms/add.md}}

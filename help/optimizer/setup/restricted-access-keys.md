@@ -19,3 +19,5 @@ topic_v2:
 ---
 
 # Restricted access keys
+
+{{$include /help/_includes/ccdm-shared/setup/restricted-access-keys.md}}

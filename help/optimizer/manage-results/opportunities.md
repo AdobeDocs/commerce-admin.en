@@ -40,3 +40,5 @@ topic_v2:
 ---
 
 # Opportunities
+
+{{$include /help/_includes/ccdm-shared/manage-results/opportunities.md}}

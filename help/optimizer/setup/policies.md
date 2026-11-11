@@ -14,3 +14,5 @@ topic_v2:
 ---
 
 # Policies
+
+{{$include /help/_includes/ccdm-shared/setup/policies.md}}

@@ -38,3 +38,5 @@ topic_v2:
 ---
 
 # Success metrics
+
+{{$include /help/_includes/ccdm-shared/manage-results/success-metrics.md}}

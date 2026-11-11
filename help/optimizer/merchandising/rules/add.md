@@ -28,3 +28,5 @@ topic_v2:
 ---
 
 # Create and manage rules
+
+{{$include /help/_includes/ccdm-shared/merchandising/rules/add.md}}

@@ -22,3 +22,5 @@ topic_v2:
 ---
 
 # Facets workspace
+
+{{$include /help/_includes/ccdm-shared/merchandising/facets/workspace.md}}

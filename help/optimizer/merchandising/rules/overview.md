@@ -24,3 +24,5 @@ topic_v2:
 ---
 
 # Merchandising rules
+
+{{$include /help/_includes/ccdm-shared/merchandising/rules/overview.md}}

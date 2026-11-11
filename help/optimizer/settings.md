@@ -22,6 +22,4 @@ topic_v2:
 
 # Merchandising settings
 
-
-
-
+{{$include /help/_includes/ccdm-shared/settings.md}}

@@ -26,3 +26,5 @@ topic_v2:
 ---
 
 # Facets
+
+{{$include /help/_includes/ccdm-shared/merchandising/facets/overview.md}}

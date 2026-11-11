@@ -1,5 +1,5 @@
 ---
-title: Merchandising Services Tasks by Role
+title: Catalog Merchandising Tasks by Role
 description: Find task guidance for administrators, developers, and merchandisers working with Adobe Commerce as a Cloud Service instances provisioned with CCDM.
 role: Admin, Developer
 recommendations: noCatalog
@@ -35,7 +35,7 @@ topic_v2:
     internal-label: Personalization
 ---
 
-# Merchandising Services tasks by role
+# Catalog merchandising tasks by role
 
 Use this task reference to find guidance for configuring catalog data, integrating the storefront, managing merchandising, and reviewing performance in Adobe Commerce as a Cloud Service instances provisioned with the Composable Catalog Data Model (CCDM).
 

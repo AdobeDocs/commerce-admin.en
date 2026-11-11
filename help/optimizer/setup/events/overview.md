@@ -34,3 +34,5 @@ topic_v2:
 ---
 
 # Events
+
+{{$include /help/_includes/ccdm-shared/setup/events/overview.md}}

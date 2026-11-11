@@ -28,3 +28,5 @@ topic_v2:
 ---
 
 # Search performance
+
+{{$include /help/_includes/ccdm-shared/manage-results/search-performance.md}}

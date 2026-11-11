@@ -22,3 +22,5 @@ topic_v2:
 ---
 
 # Synonyms
+
+{{$include /help/_includes/ccdm-shared/merchandising/synonyms/overview.md}}

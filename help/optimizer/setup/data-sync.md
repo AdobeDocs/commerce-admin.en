@@ -18,3 +18,4 @@ topic_v2:
 
 # Catalog sync
 
+{{$include /help/_includes/ccdm-shared/setup/data-sync.md}}

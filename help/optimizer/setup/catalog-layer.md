@@ -19,3 +19,5 @@ topic_v2:
 ---
 
 # Catalog layers
+
+{{$include /help/_includes/ccdm-shared/setup/catalog-layer.md}}

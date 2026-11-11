@@ -26,3 +26,5 @@ topic_v2:
 ---
 
 # Filter products
+
+{{$include /help/_includes/ccdm-shared/merchandising/recommendations/filters.md}}
