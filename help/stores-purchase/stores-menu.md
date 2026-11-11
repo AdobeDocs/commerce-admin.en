@@ -1,6 +1,6 @@
 ---
 title: "[!UICONTROL Stores] menu"
-description: The Commerce Admin includes the [!UICONTROL Stores] menu, which provides access to tools for setting up the store hierarchy, configuration, inventory, taxes, and attributes.
+description: The [!UICONTROL Stores] menu provides access to tools for setting up the store hierarchy, configuration, inventory, taxes, and attributes.
 exl-id: b9d8ea6b-5b4b-42af-b74d-7afa48ccf2ff
 TQID: https://experienceleague.adobe.com/LEoQUYqvin2UfF55kCMUiEUh8YungghN-VuEwUOu7gY
 product_v2:

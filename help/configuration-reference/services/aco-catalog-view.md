@@ -1,6 +1,6 @@
 ---
 title: "[!UICONTROL Services] &gt; ACO Catalog View"
-description: Review and update the Adobe Commerce Optimizer configuration settings on the [!UICONTROL Services] &gt; [!UICONTROL ACO Catalog View] page of the Commerce Admin.
+description: Review and update the Adobe Commerce Optimizer settings on the [!UICONTROL Services] &gt; [!UICONTROL ACO Catalog View] page of the Commerce Admin.
 feature: Configuration, Security
 badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 product_v2:

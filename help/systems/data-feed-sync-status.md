@@ -1,6 +1,6 @@
 ---
 title: Monitor Data Feed Sync Status in Commerce
-description: Track exports. Diagnose sync issues for [!DNL Catalog Service], [!DNL Live Search], [!DNL Product Recommendations], and [!DNL Adobe Commerce Optimizer Connector].
+description: "Track exports and sync issues for [!DNL Catalog Service], [!DNL Live Search], [!DNL Product Recommendations], and [!DNL Adobe Commerce Optimizer Connector]."
 feature: Products, Customers, Data Import/Export
 role: Admin
 level: Beginner
