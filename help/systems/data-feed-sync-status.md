@@ -175,7 +175,7 @@ Manually resync in these cases:
 
 ### Confirm data in connected services {#confirm-data-in-connected-services}
 
-To verify end-to-end synchronization after exports complete, use one of the following methods. For the limits of export status on this page, see the [note above](#export-status-scope).
+To verify end-to-end synchronization after exports complete, use one of the following methods. For the limits of export status on this page, see the [note above](#access-data-feed-sync-status-page).
 
 - **[!DNL Adobe Commerce as a Cloud Service] with Commerce services:** Check the applicable [Data Management Dashboard](data-dashboard.md) to confirm downstream availability.
 - **[!DNL Adobe Commerce as a Cloud Service] provisioned with CCDM:** Product and price data synchronizes natively. Use [Catalog sync](/help/optimizer/setup/data-sync.md) in Merchandising Services to confirm data availability.
