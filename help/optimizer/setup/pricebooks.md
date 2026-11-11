@@ -49,9 +49,9 @@ At a high level, the mapping is:
 - **Website → Price book or price books**—Website pricing maps to the applicable price book or books.
 - **Customer-group pricing → Price book entries**—Customer-group pricing maps to the relevant price entries.
 
-Maintain the source catalog, website, and pricing configuration in the Adobe Commerce configuration, then assign the mapped price books in the relevant catalog view.
+Maintain the source catalog, website, and pricing configuration in the Adobe Commerce configuration, then assign the mapped price books in the relevant catalog view by configuring available price books. If no price books are assigned, the catalog view uses the default price book.
 
-A catalog view uses the applicable price book with its catalog data and policies to determine the merchandising experience, including the prices returned for products.
+A catalog view uses the available price books configuration with its catalog data and policies to determine the merchandising experience, including the prices returned for products.
 
 >[!NOTE]
 >
@@ -77,7 +77,7 @@ After the catalog data sync completes, view the available price books and their 
 
 ## Configure price book availability
 
-Use the integrated Commerce Admin to associate mapped price books with catalog views and specify the pricing data available to stores backed by each view.
+Associate mapped price books with catalog views by configuring available price books in the Catalog Views workspace in the Commerce Admin.
 
 >[!NOTE]
 >
