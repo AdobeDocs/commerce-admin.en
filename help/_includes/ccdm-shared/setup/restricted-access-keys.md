@@ -4,7 +4,10 @@ Restricted access keys let authorized client applications access a [private cata
 
 Restricted access keys are provisioned in one of two ways:
 
-- **Automatically, for B2B shared catalogs**—For Adobe Commerce B2B deployments that use Merchandising Services with the composable catalog data model (CCDM), the system provisions and assigns the initial key. Then, you manage keys and key assignment from the Commerce Admin. See [Catalog view authentication](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/shared-catalogs/catalog-views-manage) in the *Commerce Admin Guide*.
+- **Automatically, for B2B shared catalogs**—The system provisions and assigns the initial key for catalog views that are associated with a B2B shared catalog. Then, you manage keys and key assignment from the Commerce Admin. See [Catalog view authentication](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/shared-catalogs/catalog-views-manage) in the *Commerce Admin Guide*. Automatic provisioning is available in the following deployments:
+
+  - **Adobe Commerce as a Cloud Service with CCDM** for Adobe Commerce B2B.
+  - **Adobe Commerce on cloud or on-premises** integrated with Adobe Commerce Optimizer through the [!DNL Adobe Commerce Optimizer Connector for B2B]. The B2B extension for the connector is required.
 
 - **Manually, for any catalog view**—To protect a catalog view yourself—for example, for a partner portal or pre-release preview—follow the steps in this topic starting with [Create a restricted access key](#create-a-restricted-access-key).
 
@@ -41,21 +44,21 @@ How you open the restricted access keys workspace depends on the product you use
 
 >[!NOTE]
 >
->This section and the two that follow describe the manual process to manage restricted access keys. For Adobe Commerce B2B deployments, manage keys from the Commerce Admin. See [Restricted Access Keys](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/catalog-view-sync/restricted-access-keys).
+>This section and the two that follow describe the manual process to manage restricted access keys. For B2B shared catalogs with automatic key provisioning, manage keys from the Commerce Admin. See [Restricted Access Keys](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/catalog-view-sync/restricted-access-keys).
 
 ### Add a restricted access key
 
-Select the tab for your product context: Adobe Commerce as a Cloud Service or Adobe Commerce Optimizer Studio.
+Select the tab for the tool you use to manage keys: Commerce Admin or Adobe Commerce Optimizer Studio.
 
 >[!BEGINTABS]
 
->[!TAB "Adobe Commerce as a Cloud Service with CCDM"]
+>[!TAB "Adobe Commerce Admin"]
 
-Customers using Adobe Commerce as a Cloud Service with CCDM can generate RSA key pairs from the Commerce Admin. See [Manage restricted access keys](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/catalog-view-sync/restricted-access-keys).
+Customers using Adobe Commerce as a Cloud Service with CCDM, or Adobe Commerce Optimizer connected to Adobe Commerce through the connector, can generate RSA key pairs from the Commerce Admin. See [Manage restricted access keys](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/catalog-view-sync/restricted-access-keys).
 
->[!TAB "Adobe Commerce Optimizer with third-party backend"]
+>[!TAB "Adobe Commerce Optimizer Studio (manual key management)"]
 
-Customers using Adobe Commerce Optimizer with a third-party backend must generate and manage their own RSA key pairs, and then add the key to the system.
+Customers using Adobe Commerce Optimizer Studio must generate and manage their own RSA key pairs, and then add the public key to the system. This is the required workflow for Adobe Commerce Optimizer with a third-party backend. Customers who use the connector can also use this workflow instead of the Commerce Admin.
 
 **Generate an RSA key pair**
 
@@ -70,11 +73,9 @@ The key size must be between 2048 and 8192 bits. `public-key.pem` contains the v
 
 **Add the public key to the system**
 
-1. From the Restricted Access key workspace, click Click **[!UICONTROL Add Restricted Access Key]**.
+1. From the Restricted Access key workspace, click **[!UICONTROL Add Restricted Access Key]**.
 
    ![Restricted Access Keys list, with the Add Restricted Access Key button](/help/assets/ccdm-shared/setup/restricted-access-keys.png){width="70%" zoomable="yes"}
-
-1. Click **[!UICONTROL Add Restricted Access Key]**.
 
 1. Enter the key details:
 
@@ -106,27 +107,32 @@ A restricted access key only authenticates access after it is assigned to a cata
 
 Restricted access keys are managed in one of two ways, depending on how you use catalog protection:
 
-- **Automatically, for B2B shared catalogs**—For Adobe Commerce B2B deployments using Merchandising Services with CCDM, the service automatically generates and assigns the first restricted access key when a catalog view is created. Each catalog view gets its own key. After that, you can manage each key from the Shared Catalog or Company Account pages. You can also view and manage keys from the Commerce Admin **Restricted Access Keys** page (**System** > **Data Transfer**). See [Manage catalog view configuration](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/shared-catalogs/catalog-views-manage).
+- **Automatically, for B2B shared catalogs**—For Adobe Commerce B2B deployments using Merchandising Services with CCDM, and for Adobe Commerce Optimizer deployments integrated through the [!DNL Adobe Commerce Optimizer Connector for B2B] (which requires the B2B extension), the service automatically generates and assigns the first restricted access key when a catalog view is created. Each catalog view gets its own key. After that, you can manage each key from the Shared Catalog or Company Account pages. You can also view and manage keys from the Commerce Admin **Restricted Access Keys** page (**System** > **Data Transfer**). See [Manage catalog view configuration](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/shared-catalogs/catalog-views-manage).
 
   Each combination of a shared catalog and a store view is projected as a separate catalog view. A projection is the catalog view, policy, price book reference, and restricted access key configuration data that is exported to the Merchandising Services data layer for that combination. So a shared catalog assigned to multiple store views produces multiple catalog views, each with its own key. Edit or rotate a key for one catalog view without affecting the others.
 
   Keys default to a long expiration period. If you need to rotate a key, add the replacement in the Admin and keep both active until you remove the old one.
 
-- **Manually, for any catalog view**—Key generation, token signing, and rotation are managed entirely by the backend client that authenticates shoppers. [!DNL Adobe Commerce] does not generate or rotate these keys on your behalf. Use the steps earlier in this topic to create, add, and delete keys. To rotate a key, see [Rotate a key](#rotate-a-key).
+- **Manually, for any catalog view**—How you generate and manage keys depends on your product context. In either case, the backend client that authenticates shoppers signs the tokens.
+
+  - **Commerce Admin (Adobe Commerce as a Cloud Service with CCDM, or Adobe Commerce Optimizer with the connector)**—Generate RSA key pairs in the Commerce Admin, and create, assign, and delete keys on the **Restricted Access Keys** page. Adobe Commerce does not rotate keys automatically. To rotate a key, see [Rotate a key](#rotate-a-key).
+  - **Adobe Commerce Optimizer Studio**—Studio does not generate keys. This is the required workflow for Adobe Commerce Optimizer with a third-party backend, and connector customers can also use it. Use your client application to generate the RSA key pair, keep the private key, and add the public key as a restricted access key. Use the steps earlier in this topic to create, add, and delete keys. To rotate a key, see [Rotate a key](#rotate-a-key).
 
 ### Rotate a key
 
 To rotate a key without an access interruption, note that a catalog view can have up to three keys assigned at once:
 
-Select the tab for your product context: Adobe Commerce as a Cloud Service or Adobe Commerce Optimizer Studio.
+Select the tab for the tool you use to manage keys: Commerce Admin or Adobe Commerce Optimizer Studio.
 
 >[!BEGINTABS]
 
->[!TAB "Adobe Commerce as a Cloud Service with CCDM"]
+>[!TAB "Adobe Commerce Admin"]
 
-See [Key selection and rotation](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/catalog-view-sync/restricted-access-keys#key-selection-and-rotation)
+See [Key selection and rotation](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/catalog-view-sync/restricted-access-keys#key-selection-and-rotation). This applies to Adobe Commerce as a Cloud Service with CCDM and to Adobe Commerce projects integrated with Adobe Commerce Optimizer through the Adobe Commerce Optimizer connector.
 
->[!TAB "Adobe Commerce Optimizer with third-party backend"]
+>[!TAB "Adobe Commerce Optimizer Studio (manual key management)"]
+
+This procedure is required for Adobe Commerce Optimizer with a third-party backend. Customers who use the connector can also use it instead of the Commerce Admin.
 
 1. Generate a new key pair and add the new public key as a new restricted access key.
 1. Assign the new key to the catalog view alongside the existing key.

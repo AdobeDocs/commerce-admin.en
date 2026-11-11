@@ -88,7 +88,7 @@ A request carrying a token signed by an assigned, unexpired key returns the cata
 
 ## Manage restricted access keys
 
-If [!UICONTROL Catalog Protection] is enabled and all assigned keys expire, the catalog view becomes inaccessible. Storefronts that rely on this catalog view cannot serve data from it. Assign a new, unexpired key to restore access. For instructions, see [Rotate keys](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/catalog-view-sync/restricted-access-keys#key-selection-and-rotation).
+If [!UICONTROL Catalog Protection] is enabled and all assigned keys expire, the catalog view becomes inaccessible. Storefronts that rely on this catalog view cannot serve data from it. Assign a new, unexpired key to restore access. For instructions, see [Rotate a key](restricted-access-keys.md#rotate-a-key).
 
 >[!NOTE]
 >
