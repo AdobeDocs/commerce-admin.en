@@ -54,10 +54,8 @@ recommendations: noDisplay
    - [Semantic search](./setup/semantic-search.md)
    - Events {#events}
       - [Overview](./setup/events/overview.md)
-- Use case {#use-case}
-   - [Storefront and catalog admin end-to-end use case](./use-case/admin-use-case.md)
-- Launch site {#launch}
-   - [Launch checklist](./launch/launch-checklist.md)
+<!--- Use case {#use-case}
+   - [Storefront and catalog admin end-to-end use case](./use-case/admin-use-case.md) -->
 - [Return to Admin User Guides](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 
 

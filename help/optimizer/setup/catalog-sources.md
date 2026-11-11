@@ -25,3 +25,5 @@ topic_v2:
 ---
 
 # Catalog sources
+
+{{$include /help/_includes/ccdm-shared/setup/catalog-sources.md}}

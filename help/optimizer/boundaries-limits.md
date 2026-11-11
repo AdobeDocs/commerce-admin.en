@@ -2,6 +2,7 @@
 title: Merchandising Services Limits and Boundaries
 description: Learn about Adobe Commerce Optimizer license limits and system boundaries. Plan capacity, track usage, and avoid latency and throttling when exceeding limits.
 role: Admin, Developer
+hide: true
 badgeSaas: label="SaaS only" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service instances provisioned with CCDM only (Adobe-managed SaaS infrastructure)."
 autotag-review: '2026-11-02T18:48:38.168Z'
 TQID: 'https://experienceleague.adobe.com/KoRp--G2sMvv-Hr7KiHriZrFmtEm0BhGoGWVQQK-ofE'
