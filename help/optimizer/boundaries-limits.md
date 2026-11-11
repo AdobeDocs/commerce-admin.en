@@ -17,9 +17,9 @@ feature_v2:
     internal-label: Saas
 ---
 
-# Merchandising Services limits and boundaries with the Composable Catalog Data Model
+# Merchandising Services limits and boundaries with the composable catalog data model (CCDM)
 
-Adobe Commerce Merchandising Services with the Composable Catalog Data Model (CCDM)applies license limits and system boundaries that define how much capacity your project can use:
+Adobe Commerce Merchandising Services with CCDM applies license limits and system boundaries that define how much capacity your project can use:
 
 - **License limits**—Based on your purchased capacity; can be expanded by purchasing additional packages.
 - **System boundaries**—Fixed limits that protect system resources and ensure reliable performance for all users.

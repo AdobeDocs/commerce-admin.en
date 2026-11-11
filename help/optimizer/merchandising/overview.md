@@ -32,4 +32,4 @@ topic_v2:
     internal-label: Machine learning
 ---
 
-# Merchandising Services with composable catalog data model
+# Merchandising Services with composable catalog data model (CCDM)

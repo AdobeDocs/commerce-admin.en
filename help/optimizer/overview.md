@@ -1,6 +1,6 @@
 ---
-title: What is Merchandising Services with the Composable Catalog Data Model?
-description: Learn about Merchandising Services with the Composable Catalog Data Model (CCDM) and its key features.
+title: What is Merchandising Services with the composable catalog data model?
+description: Learn about Merchandising Services with the composable catalog data model (CCDM) and its key features.
 recommendations: noCatalog
 badgeSaas: label="SaaS only" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service and [!DNL Adobe Commerce Optimizer] projects only (Adobe-managed SaaS infrastructure)."
 exl-id: f9516d4c-fbae-4db2-a1a9-cda3684a8122
@@ -15,11 +15,11 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
 ---
-# What is Merchandising Services with the Composable Catalog Data Model?
+# What is Merchandising Services with the composable catalog data model (CCDM)?
 
-Merchandising Services with the Composable Catalog Data Model (CCDM) enhances your e-commerce experience with a high-performance storefront, boosting organic traffic, customer engagement, and revenue.
+Merchandising Services with CCDM enhances your e-commerce experience with a high-performance storefront, boosting organic traffic, customer engagement, and revenue.
 
-With Merchandising Services with the Composable Catalog Data Model (CCDM), you can:
+With Merchandising Services with CCDM, you can:
 
 - Use catalog data from your Adobe Commerce as a Cloud Service instance to power your storefront experiences.
 - Define business catalog views and policies.
@@ -33,9 +33,9 @@ Watch the following video for a high-level overview of [!DNL Adobe Commerce Opti
 >[!VIDEO](https://video.tv.adobe.com/v/3450226)
 -->
 
-## What are the benefits of using Merchandising Services with the Composable Catalog Data Model (CCDM)?
+## What are the benefits of using Merchandising Services with CCDM?
 
-Merchandising Services with the Composable Catalog Data Model (CCDM) is for Adobe Commerce as a Cloud Service merchants who want to use their existing backend commerce system to transform storefront experiences.
+Merchandising Services with CCDM is for Adobe Commerce as a Cloud Service merchants who want to use their existing backend commerce system to transform storefront experiences.
 
 ## Quick tour
 

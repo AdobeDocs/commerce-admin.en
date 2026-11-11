@@ -41,7 +41,7 @@ topic_v2:
 
 Merchandisers optimize and personalize the shopping experience through product discovery and recommendations. They also use shopper data and analytics to make strategic decisions about product placement, pricing, and promotions on the storefront.
 
-Developers handle technical implementation and data integration, including platform architecture tasks. For Adobe Commerce as a Cloud Service with the composable catalog data model, the catalog setup tasks are done in Adobe Commerce.
+Developers handle technical implementation and data integration, including platform architecture tasks. For Adobe Commerce as a Cloud Service with the composable catalog data model (CCDM), the catalog setup tasks are done in Adobe Commerce.
 
 If you use Adobe Commerce on Cloud Infrastructure or on-premises, you connect to Merchandising Services with CCDM by configuring the Adobe Commerce Optimizer Connector. See the [Adobe Commerce Optimizer Connector Guide](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/overview){target=_blank}.
 
