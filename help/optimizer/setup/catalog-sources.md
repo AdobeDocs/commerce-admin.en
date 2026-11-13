@@ -22,6 +22,7 @@ topic_v2:
     internal-label: Data modeling
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
+last-update: 2026-11-11
 ---
 
 # Catalog sources
