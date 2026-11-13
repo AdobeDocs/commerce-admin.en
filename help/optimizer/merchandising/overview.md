@@ -30,6 +30,7 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
+last-update: 2026-11-11
 ---
 
 # Merchandising Services with composable catalog data model (CCDM)

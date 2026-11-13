@@ -9,6 +9,7 @@ product_v2:
     internal-label: Commerce
   - id: de2e2e68-c5d7-4efe-be7b-27528698f06b
     internal-label: Commerce as a Cloud Service
+last-update: 2026-11-11
 ---
 
 # Semantic search

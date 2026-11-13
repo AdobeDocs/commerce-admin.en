@@ -32,6 +32,7 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
+last-update: 2026-11-11
 ---
 
 # Search matching and ranking
