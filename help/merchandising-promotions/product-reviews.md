@@ -52,7 +52,7 @@ Commerce includes a native product reviews capability that you can manage from t
 
 >[!NOTE]
 >
->This section describes product reviews for the Luma storefront in Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises. Adobe Commerce as a Cloud Service does not include the Luma storefront, so enabling product reviews in the Admin does not immediately add review features to your storefront.
+>This section describes product reviews for the Luma storefront in Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises. Adobe Commerce as a Cloud Service does not include the Luma storefront, so enabling product reviews in the Admin does not add review features to your storefront. Instead, you need to use the [`reviews`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/queries/reviews) GraphQL query to retrieve reviews and the [`createProductReview`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/mutations/create-review) mutation to create reviews.
 
 When the native Product Reviews function is enabled, customers can write reviews for any product in your catalog. Reviews can be written from the product page by clicking:
 
