@@ -79,6 +79,4 @@ Analyze [search terms](../catalog/search-terms.md) and [synonyms](../catalog/sea
 
 ### [!UICONTROL User Content]
 
-[!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."}
-
 Incorporate user-generated [product reviews](product-reviews.md) to create a sense of community and increase sales.
