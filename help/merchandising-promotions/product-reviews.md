@@ -98,7 +98,7 @@ The Commerce Product Reviews function is enabled by default in Adobe Commerce on
 
    ![Catalog configuration - Commerce product reviews](../configuration-reference/catalog/assets/catalog-product-reviews.png){width="600" zoomable="yes"}
 
-c
+1. Set **[!UICONTROL Enabled]** to `Yes`.
 
    This setting enables product reviews.
 
