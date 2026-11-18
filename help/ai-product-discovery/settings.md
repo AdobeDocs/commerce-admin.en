@@ -4,38 +4,43 @@ description: Configure delivery, monthly agentic traffic jobs, and eligible AI a
 ---
 # Enrichment settings
 
-Use the **[!UICONTROL Settings]** tab in the AI Product Discovery workspace to manage delivery, monthly agentic traffic jobs, and eligible AI agents for both Catalog Enrichment and PDP enrichment. The Catalog Enrichment workflow also has Commerce connection fields on this tab. For those fields, see [Configure catalog enrichment](catalog-enrichment.md#configure-catalog-enrichment).
+Use the **[!UICONTROL Settings]** tab in the AI Product Discovery workspace to natively connect your Adobe Commerce instance to Adobe Brand Visibility. When linked, catalog and PDP enrichments are surfaced in the AI Product Discovery workspace.
 
-## Delivery
+The fields on this tab identify the [!DNL Adobe Commerce] environment and store view that Catalog Enrichment connects to. They are separate from the Adobe IMS organization that holds your [!DNL Adobe Brand Visibility] entitlement. For IMS sign-in and organization requirements, see the [AI Product Discovery guide prerequisites](guide-overview.md#prerequisites).
 
-The delivery status shows whether Optimize at Edge is connected. This shared delivery setting applies to enriched data from both workflows.
+1. In the Admin, go to **[!UICONTROL AI Product Discovery]** > **[!UICONTROL Catalog Enrichment]** or **[!UICONTROL Product Details Page Enrichment]**.
+1. In the **[!UICONTROL Scope]** list at the top of the page, select the store view you want to configure, or leave **[!UICONTROL All Store Views]** to manage settings across store views.
+1. Open the **[!UICONTROL Settings]** tab.
+1. In **[!UICONTROL Commerce Configuration]**, expand the store view panel labeled with its URL.
 
-### Optimize at Edge connection
+   Provide your [!DNL Adobe Commerce] environment details to enable the Catalog Adobe Brand Visibility Service and audit workflows.
 
-When the status is **[!UICONTROL Connected]**, enriched data is served only to the AI agents selected in the settings below. Your storefront, theme, and content management system do not change. Updates go live within minutes.
+   ![Commerce Configuration on the Catalog Enrichment Settings tab](./assets/catalog-enrichment-commerce-config.png){zoomable="yes"}
 
-## Monthly agentic traffic jobs
+1. Enter the required connection details for the store view.
 
-Monthly agentic traffic jobs identify product pages that AI agents visit most often and create a job for those pages. Use the shared controls to enable or disable this recurring job and choose how many product pages to include.
+    - **[!UICONTROL Store View URL]**: URL corresponding to the store view (for example, `https://brand.example.com/fr/`).
+    - **[!UICONTROL Environment ID]**: Unique identifier for the [!DNL Adobe Commerce] environment that the connection accesses.
+    - **[!UICONTROL Website Code]**, **[!UICONTROL Store Code]**, and **[!UICONTROL Store View Code]**: Website, store, and store view codes for the Commerce website. These values must match the codes in your Commerce Admin.
+    - **[!UICONTROL Host Name]**: Host name of your [!DNL Adobe Commerce] instance.
+    - **(Optional - for catalog enrichment only)** Under **[!UICONTROL Catalog field limits]**, select **[!UICONTROL Limit maximum characters for product name]** and specify the character limit for any generated product names. Select **[!UICONTROL Limit maximum characters for product description]** and specify the character limit for any generated product descriptions.
 
-### Configure monthly jobs
+1. Click **[!UICONTROL Save]**.
 
-Select or clear the checkbox for **[!UICONTROL Monthly agentic traffic jobs]** to enable or disable recurring jobs. When enabled, a job is created on the first day of each month.
+After you save, wait for any initial sync or validation job to complete before relying on catalog or audit results for that store view. It may take up to 24 hours for product suggestions to appear on the **[!UICONTROL Catalog Enrichment]** page.
 
-Use the page-count dropdown to set how many product pages to include, ranked by agent visits. The available values and current selection may vary.
+To remove a store view configuration, expand that entry and click **[!UICONTROL Delete]**.
 
-## AI agents
+## Field descriptions {#commerce-connection-fields}
 
-Choose which AI agents receive enriched product data from Catalog Enrichment and PDP enrichment. Everyone else, including shoppers, receives the normal product page.
+Required fields are marked with an asterisk (*) on the **[!UICONTROL Commerce Configuration]** form.
 
-### Select eligible agents
-
-Select or clear the checkbox beside each agent to include or exclude it from enrichment delivery:
-
-- **[!UICONTROL GPTBot (OpenAI)]**
-- **[!UICONTROL ClaudeBot (Anthropic)]**
-- **[!UICONTROL PerplexityBot]**
-- **[!UICONTROL Google-Extended]**
-- **[!UICONTROL Applebot-Extended]**
-
-The checkboxes reflect the current configuration and may vary. Select or clear an agent checkbox to change which agents receive enriched data.
+| Field | Required | Description |
+| --- | --- | --- |
+| Store View URL | Yes | URL corresponding to the store view (for example, `https://brand.example.com/fr/`). |
+| Environment ID | Yes | Unique identifier for the [!DNL Adobe Commerce] environment that the connection accesses. |
+| Website Code | Yes | Website Code of the Commerce website. |
+| Store Code | Yes | Store Code of the Commerce website. |
+| Store View Code | Yes | Store View of the Commerce website. |
+| Host Name | Yes | Host name of your [!DNL Adobe Commerce] instance. |
+| Catalog field limits (Catalog enrichment only) | No | Define character limits for any generated product names and descriptions. |

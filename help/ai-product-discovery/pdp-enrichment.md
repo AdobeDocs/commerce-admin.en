@@ -1,96 +1,144 @@
 ---
-title: Create a PDP Enrichment Job
-description: Learn how to create a PDP enrichment job, select product pages and catalog facts, manage already-enriched products, and review agent coverage and job details.
+title: Product Detail Page Enrichment
+description: Use [!DNL Adobe Commerce] Product Detail Page Enrichment to review AI-suggested product copy, create enrichment jobs, and deploy approved updates for LLM and AI discovery.
+role: Admin, User, Leader
+recommendations: noCatalog
+touch: true
+badgeCloud or on-premises: label="Cloud or on-premises only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed Cloud or on-premises infrastructure) and on-premises projects only."
+autotag-review: '2026-06-23T17:36:07.142Z'
+TQID: 'https://experienceleague.adobe.com/cjHuva7PP7UzP-yVhe0rkDzHgAYjfSdYEx3g5gorxwk'
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
+  - id: c32adafa-ed01-4b31-997e-2413013911b0
+    internal-label: Integrations
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
-# Create a PDP enrichment job
 
-Create a product detail page (PDP) enrichment job to choose the product pages and catalog facts that AI agents can access. The enrichment restructures information already in your catalog and does not change your storefront.
+# Product detail page enrichment
+
+Product detail page (PDP) enrichment helps AI agents access selected facts from your Adobe Commerce catalog for product pages. Choose the product pages and catalog facts to include in an enrichment job. The workflow restructures information already in your catalog; it does not add product information or change your storefront.
+
+## How it works {#how-it-works}
+
+Your Adobe Commerce catalog contains product information such as attributes, variants, categories, prices, and availability. In a PDP enrichment job, you select the product pages and groups of catalog facts to make available to AI agents. The information is organized for agents without changing the storefront experience.
+
+With PDP enrichment, you can:
+
+- Choose specific enabled products that have live product pages.
+- Select which groups of existing catalog facts to include.
+- Review a summary of the selected pages and facts before saving or running the job.
+- Preview the product information included in the enrichment.
+
+| Direction | Purpose |
+| --- | --- |
+| Commerce catalog -> enrichment job | Select live product pages and the catalog facts to include. |
+| Enrichment job -> AI agents | Make the selected, existing product information available in a structured form. The storefront does not change. |
 
 ## Access PDP enrichment
 
-Open **[!UICONTROL AI Product Discovery]** in the Admin, then select **[!UICONTROL Product Details Page Enrichment]**. This workflow is separate from **[!UICONTROL Catalog Enrichment]**.
+Before you begin, review the deployment-specific [AI Product Discovery prerequisites](guide-overview.md#prerequisites). After installing the shared enrichment extension and required Catalog Services, open **[!UICONTROL AI Product Discovery]** in the Admin and select **[!UICONTROL Product Details Page Enrichment]**.
 
 ## Review PDP enrichment activity
 
-The PDP enrichment page opens to the **[!UICONTROL Optimizations]** tab. Use the dashboard to review AI agent traffic, enrichment coverage, job activity, and jobs that need attention. Shared delivery, monthly agentic traffic, and AI agent settings also apply to Catalog Enrichment. See [Enrichment settings](settings.md).
-
-### Review traffic and coverage
-
-The traffic summary shows how often AI agents visited your product pages during the last four weeks and how that compares with the previous four weeks. Agent labels include [!DNL ChatGPT], [!DNL Claude], [!DNL Perplexity], and [!DNL Gemini].
-
-The coverage summary shows the portion of product pages with enrichment and groups pages into live, to review, and not yet enriched categories. Select **[!UICONTROL Review 44 pages]** to review pages marked for review. The number in the button reflects the current count.
-
-### Review agentic traffic jobs
-
-The **[!UICONTROL From agentic traffic]** section groups jobs by month. Each card shows the job name, number of product pages, AI agent visits, and job status. For a job that is ready to review, select **[!UICONTROL Review & deploy]** to continue.
+The PDP enrichment page opens to the **[!UICONTROL Optimizations]** tab. Use the dashboard to review enrichment coverage, job activity, and jobs that need attention. Use the **[!UICONTROL Settings]** tab to natively link your [Adobe Commerce instance to Adobe Brand Visibility](settings.md).
 
 ### Find jobs that need attention
 
-The **[!UICONTROL Needs your attention]** section highlights jobs that require action. A card can show the job name, how products were selected, the number of product pages, the job status, and progress. Depending on the status, use **[!UICONTROL Review & deploy]** to continue reviewing a job.
+The **[!UICONTROL Needs your attention]** section highlights jobs that require action. A card can show the job name, how products were selected, the number of product pages, job status, and progress. Use the available action on a card to continue with the job.
 
 ### Search all jobs
 
-Use the **[!UICONTROL All jobs]** table to find and track jobs. Search by job details or filter the table by status, including **[!UICONTROL Generating]**, **[!UICONTROL Ready to review]**, **[!UICONTROL Deployed]**, **[!UICONTROL Queued]**, or **[!UICONTROL Failed]**. The table lists each job's ID, name, origin, product page count, start date, status, and available actions.
+Use the table to search for and track jobs. Search by job details or filter by status, including **[!UICONTROL Generating]**, **[!UICONTROL Ready to review]**, **[!UICONTROL Deployed]**, **[!UICONTROL Queued]**, or **[!UICONTROL Failed]**. The table lists each job's ID, name, origin, product page count, start date, status, and available actions.
 
-## Create a PDP enrichment job
+## Create an enrichment job
 
-Start by choosing how to set up the job. Then select product pages and catalog facts, review the summary, and save or run the job.
+In this section, you learn how to creat a product detail page enrichment.
 
-### Choose a starting point
+![Create PDP Enrichment](./assets/create-cat-enrich.png)
 
-Choose one of the available options to set up your job:
+1. In **[!UICONTROL Optimizations]**, click **[!UICONTROL Create enrichment]**.
+1. Enter an **Enrichment name**, such as "Black Friday 2026".
+1. Select the **Category**, such as "Coffee".
+1. Select the **Attribute set**, such as "Accessories".
+1. Select the **Product type**, such as "Simple product".
+1. Select the **Price range**.
+1. Click **[!UICONTROL Apply filters]**.
 
-- **[!UICONTROL Blank]** — Select product pages and configure the job yourself.
-- **[!UICONTROL Copy a past job]** — Reuse product pages from an existing job.
-- **[!UICONTROL Describe with AI]** — Describe what you want to enrich in plain language.
+    You can preview the products that match your enrichment criteria and click **Customize** to further scope the products you want to enrich.
 
-### Copy a past job
+1. Click **[!DNL Next]** to confirm the specific products you want to enrich.
+1. Click **[!DNL Run enrichment]**.
 
-When you copy a past job, search the job list and select a job to reuse its product pages. The list shows details such as the job name, product count, selection method, date, and status.
+    The enrichment job runs and displays on the **Optimizations** table. When it finishes running, you can [Review and Deploy](#review-and-deploy-an-enrichment-job) the optimizations. 
 
-### Name the job
+### Review an enrichment job {#review-and-deploy-an-enrichment-job}
 
-Enter a name that helps you identify the job later, such as a product category or campaign name. When you copy an existing job, the name field may contain a name based on the source job.
+Open an enrichment job.
 
-### Select product pages
+![List of PDP Enrichment URLs](./assets/pdp-enrich-urls.png)
 
-Choose the product pages to include in the job. Only enabled products with a live product page can be enriched.
+The **URLs with suggestions** table lists all products with enrichment opportunities. For each product you can:
 
-Use the search field to find products by name, SKU, or URL. Narrow the results with filters for category, price, status, and store view. Select **[!UICONTROL More filters]** to see additional options.
+- **Expand the row** to view the AI Analysis and the proposed enrichment.
+- **Edit** the proposed product name or description before applying, to align with your brand voice and merchandising guidelines.
+- **Deploy the Optimization** for the products you want to enrich and publish it directly to your Adobe Commerce catalog.
+- **Mark as Fixed** once the enrichment has been reviewed and applied.
+- **Ignore** suggestions that are not relevant to your catalog strategy.
 
-Select the checkboxes next to the products you want to include. The table shows each product, its product page URL, and price. The counts above the table show how many products match the current search and filters and how many you selected.
+Suggestions are organized into three views: **Current Suggestions**, **Fixed Suggestions**, and **Ignored Suggestions**. Once an enrichment is applied, it moves to Fixed Suggestions with a status of **Applied** and a **View in Catalog** action to verify the update in Adobe Commerce. Applied enrichments can be rolled back at any time.
 
-To exclude products that already have enrichment, select **[!UICONTROL Hide already enriched]**.
+### Deploy the optimization
 
-### Handle enriched products
+Once you have reviewed the suggestions and selected the product pages to optimize, click **Deploy optimizations** to publish the enrichment at the CDN edge. A **Deploy to Edge** confirmation dialog shows the selected product URLs, the optimization type and the enrichment being applied. After deployment, a confirmation screen confirms which product pages were successfully optimized.
 
-If selected products were enriched by a previously deployed job, the page identifies them and shows the related job numbers. Choose how to handle these products before you continue:
+The optimization is delivered exclusively to AI user agents via the CDN edge layer. Human visitors continue to see your existing storefront experience exactly as before with no changes to your PDP design, page performance, or brand experience.
 
-- Select **[!UICONTROL Skip them]** to exclude the already-enriched products from this job.
-- Select **[!UICONTROL Overwrite them]** to include the products and replace their existing enrichment.
+## Limits and considerations {#limits}
 
-### Choose catalog facts
+- Only enabled products with a live product page can be selected.
+- Enrichment organizes facts already present in the catalog; it does not add new product information.
+- The Commerce Admin PDP enrichment workflow does not change the storefront.
+- PDP enrichment jobs and Catalog Enrichment jobs have different purposes and workflows.
+- The Brand Visibility **Enrich Product Detail Pages** opportunity is a separate workflow that uses Optimize at Edge. Do not use its CDN deployment steps as instructions for a Commerce Admin enrichment job.
 
-In **[!UICONTROL What AI agents will see]**, select the catalog fact groups to include in the enrichment. These groups organize information already in your catalog. They do not add new product information.
+## Best practices {#best-practices}
 
-- **[!UICONTROL Product attributes]** — Core details, such as material, dimensions, and care instructions.
-- **[!UICONTROL Variants & options]** — Available sizes, colors, and configurations.
-- **[!UICONTROL Feature bullets]** — Short, factual highlights from your catalog.
-- **[!UICONTROL Category & relationships]** — Category paths and related products.
-- **[!UICONTROL Price & availability]** — Current price, stock, and shipping information. This information updates when your catalog syncs.
+- Use clear job names that identify the product group or campaign.
+- Preview the facts included in the job and confirm they are accurate and appropriate for AI agents.
+- Check whether products were already enriched before deciding to skip or overwrite them.
+- Confirm the selected product pages and fact groups in the job summary before running the job.
+- Coordinate catalog synchronization and ownership of product facts with the teams responsible for those records.
 
-### Review the job summary
+## Example: Enrich a product with variants and specifications
 
-Review the summary before you save or run the job. It includes the job name, number of product pages, already-enriched products, selected fact groups, and estimated time.
+A product may have catalog information distributed across attributes, options, and feature highlights. For example, a merchant could select **[!UICONTROL Product attributes]** for material and care instructions, **[!UICONTROL Variants & options]** for available sizes or colors, and **[!UICONTROL Feature bullets]** for factual highlights.
 
-The **[!UICONTROL AI agent traffic covered]** panel shows the share of agent visits associated with the selected pages and the reporting period. It also lists top pages in the job and their visit counts. Use this information to understand how your selection relates to agent traffic.
-
-Expand **[!UICONTROL Preview what agents see]** to review the product information included in the enrichment. Only AI agents see this information; your storefront does not change.
-
-### Save or run the job
-
-When you finish configuring the job, choose an action:
-
-- Select **[!UICONTROL Save as draft]** to save the job configuration for later.
-- Select **[!UICONTROL Run enrichment]** to start enriching the selected product pages.
-- Select **[!UICONTROL Cancel]** to leave the job setup.
+The enrichment job organizes the selected catalog information for AI agents. It does not create facts that are absent from the catalog or alter the product page shown to shoppers.

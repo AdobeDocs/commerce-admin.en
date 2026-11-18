@@ -15,7 +15,7 @@ When product records are incomplete, inconsistent, or focused only on technical 
 
 Additionally, unbranded shopper queries create new opportunities for product discovery. When shoppers describe their needs without specifying a brand, AI surfaces show relevant products across competing brands based on how well those products match shopper intent. For merchants, this creates an opportunity to reach new customers who may not be familiar with their brand, expanding product visibility beyond existing brand awareness.
 
-## Challenges in Product Discovery on AI surfaces
+## Challenges in product discovery on AI surfaces
 
 Two common catalog gaps can limit AI-assisted product discovery:
 
@@ -35,11 +35,9 @@ This creates a gap between how shoppers express their needs and how products are
 
 [!DNL Adobe Commerce] provides two complementary enrichment workflows to improve how AI agents access, understand, and match products to shopper intent.
 
-### Make structured facts available with Product Detail Page Enrichment
+These two enrichments are accessible in the _Admin_ > **AI Product Discovery** menu.
 
-PDP Enrichment creates a structured data payload containing relevant product information, including attributes, variants, options, feature bullets, category relationships, pricing, and availability. This provides AI agents with a more complete and structured understanding of a product's features, capabilities, and available configurations.
-
-Using Optimize at Edge technology, the enriched product information is made directly accessible to AI crawlers without requiring changes to the human-visible storefront. Merchants can improve how product information is presented to AI agents without modifying storefront layouts, introducing new shopper-facing components, or requiring custom storefront development.See [Create a PDP enrichment job](pdp-enrichment.md).
+![AI Product Discovery Menu](./assets/ai-product-discovery-menu.png)
 
 ### Optimize product catalog content with shopper intent using Catalog Enrichment
 
@@ -51,11 +49,23 @@ Merchants can review and approve suggested improvements before applying them dir
 
 See [Catalog enrichment](catalog-enrichment.md).
 
-Brand governance rules let you define product copy requirements for Catalog enrichment, including length, phrases, tone, and capitalization. These rules apply only to Catalog enrichment, not PDP enrichment. See [Create Catalog Enrichment brand rules](brand-governance.md).
+#### Brand governance rules
+
+Brand governance rules let you define product copy requirements for catalog enrichment, including length, phrases, tone, and capitalization. These rules apply only to catalog enrichment, not PDP enrichment.
+
+See [Create Catalog Enrichment brand rules](brand-governance.md).
+
+### Make structured facts available with Product Detail Page Enrichment
+
+PDP Enrichment creates a structured data payload containing relevant product information, including attributes, variants, options, feature bullets, category relationships, pricing, and availability. This provides AI agents with a more complete and structured understanding of a product's features, capabilities, and available configurations.
+
+Using [Optimize at Edge](#prerequisites) technology, the enriched product information is made directly accessible to AI crawlers without requiring changes to the human-visible storefront. Merchants can improve how product information is presented to AI agents without modifying storefront layouts, introducing new shopper-facing components, or requiring custom storefront development.
+
+See [product detail page enrichment](pdp-enrichment.md).
 
 ## Choose an enrichment workflow
 
-Use PDP enrichment to control which structured product facts AI agents receive. Use Catalog enrichment to improve product names and descriptions for discovery. These workflows address different data gaps and remain separate.
+Use Catalog enrichment to improve product names and descriptions for discovery. Use PDP enrichment to control which structured product facts AI agents receive. These workflows address different data gaps and remain separate.
 
 ## Who this guide is for {#who-this-guide-is-for}
 
@@ -67,7 +77,7 @@ Use PDP enrichment to control which structured product facts AI agents receive. 
 
 Prerequisites depend on your deployment type and the enrichment workflow you plan to use.
 
-### [!DNL Adobe Commerce] on PaaS
+### [!DNL Adobe Commerce] on Cloud or on-premises
 
 - **IMS organization and sign-in:** An [!DNL Adobe IMS] organization must be available. If your organization does not have one, follow the [Adobe IMS integration overview](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview). Catalog Enrichment uses the signed-in Admin user's IMS access token; a native Commerce username and password alone do not provide this token.
 - **Optimize at Edge:** Required for PDP enrichment, but not for Catalog enrichment. **NOTE TO FIX: Commerce-specific setup instructions are needed. This might be automated by GA.**. The [Optimize at Edge with [!DNL Fastly] BYOCDN guide](https://experienceleague.adobe.com/en/docs/brand-visibility/using/resources/optimize-at-edge/fastly-byocdn) is a reference, not a Commerce setup guide.
@@ -123,7 +133,7 @@ For status details and additional troubleshooting steps, see [Monitor data feed 
 - Make the storefront accessible to relevant LLM-oriented and agentic bots when you need crawl-based catalog recommendations.
 - Have access to the Adobe Admin Console. During setup, [!DNL Adobe Commerce] checks whether your organization has signed the GenAI rider or opted out for the underlying AI services.
 
-### [!DNL Adobe Commerce as a Cloud Service] (ACCS)
+### [!DNL Adobe Commerce as a Cloud Service]
 
-- **Optimize at Edge:** Required for PDP enrichment, but not for Catalog enrichment. Commerce-specific setup instructions are needed. The [Optimize at Edge with [!DNL Fastly] BYOCDN guide](https://experienceleague.adobe.com/en/docs/brand-visibility/using/resources/optimize-at-edge/fastly-byocdn) is a reference, not a Commerce setup guide.
+- **Optimize at Edge:** Required for PDP enrichment, but not for Catalog enrichment. See [Optimize at Edge with [!DNL Fastly] BYOCDN guide](https://experienceleague.adobe.com/en/docs/brand-visibility/using/resources/optimize-at-edge/fastly-byocdn) for more information.
 - **Log forwarding:** Optional. Configure log forwarding to enable agentic traffic-based recommendations for PDP enrichment and Catalog enrichment. Without it, you can still select PDPs or SKUs manually for enrichment.
