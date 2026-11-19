@@ -112,7 +112,7 @@ Magento Open Source is the code base that Adobe officially contributes to and en
     <td valign="top">
        <img alt="AI Product Discovery" src="./assets/icon-color-wheel.svg" width="40" height="40"/></td>
    <td valign="top"><a href="../ai-product-discovery/guide-overview.md"> <strong>AI Product Discovery</strong></a>
-    <div><em>Learn how LLMs discover your products so you can enrich your PDP and catalog to improve findability in LLMs. ??? NEED TO FIX THIS ???</em></div>
+    <div><em>Learn how [!DNL Adobe Commerce] Catalog enrichment and PDP enrichment address gaps in structured product data and shopper-focused copy for AI product discovery.</em></div>
   </td>
 </tr>
 <tr>
