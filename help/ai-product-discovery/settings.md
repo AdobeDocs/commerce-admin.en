@@ -4,16 +4,16 @@ description: Configure delivery, monthly agentic traffic jobs, and eligible AI a
 ---
 # Enrichment settings
 
-Use the **[!UICONTROL Settings]** tab in the AI Product Discovery workspace to natively connect your Adobe Commerce instance to Adobe Brand Visibility. When linked, catalog and PDP enrichments are surfaced in the AI Product Discovery workspace.
+Use the **[!UICONTROL Settings]** tab in the AI Product Discovery workspace to configure your Adobe Commerce instance. When configured, catalog and PDP enrichments are surfaced in the AI Product Discovery workspace.
 
-The fields on this tab identify the [!DNL Adobe Commerce] environment and store view that Catalog Enrichment connects to. They are separate from the Adobe IMS organization that holds your [!DNL Adobe Brand Visibility] entitlement. For IMS sign-in and organization requirements, see the [AI Product Discovery guide prerequisites](guide-overview.md#prerequisites).
+The fields on this tab identify the [!DNL Adobe Commerce] environment and store view that AI Product Discovery connects to. For IMS sign-in and organization requirements, see the [AI Product Discovery guide prerequisites](guide-overview.md#prerequisites).
 
 1. In the Admin, go to **[!UICONTROL AI Product Discovery]** > **[!UICONTROL Catalog Enrichment]** or **[!UICONTROL Product Details Page Enrichment]**.
 1. In the **[!UICONTROL Scope]** list at the top of the page, select the store view you want to configure, or leave **[!UICONTROL All Store Views]** to manage settings across store views.
 1. Open the **[!UICONTROL Settings]** tab.
 1. In **[!UICONTROL Commerce Configuration]**, expand the store view panel labeled with its URL.
 
-   Provide your [!DNL Adobe Commerce] environment details to enable the Catalog Adobe Brand Visibility Service and audit workflows.
+   Provide your [!DNL Adobe Commerce] environment details to enable the AI Product Discovery service and audit workflows.
 
    ![Commerce Configuration on the Catalog Enrichment Settings tab](./assets/catalog-enrichment-commerce-config.png){zoomable="yes"}
 

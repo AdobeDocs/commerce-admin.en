@@ -66,9 +66,16 @@ With PDP enrichment, you can:
 
 Before you begin, review the deployment-specific [AI Product Discovery prerequisites](guide-overview.md#prerequisites). After installing the shared enrichment extension and required Catalog Services, open **[!UICONTROL AI Product Discovery]** in the Admin and select **[!UICONTROL Product Details Page Enrichment]**.
 
+## Two paths of PDP enrichments
+
+There are two paths to receive PDP enrichments:
+
+- **Agentic Traffic** - This type of enrichment automatically starts 24-48 hours after you configure the Commerce instance and displays results on the **Optimizations** tab.
+- **Enrichment Manager** - These enrichments are configured by the merchant when they click the **[!UICONTROL Create enrichment]** button and manually select the SKUs to enrich. Learn more about the [enrichment manager](#create-an-enrichment-job).
+
 ## Review PDP enrichment activity
 
-The PDP enrichment page opens to the **[!UICONTROL Optimizations]** tab. Use the dashboard to review enrichment coverage, job activity, and jobs that need attention. Use the **[!UICONTROL Settings]** tab to natively link your [Adobe Commerce instance to Adobe Brand Visibility](settings.md).
+The PDP enrichment page opens to the **[!UICONTROL Optimizations]** tab. Use the dashboard to review enrichment coverage, job activity, and jobs that need attention. Use the **[!UICONTROL Settings]** tab to [link](settings.md) your Commerce instance to AI Product Discovery.
 
 ### Find jobs that need attention
 
@@ -117,28 +124,29 @@ Suggestions are organized into three views: **Current Suggestions**, **Fixed Sug
 
 ### Deploy the optimization
 
-Once you have reviewed the suggestions and selected the product pages to optimize, click **Deploy optimizations** to publish the enrichment at the CDN edge. A **Deploy to Edge** confirmation dialog shows the selected product URLs, the optimization type and the enrichment being applied. After deployment, a confirmation screen confirms which product pages were successfully optimized.
+Once you have reviewed the suggestions and selected the product pages to optimize, click **Deploy optimizations** to publish the enrichment using Optimize at Edge. A **Deploy to Edge** confirmation dialog shows the selected product URLs, the optimization type and the enrichment being applied. After deployment, a confirmation screen confirms which product pages were successfully optimized.
 
-The optimization is delivered exclusively to AI user agents via the CDN edge layer. Human visitors continue to see your existing storefront experience exactly as before with no changes to your PDP design, page performance, or brand experience.
+The optimization is delivered exclusively to AI user agents via the [Optimize at Edge](https://experienceleague.adobe.com/en/docs/brand-visibility/using/resources/optimize-at-edge/fastly-byocdn). Human visitors continue to see your existing storefront experience exactly as before with no changes to your PDP design, page performance, or brand experience.
 
 ## Limits and considerations {#limits}
 
 - Only enabled products with a live product page can be selected.
 - Enrichment organizes facts already present in the catalog; it does not add new product information.
-- The Commerce Admin PDP enrichment workflow does not change the storefront.
+- The PDP enrichment workflow does not change the storefront.
 - PDP enrichment jobs and Catalog Enrichment jobs have different purposes and workflows.
-- The Brand Visibility **Enrich Product Detail Pages** opportunity is a separate workflow that uses Optimize at Edge. Do not use its CDN deployment steps as instructions for a Commerce Admin enrichment job.
+- The PDP optimization uses [Optimize at Edge](https://experienceleague.adobe.com/en/docs/brand-visibility/using/resources/optimize-at-edge/fastly-byocdn) .
 
 ## Best practices {#best-practices}
 
 - Use clear job names that identify the product group or campaign.
 - Preview the facts included in the job and confirm they are accurate and appropriate for AI agents.
 - Check whether products were already enriched before deciding to skip or overwrite them.
-- Confirm the selected product pages and fact groups in the job summary before running the job.
 - Coordinate catalog synchronization and ownership of product facts with the teams responsible for those records.
 
 ## Example: Enrich a product with variants and specifications
 
-A product may have catalog information distributed across attributes, options, and feature highlights. For example, a merchant could select **[!UICONTROL Product attributes]** for material and care instructions, **[!UICONTROL Variants & options]** for available sizes or colors, and **[!UICONTROL Feature bullets]** for factual highlights.
+A product page often holds more catalog information than AI agents can read. For example, a merchant sells a waterproof hiking boot. The size, width, and color options sit in a variant selector that loads with JavaScript. Materials, waterproofing, and care instructions sit in a collapsed Details tab, and the fit guidance opens in a pop-up. A shopper can open all of these, but an AI crawler that reads the page as it first loads may only see the product name, price, and a short description.
 
-The enrichment job organizes the selected catalog information for AI agents. It does not create facts that are absent from the catalog or alter the product page shown to shoppers.
+When the enrichment job runs on this product, it takes all of the product's catalog data, including its attributes and every variant, and packages it in a structured format that AI agents can read. An AI assistant can then answer questions such as "Is this boot available in a wide fit in size 11?" or "Is it fully waterproof?" from the merchant's own catalog data.
+
+The enrichment job only uses information that already exists in the catalog. It does not create new product facts, and it does not change the product page that shoppers see.
