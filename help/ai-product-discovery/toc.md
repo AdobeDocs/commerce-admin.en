@@ -3,6 +3,7 @@ user-guide-title: AI Product Discovery Guide
 user-guide-description: Learn how Catalog enrichment and PDP enrichment improve AI-assisted product discovery through shopper-focused copy and structured product data.
 breadcrumb-title: AI Product Discovery
 role: Admin, User, Leader
+hide: true
 ---
 
 # AI product discovery guide {#ai-product-discovery}
