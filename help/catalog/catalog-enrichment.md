@@ -126,8 +126,6 @@ Work with your Commerce administrator or implementation partner to ensure the fo
 
 After you install the catalog enrichment and catalog services extensions, the catalog enrichment capability is available in the Admin under **[!UICONTROL AI Product Discovery]** > **[!UICONTROL Catalog Enrichment]**.
 
-![Catalog Enrichment](./assets/catalog-enrichment-menu.png){zoomable="yes"}
-
 >[!NOTE]
 >
 >The **[!UICONTROL AI Product Discovery]** menu also lists **[!UICONTROL Product Details Page Enrichment (Beta)]**. Product details page enrichment is in beta and is not yet generally available.
@@ -144,8 +142,6 @@ The fields on this tab identify the Commerce environment and store view that cat
 1. In **[!UICONTROL Commerce Configuration]**, expand the store view panel labeled with its URL.
 
    Provide your [!DNL Adobe Commerce] environment details to enable the Catalog Adobe Brand Visibility Service and audit workflows.
-
-   ![Commerce Configuration on the Catalog Enrichment Settings tab](./assets/catalog-enrichment-commerce-config.png){zoomable="yes"}
 
 1. Enter the required connection details for the store view.
 
@@ -183,8 +179,6 @@ Catalog enrichment uses the following workflow views:
 - **[!UICONTROL Fixed Suggestions]**: Items you already applied or resolved.
 - **[!UICONTROL Ignored Suggestions]**: Items you intentionally excluded from action.
 
-![Catalog Enrichment](./assets/agentic-opportunities.png){zoomable="yes"}
-
 ### Deploy approved suggestions {#review-deploy-catalog}
 
 To deploy approved suggestions:
@@ -217,8 +211,6 @@ After you apply an update, suggestions move to **[!UICONTROL Fixed Suggestions]*
 
    The product form shows the enriched product name and/or description.
 
-   ![Enriched Product Name](./assets/enriched-product-name.png){zoomable="yes"}
-
 1. Optional: Select **[!UICONTROL Override Catalog Agent provided Product Name]** if you want to keep a manually entered name instead.
 
    Manual overrides affect how suggestions stay in sync with the catalog. For more information, see [Manual override in the Admin](#manual-override-in-the-admin).
@@ -226,8 +218,6 @@ After you apply an update, suggestions move to **[!UICONTROL Fixed Suggestions]*
 1. Expand the **[!UICONTROL Content]** section and locate the description field.
 
    The enriched description appears when you applied description changes.
-
-   ![Enrich Product Description](./assets/enrich-product-description.png){zoomable="yes"}
 
 1. Optional: Select **[!UICONTROL Override Catalog Agent provided Description]** if you want to keep a manually entered description instead.
 
