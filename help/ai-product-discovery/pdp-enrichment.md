@@ -44,7 +44,7 @@ topic_v2:
 
 # Product detail page enrichment
 
-Product detail page (PDP) enrichment helps AI agents access selected facts from your Adobe Commerce catalog for product pages. Choose the product pages and catalog facts to include in an enrichment job. The workflow restructures information already in your catalog; it does not add product information or change your storefront.
+Product detail page (PDP) enrichment maximize crawlability for LLMs on every PDP with structured product data without making any changes to your human visible experience. This capability reads through your product catalog to a create structured data payload for each PDP which is easily readable and parsable by LLMs.
 
 ## How it works {#how-it-works}
 
@@ -60,7 +60,7 @@ With PDP enrichment, you can:
 | Direction | Purpose |
 | --- | --- |
 | Commerce catalog -> enrichment job | Select live product pages and the catalog facts to include. |
-| Enrichment job -> AI agents | Make the selected, existing product information available in a structured form. The storefront does not change. |
+| Enrichment job -> AI agents | Make the selected, existing product information available in a structured form. The human visible storefront does not change. |
 
 ## Access PDP enrichment
 

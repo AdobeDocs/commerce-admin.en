@@ -65,7 +65,7 @@ See [product detail page enrichment](pdp-enrichment.md).
 
 ## Choose an enrichment workflow
 
-Use Catalog enrichment to improve product names and descriptions for discovery. Use PDP enrichment to control which structured product facts AI agents receive. These workflows address different data gaps and remain separate.
+Use Catalog enrichment to improve product names and descriptions for discovery. Use PDP enrichment to maximize crawlability for LLMs with structured product data without making any changes to your human visible experience. These workflows address different data gaps and remain separate.
 
 ## Who this guide is for {#who-this-guide-is-for}
 
