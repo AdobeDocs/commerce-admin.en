@@ -80,7 +80,7 @@ Prerequisites depend on your deployment type and the enrichment workflow you pla
 ### [!DNL Adobe Commerce] on Cloud or on-premises
 
 - **IMS organization and sign-in:** An [!DNL Adobe IMS] organization must be available. If your organization does not have one, follow the [Adobe IMS integration overview](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview). Catalog Enrichment uses the signed-in Admin user's IMS access token; a native Commerce username and password alone do not provide this token.
-- **Optimize at Edge:** Required for PDP enrichment, but not for Catalog enrichment. **NOTE TO FIX: Commerce-specific setup instructions are needed. This might be automated by GA.**. The [Optimize at Edge guide](https://experienceleague.adobe.com/en/docs/brand-visibility/using/resources/optimize-at-edge/fastly-byocdn) is a reference, not a Commerce setup guide.
+- **Optimize at Edge:** Required for PDP enrichment, but not for Catalog enrichment. The [Optimize at Edge guide](https://experienceleague.adobe.com/en/docs/brand-visibility/using/resources/optimize-at-edge/fastly-byocdn) is a reference, not a Commerce setup guide.
 - **Log forwarding:** Optional. Configure log forwarding to enable agentic traffic-based recommendations for both workflows. Without it, you can still select PDPs or SKUs manually for enrichment.
 
 <!--
@@ -120,6 +120,13 @@ composer require magento/module-catalog-enrichment --no-update
 composer update magento/module-catalog-enrichment
 ```
 
+For Adobe Commerce on-premises, upgrade the application and clear the cache:
+
+```bash
+bin/magento setup:upgrade
+bin/magento cache:clean
+```
+
 #### Monitor and troubleshoot data synchronization {#monitor-enrichment-data-sync}
 
 After you deploy the extensions, confirm that Commerce exports catalog data and that Catalog Service receives it. The Data Feed Sync Status page reports export status; the Data Management Dashboard confirms downstream availability.
@@ -133,7 +140,7 @@ For status details and additional troubleshooting steps, see [Monitor data feed 
 
 #### Additional Catalog Enrichment requirements
 
-- Enable and maintain the required Commerce services and catalog connectivity. See [Configure catalog enrichment](catalog-enrichment.md#configure-catalog-enrichment).
+- Enable and maintain the required Commerce services and catalog connectivity. See [Configure catalog enrichment](settings.md).
 - Make the storefront accessible to relevant LLM-oriented and agentic bots when you need crawl-based catalog recommendations.
 - Have access to the Adobe Admin Console. During setup, [!DNL Adobe Commerce] checks whether your organization has signed the GenAI rider or opted out for the underlying AI services.
 

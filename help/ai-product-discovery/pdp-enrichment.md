@@ -4,7 +4,7 @@ description: Use [!DNL Adobe Commerce] Product Detail Page Enrichment to review 
 role: Admin, User, Leader
 recommendations: noCatalog
 touch: true
-badgeCloud or on-premises: label="Cloud or on-premises only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed Cloud or on-premises infrastructure) and on-premises projects only."
+badgePaas or on-premises: label="Cloud or on-premises only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed Cloud or on-premises infrastructure) and on-premises projects only."
 autotag-review: '2026-06-23T17:36:07.142Z'
 TQID: 'https://experienceleague.adobe.com/cjHuva7PP7UzP-yVhe0rkDzHgAYjfSdYEx3g5gorxwk'
 product_v2:
@@ -53,7 +53,6 @@ Your Adobe Commerce catalog contains product information such as attributes, var
 With PDP enrichment, you can:
 
 - Choose specific enabled products that have live product pages.
-- Select which groups of existing catalog facts to include.
 - Review a summary of the selected pages and facts before saving or running the job.
 - Preview the product information included in the enrichment.
 
@@ -116,11 +115,11 @@ The **URLs with suggestions** table lists all products with enrichment opportuni
 
 - **Expand the row** to view the AI Analysis and the proposed enrichment.
 - **Edit** the proposed product name or description before applying, to align with your brand voice and merchandising guidelines.
-- **Deploy the Optimization** for the products you want to enrich and publish it directly to your Adobe Commerce catalog.
+- **Deploy the Optimization** for the products you want to enrich and publish it directly to your Adobe Commerce storefront.
 - **Mark as Fixed** once the enrichment has been reviewed and applied.
 - **Ignore** suggestions that are not relevant to your catalog strategy.
 
-Suggestions are organized into three views: **Current Suggestions**, **Fixed Suggestions**, and **Ignored Suggestions**. Once an enrichment is applied, it moves to Fixed Suggestions with a status of **Applied** and a **View in Catalog** action to verify the update in Adobe Commerce. Applied enrichments can be rolled back at any time.
+Suggestions are organized into three views: **Current Suggestions**, **Fixed Suggestions**, and **Ignored Suggestions**. Once an enrichment is applied, it moves to **Fixed Suggestions** with a status of **Applied**. Applied enrichments can be rolled back at any time.
 
 ### Deploy the optimization
 

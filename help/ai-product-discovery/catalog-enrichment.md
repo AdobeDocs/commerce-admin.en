@@ -4,7 +4,7 @@ description: Use [!DNL Adobe Commerce] Catalog Enrichment to review AI-suggested
 role: Admin, User, Leader
 recommendations: noCatalog
 touch: true
-badgeCloud or on-premises: label="Cloud or on-premises only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed Cloud or on-premises infrastructure) and on-premises projects only."
+badgePaas or on-premises: label="Cloud or on-premises only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed Cloud or on-premises infrastructure) and on-premises projects only."
 autotag-review: '2026-06-23T17:36:07.142Z'
 TQID: 'https://experienceleague.adobe.com/cjHuva7PP7UzP-yVhe0rkDzHgAYjfSdYEx3g5gorxwk'
 product_v2:
@@ -117,7 +117,7 @@ In this section, you learn how to creat a catalog enrichment.
 1. Click **[!DNL Next]** to confirm the specific products you want to enrich.
 1. Click **[!DNL Run enrichment]**.
 
-    The enrichment job runs and displays on the Optimizations table. When it finishes running, you can [Review and Deploy](#review-and-deploy-an-enrichment-job) the optimizations. 
+    The enrichment job runs and displays on the Optimizations table. When it finishes running, you can [Review and Deploy](#review-deploy-catalog) the optimizations. 
 
 ### Review and deploy an enrichment job {#review-deploy-catalog}
 
