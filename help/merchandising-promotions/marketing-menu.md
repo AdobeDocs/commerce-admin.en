@@ -1,6 +1,6 @@
 ---
 title: "[!UICONTROL Marketing] menu"
-description: The Commerce Admin includes the [!UICONTROL Marketing] menu, which provides access tools for managing promotions, communications, SEO, and user-generated content.
+description: The Commerce Admin includes the [!UICONTROL Marketing] menu, which provides tools for managing promotions, communications, SEO, and user-generated content.
 exl-id: fc0e554b-1bff-45da-bd6f-73e9b1a4fdef
 TQID: https://experienceleague.adobe.com/UZFSZIsLZvPv50Cg8xmpJ0oW7WEfYvcHEiedDhO2qc0
 product_v2:
@@ -46,6 +46,8 @@ The [!UICONTROL Marketing] menu provides access tools for managing promotions, c
 ![Commerce Admin - Marketing menu](./assets/admin-menu-marketing-ee-accs.png){width="600" zoomable="yes"}
 
 >[!ENDTABS]
+
+{{ccdm-merchandising-note}}
 
 ## Display the [!UICONTROL Marketing] menu
 

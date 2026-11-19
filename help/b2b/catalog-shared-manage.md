@@ -3,7 +3,7 @@ title: Manage your shared catalogs
 description: Learn about the information and tools available from the Shared Catalogs page.
 exl-id: a01ac292-240d-42e7-b4c9-2982f293c521
 feature: B2B, Companies, Catalog Management
-last-update: 2026-10-01
+last-update: 2026-11-11
 TQID: 'https://experienceleague.adobe.com/q2dtQ-y3ByGhtMNp68-3lN-PqZJ-1mRX4BMCu0lfB54'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -44,7 +44,7 @@ topic_v2:
 
 The _[!UICONTROL Shared Catalogs]_ page provides access to the tools needed for managing your shared catalogs, including product selection, custom pricing, category permissions, and catalog details. The page is similar to the standard Admin workspace, with filters and action controls. The grid lists all shared catalogs, including the default public shared catalog, and any custom catalogs that you have set up.
 
-If the [!DNL Adobe Commerce Optimizer Connector for B2B] extension is installed, the page also provides access to the [!DNL Adobe Commerce Optimizer] catalog views created when the connector synchronizes data from each shared catalog to [!DNL Adobe Commerce Optimizer], and to the restricted access keys that secure the catalog views for B2B storefront experiences.
+If the [!DNL Adobe Commerce Optimizer Connector for B2B] extension is installed, the page also provides access to the [!DNL Adobe Commerce Optimizer] catalog views created when the connector synchronizes data from each shared catalog to [!DNL Adobe Commerce Optimizer], and to the restricted access keys that secure the catalog views for B2B storefront experiences. For instances provisioned with the Composable Catalog Data Model (CCDM), native synchronization generates catalog views from shared catalogs. See [B2B catalog views](/help/optimizer/setup/catalog-view.md#b2b-catalog-views).
 
 ## Update the product selection
 

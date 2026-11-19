@@ -130,6 +130,10 @@ After you install the catalog enrichment and catalog services extensions, the ca
 >
 >The **[!UICONTROL AI Product Discovery]** menu also lists **[!UICONTROL Product Details Page Enrichment (Beta)]**. Product details page enrichment is in beta and is not yet generally available.
 
+>[!NOTE]
+>
+>The **[!UICONTROL AI Product Discovery]** menu also lists **[!UICONTROL Product Details Page Enrichment (Beta)]**. Product details page enrichment is in beta and is not yet generally available.
+
 ### Configure catalog enrichment {#configure-catalog-enrichment}
 
 Configure catalog enrichment on the **[!UICONTROL Settings]** tab so [!DNL Commerce Catalog Agent] can connect to your [!DNL Adobe Commerce] environment and surface suggestions in the Commerce Admin.

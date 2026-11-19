@@ -2,7 +2,7 @@
 title: Manage Catalog View Configuration
 description: Learn how to review the Adobe Commerce Optimizer catalog views created for B2B shared catalogs, and assign the restricted access keys that protect them.
 feature: B2B, Companies, Catalog Management
-last-update: 2026-10-01
+last-update: 2026-11-11
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -35,6 +35,10 @@ topic_v2:
     internal-label: Administration
 ---
 # Manage catalog view configuration
+
+>[!NOTE]
+>
+>This topic describes the catalog view implementation for Commerce deployments using the Adobe Commerce Optimizer Connector for B2B. If you are using Adobe Commerce as a Cloud Service with Merchandising Services and the composable catalog data model (CCDM), see setup [Catalog Views](../optimizer/setup/catalog-view.md) in the _Merchandising Services with CCDM Guide_.
 
 With the [!DNL Adobe Commerce Optimizer Connector for B2B] extension installed, the Catalog Views page lists the [!DNL Adobe Commerce Optimizer]  [catalog view projections](https://experienceleague-review.adobe.com/en/docs/commerce/aco-optimizer-connector/b2b-shared-catalog-projection){target="_blank"} created for custom shared catalog.  A _projection_ is the catalog view created when the connector synchronizes shared catalog data to [!DNL Adobe Commerce Optimizer]. The connector creates a separate projection for each store view in the shared catalog, so a shared catalog can have multiple catalog views. In storefront experiences, these catalog views are accessible only to companies assigned to the associated shared catalog.
 

@@ -39,6 +39,8 @@ topic_v2:
 ---
 # Manage search terms
 
+{{ccdm-merchandising-note}}
+
 The [landing page](../content-design/pages.md) for a search term can be a content page, a category page, a product detail page, or even a page on a different site.
 
 Use search terms to capture common misspellings and redirect them to the appropriate page. For example, if you sell wrought iron patio furniture, you know that many people misspell the term as _rod iron_, or even _rot iron_. You can enter each misspelled word as a search term, and make them synonyms for _wrought iron_. Even though the word is misspelled, the search is directed to the page for wrought iron.

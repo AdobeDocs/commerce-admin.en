@@ -45,6 +45,8 @@ The [!UICONTROL Catalog] menu provides easy access to product creation, category
 
 >[!ENDTABS]
 
+{{ccdm-merchandising-note}}
+
 On the _Admin_ sidebar, click **[!UICONTROL Catalog]**.
 
 ## [!UICONTROL Products]

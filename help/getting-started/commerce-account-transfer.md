@@ -40,7 +40,11 @@ The following information describes the process for transferring an Adobe Commer
 >
 >If the new account owner purchased extensions using Shared Access, access to those extensions is lost as soon as the account transfer starts.
 >
+>Review Marketplace extensions before starting an account transfer. Extensions and access keys are associated with MAGE IDs. When the transfer starts, access to extensions purchased under Shared Access is lost. The standard account-transfer process does not transfer extension purchases to another account; you may need to request a refund and repurchase the extensions under the intended account. If your transfer is part of a license restructuring, contact Adobe Commerce Support to confirm whether a separate transfer process applies.
+>
 >Before requesting the account transfer, make sure that the new owner retrieves the Order IDs for the purchases from [their [!DNL Commerce Marketplace] account](https://commercemarketplace.adobe.com/sales/order/history/) and requests a refund from the [[!DNL Commerce Marketplace] team](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case). Extension purchases cannot be transferred to a different account.
+>
+>In addition, plan to generate new access keys for the receiving MAGE ID and update the Composer credentials used by your deployments. Complete the applicable extension and key steps before starting the account transfer.
 
 ## Identify your transfer type
 
@@ -189,6 +193,12 @@ After the new owner successfully configures their Adobe ID with the original ema
 1. Complete the [email verification steps](#verify-an-adobe-id-email-change).
 
 After the new owner verifies the email address, continue to [Final steps](#final-steps) so that Adobe Commerce Support can update account records such as the [[!DNL Commerce Marketplace]](https://commercemarketplace.adobe.com/) profile.
+
+## Need help with your account transfer?**
+
+If none of the transfer types above match your situation, or you can’t access the current owner’s email address, submit an Adobe Commerce Support ticket.
+
+In your request, explain which transfer type does not apply and whether the current owner’s email is accessible. Include the current and new owner’s MAGEIDs, Adobe IDs, and associated email addresses, if known. Adobe Support can review your situation and advise you on next steps.
 
 ## Final steps
 
