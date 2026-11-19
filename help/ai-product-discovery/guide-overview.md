@@ -142,7 +142,10 @@ For status details and additional troubleshooting steps, see [Monitor data feed 
 
 - Enable and maintain the required Commerce services and catalog connectivity. See [Configure catalog enrichment](settings.md).
 - Make the storefront accessible to relevant LLM-oriented and agentic bots when you need crawl-based catalog recommendations.
-- Have access to the Adobe Admin Console. During setup, [!DNL Adobe Commerce] checks whether your organization has signed the GenAI rider or opted out for the underlying AI services.
+- Have access to the Adobe Admin Console. During setup, [!DNL Adobe Commerce] checks the GenAI status of your organization. 
+  - If you have previously **opted in** for the GenAI rider, you will automatically have access to the capability.
+  - If you have never **opted in** or never taken any action on the GenAI rider, you will automatically have access to the capability.
+  - If you have previously consciously **opted out** of the GenAI rider, you will **not** have access to the capability. 
 
 ### [!DNL Adobe Commerce as a Cloud Service]
 
