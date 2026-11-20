@@ -65,7 +65,7 @@ topic_v2:
 
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
-|[!UICONTROL Enabled]|Store View|Enables product reviews. Options: `Yes` / `No`|
+|[!UICONTROL Enabled]|Store View|Enables product reviews. Options: `Yes` / `No`<br/>The default value is `Yes` in Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises, and `No` in Adobe Commerce as a Cloud Service.|
 |[!UICONTROL Allow Guests to Write Reviews]|Website|Determines if customers must open an account with your store to be able to write product reviews.|
 
 {style="table-layout:auto"}
