@@ -3,7 +3,6 @@ title: Product reviews
 description: Learn how product reviews can enhance your store and bring more credibility to your products.
 exl-id: 82f96b24-626f-4b2d-be42-3d655d08dfda
 feature: Merchandising, Products
-badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 TQID: 'https://experienceleague.adobe.com/GVmMoMMhnS4nHjCoa-6ylW8ah5-itrJKXiK9GKrdHd8'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -49,6 +48,12 @@ Commerce includes a native product reviews capability that you can manage from t
 
 ## Product reviews on the storefront
 
+[!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."}
+
+>[!NOTE]
+>
+>This section describes product reviews for the Luma storefront in Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises. Adobe Commerce as a Cloud Service does not include the Luma storefront, so enabling product reviews in the Admin does not add review features to your storefront. Instead, you need to use the [`reviews`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/queries/reviews) GraphQL query to retrieve reviews and the [`createProductReview`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/mutations/create-review) mutation to create reviews.
+
 When the native Product Reviews function is enabled, customers can write reviews for any product in your catalog. Reviews can be written from the product page by clicking:
 
 - **Add Your Review** for products with existing reviews.
@@ -79,11 +84,11 @@ The _[!UICONTROL My Product Reviews]_ section of the customer account dashboard 
 
 ## Enable product review features
 
-The Commerce Product Reviews function is enabled by default.
+The Commerce Product Reviews function is enabled by default in Adobe Commerce on cloud infrastructure and Adobe Commerce on-premises. It is disabled by default in Adobe Commerce as a Cloud Service.
 
 >[!NOTE]
 >
->To set these fields to `No` and disable Commerce Product Reviews, you must clear the **Use system value** checkboxes.
+>To change these fields from their default values, you must first clear the **[!UICONTROL Use system value]** checkboxes.
 
 1. On the _Admin_ sidebar, go to **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
 
@@ -95,11 +100,11 @@ The Commerce Product Reviews function is enabled by default.
 
 1. Set **[!UICONTROL Enabled]** to `Yes`.
 
-   This is the default setting that enables product reviews.
+   This setting enables product reviews.
 
 1. Set **[!UICONTROL Allow Guests to Write Reviews]** to `Yes`.
 
-   This is the default setting that determines if customers must open an account with your store to be able to write product reviews.
+   This setting determines if customers must open an account with your store to be able to write product reviews.
 
 1. When complete, click **[!UICONTROL Save Config]**.
 
