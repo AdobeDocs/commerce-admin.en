@@ -2,8 +2,38 @@
 title: What's new
 description: This section contains the changes made in the last 60 days. Minor updates,
   such as copy editing, are excluded from this list.
-updated: Mon Nov 16 09:35:31 2026
+updated: Fri Nov 20 15:18:59 2026
 entries:
+- description: Added documentation for search suppression rules in the _Merchandising
+    Services with the Composable Catalog Data Model (CCDM) Commerce Admin Guide_.<br/>-
+    Added [Search suppression rules](https://experienceleague.adobe.com/en/docs/commerce-admin/merchandising-with-ccdm/merchandising/rules/overview)
+    to the merchandising rules overview, including supported query conditions and
+    how suppression interacts with other merchandising capabilities.<br/>- Added steps
+    to create, schedule, edit, enable, and disable a search suppression rule in [Create
+    and manage merchandising rules](https://experienceleague.adobe.com/en/docs/commerce-admin/merchandising-with-ccdm/merchandising/rules/add).<br/>-
+    Added use cases and best practices for search suppression to [Merchandising rules
+    best practices](https://experienceleague.adobe.com/en/docs/commerce-admin/merchandising-with-ccdm/merchandising/rules/best-practice).
+  versions: ''
+  type: technical
+  date: '2026-11-20'
+  link: enterprise:Adobe-Enterprise-Docs/commerce-admin.en/pull/966
+  merge_commit: 91364e6ae9a7b01bba983483f493a53648cf7f45
+  contributor: meker_adobe
+  labels:
+  - technical
+- description: Updated [Product reviews](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/product-reviews/product-reviews)
+    to add product review configuration information for Adobe Commerce as a Cloud
+    Service.
+  versions: ''
+  type: major-update
+  date: '2026-11-20'
+  link: enterprise:Adobe-Enterprise-Docs/commerce-admin.en/pull/964
+  merge_commit: 4f318e6901379b7afec8c1cca8f98a5f90e20e9d
+  contributor: jhoover_adobe
+  labels:
+  - hold for release
+  - major-update
+  - ai-reviewed
 - description: Added documentation for Merchandising Services with the Composable
     Catalog Data Model (CCDM) for Adobe Commerce as a Cloud Service:<br/>- Added the
     [Merchandising Services overview](https://experienceleague.adobe.com/en/docs/commerce-admin/merchandising-with-ccdm/overview)
