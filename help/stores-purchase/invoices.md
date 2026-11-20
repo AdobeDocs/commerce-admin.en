@@ -37,7 +37,7 @@ topic_v2:
 ---
 # Invoices
 
-An invoice is a record of the record of payment for an order. Multiple invoices can be [created](#create-an-invoice) for a single order, and each can include as many or as few of the purchased products that you specify. You can also create [print-ready PDF invoices](#print-invoices) as sales documents for your customers.
+An invoice is a sales document for an order and does not necessarily mean that payment has been received. Multiple invoices can be [created](#create-an-invoice) for a single order, and each can include as many or as few of the purchased products that you specify. You can also create [print-ready PDF invoices](#print-invoices) as sales documents for your customers.
 
 On the _Admin_ sidebar, go to **[!UICONTROL Sales]** > **[!UICONTROL Invoices]** to open the _Invoices_ grid and access your created invoices.
 
@@ -180,10 +180,59 @@ The invoices are saved in a single PDF file that can be sent to a printer or sav
 
 To provide merchants with greater flexibility for partial captures and specialized payment scenarios, the Invoice API supports custom capture amounts using extension attributes.
 
-You can make REST calls to capture a custom amount when creating an invoice.  Use the [`POST V1/order/:orderId/invoice`](https://developer.adobe.com/commerce/webapi/reference/rest/saas) REST endpoint and specify the custom amount in the `extension_attributes.custom_capture_amount` field of the payload.
+You can make REST calls to capture a custom amount when creating an invoice. Use the [`POST /V1/order/{orderId}/invoice`](https://developer.adobe.com/commerce/webapi/reference/rest/saas) REST endpoint and specify the custom amount in the `arguments.extension_attributes.custom_capture_amount` field of the payload.
 
 >[!NOTE]
 >
 >Contact your support representative to enable this feature.
 >
 >Due to legal restrictions, the custom capture amount is only available in the North American (NA) region and other regions where payment overcapture is permitted.
+
+## Deferred invoice payment
+
+[!BADGE SaaS only]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce as a Cloud Service projects only (Adobe-managed SaaS infrastructure)."}
+
+Deferred invoice payment separates invoicing from payment collection. For example, you can issue an invoice for a bank transfer and record the payment after the funds arrive. This workflow uses the REST API in Adobe Commerce as a Cloud Service; it does not add an Admin control.
+
+### Create an unpaid invoice
+
+Use `POST /V1/order/{orderId}/invoice` with the optional Boolean `arguments.extension_attributes.deferred_payment` set to `true`. Replace `{orderId}` with the order ID. The following request body defers payment even though `capture` is `true`:
+
+```json
+{
+  "capture": true,
+  "arguments": {
+    "extension_attributes": {
+      "deferred_payment": true
+    }
+  }
+}
+```
+
+The response is the numeric invoice ID, not an invoice object. Use this ID for the subsequent capture request.
+
+For an invoice with a positive outstanding balance, Commerce registers the invoiced quantities and totals but does not record payment or capture funds. The invoice remains `Pending` (the internal `OPEN` state) until payment is recorded. Zero-value invoices and invoices whose payment is already covered retain their existing payment behavior.
+
+Setting `deferred_payment` to `true` takes precedence over `capture`. Omitting `deferred_payment` or setting it to `false` preserves ordinary invoice creation. Out-of-process payment (OOPE) methods support deferred creation whether their `can_capture` capability is absent, `false`, or `true`.
+
+You can also include `custom_capture_amount` alongside `deferred_payment` in `arguments.extension_attributes`. The [custom capture amount](#custom-capture-amounts) enablement and regional restrictions still apply. The custom amount replaces the invoice grand total and base grand total; it does not change item quantities or the subtotal. Subsequent invoices use the ordinary remaining-item calculation and do not automatically reconcile a difference introduced by a custom total.
+
+### Record payment for a pending invoice
+
+Use `POST /V1/invoices/{invoiceId}/capture`, replacing `{invoiceId}` with the numeric invoice ID returned at creation. Do not send an amount. The behavior depends on the payment method:
+
+|Payment method|Behavior|
+|---|---|
+|Capture-capable payment methods, including capture-capable out-of-process methods|Commerce uses the existing provider capture flow.|
+|Out-of-process payment methods without effective capture capability|Commerce records receipt of money already collected outside Commerce. It does not contact a payment provider.|
+|Built-in offline methods without capture capability: Check / Money Order (`checkmo`), Bank Transfer (`banktransfer`), Cash on Delivery (`cashondelivery`), and Purchase Order (`purchaseorder`)|Commerce records receipt of money already collected outside Commerce. It does not contact a payment provider.|
+
+{style="table-layout:auto"}
+
+For external receipt recording, confirm that you have collected the entire invoice amount before making this request. A successful request returns the Boolean `true`, changes the invoice from `Pending` to `Paid`, and updates invoice, order, and payment accounting and history. It does not create an online capture transaction or increase online-capture totals.
+
+>[!IMPORTANT]
+>
+>External receipt recording does not collect money. It settles the whole invoice and does not support partial payment within one invoice. Invoicing only part of an order is a separate operation.
+
+External receipt recording rejects duplicate settlement and ineligible invoices, including paid, canceled, zero-value, and over-balance invoices. This protection does not make the capture endpoint universally idempotent or change the existing behavior of repeated provider capture requests. A failed provider capture does not fall back to external receipt recording.
