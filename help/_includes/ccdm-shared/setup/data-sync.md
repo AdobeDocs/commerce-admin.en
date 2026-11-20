@@ -1,3 +1,13 @@
+<!--
+SOURCE OF TRUTH: Edit this file in the commerce.en repo:
+https://github.com/Adobe-Enterprise-Docs/commerce.en/blob/main/help/_includes/ccdm-shared/setup/data-sync.md
+
+This content is shared by the Adobe Commerce Optimizer Guide (commerce.en) and the
+Merchandising Services with CCDM Guide (commerce-admin.en). Changes made in commerce.en
+are synced automatically to commerce-admin.en, so do not edit the copy in that repo.
+This includes related images in help/assets/ccdm-shared/.
+-->
+
 # Catalog sync
 
 The **Data Sync** page displays an overview of the synchronization status for product data transferred from your data source (your existing Commerce catalog, Product Information Management (PIM) system, Enterprise Resource Planning (ERP) system, and so on) into the Merchandising Services data layer.

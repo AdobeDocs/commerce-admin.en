@@ -1,3 +1,13 @@
+<!--
+SOURCE OF TRUTH: Edit this file in the commerce.en repo:
+https://github.com/Adobe-Enterprise-Docs/commerce.en/blob/main/help/_includes/ccdm-shared/manage-results/search-relevance-matching.md
+
+This content is shared by the Adobe Commerce Optimizer Guide (commerce.en) and the
+Merchandising Services with CCDM Guide (commerce-admin.en). Changes made in commerce.en
+are synced automatically to commerce-admin.en, so do not edit the copy in that repo.
+This includes related images in help/assets/ccdm-shared/.
+-->
+
 # Search matching and ranking
 
 >[!IMPORTANT]
@@ -53,7 +63,7 @@ Phrase matching alone does not determine relevance. Several signals interact:
 - Boost from **exact / near** phrase matching
 - Boost when **all query terms** appear in the **same** field
 - **Intelligent ranking** (when enabled), which blends textual relevance with behavioral signals — see [How intelligent ranking scoring works](../merchandising/rules/add.md#how-intelligent-ranking-scoring-works-search)
-- **Search weight** on each attribute and other textual relevance factors (for example, how often terms occur in name or description length). For Adobe Commerce deployments, configure searchable attributes and their weights in [attribute Storefront Properties](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/search/search-results). For stand-alone Adobe Commerce Optimizer deployments, use the [Metadata REST API](https://developer.adobe.com/commerce/services/reference/rest/#operation/createProductMetadata).
+- **[Search weight](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/search/search-results)** on each attribute and other textual relevance factors (for example, how often terms occur in name or description length). In *Settings*, configure which attributes participate in keyword search and their relative **[keyword search weights](../settings.md)**.
 - **[Merchandising rules](../merchandising/rules/overview.md)** such as pin, boost, and bury
 
 Because signals interact, a broad match sometimes ranks above a tighter phrase match when **search weights** or term frequency outweigh a weaker phrase match.
