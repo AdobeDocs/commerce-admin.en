@@ -37,7 +37,7 @@ topic_v2:
 ---
 # Invoices
 
-An invoice is a sales document for an order and does not necessarily mean that payment has been received. Multiple invoices can be [created](#create-an-invoice) for a single order, and each can include as many or as few of the purchased products that you specify. You can also create [print-ready PDF invoices](#print-invoices) as sales documents for your customers.
+An invoice is a record of payment for an order. An invoice normally has **Paid** status but can be created with **Pending** status and updated to **Paid** when payment capture or receipt is confirmed. Multiple invoices can be [created](#create-an-invoice) for a single order, and each can include as many or as few of the purchased products that you specify. You can also create [print-ready PDF invoices](#print-invoices) as sales documents for your customers.
 
 On the _Admin_ sidebar, go to **[!UICONTROL Sales]** > **[!UICONTROL Invoices]** to open the _Invoices_ grid and access your created invoices.
 
