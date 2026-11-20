@@ -38,6 +38,8 @@ topic_v2:
 >[!NOTE]
 >
 >This page describes standard search functionality that might differ from [Live Search](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview).
+>
+>For instances provisioned with the Composable Catalog Data Model (CCDM), see [Search matching and ranking](/help/optimizer/manage-results/search-relevance-matching.md) in Merchandising Services.
 
 The _Search Results_ list includes all products that match the search criteria entered in the Quick Search box or the Advanced Search form. Every product list in the catalog has essentially the same controls. The only difference is that one is the result of a search query, and the other difference is the result of [navigation](navigation.md).
 

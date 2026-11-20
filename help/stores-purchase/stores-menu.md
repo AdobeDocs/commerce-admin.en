@@ -1,6 +1,6 @@
 ---
 title: "[!UICONTROL Stores] menu"
-description: The Commerce Admin includes the [!UICONTROL Stores] menu, which provides access to tools for setting up the store hierarchy, configuration, inventory, taxes, and attributes.
+description: The [!UICONTROL Stores] menu provides access to tools for setting up the store hierarchy, configuration, inventory, taxes, and attributes.
 exl-id: b9d8ea6b-5b4b-42af-b74d-7afa48ccf2ff
 TQID: https://experienceleague.adobe.com/LEoQUYqvin2UfF55kCMUiEUh8YungghN-VuEwUOu7gY
 product_v2:
@@ -84,3 +84,5 @@ When the [!DNL Adobe Commerce Optimizer Connector] is installed, you can synchro
 For the sync status indicators shown on the [!UICONTROL All Stores] grid, see [Adobe Commerce Optimizer sync status](store-views.md#optimizer-sync-status). For connector setup and configuration behavior, see [Customize the Commerce scopes export configuration](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/get-started#customize-the-commerce-scopes-export-configuration) in the *Adobe Commerce Optimizer Connector Guide*.
 
 If the [!DNL Adobe Commerce Optimizer Connector for B2B] is installed, data is also synchronized for available B2B shared catalogs. See [Manage catalog views](../b2b/catalog-views-manage.md).
+
+Instances provisioned with the Composable Catalog Data Model (CCDM) synchronize website, store view, and price data natively and do not use the connector. See [Merchandising Services with CCDM](/help/optimizer/overview.md).

@@ -1,8 +1,26 @@
 ---
 title: What's new
-description: This section contains the changes made in the last 60 days. Minor updates, such as copy editing, are excluded from this list.
-updated: Mon Nov 9 10:53:36 2026
+description: This section contains the changes made in the last 60 days. Minor updates,
+  such as copy editing, are excluded from this list.
+updated: Mon Nov 16 09:35:31 2026
 entries:
+- description: Added documentation for Merchandising Services with the Composable
+    Catalog Data Model (CCDM) for Adobe Commerce as a Cloud Service:<br/>- Added the
+    [Merchandising Services overview](https://experienceleague.adobe.com/en/docs/commerce-admin/merchandising-with-ccdm/overview)
+    and the [Merchandising Services tasks by role](https://experienceleague.adobe.com/en/docs/commerce-admin/merchandising-with-ccdm/get-started-merchandising-ccdm)
+    reference.<br/>- Added [Catalog views](https://experienceleague.adobe.com/en/docs/commerce-admin/merchandising-with-ccdm/setup/catalog-view)
+    and [Price books](https://experienceleague.adobe.com/en/docs/commerce-admin/merchandising-with-ccdm/setup/pricebooks)
+    topics.<br/>- Added notes to search, recommendations, catalog sync, and connector
+    topics that direct CCDM users to Merchandising Services.
+  versions: ''
+  type: major-update, new-topic
+  date: '2026-11-11'
+  link: enterprise:Adobe-Enterprise-Docs/commerce-admin.en/pull/960
+  merge_commit: f31ba4b981fb70f10cb0e1438dbd445550e6253b
+  contributor: meker_adobe
+  labels:
+  - major-update
+  - new-topic
 - description: Updated [Catalog Enrichment](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/catalog-enrichment)
     to include release notes, new menu navigation, and installation steps.
   versions: ''

@@ -1,6 +1,6 @@
 ---
 title: "[!UICONTROL Services] &gt; ACO Catalog View"
-description: Review and update the Adobe Commerce Optimizer configuration settings on the [!UICONTROL Services] &gt; [!UICONTROL ACO Catalog View] page of the Commerce Admin.
+description: Review and update the Adobe Commerce Optimizer settings on the [!UICONTROL Services] &gt; [!UICONTROL ACO Catalog View] page of the Commerce Admin.
 feature: Configuration, Security
 badgePaas: label="PaaS only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed PaaS infrastructure) and on-premises projects only."
 product_v2:
@@ -32,6 +32,10 @@ topic_v2:
 # [!UICONTROL Services] > [!UICONTROL ACO Catalog View]
 
 Use these settings to control the access tokens issued by the [!DNL Adobe Commerce Optimizer Connector for B2B]. Storefronts use these tokens to authenticate to Commerce Optimizer private catalog views populated with data synchronized from custom shared catalogs configured in the Admin.
+
+>[!NOTE]
+>
+>This page applies to the connector. Instances provisioned with the Composable Catalog Data Model (CCDM) synchronize data natively and do not use the connector. See [Merchandising Services with CCDM](/help/optimizer/overview.md).
 
 {{config}}
 

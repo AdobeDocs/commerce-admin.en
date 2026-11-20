@@ -38,6 +38,8 @@ topic_v2:
 
 Products in your catalog can be promoted on other pages by defining the nature of the relationship between the products. These relationships help target buyers according to their interest in a similar or related product.
 
+{{ccdm-merchandising-note}}
+
 ## Defined in product settings
 
 When you create or update a product, the [product settings](../catalog/product-create.md#product-settings) allow you to define product relationships specifically for that product:
