@@ -79,7 +79,7 @@ The shared extension also enables PDP enrichment, which has a separate workflow 
 There are two paths to receive catalog enrichments:
 
 - **Agentic Traffic** - This type of enrichment automatically starts 24-48 hours after you configure the Commerce instance and displays results on the **Optimizations** tab.
-- **Enrichment Manager** - These enrichments are configured by the merchant when they click the **[!UICONTROL Create enrichment]** button and manually select the SKUs to enrich. Learn more about the [enrichment manager](#create-an-enrichment-job).
+- **Enrichment Manager** - Merchants configure these enrichments when they click the **[!UICONTROL Create enrichment]** button and manually select the SKUs to enrich. Learn more about the [enrichment manager](#create-an-enrichment-job).
 
 ### Review and apply catalog enrichment {#review-and-apply}
 
@@ -99,7 +99,7 @@ The **[!UICONTROL All jobs]** table lists each job ID, name, origin, SKU count, 
 
 ### Create an enrichment job
 
-In this section, you learn how to creat a catalog enrichment.
+**To create a catalog enrichment:**
 
 ![Create Catalog Enrichment](./assets/create-cat-enrich.png)
 
@@ -155,7 +155,7 @@ Suggestions are organized into three views: **Current Suggestions**, **Fixed Sug
 
 1. Expand the **[!UICONTROL Content]** section and locate the description field.
 
-   The enriched description appears when you applied description changes.
+   The enriched description appears when you apply description changes.
 
    ![Enrich Product Description](./assets/enrich-product-description.png){zoomable="yes"}
 
