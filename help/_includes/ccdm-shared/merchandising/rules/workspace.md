@@ -1,3 +1,13 @@
+<!--
+SOURCE OF TRUTH: Edit this file in the commerce.en repo:
+https://github.com/Adobe-Enterprise-Docs/commerce.en/blob/main/help/_includes/ccdm-shared/merchandising/rules/workspace.md
+
+This content is shared by the Adobe Commerce Optimizer Guide (commerce.en) and the
+Merchandising Services with CCDM Guide (commerce-admin.en). Changes made in commerce.en
+are synced automatically to commerce-admin.en, so do not edit the copy in that repo.
+This includes related images in help/assets/ccdm-shared/.
+-->
+
 # Merchandising Rules Workspace
 
 The *Merchandising Rules* workspace lists the current selection of rules and their status, and provides access to tools you need to create and manage rules. You can scope rules to all [catalog views](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/catalog-view) (global) or to a single catalog view. See [Select catalog view](#select-catalog-view) for how to filter by catalog view and create rules per catalog view. From the workspace you can:
@@ -7,6 +17,8 @@ The *Merchandising Rules* workspace lists the current selection of rules and the
 - Activate/deactivate rules
 - Delete rules
 - Access the rule editor
+
+The workspace also includes **[search suppression rules](https://experienceleague.adobe.com/en/docs/commerce/optimizer/merchandising/rules/overview#search-suppression-rules)**. Use the same rule management controls to edit, schedule, enable, or disable these rules. To configure query conditions and publish changes, see [Create and manage search suppression rules](https://experienceleague.adobe.com/en/docs/commerce/optimizer/merchandising/rules/add#search-suppression-rules). A preview is not shown for search suppression rules.
 
 ![Merchandising Rules Workspace](/help/assets/ccdm-shared/rules/rules-workspace.png)
 
@@ -44,6 +56,14 @@ The details panel shows the rule name, status, conditions and events, start and 
    - Edit Rule
    - Delete Rule
    - Enable/Disable Rule
+
+## Enable or disable a rule {#enable-disable-rule}
+
+1. Find the rule in the *Merchandising Rules* workspace.
+1. Open the **More** (...) menu and select **Enable Rule** or **Disable Rule**. You can also use the **Enabled** control in the details panel.
+1. Confirm the updated status. An enabled rule with a future start date remains scheduled until that date.
+
+For a **search suppression rule**, disabling the rule stops that rule from blocking matching queries without deleting its conditions. Other active suppression rules can still block those queries. To change the rule's conditions or dates, select **Edit**, review the changes, and click **Save and publish**.
 
 ## Column descriptions
 
@@ -108,6 +128,6 @@ Behavioral data that powers [intelligent ranking](add.md#intelligent-ranking) (s
    The rule you create is scoped to the selected catalog view.
 1. Build your rule in the [rule editor](add.md).
 
-   In the editor, define conditions, events, and details. The rule applies only to search results in that catalog view.
+   In the editor, define the conditions, events, and details that apply to the rule type. Search suppression rules use query conditions to block results only in the selected catalog view. They do not change product visibility through category navigation, merchandising pages, recommendations, or direct product URLs.
 
 You cannot change the catalog view (scope) of a rule after it is created. To apply similar logic to another catalog view, create a new rule and select that catalog view before creating.
