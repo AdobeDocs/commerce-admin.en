@@ -64,7 +64,7 @@ Because product names and long descriptions live in Commerce, improving copy onc
 
 ### Access catalog enrichment
 
-Before you begin, review the deployment-specific [AI Product Discovery prerequisites](guide-overview.md#prerequisites). After you install the shared enrichment extension and required Catalog Services, go to **[!UICONTROL AI Product Discovery]** > **[!UICONTROL Catalog Enrichment]** in the Admin.
+Before you begin, review the deployment-specific [AI Product Discovery prerequisites](prerequisites.md). After you complete the setup for your Commerce platform, go to **[!UICONTROL AI Product Discovery]** > **[!UICONTROL Catalog Enrichment]** in the Admin.
 
 The Catalog Enrichment workspace includes the **[!UICONTROL Optimizations]**, **[!UICONTROL Brand governance]**, and **[!UICONTROL Settings]** tabs.
 

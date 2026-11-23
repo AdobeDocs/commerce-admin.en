@@ -6,7 +6,7 @@ description: Configure delivery, monthly agentic traffic jobs, and eligible AI a
 
 Use the **[!UICONTROL Settings]** tab in the AI Product Discovery workspace to configure your Adobe Commerce instance. When configured, catalog and PDP enrichments are surfaced in the AI Product Discovery workspace.
 
-The fields on this tab identify the [!DNL Adobe Commerce] environment and store view that AI Product Discovery connects to. For IMS sign-in and organization requirements, see the [AI Product Discovery guide prerequisites](guide-overview.md#prerequisites).
+The fields on this tab identify the [!DNL Adobe Commerce] environment and store view that AI Product Discovery connects to. For IMS sign-in and organization requirements, see the [AI Product Discovery prerequisites](prerequisites.md).
 
 1. In the Admin, go to **[!UICONTROL AI Product Discovery]** > **[!UICONTROL Catalog Enrichment]** or **[!UICONTROL Product Details Page Enrichment]**.
 1. In the **[!UICONTROL Scope]** list at the top of the page, select the store view you want to configure, or leave **[!UICONTROL All Store Views]** to manage settings across store views.

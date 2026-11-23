@@ -63,7 +63,7 @@ With PDP enrichment, you can:
 
 ## Access PDP enrichment
 
-Before you begin, review the deployment-specific [AI Product Discovery prerequisites](guide-overview.md#prerequisites). After installing the shared enrichment extension and required Catalog Services, open **[!UICONTROL AI Product Discovery]** in the Admin and select **[!UICONTROL Product Details Page Enrichment]**.
+Before you begin, review the deployment-specific [AI Product Discovery prerequisites](prerequisites.md). After you complete the setup for your Commerce platform, open **[!UICONTROL AI Product Discovery]** in the Admin and select **[!UICONTROL Product Details Page Enrichment]**.
 
 ## Two paths of PDP enrichments
 

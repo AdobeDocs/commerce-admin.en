@@ -9,6 +9,7 @@ hide: true
 # AI product discovery guide {#ai-product-discovery}
 
 - [Overview of AI product discovery](guide-overview.md)
+- [Prerequisites](prerequisites.md)
 - Catalog enrichment {#catalog-enrichment}
   - [Catalog enrichment](catalog-enrichment.md)
   - [Create Catalog Enrichment brand rules](brand-governance.md)
