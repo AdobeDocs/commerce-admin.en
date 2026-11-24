@@ -119,6 +119,13 @@ Magento Open Source is the code base that Adobe officially contributes to and en
 </tr>
 <tr>
     <td valign="top">
+       <img alt="AI Product Discovery" src="./assets/icon-color-wheel.svg" width="40" height="40"/></td>
+   <td valign="top"><a href="../ai-product-discovery/guide-overview.md"> <strong>AI Product Discovery</strong></a>
+    <div><em>Learn how [!DNL Adobe Commerce] Catalog enrichment and PDP enrichment address gaps in structured product data and shopper-focused copy for AI product discovery.</em></div>
+  </td>
+</tr>
+<tr>
+    <td valign="top">
        <img alt="Content and Design" src="./assets/icon-color-wheel.svg" width="40" height="40"/></td>
    <td valign="top"><a href="../content-design/guide-overview.md"> <strong>Content and Design</strong></a>
     <div><em>Your content defines the pages and elements that customers see when they access your store. Define basic elements for your pages, such as text and images, as well as more advanced elements that provide interactive and dynamic content to enhance the shopping experience.</em></div>
