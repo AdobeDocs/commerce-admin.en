@@ -66,6 +66,8 @@ Because product names and long descriptions live in Commerce, improving copy onc
 
 Before you begin, review the deployment-specific [AI Product Discovery prerequisites](prerequisites.md). After you complete the setup for your Commerce platform, go to **[!UICONTROL AI Product Discovery]** > **[!UICONTROL Catalog Enrichment]** in the Admin.
 
+![Catalog Enrichment Dashboard](assets/catalog-enrich-dashboard.png){zoomable="yes"}
+
 The Catalog Enrichment workspace includes the **[!UICONTROL Optimizations]**, **[!UICONTROL Brand governance]**, and **[!UICONTROL Settings]** tabs.
 
 - Use the **[!UICONTROL Optimizations]** tab to review Agentic traffic based discovery signals and manage enrichment jobs.
@@ -101,7 +103,7 @@ The **[!UICONTROL All jobs]** table lists each job ID, name, origin, SKU count, 
 
 **To create a catalog enrichment:**
 
-![Create Catalog Enrichment](./assets/create-cat-enrich.png)
+![Create Catalog Enrichment](./assets/create-cat-enrich.png){zoomable="yes"}
 
 1. In **[!UICONTROL Optimizations]**, click **[!UICONTROL Create enrichment]**.
 1. Enter an **Enrichment name**, such as "Black Friday 2026".
@@ -123,8 +125,7 @@ The **[!UICONTROL All jobs]** table lists each job ID, name, origin, SKU count, 
 
 Open an enrichment job.
 
-![List of Catalog Enrichment URLs](./assets/catalog-enrich-urls.png)
-
+![List of Catalog Enrichment URLs](./assets/catalog-enrich-urls.png){zoomable="yes"}
 
 The **URLs with suggestions** table lists all products with enrichment opportunities. For each product you can:
 

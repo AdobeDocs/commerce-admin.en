@@ -7,6 +7,12 @@ role: Admin, User, Leader
 
 Product discovery is how shoppers find and evaluate products that meet their needs. In conversational AI tools such as [!DNL ChatGPT] and [!DNL Gemini], shoppers can describe what they want in everyday language and use AI-generated responses to explore and compare products. The usefulness of those responses depends in part on whether AI agents can access and interpret relevant product data.
 
+## Who this guide is for {#who-this-guide-is-for}
+
+- Digital marketers and merchandisers who want product data to be accurate and useful in AI-assisted product discovery.
+- Merchandisers who need a controlled way to enrich selected products or prepare copy for a campaign.
+- [!DNL Adobe Commerce] administrators responsible for catalog data, services, and Admin access.
+
 ## Why product discovery matters
 
 Shoppers often describe a need, use, or preference rather than search for an exact product name or technical attribute. To match those requests with relevant products, AI agents need product information that is both structured and meaningful to shoppers.
@@ -15,29 +21,23 @@ When product records are incomplete, inconsistent, or focused only on technical 
 
 Additionally, unbranded shopper queries create new opportunities for product discovery. When shoppers describe their needs without specifying a brand, AI surfaces show relevant products across competing brands based on how well those products match shopper intent. For merchants, this creates an opportunity to reach new customers who may not be familiar with their brand, expanding product visibility beyond existing brand awareness.
 
-## Challenges in product discovery on AI surfaces
+However, there are some challenges in product discovery on AI surfaces, such as gaps in your catalog that can limit AI-assisted product discovery.
 
-Two common catalog gaps can limit AI-assisted product discovery:
-
-### Product facts are difficult to access and interpret
+## Product facts are difficult to access and interpret
 
 Product information is often distributed across attributes, variants, options, categories, and other catalog fields. While this information may be available to shoppers on the storefront, it is not always accessible or easily interpreted by AI crawlers. Product details presented through dynamically rendered content, JavaScript-dependent components, interactive shopping wizards, pop-ups, or linked pages may be difficult for crawlers to retrieve.
 
 Even when this information is accessible, it may not be structured in a way that AI agents can reliably interpret. As a result, AI agents may lack a complete understanding of a product's features, available options, and capabilities, limiting their ability to accurately match products to shopper needs.
 
-### Product catalog does not reflect shopper intent
+## Product catalog does not reflect shopper intent
 
 Shoppers increasingly describe their needs, problems, and intended use cases in natural language rather than searching for specific product names or technical specifications. However, product names and descriptions often focus on technical attributes without clearly communicating the benefits, use cases, or real-world problems a product addresses.
 
 This creates a gap between how shoppers express their needs and how products are described in the catalog. Without clear, shopper-focused product content, AI agents may struggle to interpret a product's value and relevance to a shopper's intent, potentially overlooking suitable products in favor of alternatives whose descriptions more clearly align with the shopper's needs.
 
-## Enrichment workflows for product discovery
+[!DNL Adobe Commerce] solves these catalog gap issues by providing two complementary enrichment workflows: product detail page enrichment and catalog enrichment. These two enrichments improve how AI agents access, understand, and match products to shopper intent. They are accessible in the _Admin_ > **AI Product Discovery** menu.
 
-[!DNL Adobe Commerce] provides two complementary enrichment workflows to improve how AI agents access, understand, and match products to shopper intent.
-
-These two enrichments are accessible in the _Admin_ > **AI Product Discovery** menu.
-
-### Make structured facts available with Product Detail Page Enrichment
+## Make structured facts available with Product Detail Page Enrichment
 
 PDP Enrichment creates a structured data payload containing relevant product information, including attributes, variants, options, feature bullets, category relationships, pricing, and availability. This provides AI agents with a more complete and structured understanding of a product's features, capabilities, and available configurations.
 
@@ -45,7 +45,7 @@ Using [Optimize at Edge](#prerequisites) technology, the enriched product inform
 
 See [product detail page enrichment](pdp-enrichment.md).
 
-### Optimize product catalog content with shopper intent using Catalog Enrichment
+## Optimize product catalog content with shopper intent using Catalog Enrichment
 
 Catalog Enrichment transforms technical product attributes and existing catalog information into shopper-focused product names and descriptions that clearly communicate a product's benefits, capabilities, and real-world use cases. Product names and descriptions are among the most influential sources of information AI surfaces use to understand product capabilities and determine their relevance to shopper intent. 
 
@@ -55,7 +55,7 @@ Merchants can review and approve suggested improvements before applying them dir
 
 See [Catalog enrichment](catalog-enrichment.md).
 
-#### Brand governance rules
+### Brand governance rules
 
 Brand governance rules let you define product copy requirements for catalog enrichment, including length, phrases, tone, and capitalization. These rules apply only to catalog enrichment, not PDP enrichment.
 
@@ -64,9 +64,3 @@ See [Create Catalog Enrichment brand rules](brand-governance.md).
 ## Choose an enrichment workflow
 
 Use Catalog enrichment to improve product names and descriptions for discovery. Use PDP enrichment to maximize crawlability for LLMs with structured product data without making any changes to your human visible experience. These workflows address different data gaps and remain separate.
-
-## Who this guide is for {#who-this-guide-is-for}
-
-- Digital marketers and merchandisers who want product data to be accurate and useful in AI-assisted product discovery.
-- Merchandisers who need a controlled way to enrich selected products or prepare copy for a campaign.
-- [!DNL Adobe Commerce] administrators responsible for catalog data, services, and Admin access.
