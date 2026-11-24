@@ -1,3 +1,13 @@
+<!--
+SOURCE OF TRUTH: Edit this file in the commerce.en repo:
+https://github.com/Adobe-Enterprise-Docs/commerce.en/blob/main/help/_includes/ccdm-shared/manage-results/recommendation-performance.md
+
+This content is shared by the Adobe Commerce Optimizer Guide (commerce.en) and the
+Merchandising Services with CCDM Guide (commerce-admin.en). Changes made in commerce.en
+are synced automatically to commerce-admin.en, so do not edit the copy in that repo.
+This includes related images in help/assets/ccdm-shared/.
+-->
+
 # Recommendations Performance
 
 The Recommendations Performance page displays a list of configured recommendations along with key metrics to help you evaluate their effectiveness. You can configure the view to display metrics for the past day, week, or month. These insights show how often each recommendation unit is viewed or clicked, helping you assess performance and identify opportunities for optimization.
@@ -96,5 +106,5 @@ Product availability is enforced per catalog view even for recommendation units 
 **Example: Recommendation with inclusion filters under the All views selection**
 
 - **All views** recommendation includes SKUs: SKU_ABC, SKU_CDE, SKU_XYZ.
-- **Catalog view: Kingsbluff** cannot sell SKU_ABC or SKU_CDE. **Shown:** Only SKU_XYZ, provided it satisfies all other enabled filters.
-- **Catalog view: Arkbridge** cannot sell any of the included SKUs. **Shown:** No recommendation unit, because no SKU satisfies both the inclusion filter and catalog-view availability.
+- **Catalog view: Kingsbluff** cannot sell SKU_ABC or SKU_CDE. **Shown:** SKU_XYZ plus any other SKUs valid for Kingsbluff.
+- **Catalog view: Arkbridge** cannot sell any of the included SKUs. **Shown:** Only SKUs permitted by Arkbridge. If none are available, the recommendation unit does not appear on that storefront.

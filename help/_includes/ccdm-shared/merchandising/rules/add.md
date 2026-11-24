@@ -1,6 +1,4 @@
-# Create and Manage Rules
-
-Building a rule requires selecting the catalog view where the rule applies, configuring the rule description, type, and defining its conditions and ranking, testing the results, and publishing the rule.
+Building a rule requires selecting the catalog view where the rule applies, configuring the rule description and type (search, search suppression, default search, or category), defining its conditions and ranking where applicable, testing the results if a preview is available, and publishing the rule. Search suppression rules do not show a preview.
 
 ## Create a rule {#create-a-rule}
 
@@ -21,8 +19,9 @@ Each rule type has an information icon in the editor with a short explanation. U
 | **Default search rule** | Default ranking and merchandising across product listings when no more specific search or category rule applies. You can only create one such rule; it cannot contain conditions. |
 | **Category rule** | Applies merchandising and ranking to a single category, controlling product order on that category page. |
 | **Search rule** | Applies merchandising and ranking when shoppers run a search that matches the rule's query conditions. |
+| **Search suppression rule** | Prevents matching search queries from returning products, so the storefront displays a search-results page with zero products. Product visibility through category navigation, merchandising pages, recommendations, and direct product URLs is not affected. |
 
-In the **Build your rule** section, you define the rule name, schedule, whether the rule applies to all listings or to specific search conditions, and ranking types.
+In the **Build your rule** section, you define the rule name, schedule, rule type, and any applicable conditions and ranking. Search suppression rules block matching queries instead of ranking products.
 
 1. In the **[!UICONTROL Name]** field, enter a name for the rule. All rule names must be unique.
 1. In the **[!UICONTROL Description]** field, enter a description for the rule.
@@ -74,6 +73,28 @@ The conditions are the requirements to trigger an event. A rule can have up to t
 1. To add another condition, click **Add condition** and repeat the process.
 1. Optionally, set [Intelligent ranking](#intelligent-ranking), [Manual ranking](#manual-ranking), or [Attribute ranking](#attribute-ranking) as described in the following sections. The same controls apply to category pages, with any differences called out.
 
+>[!TAB Search suppression rule]
+
+A search suppression rule blocks results for queries that match its conditions. It does not require product-level ranking actions. Matching queries return no products, and the storefront displays a search-results page with zero products.
+
+>[!NOTE]
+>
+>A preview is not shown for search suppression rules. Review the query conditions before publishing, then verify matching and nonmatching searches on the storefront after the rule becomes active.
+
+1. In **[!UICONTROL Rule applies to]**, select **Search suppression rule**.
+1. Select a query condition and enter the text to match:
+
+   | Condition | When the query is blocked | Example |
+   | --- | --- | --- |
+   | **Query is** | The entire query matches the specified text. | `restricted item` blocks that exact query. |
+   | **Query contains** | The query includes the specified text. | `restricted brand` blocks `buy restricted brand shoes`. |
+   | **Query starts with** | The query begins with the specified text. | `restricted brand` blocks `restricted brand accessories`. |
+   | **Query ends with** | The query ends with the specified text. | `restricted item` blocks `discount restricted item`. |
+
+1. Complete the [schedule and publishing steps](#schedule-publish-search-suppression).
+
+For scope and interactions with other rules, see [Search suppression rules](https://experienceleague.adobe.com/en/docs/commerce/optimizer/merchandising/rules/overview#search-suppression-rules).
+
 >[!TAB Category rule]
 
 Category rules control how products are ordered on **category pages**. Combine **category rules** with **intelligent ranking** and **manual** actions to curate discovery, run promotions, and align category pages with your strategy.
@@ -106,6 +127,44 @@ When multiple categories have similar names, use the category path displayed wit
    ![Category Action Menu](/help/assets/ccdm-shared/rules/category-action-menu.png){zoomable="yes"}
 
 >[!ENDTABS]
+
+### Create and manage search suppression rules {#search-suppression-rules}
+
+Use this workflow to block search terms without changing product visibility elsewhere on the storefront.
+
+1. Open **Merchandising** > **Merchandising Rules**.
+1. Select **All views** or the specific **Catalog view** where the restriction is required.
+1. Click **[!UICONTROL Create rule]**.
+1. Enter a unique **Name** and a **Description** that explains the restriction.
+1. Under **[!UICONTROL Rule applies to]**, select **Search suppression rule**.
+1. Configure **Query is**, **Query contains**, **Query starts with**, or **Query ends with**, as described in the **Search suppression rule** tab above.
+1. Complete the [schedule and publishing steps](#schedule-publish-search-suppression).
+
+#### Schedule and publish a search suppression rule {#schedule-publish-search-suppression}
+
+1. In **[!UICONTROL Date range]**, set the start date and, if required, the end date for the restriction. Use a future start date to schedule the rule.
+1. Review the query conditions.
+1. Click **Save and publish**.
+1. Find the rule in the *Merchandising Rules* workspace and confirm its status and dates. A scheduled rule takes effect during its configured date range when enabled.
+1. After the rule becomes active, confirm that a matching storefront search displays a search-results page with zero products. Cached query results can take up to 15 minutes to refresh.
+
+#### Edit a search suppression rule
+
+1. In the *Merchandising Rules* workspace, locate the rule and open **More** (...) > **Edit**.
+1. Update its query conditions, name, description, or date range as needed.
+1. Review the updated query conditions.
+1. Click **Save and publish** to publish the changes.
+1. After the updated rule becomes active, verify matching and nonmatching searches on the storefront. Cached query results can take up to 15 minutes to refresh.
+
+The catalog view scope cannot be changed after creation. To apply the restriction to another scope, create a rule in that catalog view.
+
+#### Enable or disable a search suppression rule
+
+1. In the *Merchandising Rules* workspace, locate the rule and open the **More** (...) menu.
+1. Select **Disable Rule** to stop applying the search restriction, or **Enable Rule** to apply it according to its configured dates.
+1. Confirm the rule's status in the workspace.
+
+Disabling a rule preserves its configuration. To change its conditions or schedule, edit and publish the rule. See [Merchandising Rules Workspace](https://experienceleague.adobe.com/en/docs/commerce/optimizer/merchandising/rules/workspace) for details.
 
 ### Intelligent ranking {#intelligent-ranking}
 
@@ -236,6 +295,8 @@ Or events can be set manually:
 
 1. For multiple events, choose any other events that you want to trigger when conditions are met.
 
+When **[!UICONTROL Hide a product]** is configured in the **default search rule**, excluded products are also removed from **search suggestions and autocomplete**. To block an entire query rather than selected products, use a [search suppression rule](#search-suppression-rules).
+
 ### Attribute ranking {#attribute-ranking}
 
 >[!AVAILABILITY]
@@ -261,6 +322,8 @@ Or events can be set manually:
 
 Pinning is not available in attribute ranking, because pinning assigns one product to one exact position, while an attribute condition can match many products at once. To pin a specific product, use [Manual ranking](#manual-ranking) on that SKU directly.
 
+Attribute ranking conditions are also referred to as **Attribute Based Merchandising Events**. Products excluded by a **[!UICONTROL Hide]** action in the **default search rule** are also excluded from **search suggestions and autocomplete**, just like manual exclusions in that rule. These product-level exclusions differ from [search suppression](#search-suppression-rules), which blocks all results for a matching query.
+
 #### How attribute ranking interacts with intelligent ranking
 
 When a rule combines an intelligent ranking strategy with one or more attribute conditions, the attribute action takes priority for any product it matches. Intelligent ranking continues to order the remaining, unmatched products.
@@ -277,6 +340,8 @@ A single rule can have up to 25 attribute conditions, the same limit as manual r
 
 ### Finalizing the rule {#finalizing-the-rule}
 
+For search suppression rules, follow [Schedule and publish a search suppression rule](#schedule-publish-search-suppression) instead. These rules do not show a preview.
+
 1. Examine the results of the rule in the test pane.
 1. If the rule has multiple queries, test each one that might be affected by the rule.
 1. When complete, click **Save and publish**.
@@ -287,7 +352,7 @@ A single rule can have up to 25 attribute conditions, the same limit as manual r
 
 >[!NOTE]
 >
->Rules and manually ranked products are applied to **search** results when the default sort order, "Sort by: Most Relevant," is selected. If a shopper changes the sort order to something like sort by name, rules and manual rankings are no longer in effect. For **category** listings, default-sort behavior is described in [Manual ranking](#manual-ranking).
+>Ranking rules and manually ranked products are applied to **search** results when the default sort order, "Sort by: Most Relevant," is selected. If a shopper changes the sort order to something like sort by name, ranking rules and manual rankings are no longer in effect. This ranking behavior does not allow a blocked query to bypass search suppression. For **category** listings, default-sort behavior is described in [Manual ranking](#manual-ranking).
 
 ## Edit, view, and delete rules {#edit-view-and-delete-rules}
 
@@ -297,9 +362,9 @@ To update the properties of existing rules, follow these instructions. You canno
 
 1. On the *Merchandising rules* workspace, find the rule in the grid that you want to edit and click **More** (...) options.
 1. Click **Edit** to access the rule editor.
-1. Update the conditions, operators, and events as needed.
+1. Update the conditions, operators, and events as applicable to the rule type. Search suppression rules use query conditions rather than ranking events.
 1. Update the name, start and end date, and description fields as needed. All rule names must be unique.
-1. Test the rule.
+1. Test the rule if a preview is available. For search suppression rules, review the query conditions instead and verify storefront searches after the updated rule becomes active.
 1. Publish the changes.
    The rule is added to the list in the *Rules* workspace. Although active rules go into effect immediately, it might take up to 15 minutes for cached query results in the storefront to be refreshed.
 
@@ -370,7 +435,7 @@ This option provides a quick way to see all the rule parameters, while staying o
 | Field | Description |
 | --- | --- |
 | Name | The name of the rule. Rule names must be unique. |
-| Rule Type | **Default search rule**, **Query** (specific search conditions), or **Category** (category pages), depending on **Rule applies to**. |
+| Rule Type | **Default search rule**, **Query** (specific search conditions), **Search suppression rule** (blocks matching queries), or **Category** (category pages), depending on **Rule applies to**. |
 | Start date | The start date of the rule, if scheduled. |
 | End date | The end date of the rule, if scheduled. |
 | Description | A brief description of the rule. |
