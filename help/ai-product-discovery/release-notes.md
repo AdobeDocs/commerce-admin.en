@@ -11,6 +11,14 @@ These release notes cover updates to catalog enrichment and PDP enrichment, incl
 ![Fixed issue](../assets/fix.svg) Fixes and improvements
 ![Known issue](../assets/bug.svg) Known issues
 
+## Release 2.1.3 {#release-2-1-3}
+
+*November 30, 2026*
+
+[!BADGE Supported]{type=Informative tooltip="Supported"} [!DNL Adobe Commerce] 2.4.9, 2.4.8, and 2.4.7 on PHP 8.3 to 8.5. [!DNL Adobe Commerce as a Cloud Service]
+
+Version 2.1.3 combines product detail page enrichment with catalog enrichment into a new Admin menu item called **AI Product Discovery**. In addition, support extends to [!DNL Adobe Commerce as a Cloud Service].
+
 ## Release 2.1.2 {#release-2-1-2}
 
 *October 22, 2026*
