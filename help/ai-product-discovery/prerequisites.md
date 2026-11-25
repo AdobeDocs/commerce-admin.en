@@ -14,11 +14,10 @@ Before you use Catalog enrichment or PDP enrichment, confirm the requirements th
 | Optimize at Edge | PDP enrichment | Required. Optimize at Edge delivers the enriched product data to AI agents. See the [Optimize at Edge guide](https://experienceleague.adobe.com/en/docs/brand-visibility/using/resources/optimize-at-edge/fastly-byocdn). |
 | Log forwarding | Both workflows | Optional. Enables enrichment recommendations based on agentic traffic. Without it, you can still select products or product pages manually. See the [Log forwarding guide](https://experienceleague.adobe.com/en/docs/brand-visibility/using/log-forwarding/log-forwarding-overview). |
 | Crawlable storefront | Catalog enrichment | Required for crawl-based recommendations. LLM-oriented and agentic bots must be able to access your product pages. |
-| [!DNL Adobe Admin Console] access | Catalog enrichment | Required. During setup, [!DNL Adobe Commerce] checks whether your organization has signed the GenAI rider or opted out for the underlying AI services. |
+| [!DNL Adobe Admin Console] access | Both workflows | Required. During setup, [!DNL Adobe Commerce] checks your organization's GenAI rider status. You have access unless your organization opted out of the GenAI rider. |
 
 <!--
 TBD (SME): The Optimize at Edge guide is a Brand Visibility reference, not a Commerce setup guide. Add Commerce-specific Optimize at Edge setup instructions (this might be automated by GA).
-TBD (SME): Confirm whether the Admin Console and GenAI rider check also applies to PDP enrichment.
 -->
 
 ## Set up your Commerce platform {#set-up}
