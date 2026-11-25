@@ -47,7 +47,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
 nudge: true
-last-update: 2026-11-16
+last-update: 2026-11-20
 ---
 # <!-- use banner as heading -->![Admin documentation](./assets/banner-user-home.png) {#documentation}
 
@@ -115,6 +115,13 @@ Magento Open Source is the code base that Adobe officially contributes to and en
        <img alt="Merchandising and Promotions" src="./assets/icon-labels.svg" width="40" height="40"/></td>
    <td valign="top"><a href="../merchandising-promotions/guide-overview.md"> <strong>Merchandising and Promotions</strong></a>
     <div><em>Create targeted promotions and opportunities for customer engagement that turn shoppers into buyers. Manage customer relationships by supporting post-purchase activities and offering special discounts to returning customers. Learn best practices and techniques that support your SEO initiatives.</em></div>
+  </td>
+</tr>
+<tr>
+    <td valign="top">
+       <img alt="AI Product Discovery" src="./assets/icon-color-wheel.svg" width="40" height="40"/></td>
+   <td valign="top"><a href="../ai-product-discovery/guide-overview.md"> <strong>AI Product Discovery</strong></a>
+    <div><em>Learn how [!DNL Adobe Commerce] Catalog enrichment and PDP enrichment address gaps in structured product data and shopper-focused copy for AI product discovery.</em></div>
   </td>
 </tr>
 <tr>
