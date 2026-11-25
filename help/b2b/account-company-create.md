@@ -93,6 +93,8 @@ The system assigns the [company administrator](account-company-admin.md) role to
 >
 >To support this method (allowing customers to register their company from the storefront), make sure that the [B2B Features](enable-basic-features.md) are enabled.
 
+For storefronts that use the `createCompany` GraphQL mutation, company address book settings can be submitted during registration when **[!UICONTROL Allow Company Configuration on Storefront Registration]** is enabled in [Company Configuration](../configuration-reference/customers/company-configuration.md#general). This setting is disabled by default and does not itself enable the address book for a company.
+
 1. In the upper-right corner of the storefront header, the customer clicks **[!UICONTROL Create an Account]** and chooses **[!UICONTROL Create New Company Account]**.
 
    ![Create New Company Account](./assets/company-account-create-storefront-options.png){width="700" zoomable="yes"}
@@ -250,6 +252,10 @@ The process of creating a company from the Admin is essentially the same as from
 
    * If you want to allow company employees to create and use purchase orders from their account, set **[!UICONTROL Enable Purchase Orders]** to `Yes`.
 
+   * To enable a shared company address book, set **[!UICONTROL Enable Company Address Book]** to `Yes`. This setting is `No` by default.
+
+   * To allow a temporary shipping address at checkout when the company address book is enabled, set **[!UICONTROL Allow Custom Shipping Address]** to `Yes`. This setting is `No` by default.
+
    * To change the **[!UICONTROL Applicable Payment Methods]** that are available to the company, clear the **[!UICONTROL Use config settings]** checkbox and choose one of the following:
 
       | Option                        | Description                                                                                                                                                                                                                             |
@@ -300,6 +306,8 @@ After activation, company administrators should:
 * **[Manage Company Users](account-company-users.md)**—Add employees and assign roles
 * **[Set Up Purchase Orders](purchase-order-flow.md)**—Configure approval workflows if needed
 * **[Review Credit Settings](credit-company.md)**—Understand and manage company credit (if enabled)
+
+When the company address book is enabled for a supported storefront, company users can use company addresses at checkout instead of their personal address book. Billing requires an existing company address. Shipping requires a company address unless custom shipping addresses are allowed; pickup locations are exempt. Company roles can be granted separate permissions to add, edit, delete, and set default company addresses. A company can have separate default billing and shipping addresses.
 
 ## Common issues and troubleshooting
 
@@ -458,6 +466,8 @@ You can configure advanced settings for individual companies. If you create a co
 | [!UICONTROL Customer Group]              | (Admin Only) Shows the [customer group](../customers/customer-groups.md) or [shared catalog](catalog-shared.md) assigned to the company.                                                                     |
 | [!UICONTROL Allow Quotes]                | (Admin Only) Determines if company members can prepare and submit negotiable quotes on behalf of the company.                                                                                                            |
 | [!UICONTROL Enable Purchase Orders]      | (Admin Only) Determines if company members can submit orders as [purchase orders](account-dashboard-my-purchase-orders.md) on behalf of the company.                                                                     |
+| [!UICONTROL Enable Company Address Book] | (Admin Only) Enables company addresses for the company in supported storefront flows. Options: `Yes` / `No` (default). |
+| [!UICONTROL Allow Custom Shipping Address] | (Admin Only) Allows temporary shipping addresses at checkout when the company address book is enabled. Billing still requires an existing company address. Options: `Yes` / `No` (default). |
 | Applicable Payment Methods               | (Admin Only) Indicates the payment methods that are available for company purchases. Options: `B2B Payment Methods` / `All Enabled Payment Methods` / `Selected Payment Methods`                                         |
 | [!UICONTROL Payment Methods]             | (Admin Only) Becomes active if you activate specific payment methods. To make multiple payment methods available for the company account, hold down the Ctrl key (PC) or the Command key (Mac) and select each option.  |
 | [!UICONTROL Applicable Shipping Methods] | (Admin Only) Indicates the shipping methods that are available for company purchases. Options: `B2B Shipping Methods` / `All Enabled Shipping Methods` / `Selected Shipping Methods`                                     |
