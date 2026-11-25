@@ -56,6 +56,7 @@ For more information about configuring these settings, see [Enable Basic B2B Fea
 |Field|[Scope](../../getting-started/websites-stores-views.md#scope-settings)|Description|
 |--- |--- |--- |
 |[!UICONTROL Allow Company Registration from the Storefront]|Website|Determines if visitors to your store have the choice to [register](../../customers/customer-sign-in.md) for a company account or an individual account. Options: `Yes` / `No`|
+|[!UICONTROL Allow Company Configuration on Storefront Registration]|Website|Determines whether the `createCompany` GraphQL mutation accepts company configuration during storefront registration, including company address book settings. This option is available when **[!UICONTROL Allow Company Registration from the Storefront]** is set to `Yes`. It does not enable the address book for every company. Options: `Yes` / `No` (default)|
 
 {style="table-layout:auto"}
 
